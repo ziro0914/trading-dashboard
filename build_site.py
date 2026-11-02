@@ -20,6 +20,7 @@ from data import (
     search_naver,
     short_name,
 )
+from flows import load_flows
 from metrics import drawdown, max_drawdown, performance, slice_window
 
 ROOT = Path(__file__).parent
@@ -167,6 +168,17 @@ def main():
 
     benchmark = load_history(BENCHMARK)["Adj Close"]
     write_json(DIST / "data" / "market.json", build_market())
+
+    try:
+        flows = load_flows()
+        write_json(DIST / "data" / "flows.json", flows)
+    except Exception as error:
+        flows = None
+        print("FLOWS FAIL", repr(error)[:200], flush=True)
+    if flows and len(sys.argv) == 1:
+        # 순위에 오른 종목은 목록 밖이어도 눌러볼 수 있게 함께 만든다.
+        rows = [row for view in flows.values() for side in ("netBuy", "netSell") for row in view[side]]
+        tickers += [ticker for ticker in dict.fromkeys(row["ticker"] for row in rows) if ticker and ticker not in universe]
 
     index, failed = [], []
     for ticker in tickers:

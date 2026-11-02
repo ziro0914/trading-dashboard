@@ -41,6 +41,11 @@ input { width: 100%; padding: 12px; font-size: 16px; color: var(--text); backgro
 .metric .delta { font-size: 13px; color: var(--muted); }
 .metric .delta.up { color: var(--up); }
 .metric .delta.down { color: var(--down); }
+.flows { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 28px; margin-top: 12px; }
+.flows h4 { margin: 0 0 4px; font-size: 15px; }
+.flows td:first-child { color: var(--muted); width: 28px; }
+.flows td:nth-child(2) { text-align: left; white-space: normal; }
+.flows td button { padding: 0; font: inherit; color: var(--link); background: none; border: 0; text-align: left; }
 .columns { display: grid; grid-template-columns: 2fr 1fr; gap: 28px; }
 .columns > * { min-width: 0; }
 .chart { position: relative; height: 320px; }
@@ -57,7 +62,8 @@ details { margin-top: 16px; }
 .notice { padding: 12px; background: var(--panel); border-radius: 8px; margin-top: 16px; }
 @media (max-width: 760px) {
   .grid { grid-template-columns: repeat(2, 1fr); }
-  .columns { grid-template-columns: 1fr; gap: 0; }
+  .columns, .flows { grid-template-columns: 1fr; gap: 0; }
+  .flows section { margin-bottom: 16px; }
   .metric .value { font-size: 19px; }
   .chart { height: 260px; }
 }
@@ -77,6 +83,11 @@ details { margin-top: 16px; }
   <h2>오늘의 시황</h2>
   <div class="grid" id="market"></div>
   <p class="muted" id="marketNote"></p>
+
+  <h2>한국 투자자 순매수·순매도 TOP 10</h2>
+  <div class="periods" id="flowTabs"></div>
+  <div class="flows" id="flows"></div>
+  <p class="muted" id="flowNote"></p>
 
   <div id="message"></div>
   <div id="stock" hidden>
@@ -100,7 +111,7 @@ details { margin-top: 16px; }
       </section>
     </div>
   </div>
-  <p class="muted">데이터: Yahoo Finance, Google News, 네이버 증권. 실시간 시세가 아니며 투자 판단의 참고 자료입니다.</p>
+  <p class="muted">데이터: Yahoo Finance, Google News, 네이버 증권, 예탁결제원 SEIBro. 실시간 시세가 아니며 투자 판단의 참고 자료입니다.</p>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js"></script>
 <script>
@@ -159,6 +170,59 @@ function renderMarket(market) {
       `S&P 500은 200일 평균선보다 ${Math.abs(market.spxGap * 100).toFixed(1)}% ${market.spxGap >= 0 ? "위" : "아래"}에 있고, ` +
       `시장 불안 지표 VIX는 ${market.vix.toFixed(1)}로 ${mood} 수준입니다. 기준일 ${market.date}.`;
   }
+}
+
+function koreanName(row) {
+  const item = state.index.find((entry) => entry.ticker === row.ticker);
+  return (item && item.korean) || row.name;
+}
+function flowTable(title, rows) {
+  const section = document.createElement("section");
+  const heading = document.createElement("h4");
+  heading.textContent = title;
+  const table = document.createElement("table");
+  rows.forEach((row, position) => {
+    const tr = document.createElement("tr");
+    const rank = document.createElement("td");
+    rank.textContent = position + 1;
+    const name = document.createElement("td");
+    const label = row.ticker ? `${row.ticker} · ${koreanName(row)}` : row.name;
+    if (row.ticker && state.index.some((entry) => entry.ticker === row.ticker)) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = label;
+      button.addEventListener("click", () => {
+        openTicker(row.ticker);
+        $("name").scrollIntoView({ behavior: "smooth" });
+      });
+      name.append(button);
+    } else {
+      name.textContent = label;
+    }
+    const amount = document.createElement("td");
+    amount.textContent = `$${number(Math.abs(row.net) / 1e6, 1)}백만`;
+    tr.append(rank, name, amount);
+    table.append(tr);
+  });
+  section.append(heading, table);
+  return section;
+}
+function renderFlows(flows, view = "daily") {
+  const labels = { daily: "하루", weekly: "1주" };
+  $("flowTabs").replaceChildren(...Object.keys(labels).map((key) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = labels[key];
+    button.setAttribute("aria-pressed", String(key === view));
+    button.addEventListener("click", () => renderFlows(flows, key));
+    return button;
+  }));
+  const data = flows[view];
+  $("flows").replaceChildren(flowTable("순매수", data.netBuy), flowTable("순매도", data.netSell));
+  const span = data.start === data.end ? data.end : `${data.start} ~ ${data.end}`;
+  $("flowNote").textContent =
+    `결제일 ${span} 기준이라 실제 매매일과 1~2일 차이가 납니다. 예탁결제원을 거친 내역만 집계되며, ` +
+    "순매도는 매도결제 상위 50개 종목에서 계산했습니다. 출처: SEIBro.";
 }
 
 function normalize(text) { return text.toLowerCase().replace(/[\s.\-&]/g, ""); }
@@ -369,6 +433,11 @@ async function main() {
   state.index = index.tickers;
   $("updated").textContent = `데이터 갱신: ${new Date(index.updated).toLocaleString("ko-KR")} · ${index.tickers.length}개 종목`;
   renderMarket(market);
+  try {
+    renderFlows(await fetch("data/flows.json").then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }));
+  } catch {
+    $("flowNote").textContent = "순위 데이터를 불러오지 못했습니다.";
+  }
 
   $("query").addEventListener("input", showSuggest);
   $("query").addEventListener("keydown", (event) => {

@@ -1,0 +1,91 @@
+"""한국 투자자의 미국주식 순매수·순매도 순위. 출처는 예탁결제원 SEIBro 종목별내역(주식TOP50)."""
+import re
+import xml.etree.ElementTree as ET
+from datetime import date, timedelta
+
+import requests
+import yfinance as yf
+
+from data import yahoo_candidates
+
+SEIBRO_URL = "https://seibro.or.kr/websquare/engine/proworks/callServletService.jsp"
+PAGE = "https://seibro.or.kr/websquare/control.jsp?w2xPath=/IPORTAL/user/ovsSec/BIP_CNTS10013V.xml&menuNo=921"
+SELL, NET_BUY = "2", "4"
+TOP = 10
+LOOKBACK_DAYS = 10
+
+
+def fetch_top50(start: date, end: date, kind: str) -> list[dict]:
+    body = (
+        '<reqParam action="getImptFrcurStkSetlAmtList" task="ksd.safe.bip.cnts.OvsSec.process.OvsSecIsinPTask">'
+        '<MENU_NO value="921"/><W2XPATH value="/IPORTAL/user/ovsSec/BIP_CNTS10013V.xml"/>'
+        '<PG_START value="1"/><PG_END value="50"/>'
+        f'<START_DT value="{start:%Y%m%d}"/><END_DT value="{end:%Y%m%d}"/>'
+        f'<S_TYPE value="2"/><S_COUNTRY value="US"/><D_TYPE value="{kind}"/></reqParam>'
+    )
+    response = requests.post(
+        SEIBRO_URL,
+        data=body.encode(),
+        timeout=30,
+        headers={"Content-Type": "application/xml; charset=UTF-8", "Referer": PAGE, "User-Agent": "Mozilla/5.0"},
+    )
+    response.raise_for_status()
+    rows = []
+    for node in ET.fromstring(response.content).iter("result"):
+        value = lambda tag: node.find(tag).get("value")
+        rows.append(
+            {
+                "isin": value("ISIN"),
+                "name": value("KOR_SECN_NM"),
+                "buy": float(value("SUM_FRSEC_BUY_AMT")),
+                "sell": float(value("SUM_FRSEC_SELL_AMT")),
+                "net": float(value("SUM_FRSEC_NET_BUY_AMT")),
+            }
+        )
+    return rows
+
+
+def latest_date(today: date) -> date:
+    """결제 자료가 올라온 가장 최근 날짜를 찾는다."""
+    for back in range(LOOKBACK_DAYS):
+        day = today - timedelta(days=back)
+        if fetch_top50(day, day, NET_BUY):
+            return day
+    raise RuntimeError("최근 결제 자료가 없습니다")
+
+
+def rank(buy_rows: list[dict], sell_rows: list[dict]) -> dict:
+    """순매도는 순위 조회가 없어 매도결제 상위 50 종목의 순매수 금액으로 계산한다."""
+    net_buy = sorted((row for row in buy_rows if row["net"] > 0), key=lambda row: -row["net"])
+    net_sell = sorted((row for row in sell_rows if row["net"] < 0), key=lambda row: row["net"])
+    return {"netBuy": net_buy[:TOP], "netSell": net_sell[:TOP]}
+
+
+def period(start: date, end: date) -> dict:
+    result = rank(fetch_top50(start, end, NET_BUY), fetch_top50(start, end, SELL))
+    return {"start": start.isoformat(), "end": end.isoformat(), **result}
+
+
+def ticker_for(isin: str, name: str) -> str | None:
+    """야후에서 ISIN으로 찾고, 없으면 종목명으로 찾는다."""
+    for query in (isin, name, re.sub(r"\s+(CL|CLASS)\b.*$", "", name)):
+        try:
+            candidates = yahoo_candidates(yf.Search(query, news_count=0).quotes)
+        except Exception:
+            continue
+        if candidates:
+            return candidates[0]["ticker"]
+    return None
+
+
+def load_flows(today: date | None = None) -> dict:
+    end = latest_date(today or date.today())
+    flows = {"daily": period(end, end), "weekly": period(end - timedelta(days=6), end)}
+    tickers = {}
+    for view in flows.values():
+        for row in view["netBuy"] + view["netSell"]:
+            isin = row["isin"]
+            if isin not in tickers:
+                tickers[isin] = ticker_for(isin, row["name"])
+            row["ticker"] = tickers[isin]
+    return flows

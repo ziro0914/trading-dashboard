@@ -16,6 +16,7 @@ from data import (
     search_symbols,
     short_name,
 )
+from flows import load_flows
 from metrics import drawdown, max_drawdown, performance, slice_window
 
 BLUE, ORANGE, AQUA = "#2a78d6", "#eb6834", "#1baf7a"
@@ -121,6 +122,42 @@ def render_market():
             f"S&P 500은 200일 평균선보다 {abs(gap):.1%} {trend}에 있고, "
             f"시장 불안 지표 VIX는 {vix.iloc[-1]:.1f}로 {mood} 수준입니다. "
             f"기준일 {spx.index[-1]:%Y-%m-%d}."
+        )
+
+
+@st.cache_data(ttl=3600, show_spinner=False)
+def cached_flows() -> dict:
+    return load_flows()
+
+
+def flow_table(rows: list[dict]) -> pd.DataFrame:
+    return pd.DataFrame(
+        {
+            "순위": range(1, len(rows) + 1),
+            "종목": [row["ticker"] or row["name"] for row in rows],
+            "이름": [row["name"] for row in rows],
+            "금액": [f"${abs(row['net']) / 1e6:,.1f}백만" for row in rows],
+        }
+    )
+
+
+def render_flows():
+    st.subheader("한국 투자자 순매수·순매도 TOP 10")
+    try:
+        flows = cached_flows()
+    except Exception:
+        st.warning("순위 데이터를 불러오지 못했습니다.")
+        return
+    for tab, key in zip(st.tabs(["하루", "1주"]), ("daily", "weekly")):
+        view = flows[key]
+        left, right = tab.columns(2)
+        left.markdown("**순매수**")
+        left.dataframe(flow_table(view["netBuy"]), hide_index=True, width="stretch")
+        right.markdown("**순매도**")
+        right.dataframe(flow_table(view["netSell"]), hide_index=True, width="stretch")
+        tab.caption(
+            f"결제일 {view['start']} ~ {view['end']} 기준이라 실제 매매일과 1~2일 차이가 납니다. "
+            "예탁결제원을 거친 내역만 집계되며, 순매도는 매도결제 상위 50개 종목에서 계산했습니다. 출처: SEIBro."
         )
 
 
@@ -264,6 +301,7 @@ def main():
     period = right.segmented_control("기간", list(WINDOWS), default="5년") or "5년"
 
     render_market()
+    render_flows()
     st.divider()
 
     candidates = search_symbols(query) if query else []
@@ -304,7 +342,7 @@ def main():
         render_risk(ticker, hist["Adj Close"], benchmark, years)
     with side:
         render_news(ticker, info)
-    st.caption("데이터: Yahoo Finance, Google News. 시세는 지연될 수 있고 투자 판단의 참고 자료입니다.")
+    st.caption("데이터: Yahoo Finance, Google News, 예탁결제원 SEIBro. 시세는 지연될 수 있고 투자 판단의 참고 자료입니다.")
 
 
 main()

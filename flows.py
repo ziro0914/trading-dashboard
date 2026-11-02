@@ -13,6 +13,8 @@ PAGE = "https://seibro.or.kr/websquare/control.jsp?w2xPath=/IPORTAL/user/ovsSec/
 SELL, NET_BUY = "2", "4"
 TOP = 10
 LOOKBACK_DAYS = 10
+# 야후 검색이 다른 주식 종류를 먼저 돌려주는 종목
+ISIN_TICKERS = {"US02079K3059": "GOOGL"}
 
 
 def fetch_top50(start: date, end: date, kind: str) -> list[dict]:
@@ -68,6 +70,8 @@ def period(start: date, end: date) -> dict:
 
 def ticker_for(isin: str, name: str) -> str | None:
     """야후에서 ISIN으로 찾고, 없으면 종목명으로 찾는다."""
+    if isin in ISIN_TICKERS:
+        return ISIN_TICKERS[isin]
     for query in (isin, name, re.sub(r"\s+(CL|CLASS)\b.*$", "", name)):
         try:
             candidates = yahoo_candidates(yf.Search(query, news_count=0).quotes)

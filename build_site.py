@@ -17,13 +17,14 @@ from data import (
     load_market,
     load_news,
     load_next_earnings,
+    load_sectors,
     market_news,
     search_naver,
     short_name,
 )
 import etf_flows
 from flows import load_flows, load_saved_days, load_ticker_map, save_day, save_ticker_map
-from metrics import drawdown, max_drawdown, performance, slice_window
+from metrics import drawdown, max_drawdown, performance, slice_window, technical_summary
 
 ROOT = Path(__file__).parent
 DIST = ROOT / "dist"
@@ -127,6 +128,7 @@ def build_ticker(ticker, benchmark) -> dict:
         "prevClose": float(hist["Close"].iloc[-2]),
         "priceDate": day(hist.index[-1]),
         "earnings": day(earnings),
+        "technical": technical_summary(hist["Close"]),
         "windows": windows,
         "news": [{**item, "time": item["time"].isoformat()} for item in news],
     }
@@ -182,6 +184,10 @@ def main():
         write_json(DIST / "data" / "market-news.json", [{**item, "time": item["time"].isoformat()} for item in news])
     except Exception as error:
         print("MARKET NEWS FAIL", repr(error)[:200], flush=True)
+    try:
+        write_json(DIST / "data" / "sectors.json", load_sectors())
+    except Exception as error:
+        print("SECTORS FAIL", repr(error)[:200], flush=True)
 
     try:
         known = load_ticker_map()
@@ -217,7 +223,9 @@ def main():
                 {
                     "ticker": ticker,
                     "type": info.get("quoteType"),
+                    "price": price,
                     "change": price / previous - 1,
+                    "earnings": payload["earnings"],
                     "name": info.get("longName") or info.get("shortName") or ticker,
                     "korean": korean_name(ticker),
                     "aliases": universe.get(ticker, []),

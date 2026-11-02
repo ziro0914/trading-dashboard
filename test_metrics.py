@@ -1,6 +1,6 @@
 import pandas as pd
 
-from metrics import drawdown, max_drawdown, performance, slice_window
+from metrics import drawdown, max_drawdown, performance, rsi, slice_window, technical_summary
 
 
 def series(values, start="2024-01-01"):
@@ -45,3 +45,25 @@ def test_slice_window():
     close = series(range(1, 800))
     assert slice_window(close, 1).index[0] == close.index[-1] - pd.DateOffset(years=1)
     assert len(slice_window(close, None)) == len(close)
+
+
+def test_rsi_extremes():
+    assert rsi(series(range(1, 40))) == 100
+    assert rsi(series(range(40, 1, -1))) == 0
+
+
+def test_technical_summary_uptrend():
+    result = technical_summary(series(range(1, 260)))
+    assert result["trend"] == "상승 추세"
+    assert result["momentum"] == "과매수"
+
+
+def test_technical_summary_downtrend():
+    result = technical_summary(series(range(260, 1, -1)))
+    assert result["trend"] == "하락 추세"
+    assert result["momentum"] == "과매도"
+
+
+def test_technical_summary_short_history():
+    result = technical_summary(series([1, 2, 3]))
+    assert result["trend"] is None and result["rsi"] is None

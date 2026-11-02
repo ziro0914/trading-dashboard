@@ -80,6 +80,8 @@ tr:last-child td { border-bottom: 0; }
 
 .quote { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; }
 .quote h1 { margin: 0; font-size: 21px; }
+.star { font-size: 22px; line-height: 1; color: var(--muted); }
+.star[aria-pressed="true"] { color: #eda100; }
 .price { font-size: 30px; font-weight: 700; }
 .change { font-size: 15px; font-weight: 500; }
 .periods { display: flex; gap: 4px; margin-bottom: 8px; overflow-x: auto; }
@@ -166,7 +168,12 @@ footer { padding-top: 12px; }
         </section>
       </div>
     </div>
-    <section class="card"><h2>시장 뉴스</h2><ul class="news" id="marketNews"></ul></section>
+    <div class="stack">
+      <section class="card"><h2>관심종목</h2><table class="rank" id="watchlist"></table><p class="muted" id="watchHint"></p></section>
+      <section class="card"><h2>섹터 수익률</h2><div class="scroll"><table id="sectors"></table></div></section>
+      <section class="card"><h2>이번 주 실적 발표</h2><table id="earnings"></table></section>
+      <section class="card"><h2>시장 뉴스</h2><ul class="news" id="marketNews"></ul></section>
+    </div>
   </div>
 
   <div id="viewStock" hidden>
@@ -174,6 +181,7 @@ footer { padding-top: 12px; }
       <section class="card">
         <div class="quote">
           <h1 id="name"></h1>
+          <button class="star" id="star" type="button" aria-label="관심종목" aria-pressed="false">★</button>
           <span class="muted" id="tags"></span>
         </div>
         <div class="quote"><span class="price" id="price"></span><span class="change" id="change"></span></div>
@@ -195,6 +203,7 @@ footer { padding-top: 12px; }
         </div>
         <div class="stack">
           <section class="card"><h2>주요 지표</h2><div id="stats"></div></section>
+          <section class="card"><h2>기술적 요약</h2><div id="technical"></div></section>
           <section class="card"><h2>관련 뉴스</h2><ul class="news" id="news"></ul></section>
           <section class="card" id="aboutBox"><details><summary>회사 소개 (영문)</summary><p id="about"></p></details></section>
         </div>
@@ -327,6 +336,73 @@ function renderMovers() {
   });
   $("gainers").replaceChildren(...table(gainers));
   $("losers").replaceChildren(...table(losers));
+}
+const WATCH_KEY = "watchlist";
+function readWatchlist() {
+  try { return JSON.parse(localStorage.getItem(WATCH_KEY)) || []; } catch { return []; }
+}
+function writeWatchlist(tickers) {
+  try { localStorage.setItem(WATCH_KEY, JSON.stringify(tickers)); } catch { /* 저장이 막힌 브라우저 */ }
+}
+function renderWatchlist() {
+  const items = readWatchlist().map((ticker) => state.index.find((entry) => entry.ticker === ticker)).filter(Boolean);
+  $("watchlist").replaceChildren(...items.map((item, position) => {
+    const tr = el("tr");
+    const name = el("td");
+    name.append(tickerButton(item.ticker, `${item.ticker} · ${displayName(item)}`));
+    tr.append(el("td", "", position + 1), name, el("td", "", `$${number(item.price)}`), el("td", tone(item.change), signed(item.change)));
+    return tr;
+  }));
+  $("watchHint").textContent = items.length ? "" : "종목 화면의 ★을 누르면 여기에 모입니다. 이 기기에만 저장됩니다.";
+}
+function renderStar() {
+  const on = readWatchlist().includes(state.stock.ticker);
+  $("star").setAttribute("aria-pressed", String(on));
+  $("star").setAttribute("aria-label", on ? "관심종목에서 빼기" : "관심종목에 넣기");
+}
+function toggleStar() {
+  const list = readWatchlist();
+  const { ticker } = state.stock;
+  writeWatchlist(list.includes(ticker) ? list.filter((item) => item !== ticker) : [...list, ticker]);
+  renderStar();
+  renderWatchlist();
+}
+function renderSectors(rows) {
+  const head = el("tr");
+  head.append(el("th", "", "섹터"), el("th", "", "하루"), el("th", "", "1개월"));
+  $("sectors").replaceChildren(head, ...rows.map((row) => {
+    const tr = el("tr");
+    tr.append(el("td", "", row.label), el("td", tone(row.day), signed(row.day)), el("td", tone(row.month), signed(row.month)));
+    return tr;
+  }));
+}
+function renderEarnings() {
+  const today = new Date().toISOString().slice(0, 10);
+  const limit = new Date(Date.now() + 7 * 864e5).toISOString().slice(0, 10);
+  const items = state.index.filter((item) => item.earnings && item.earnings >= today && item.earnings <= limit)
+    .sort((a, b) => a.earnings.localeCompare(b.earnings));
+  $("earnings").replaceChildren(...items.slice(0, 10).map((item) => {
+    const tr = el("tr");
+    const name = el("td");
+    name.append(tickerButton(item.ticker, `${item.ticker} · ${displayName(item)}`));
+    name.style.whiteSpace = "normal";
+    tr.append(name, el("td", "muted", item.earnings.slice(5)));
+    return tr;
+  }));
+  if (!items.length) {
+    const tr = el("tr");
+    tr.append(el("td", "muted", "7일 안에 예정된 실적 발표가 없습니다."));
+    $("earnings").replaceChildren(tr);
+  }
+}
+function renderTechnical(technical) {
+  const gap = (v) => (v == null ? "-" : signed(v));
+  $("technical").replaceChildren(
+    stat("추세", technical.trend || "-"),
+    stat("RSI (14일)", technical.rsi == null ? "-" : `${technical.rsi.toFixed(1)} (${technical.momentum})`),
+    stat("50일 평균 대비", gap(technical.gapMa50)),
+    stat("200일 평균 대비", gap(technical.gapMa200)),
+  );
 }
 function newsList(id, items) {
   const safe = (items || []).filter((item) => /^https:\/\//.test(item.link));
@@ -538,6 +614,8 @@ function renderStock() {
   $("aboutBox").hidden = !info.longBusinessSummary;
   $("about").textContent = info.longBusinessSummary || "";
   newsList("news", state.stock.news);
+  renderStar();
+  renderTechnical(state.stock.technical);
 
   const head = ["기간", `${ticker} MDD`];
   if (state.stock.benchmark) head.push(`${state.stock.benchmark} MDD`);
@@ -632,8 +710,8 @@ function route() {
 async function main() {
   route();
   window.addEventListener("hashchange", () => { $("message").replaceChildren(); route(); });
-  const [index, market, marketNews, flows, days, etfFlows, etfDays] = await Promise.all(
-    ["index", "market", "market-news", "flows", "flows-history", "etf-flows", "etf-flows-history"]
+  const [index, market, marketNews, flows, days, etfFlows, etfDays, sectors] = await Promise.all(
+    ["index", "market", "market-news", "flows", "flows-history", "etf-flows", "etf-flows-history", "sectors"]
       .map((name) => load(`data/${name}.json`)),
   );
   if (!index) throw new Error("index");
@@ -641,7 +719,11 @@ async function main() {
   $("updated").textContent = `데이터 갱신: ${new Date(index.updated).toLocaleString("ko-KR")} · ${index.tickers.length}개 종목`;
   if (market) { renderStrip(market); renderIndices(market); }
   renderMovers();
+  renderWatchlist();
+  renderEarnings();
+  if (sectors) renderSectors(sectors);
   newsList("marketNews", marketNews);
+  $("star").addEventListener("click", toggleStar);
   renderFlows(flows, days, etfFlows, etfDays);
 
   $("query").addEventListener("input", showSuggest);

@@ -31,6 +31,40 @@ MARKET_SYMBOLS = {
 }
 
 
+SECTORS = {
+    "XLK": "기술",
+    "XLC": "커뮤니케이션",
+    "XLY": "임의소비재",
+    "XLP": "필수소비재",
+    "XLF": "금융",
+    "XLV": "헬스케어",
+    "XLI": "산업재",
+    "XLE": "에너지",
+    "XLB": "소재",
+    "XLRE": "부동산",
+    "XLU": "유틸리티",
+}
+MONTH_TRADING_DAYS = 21
+
+
+def load_sectors() -> list[dict]:
+    """섹터 ETF로 본 하루·한 달 수익률. 하루 수익률이 높은 순서로 돌려준다."""
+    close = yf.download(list(SECTORS), period="3mo", progress=False, auto_adjust=True)["Close"]
+    rows = []
+    for symbol, label in SECTORS.items():
+        series = close[symbol].dropna()
+        if len(series) > MONTH_TRADING_DAYS:
+            rows.append(
+                {
+                    "label": label,
+                    "symbol": symbol,
+                    "day": float(series.iloc[-1] / series.iloc[-2] - 1),
+                    "month": float(series.iloc[-1] / series.iloc[-1 - MONTH_TRADING_DAYS] - 1),
+                }
+            )
+    return sorted(rows, key=lambda row: row["day"], reverse=True)
+
+
 def normalize_ticker(raw: str) -> str | None:
     ticker = raw.strip().upper().replace(".", "-")
     return ticker if re.fullmatch(r"[A-Z0-9\-]{1,10}", ticker) else None

@@ -1,0 +1,103 @@
+{
+ "date": "2026-10-30",
+ "buy": [
+  {
+   "ticker": "PACB",
+   "company": "Pacific Biosciences of California, Inc.",
+   "shares": 480274,
+   "funds": [
+    "ARKK",
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "TEM",
+   "company": "Tempus AI, Inc.",
+   "shares": 154521,
+   "funds": [
+    "ARKK",
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "CRCL",
+   "company": "Circle Internet Group, Inc",
+   "shares": 74894,
+   "funds": [
+    "ARKK",
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "ARCT",
+   "company": "Arcturus Therapeutics Holdings Inc",
+   "shares": 64483,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "ILMN",
+   "company": "Illumina Inc",
+   "shares": 43130,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "COIN",
+   "company": "Coinbase Global, Inc.",
+   "shares": 39418,
+   "funds": [
+    "ARKK",
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "BEAM",
+   "company": "Beam Therapeutics Inc.",
+   "shares": 22687,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "HOOD",
+   "company": "Robinhood Markets, Inc.",
+   "shares": 13757,
+   "funds": [
+    "ARKF"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "BLSH",
+   "company": "Bullish",
+   "shares": 238373,
+   "funds": [
+    "ARKK",
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "CDNA",
+   "company": "CareDx, Inc.",
+   "shares": 50859,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "LLY",
+   "company": "Eli Lilly and Company",
+   "shares": 17626,
+   "funds": [
+    "ARKK"
+   ]
+  }
+ ]
+}

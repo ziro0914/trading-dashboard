@@ -22,6 +22,7 @@ from data import (
     search_naver,
     short_name,
 )
+import ark_trades
 import etf_flows
 from flows import load_flows, load_saved_days, load_ticker_map, save_day, save_ticker_map
 from metrics import drawdown, max_drawdown, performance, slice_window, technical_summary
@@ -210,6 +211,12 @@ def main():
     except Exception as error:
         print("ETF FLOWS FAIL", repr(error)[:200], flush=True)
     write_json(DIST / "data" / "etf-flows-history.json", etf_flows.load_saved_days())
+
+    try:
+        ark_trades.load_ark_trades()
+    except Exception as error:
+        print("ARK FAIL", repr(error)[:200], flush=True)
+    write_json(DIST / "data" / "ark-history.json", ark_trades.load_saved_days())
 
     index, failed = [], []
     for ticker in tickers:

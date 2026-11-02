@@ -129,6 +129,7 @@ footer { padding-top: 12px; }
     <a href="#home" data-view="home">홈</a>
     <a href="#stock" data-view="stock">종목</a>
     <a href="#flows" data-view="flows">순매수·순매도</a>
+    <a href="#gurus" data-view="gurus">대가 투자자</a>
   </nav>
 </header>
 <div class="strip"><div class="strip-inner" id="strip"></div></div>
@@ -224,9 +225,21 @@ footer { padding-top: 12px; }
     </div>
   </div>
 
+  <div id="viewGurus" class="stack" hidden>
+    <section class="card">
+      <h2>캐시 우드 ARK 매일 매매</h2>
+      <select id="arkDate" aria-label="날짜 선택"></select>
+      <p class="muted" id="arkNote"></p>
+    </section>
+    <div class="duo">
+      <section class="card"><h2>ARK 매수</h2><table class="rank" id="arkBuy"></table></section>
+      <section class="card"><h2>ARK 매도</h2><table class="rank" id="arkSell"></table></section>
+    </div>
+  </div>
+
   <footer class="muted">
     <span id="updated"></span><br>
-    데이터: Yahoo Finance, Google News, 네이버 증권, 예탁결제원 SEIBro. 실시간 시세가 아니며 투자 판단의 참고 자료입니다.
+    데이터: Yahoo Finance, Google News, 네이버 증권, 예탁결제원 SEIBro, arkfunds.io. 실시간 시세가 아니며 투자 판단의 참고 자료입니다.
   </footer>
 </main>
 
@@ -507,6 +520,32 @@ function renderFlows(flows, days, etfFlows, etfDays) {
   }
 }
 
+function arkRows(rows) {
+  return rows.map((row, position) => {
+    const item = state.index.find((entry) => entry.ticker === row.ticker);
+    const label = `${row.ticker} · ${item ? displayName(item) : shortName(row.company || "")}`;
+    const tr = el("tr");
+    const name = el("td");
+    name.append(item ? tickerButton(row.ticker, label) : label);
+    tr.append(el("td", "", position + 1), name, el("td", "", `${number(row.shares, 0)}주`));
+    return tr;
+  });
+}
+function showArk(day) {
+  $("arkBuy").replaceChildren(...arkRows(day.buy));
+  $("arkSell").replaceChildren(...arkRows(day.sell));
+  $("arkNote").textContent = `${day.date} 매매. ARK 주요 ETF 6개를 합친 수량 기준이며, ARK 공개 자료를 모은 비공식 API(arkfunds.io)에서 받습니다.`;
+}
+function renderArk(days) {
+  if (!days || !days.length) {
+    $("arkNote").textContent = "ARK 매매내역을 불러오지 못했습니다.";
+    return;
+  }
+  $("arkDate").replaceChildren(...days.map((day, position) => new Option(day.date, position)));
+  $("arkDate").onchange = () => showArk(days[Number($("arkDate").value)]);
+  showArk(days[0]);
+}
+
 function normalize(text) { return text.toLowerCase().replace(/[\s.\-&]/g, ""); }
 function search(query) {
   const q = normalize(query);
@@ -694,10 +733,11 @@ function renderWindow() {
 }
 
 function route() {
-  const view = ["#stock", "#flows"].includes(location.hash) ? location.hash.slice(1) : "home";
+  const view = ["#stock", "#flows", "#gurus"].includes(location.hash) ? location.hash.slice(1) : "home";
   $("viewHome").hidden = view !== "home";
   $("viewStock").hidden = view !== "stock";
   $("viewFlows").hidden = view !== "flows";
+  $("viewGurus").hidden = view !== "gurus";
   document.querySelectorAll(".tabs a").forEach((link) => {
     if (link.dataset.view === view) link.setAttribute("aria-current", "page");
     else link.removeAttribute("aria-current");
@@ -710,8 +750,8 @@ function route() {
 async function main() {
   route();
   window.addEventListener("hashchange", () => { $("message").replaceChildren(); route(); });
-  const [index, market, marketNews, flows, days, etfFlows, etfDays, sectors] = await Promise.all(
-    ["index", "market", "market-news", "flows", "flows-history", "etf-flows", "etf-flows-history", "sectors"]
+  const [index, market, marketNews, flows, days, etfFlows, etfDays, sectors, arkDays] = await Promise.all(
+    ["index", "market", "market-news", "flows", "flows-history", "etf-flows", "etf-flows-history", "sectors", "ark-history"]
       .map((name) => load(`data/${name}.json`)),
   );
   if (!index) throw new Error("index");
@@ -725,6 +765,7 @@ async function main() {
   newsList("marketNews", marketNews);
   $("star").addEventListener("click", toggleStar);
   renderFlows(flows, days, etfFlows, etfDays);
+  renderArk(arkDays);
 
   $("query").addEventListener("input", showSuggest);
   $("query").addEventListener("keydown", (event) => {

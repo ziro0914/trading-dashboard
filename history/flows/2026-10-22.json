@@ -1,0 +1,168 @@
+{
+ "start": "2026-10-22",
+ "end": "2026-10-22",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 82211337.0,
+   "sell": 25957623.0,
+   "net": 56253714.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 46964820.0,
+   "sell": 10931444.0,
+   "net": 36033376.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 24462841.0,
+   "sell": 4289384.0,
+   "net": 20173458.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 17930986.0,
+   "sell": 2133158.0,
+   "net": 15797828.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US46138G6492",
+   "name": "INVESCO NASDAQ 100 ETF",
+   "buy": 15005205.0,
+   "sell": 426498.0,
+   "net": 14578708.0,
+   "ticker": "QQQM"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 12718997.0,
+   "sell": 1595458.0,
+   "net": 11123539.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 10320834.0,
+   "sell": 395072.0,
+   "net": 9925762.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US92189F6768",
+   "name": "VANECK SEMICONDUCTOR ETF CHAN 39610601171 US57060U2336",
+   "buy": 9349387.0,
+   "sell": 199733.0,
+   "net": 9149654.0,
+   "ticker": "SMH"
+  },
+  {
+   "isin": "AU0000185993",
+   "name": "IRIS ENERGY LTD",
+   "buy": 9056173.0,
+   "sell": 1323787.0,
+   "net": 7732386.0,
+   "ticker": "IREN"
+  },
+  {
+   "isin": "US0231351067",
+   "name": "AMAZON.COM INC",
+   "buy": 12816715.0,
+   "sell": 5379424.0,
+   "net": 7437292.0,
+   "ticker": "AMZN"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US30303M1027",
+   "name": "META PLATFORMS INC CL A",
+   "buy": 3958464.0,
+   "sell": 38978611.0,
+   "net": -35020148.0,
+   "ticker": "META"
+  },
+  {
+   "isin": "US55024U1097",
+   "name": "LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074",
+   "buy": 4292133.0,
+   "sell": 32728627.0,
+   "net": -28436494.0,
+   "ticker": "LITE"
+  },
+  {
+   "isin": "US6974351057",
+   "name": "PALO ALTO NETWORKS INC",
+   "buy": 176164.0,
+   "sell": 27592751.0,
+   "net": -27416587.0,
+   "ticker": "PANW"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 3955200.0,
+   "sell": 30585750.0,
+   "net": -26630550.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US4581401001",
+   "name": "INTEL CORP",
+   "buy": 2254016.0,
+   "sell": 25318094.0,
+   "net": -23064078.0,
+   "ticker": "INTC"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 3884910.0,
+   "sell": 22289924.0,
+   "net": -18405013.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 609773.0,
+   "sell": 15826283.0,
+   "net": -15216510.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US6792951054",
+   "name": "OKTA INC",
+   "buy": 62321.0,
+   "sell": 12842307.0,
+   "net": -12779986.0,
+   "ticker": "OKTA"
+  },
+  {
+   "isin": "US8740391003",
+   "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR",
+   "buy": 556324.0,
+   "sell": 11663346.0,
+   "net": -11107022.0,
+   "ticker": null
+  },
+  {
+   "isin": "US18915M1071",
+   "name": "CLOUDFLARE INC",
+   "buy": 28188.0,
+   "sell": 10372487.0,
+   "net": -10344299.0,
+   "ticker": "NET"
+  }
+ ]
+}

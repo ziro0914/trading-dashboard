@@ -1,0 +1,168 @@
+{
+ "start": "2026-10-27",
+ "end": "2026-10-27",
+ "netBuy": [
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 60446191.0,
+   "sell": 4052937.0,
+   "net": 56393253.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 28157994.0,
+   "sell": 986484.0,
+   "net": 27171510.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 30453808.0,
+   "sell": 3715123.0,
+   "net": 26738686.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 21111859.0,
+   "sell": 848793.0,
+   "net": 20263066.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US0937121079",
+   "name": "BLOOM ENERGY CORP CL A",
+   "buy": 27233611.0,
+   "sell": 12896512.0,
+   "net": 14337099.0,
+   "ticker": "BE"
+  },
+  {
+   "isin": "US46138G6492",
+   "name": "INVESCO NASDAQ 100 ETF",
+   "buy": 12706911.0,
+   "sell": 439027.0,
+   "net": 12267885.0,
+   "ticker": "QQQM"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 11704797.0,
+   "sell": 295518.0,
+   "net": 11409279.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 13544724.0,
+   "sell": 3702364.0,
+   "net": 9842360.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 51489902.0,
+   "sell": 42327719.0,
+   "net": 9162183.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US46654Q2030",
+   "name": "J.P. MORGAN NASDAQ EQUITY PREMIUM INCOME ETF",
+   "buy": 8255809.0,
+   "sell": 181952.0,
+   "net": 8073857.0,
+   "ticker": "JEPQ"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 6851534.0,
+   "sell": 14034810.0,
+   "net": -7183276.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 1886056.0,
+   "sell": 8419737.0,
+   "net": -6533682.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 5724095.0,
+   "sell": 11476678.0,
+   "net": -5752583.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US0378331005",
+   "name": "APPLE INC",
+   "buy": 1170731.0,
+   "sell": 6655170.0,
+   "net": -5484439.0,
+   "ticker": "AAPL"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 937351.0,
+   "sell": 6028659.0,
+   "net": -5091308.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US60770K1079",
+   "name": "MODERNA INC",
+   "buy": 2667063.0,
+   "sell": 6716134.0,
+   "net": -4049070.0,
+   "ticker": "MRNA"
+  },
+  {
+   "isin": "US37954Y6730",
+   "name": "GLOBAL X US INFRA DEVELOPMENT ETF",
+   "buy": 15747.0,
+   "sell": 3966182.0,
+   "net": -3950435.0,
+   "ticker": "PAVE"
+  },
+  {
+   "isin": "US74350P6759",
+   "name": "PROSHARES ULTRAPRO SHORT QQ ULTRAPRO SHORT QQQ NEW SPLR 987751298 US74347G1922",
+   "buy": 1152584.0,
+   "sell": 4244842.0,
+   "net": -3092258.0,
+   "ticker": "SQQQ"
+  },
+  {
+   "isin": "US46092D3843",
+   "name": "INVESTMENT MANAGERS SERIES TRADR 2X SRT TSLA DLY ETF OCT 25 (R SPLR 986291209 US46144X1239",
+   "buy": 24366.0,
+   "sell": 2706382.0,
+   "net": -2682016.0,
+   "ticker": "TSLQ"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 2126794.0,
+   "sell": 4755064.0,
+   "net": -2628270.0,
+   "ticker": "SCHD"
+  }
+ ]
+}

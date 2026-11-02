@@ -1,0 +1,168 @@
+{
+ "start": "2026-08-05",
+ "end": "2026-08-05",
+ "netBuy": [
+  {
+   "isin": "US0231351067",
+   "name": "AMAZON.COM INC",
+   "buy": 115038610.0,
+   "sell": 9171098.0,
+   "net": 105867511.0,
+   "ticker": "AMZN"
+  },
+  {
+   "isin": "US92537N1081",
+   "name": "VERTIV HOLDINGS CO",
+   "buy": 73653100.0,
+   "sell": 264029.0,
+   "net": 73389071.0,
+   "ticker": "VRT"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 49535017.0,
+   "sell": 2247824.0,
+   "net": 47287193.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 50665127.0,
+   "sell": 11758951.0,
+   "net": 38906176.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 18407192.0,
+   "sell": 945873.0,
+   "net": 17461318.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 27465499.0,
+   "sell": 10789272.0,
+   "net": 16676227.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US46654Q2030",
+   "name": "J.P. MORGAN NASDAQ EQUITY PREMIUM INCOME ETF",
+   "buy": 17600454.0,
+   "sell": 997032.0,
+   "net": 16603422.0,
+   "ticker": "JEPQ"
+  },
+  {
+   "isin": "US46138G6153",
+   "name": "INVESCO PHLX SEMICONDUCTOR ETF",
+   "buy": 15186775.0,
+   "sell": 83481.0,
+   "net": 15103294.0,
+   "ticker": "SOXQ"
+  },
+  {
+   "isin": "US46090E1038",
+   "name": "INVESCO QQQ TRUST SRS 1 ETF",
+   "buy": 15286567.0,
+   "sell": 599377.0,
+   "net": 14687190.0,
+   "ticker": "QQQ"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 15113039.0,
+   "sell": 1502097.0,
+   "net": 13610942.0,
+   "ticker": "SPCX"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 43330751.0,
+   "sell": 227035386.0,
+   "net": -183704635.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US25461A8669",
+   "name": "DIREXION DAILY MSFT BULL 1 5X ETF",
+   "buy": 37553.0,
+   "sell": 20618064.0,
+   "net": -20580510.0,
+   "ticker": "MSFU"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 4397655.0,
+   "sell": 23440414.0,
+   "net": -19042759.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 6444095.0,
+   "sell": 24102789.0,
+   "net": -17658694.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 33013787.0,
+   "sell": 43797362.0,
+   "net": -10783575.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US25460G2865",
+   "name": "DIREXION DAILY TSLA BULL 2X SHARES",
+   "buy": 150860.0,
+   "sell": 6129803.0,
+   "net": -5978943.0,
+   "ticker": "TSLL"
+  },
+  {
+   "isin": "US25461A5285",
+   "name": "DXN MU BUL2X ETF",
+   "buy": 583945.0,
+   "sell": 5995916.0,
+   "net": -5411971.0,
+   "ticker": "MUU"
+  },
+  {
+   "isin": "US25461A8412",
+   "name": "DIREXION DAILY GOOGL BULL 1.5X SHARES",
+   "buy": 2761552.0,
+   "sell": 8020168.0,
+   "net": -5258616.0,
+   "ticker": "GGLL"
+  },
+  {
+   "isin": "US46152A6689",
+   "name": "TRADR 2X LONG SNDK DAILY ETF",
+   "buy": 83625.0,
+   "sell": 5328242.0,
+   "net": -5244617.0,
+   "ticker": "SNXX"
+  },
+  {
+   "isin": "US11135F1012",
+   "name": "BROADCOM INC EXOF 005644980 SG9999014823",
+   "buy": 2202164.0,
+   "sell": 7291114.0,
+   "net": -5088950.0,
+   "ticker": "AVGO"
+  }
+ ]
+}

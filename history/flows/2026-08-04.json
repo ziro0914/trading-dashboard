@@ -1,0 +1,168 @@
+{
+ "start": "2026-08-04",
+ "end": "2026-08-04",
+ "netBuy": [
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 81080381.0,
+   "sell": 10154282.0,
+   "net": 70926099.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 75244218.0,
+   "sell": 6917555.0,
+   "net": 68326663.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 83709667.0,
+   "sell": 16542987.0,
+   "net": 67166679.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 90018532.0,
+   "sell": 32969608.0,
+   "net": 57048924.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US0937121079",
+   "name": "BLOOM ENERGY CORP CL A",
+   "buy": 44838162.0,
+   "sell": 2246779.0,
+   "net": 42591382.0,
+   "ticker": "BE"
+  },
+  {
+   "isin": "US0382221051",
+   "name": "APPLIED MATERIALS INC",
+   "buy": 41046561.0,
+   "sell": 200565.0,
+   "net": 40845996.0,
+   "ticker": "AMAT"
+  },
+  {
+   "isin": "US25402D1028",
+   "name": "DIGITALOCEAN HOLDINGS INC",
+   "buy": 33646282.0,
+   "sell": 9770.0,
+   "net": 33636512.0,
+   "ticker": "DOCN"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 33898144.0,
+   "sell": 5861727.0,
+   "net": 28036417.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 27240610.0,
+   "sell": 593167.0,
+   "net": 26647443.0,
+   "ticker": "MRVL"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 25580902.0,
+   "sell": 917513.0,
+   "net": 24663389.0,
+   "ticker": "AMD"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 14624978.0,
+   "sell": 49672979.0,
+   "net": -35048002.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US46152A6689",
+   "name": "TRADR 2X LONG SNDK DAILY ETF",
+   "buy": 435014.0,
+   "sell": 23254689.0,
+   "net": -22819675.0,
+   "ticker": "SNXX"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 6662709.0,
+   "sell": 25341410.0,
+   "net": -18678701.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US25461A5285",
+   "name": "DXN MU BUL2X ETF",
+   "buy": 2999280.0,
+   "sell": 18985532.0,
+   "net": -15986252.0,
+   "ticker": "MUU"
+  },
+  {
+   "isin": "US0231351067",
+   "name": "AMAZON.COM INC",
+   "buy": 5489337.0,
+   "sell": 20590904.0,
+   "net": -15101567.0,
+   "ticker": "AMZN"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 3180629.0,
+   "sell": 16348820.0,
+   "net": -13168191.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US25461A8669",
+   "name": "DIREXION DAILY MSFT BULL 1 5X ETF",
+   "buy": 10054.0,
+   "sell": 11978618.0,
+   "net": -11968564.0,
+   "ticker": "MSFU"
+  },
+  {
+   "isin": "US26923W2153",
+   "name": "T-REX 2X LONG SNDK DAILY TARGET ETF",
+   "buy": 41683.0,
+   "sell": 10968048.0,
+   "net": -10926365.0,
+   "ticker": "SNDU"
+  },
+  {
+   "isin": "US25460G2865",
+   "name": "DIREXION DAILY TSLA BULL 2X SHARES",
+   "buy": 1568744.0,
+   "sell": 8682263.0,
+   "net": -7113519.0,
+   "ticker": "TSLL"
+  },
+  {
+   "isin": "US25461A8412",
+   "name": "DIREXION DAILY GOOGL BULL 1.5X SHARES",
+   "buy": 978039.0,
+   "sell": 6284325.0,
+   "net": -5306285.0,
+   "ticker": "GGLL"
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "start": "2026-09-10",
+ "end": "2026-09-10",
+ "netBuy": [
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 100061472.0,
+   "sell": 11651278.0,
+   "net": 88410195.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 45075820.0,
+   "sell": 7991836.0,
+   "net": 37083984.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US68389X1054",
+   "name": "ORACLE CORP",
+   "buy": 30210924.0,
+   "sell": 1012546.0,
+   "net": 29198378.0,
+   "ticker": "ORCL"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 30398907.0,
+   "sell": 2406860.0,
+   "net": 27992047.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 27145148.0,
+   "sell": 1090066.0,
+   "net": 26055082.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 21538135.0,
+   "sell": 676229.0,
+   "net": 20861906.0,
+   "ticker": "SCHD"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 23185759.0,
+   "sell": 4450906.0,
+   "net": 18734853.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 18897271.0,
+   "sell": 320843.0,
+   "net": 18576427.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 17400206.0,
+   "sell": 1645494.0,
+   "net": 15754712.0,
+   "ticker": "SOXX"
+  },
+  {
+   "isin": "NL0009805522",
+   "name": "YANDEX NV CL A",
+   "buy": 17709871.0,
+   "sell": 2987623.0,
+   "net": 14722248.0,
+   "ticker": "NBIS"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 13175949.0,
+   "sell": 359362043.0,
+   "net": -346186094.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US00971T1016",
+   "name": "AKAMAI TECHNOLOGIES INC",
+   "buy": 31043.0,
+   "sell": 38806184.0,
+   "net": -38775141.0,
+   "ticker": "AKAM"
+  },
+  {
+   "isin": "US60937P1066",
+   "name": "MONGODB INC",
+   "buy": 63921.0,
+   "sell": 20966668.0,
+   "net": -20902747.0,
+   "ticker": "MDB"
+  },
+  {
+   "isin": "AU0000185993",
+   "name": "IRIS ENERGY LTD",
+   "buy": 524139.0,
+   "sell": 18519568.0,
+   "net": -17995430.0,
+   "ticker": "IREN"
+  },
+  {
+   "isin": "US5949724083",
+   "name": "MICROSTRATEGY INC CL A",
+   "buy": 2828677.0,
+   "sell": 20372035.0,
+   "net": -17543359.0,
+   "ticker": "MSTR"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 12510606.0,
+   "sell": 25037395.0,
+   "net": -12526789.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 4282073.0,
+   "sell": 12367768.0,
+   "net": -8085695.0,
+   "ticker": "AMD"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 4043746.0,
+   "sell": 11939787.0,
+   "net": -7896042.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US4581401001",
+   "name": "INTEL CORP",
+   "buy": 14211866.0,
+   "sell": 20983021.0,
+   "net": -6771156.0,
+   "ticker": "INTC"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 13536229.0,
+   "sell": 19747620.0,
+   "net": -6211391.0,
+   "ticker": "SKHY"
+  }
+ ]
+}

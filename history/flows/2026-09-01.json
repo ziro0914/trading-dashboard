@@ -1,0 +1,168 @@
+{
+ "start": "2026-09-01",
+ "end": "2026-09-01",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 438222126.0,
+   "sell": 15148182.0,
+   "net": 423073944.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "AU0000185993",
+   "name": "IRIS ENERGY LTD",
+   "buy": 25318903.0,
+   "sell": 1436185.0,
+   "net": 23882718.0,
+   "ticker": "IREN"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 24819382.0,
+   "sell": 962845.0,
+   "net": 23856537.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US67079K1007",
+   "name": "NUSCALE POWER CORP CL A MRGR 009185329 KYG8377A1085",
+   "buy": 26788085.0,
+   "sell": 12405434.0,
+   "net": 14382651.0,
+   "ticker": "SMR"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 15100652.0,
+   "sell": 2603897.0,
+   "net": 12496755.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 11858328.0,
+   "sell": 602708.0,
+   "net": 11255620.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US81762P1021",
+   "name": "SERVICENOW INC",
+   "buy": 11490329.0,
+   "sell": 773113.0,
+   "net": 10717216.0,
+   "ticker": "NOW"
+  },
+  {
+   "isin": "US0494681010",
+   "name": "ATLASSIAN CORP",
+   "buy": 9031825.0,
+   "sell": 20087.0,
+   "net": 9011738.0,
+   "ticker": "TEAM"
+  },
+  {
+   "isin": "US0231351067",
+   "name": "AMAZON.COM INC",
+   "buy": 10062824.0,
+   "sell": 1175895.0,
+   "net": 8886929.0,
+   "ticker": "AMZN"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 8125610.0,
+   "sell": 569545.0,
+   "net": 7556064.0,
+   "ticker": "VOO"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 4002858.0,
+   "sell": 31324004.0,
+   "net": -27321145.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 7161032.0,
+   "sell": 23171308.0,
+   "net": -16010276.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 1752990.0,
+   "sell": 17729586.0,
+   "net": -15976596.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 369044.0,
+   "sell": 15839065.0,
+   "net": -15470022.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 908973.0,
+   "sell": 15654307.0,
+   "net": -14745334.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US00773J2024",
+   "name": "AEGLEA BIOTHERAPEUTICS INC AEGLEA BIOTHERAPEUTICS INC SPLR 946418209 US00773J1034",
+   "buy": 545.0,
+   "sell": 12364578.0,
+   "net": -12364033.0,
+   "ticker": "SYRE"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 10680875.0,
+   "sell": 23010497.0,
+   "net": -12329622.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 438690.0,
+   "sell": 10677146.0,
+   "net": -10238456.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US1725731079",
+   "name": "Circle Internet",
+   "buy": 1949528.0,
+   "sell": 10686464.0,
+   "net": -8736936.0,
+   "ticker": "CRCL"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 4989112.0,
+   "sell": 12200060.0,
+   "net": -7210948.0,
+   "ticker": "PLTR"
+  }
+ ]
+}

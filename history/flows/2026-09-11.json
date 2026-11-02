@@ -1,0 +1,168 @@
+{
+ "start": "2026-09-11",
+ "end": "2026-09-11",
+ "netBuy": [
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 44883885.0,
+   "sell": 1648519.0,
+   "net": 43235366.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 86313774.0,
+   "sell": 50501798.0,
+   "net": 35811976.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 27463577.0,
+   "sell": 6611587.0,
+   "net": 20851990.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 19140693.0,
+   "sell": 3397093.0,
+   "net": 15743601.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 17389226.0,
+   "sell": 3726084.0,
+   "net": 13663143.0,
+   "ticker": "SCHD"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 14411257.0,
+   "sell": 1358154.0,
+   "net": 13053103.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "NL0009805522",
+   "name": "YANDEX NV CL A",
+   "buy": 14040572.0,
+   "sell": 2831406.0,
+   "net": 11209166.0,
+   "ticker": "NBIS"
+  },
+  {
+   "isin": "US7731211089",
+   "name": "ROCKET LAB CORPORATION COM USD0.0001 MRGR 978814817 US7731221062",
+   "buy": 11025001.0,
+   "sell": 505843.0,
+   "net": 10519158.0,
+   "ticker": "RKLB"
+  },
+  {
+   "isin": "US68389X1054",
+   "name": "ORACLE CORP",
+   "buy": 9688772.0,
+   "sell": 885315.0,
+   "net": 8803457.0,
+   "ticker": "ORCL"
+  },
+  {
+   "isin": "US02553E1064",
+   "name": "AMERICAN EAGLE OUTFITTERS INC",
+   "buy": 8201675.0,
+   "sell": 55039.0,
+   "net": 8146636.0,
+   "ticker": "AEO"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 1373976.0,
+   "sell": 21464049.0,
+   "net": -20090073.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US8835561023",
+   "name": "THERMO FISHER SCIENTIFIC INC",
+   "buy": 18702.0,
+   "sell": 18492689.0,
+   "net": -18473987.0,
+   "ticker": "TMO"
+  },
+  {
+   "isin": "US30303M1027",
+   "name": "META PLATFORMS INC CL A",
+   "buy": 7329265.0,
+   "sell": 24350000.0,
+   "net": -17020735.0,
+   "ticker": "META"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 4225088.0,
+   "sell": 16488084.0,
+   "net": -12262996.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "AU0000185993",
+   "name": "IRIS ENERGY LTD",
+   "buy": 201452.0,
+   "sell": 11769081.0,
+   "net": -11567629.0,
+   "ticker": "IREN"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 6046836.0,
+   "sell": 16320196.0,
+   "net": -10273360.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 3672214.0,
+   "sell": 13222668.0,
+   "net": -9550454.0,
+   "ticker": "AMD"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 2224239.0,
+   "sell": 10982664.0,
+   "net": -8758424.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 2465901.0,
+   "sell": 9611611.0,
+   "net": -7145710.0,
+   "ticker": "SOXX"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 22873641.0,
+   "sell": 27988646.0,
+   "net": -5115004.0,
+   "ticker": "MU"
+  }
+ ]
+}

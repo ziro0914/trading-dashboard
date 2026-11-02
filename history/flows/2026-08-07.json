@@ -1,0 +1,168 @@
+{
+ "start": "2026-08-07",
+ "end": "2026-08-07",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 489395666.0,
+   "sell": 20856180.0,
+   "net": 468539486.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 53694849.0,
+   "sell": 4155135.0,
+   "net": 49539714.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US03823U1025",
+   "name": "APPLIED OPTOELECTRONICS INC",
+   "buy": 31405253.0,
+   "sell": 262249.0,
+   "net": 31143004.0,
+   "ticker": "AAOI"
+  },
+  {
+   "isin": "US19247G1076",
+   "name": "II-VI INCORPORATED Com CHAN 009623241 US9021041085",
+   "buy": 28481786.0,
+   "sell": 1040230.0,
+   "net": 27441556.0,
+   "ticker": "COHR"
+  },
+  {
+   "isin": "US0231351067",
+   "name": "AMAZON.COM INC",
+   "buy": 27694809.0,
+   "sell": 2976671.0,
+   "net": 24718138.0,
+   "ticker": "AMZN"
+  },
+  {
+   "isin": "US46090E1038",
+   "name": "INVESCO QQQ TRUST SRS 1 ETF",
+   "buy": 24154257.0,
+   "sell": 1549848.0,
+   "net": 22604409.0,
+   "ticker": "QQQ"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 23989405.0,
+   "sell": 1551664.0,
+   "net": 22437740.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 17643373.0,
+   "sell": 1901185.0,
+   "net": 15742188.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 16511744.0,
+   "sell": 1205406.0,
+   "net": 15306338.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 23872424.0,
+   "sell": 10048129.0,
+   "net": 13824295.0,
+   "ticker": "SNDK"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 2875171.0,
+   "sell": 55724816.0,
+   "net": -52849646.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 5190637.0,
+   "sell": 53727326.0,
+   "net": -48536688.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 8168132.0,
+   "sell": 48150263.0,
+   "net": -39982131.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US90138F1021",
+   "name": "TWILIO INC CL A",
+   "buy": 10099.0,
+   "sell": 36425559.0,
+   "net": -36415460.0,
+   "ticker": "TWLO"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 4508228.0,
+   "sell": 29639527.0,
+   "net": -25131298.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 4666828.0,
+   "sell": 27965882.0,
+   "net": -23299054.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 1973011.0,
+   "sell": 21306608.0,
+   "net": -19333597.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US77926X3200",
+   "name": "ROUNDHILL MEMORY ETF",
+   "buy": 3070083.0,
+   "sell": 15248857.0,
+   "net": -12178774.0,
+   "ticker": "DRAM"
+  },
+  {
+   "isin": "US38747R8271",
+   "name": "GRANITESHARES 2.0X LONG NVDA DAILY ETF",
+   "buy": 439599.0,
+   "sell": 12564189.0,
+   "net": -12124590.0,
+   "ticker": "NVDL"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 1628004.0,
+   "sell": 10918069.0,
+   "net": -9290066.0,
+   "ticker": "KORU"
+  }
+ ]
+}

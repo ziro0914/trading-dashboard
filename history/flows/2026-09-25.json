@@ -1,0 +1,168 @@
+{
+ "start": "2026-09-25",
+ "end": "2026-09-25",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 468777197.0,
+   "sell": 20682375.0,
+   "net": 448094821.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 46690152.0,
+   "sell": 4758674.0,
+   "net": 41931478.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US4581401001",
+   "name": "INTEL CORP",
+   "buy": 32237326.0,
+   "sell": 2048354.0,
+   "net": 30188973.0,
+   "ticker": "INTC"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 29857656.0,
+   "sell": 5324505.0,
+   "net": 24533151.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US30303M1027",
+   "name": "META PLATFORMS INC CL A",
+   "buy": 26591311.0,
+   "sell": 3195964.0,
+   "net": 23395346.0,
+   "ticker": "META"
+  },
+  {
+   "isin": "US18915M1071",
+   "name": "CLOUDFLARE INC",
+   "buy": 20618797.0,
+   "sell": 47459.0,
+   "net": 20571337.0,
+   "ticker": "NET"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 17505897.0,
+   "sell": 2355559.0,
+   "net": 15150338.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 16294268.0,
+   "sell": 1502944.0,
+   "net": 14791324.0,
+   "ticker": "SOXX"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 18088941.0,
+   "sell": 3411911.0,
+   "net": 14677030.0,
+   "ticker": "SCHD"
+  },
+  {
+   "isin": "US6974351057",
+   "name": "PALO ALTO NETWORKS INC",
+   "buy": 12524653.0,
+   "sell": 124935.0,
+   "net": 12399717.0,
+   "ticker": "PANW"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 1162333.0,
+   "sell": 42594493.0,
+   "net": -41432160.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US38747R5202",
+   "name": "GRANITESHARES 2X LONG MRVL DAILY ETF",
+   "buy": 35714.0,
+   "sell": 22140733.0,
+   "net": -22105019.0,
+   "ticker": "MVLL"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 1089112.0,
+   "sell": 19051190.0,
+   "net": -17962077.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 7211593.0,
+   "sell": 17445509.0,
+   "net": -10233916.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 3522609.0,
+   "sell": 10320652.0,
+   "net": -6798043.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 3732985.0,
+   "sell": 9538684.0,
+   "net": -5805700.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US25461A4452",
+   "name": "DIREXION DAILY PLTR BULL 2X SHARES",
+   "buy": 1260.0,
+   "sell": 5658706.0,
+   "net": -5657446.0,
+   "ticker": "PLTU"
+  },
+  {
+   "isin": "US11135F1012",
+   "name": "BROADCOM INC EXOF 005644980 SG9999014823",
+   "buy": 7346279.0,
+   "sell": 12276449.0,
+   "net": -4930170.0,
+   "ticker": "AVGO"
+  },
+  {
+   "isin": "US1667641005",
+   "name": "CHEVRON CORP",
+   "buy": 153230.0,
+   "sell": 4840827.0,
+   "net": -4687597.0,
+   "ticker": "CVX"
+  },
+  {
+   "isin": "US25460G2865",
+   "name": "DIREXION DAILY TSLA BULL 2X SHARES",
+   "buy": 83207.0,
+   "sell": 3934811.0,
+   "net": -3851604.0,
+   "ticker": "TSLL"
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "start": "2026-10-09",
+ "end": "2026-10-09",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 578271160.0,
+   "sell": 11111231.0,
+   "net": 567159930.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 28224929.0,
+   "sell": 1058639.0,
+   "net": 27166291.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US90184D1000",
+   "name": "TWIST BIOSCIENCE CORP",
+   "buy": 17218854.0,
+   "sell": 174153.0,
+   "net": 17044701.0,
+   "ticker": "TWST"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 16486570.0,
+   "sell": 3240451.0,
+   "net": 13246119.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US0494681010",
+   "name": "ATLASSIAN CORP",
+   "buy": 12753611.0,
+   "sell": 115552.0,
+   "net": 12638060.0,
+   "ticker": "TEAM"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 12127795.0,
+   "sell": 1152353.0,
+   "net": 10975442.0,
+   "ticker": "SCHD"
+  },
+  {
+   "isin": "AU0000185993",
+   "name": "IRIS ENERGY LTD",
+   "buy": 17820797.0,
+   "sell": 7535720.0,
+   "net": 10285077.0,
+   "ticker": "IREN"
+  },
+  {
+   "isin": "US91332U1016",
+   "name": "UNITY SOFTWARE INC",
+   "buy": 9326476.0,
+   "sell": 195583.0,
+   "net": 9130893.0,
+   "ticker": "U"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 8245630.0,
+   "sell": 454840.0,
+   "net": 7790790.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "US46138G6492",
+   "name": "INVESCO NASDAQ 100 ETF",
+   "buy": 7648144.0,
+   "sell": 449391.0,
+   "net": 7198753.0,
+   "ticker": "QQQM"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 14327272.0,
+   "sell": 48069885.0,
+   "net": -33742613.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 4184293.0,
+   "sell": 37815951.0,
+   "net": -33631658.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US30303M1027",
+   "name": "META PLATFORMS INC CL A",
+   "buy": 5091259.0,
+   "sell": 33299574.0,
+   "net": -28208315.0,
+   "ticker": "META"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 6638583.0,
+   "sell": 14802390.0,
+   "net": -8163807.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 4237812.0,
+   "sell": 10645389.0,
+   "net": -6407578.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 7891594.0,
+   "sell": 12547710.0,
+   "net": -4656115.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 4456495.0,
+   "sell": 8911102.0,
+   "net": -4454607.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US7707001027",
+   "name": "ROBINHOOD MARKETS INC",
+   "buy": 755698.0,
+   "sell": 4963240.0,
+   "net": -4207542.0,
+   "ticker": "HOOD"
+  },
+  {
+   "isin": "US92840M1027",
+   "name": "VISTRA CORP",
+   "buy": 885707.0,
+   "sell": 4701208.0,
+   "net": -3815501.0,
+   "ticker": "VST"
+  },
+  {
+   "isin": "US25460G2865",
+   "name": "DIREXION DAILY TSLA BULL 2X SHARES",
+   "buy": 49130.0,
+   "sell": 3442457.0,
+   "net": -3393327.0,
+   "ticker": "TSLL"
+  }
+ ]
+}

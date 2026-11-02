@@ -1,0 +1,168 @@
+{
+ "start": "2026-10-20",
+ "end": "2026-10-20",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 276047558.0,
+   "sell": 17906111.0,
+   "net": 258141446.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 44569520.0,
+   "sell": 1840517.0,
+   "net": 42729003.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 45628568.0,
+   "sell": 6570638.0,
+   "net": 39057929.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 34749842.0,
+   "sell": 2746723.0,
+   "net": 32003119.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 31633151.0,
+   "sell": 971448.0,
+   "net": 30661703.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US46138G6492",
+   "name": "INVESCO NASDAQ 100 ETF",
+   "buy": 18120295.0,
+   "sell": 491572.0,
+   "net": 17628723.0,
+   "ticker": "QQQM"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 22502066.0,
+   "sell": 6220100.0,
+   "net": 16281966.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 19259181.0,
+   "sell": 3311819.0,
+   "net": 15947362.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 21514704.0,
+   "sell": 7054094.0,
+   "net": 14460610.0,
+   "ticker": "MRVL"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 13368664.0,
+   "sell": 661624.0,
+   "net": 12707040.0,
+   "ticker": "VOO"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 3967221.0,
+   "sell": 28202823.0,
+   "net": -24235602.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 1972702.0,
+   "sell": 16062005.0,
+   "net": -14089303.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 3644589.0,
+   "sell": 14774963.0,
+   "net": -11130374.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US6792951054",
+   "name": "OKTA INC",
+   "buy": 249131.0,
+   "sell": 8399221.0,
+   "net": -8150089.0,
+   "ticker": "OKTA"
+  },
+  {
+   "isin": "US8740391003",
+   "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR",
+   "buy": 16277344.0,
+   "sell": 24018239.0,
+   "net": -7740895.0,
+   "ticker": null
+  },
+  {
+   "isin": "US8334451098",
+   "name": "SNOWFLAKE INC",
+   "buy": 216153.0,
+   "sell": 6928053.0,
+   "net": -6711900.0,
+   "ticker": "SNOW"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 7245807.0,
+   "sell": 12832013.0,
+   "net": -5586206.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US5949724083",
+   "name": "MICROSTRATEGY INC CL A",
+   "buy": 1488946.0,
+   "sell": 6761198.0,
+   "net": -5272252.0,
+   "ticker": "MSTR"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 2078975.0,
+   "sell": 7321691.0,
+   "net": -5242716.0,
+   "ticker": "SOXX"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 23983296.0,
+   "sell": 28212909.0,
+   "net": -4229613.0,
+   "ticker": "SOXS"
+  }
+ ]
+}

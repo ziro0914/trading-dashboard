@@ -1,0 +1,168 @@
+{
+ "start": "2026-09-03",
+ "end": "2026-09-03",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 489422583.0,
+   "sell": 14730047.0,
+   "net": 474692535.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 75004278.0,
+   "sell": 780439.0,
+   "net": 74223839.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US55024U1097",
+   "name": "LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074",
+   "buy": 28010858.0,
+   "sell": 2974991.0,
+   "net": 25035866.0,
+   "ticker": "LITE"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 22362769.0,
+   "sell": 3104387.0,
+   "net": 19258382.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 15923112.0,
+   "sell": 881407.0,
+   "net": 15041706.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "US46654Q2030",
+   "name": "J.P. MORGAN NASDAQ EQUITY PREMIUM INCOME ETF",
+   "buy": 12540487.0,
+   "sell": 124588.0,
+   "net": 12415899.0,
+   "ticker": "JEPQ"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 11112074.0,
+   "sell": 336613.0,
+   "net": 10775461.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 11930813.0,
+   "sell": 1629547.0,
+   "net": 10301265.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US46138G6492",
+   "name": "INVESCO NASDAQ 100 ETF",
+   "buy": 10884159.0,
+   "sell": 652540.0,
+   "net": 10231619.0,
+   "ticker": "QQQM"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 15043848.0,
+   "sell": 7185085.0,
+   "net": 7858763.0,
+   "ticker": "TSLA"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 1100967.0,
+   "sell": 37421975.0,
+   "net": -36321009.0,
+   "ticker": "MRVL"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 3303074.0,
+   "sell": 26314455.0,
+   "net": -23011381.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 8174673.0,
+   "sell": 28833747.0,
+   "net": -20659074.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US19247G1076",
+   "name": "II-VI INCORPORATED Com CHAN 009623241 US9021041085",
+   "buy": 146175.0,
+   "sell": 20527105.0,
+   "net": -20380930.0,
+   "ticker": "COHR"
+  },
+  {
+   "isin": "US4581401001",
+   "name": "INTEL CORP",
+   "buy": 1203824.0,
+   "sell": 12897555.0,
+   "net": -11693731.0,
+   "ticker": "INTC"
+  },
+  {
+   "isin": "US4642882579",
+   "name": "ISHARES MSCI ACWI ETF",
+   "buy": 3839.0,
+   "sell": 9825204.0,
+   "net": -9821365.0,
+   "ticker": "ACWI"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 1191430.0,
+   "sell": 8509978.0,
+   "net": -7318549.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US0937121079",
+   "name": "BLOOM ENERGY CORP CL A",
+   "buy": 4807435.0,
+   "sell": 11923614.0,
+   "net": -7116179.0,
+   "ticker": "BE"
+  },
+  {
+   "isin": "IE00BKVD2N49",
+   "name": "SEAGATE TECHNOLOGY HOLDINGS PLC",
+   "buy": 47334.0,
+   "sell": 6208115.0,
+   "net": -6160781.0,
+   "ticker": "STX"
+  },
+  {
+   "isin": "US0378331005",
+   "name": "APPLE INC",
+   "buy": 1348471.0,
+   "sell": 7331166.0,
+   "net": -5982695.0,
+   "ticker": "AAPL"
+  }
+ ]
+}

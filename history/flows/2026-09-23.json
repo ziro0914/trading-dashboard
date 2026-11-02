@@ -1,0 +1,168 @@
+{
+ "start": "2026-09-23",
+ "end": "2026-09-23",
+ "netBuy": [
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 79428670.0,
+   "sell": 5918761.0,
+   "net": 73509909.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US6974351057",
+   "name": "PALO ALTO NETWORKS INC",
+   "buy": 43479046.0,
+   "sell": 290246.0,
+   "net": 43188800.0,
+   "ticker": "PANW"
+  },
+  {
+   "isin": "US5949724083",
+   "name": "MICROSTRATEGY INC CL A",
+   "buy": 33058909.0,
+   "sell": 1944094.0,
+   "net": 31114815.0,
+   "ticker": "MSTR"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 24064748.0,
+   "sell": 510211.0,
+   "net": 23554537.0,
+   "ticker": "SCHD"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 21392374.0,
+   "sell": 3098230.0,
+   "net": 18294144.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 17837288.0,
+   "sell": 3287466.0,
+   "net": 14549821.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US11135F1012",
+   "name": "BROADCOM INC EXOF 005644980 SG9999014823",
+   "buy": 15024066.0,
+   "sell": 2757775.0,
+   "net": 12266291.0,
+   "ticker": "AVGO"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 16302633.0,
+   "sell": 4048720.0,
+   "net": 12253913.0,
+   "ticker": "SOXX"
+  },
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 15771910.0,
+   "sell": 6838976.0,
+   "net": 8932934.0,
+   "ticker": "MRVL"
+  },
+  {
+   "isin": "US57667L1070",
+   "name": "MATCH GROUP INC",
+   "buy": 8252623.0,
+   "sell": 36468.0,
+   "net": 8216154.0,
+   "ticker": "MTCH"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 14881367.0,
+   "sell": 473888386.0,
+   "net": -459007019.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 1405001.0,
+   "sell": 123926291.0,
+   "net": -122521291.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 697984.0,
+   "sell": 46879895.0,
+   "net": -46181911.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 6997542.0,
+   "sell": 50537370.0,
+   "net": -43539828.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US4581401001",
+   "name": "INTEL CORP",
+   "buy": 5364713.0,
+   "sell": 29975344.0,
+   "net": -24610631.0,
+   "ticker": "INTC"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 19825165.0,
+   "sell": 41971391.0,
+   "net": -22146225.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 11780916.0,
+   "sell": 32825848.0,
+   "net": -21044932.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 9447014.0,
+   "sell": 30341795.0,
+   "net": -20894781.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US30303M1027",
+   "name": "META PLATFORMS INC CL A",
+   "buy": 2233748.0,
+   "sell": 23117546.0,
+   "net": -20883798.0,
+   "ticker": "META"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 5659393.0,
+   "sell": 21656358.0,
+   "net": -15996965.0,
+   "ticker": "AMD"
+  }
+ ]
+}

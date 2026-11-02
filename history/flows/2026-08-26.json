@@ -1,0 +1,168 @@
+{
+ "start": "2026-08-26",
+ "end": "2026-08-26",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 534804303.0,
+   "sell": 30313989.0,
+   "net": 504490314.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US58933Y1055",
+   "name": "MERCK N CO INC",
+   "buy": 41447615.0,
+   "sell": 58501.0,
+   "net": 41389114.0,
+   "ticker": "MRK"
+  },
+  {
+   "isin": "US5949724083",
+   "name": "MICROSTRATEGY INC CL A",
+   "buy": 30862265.0,
+   "sell": 4960130.0,
+   "net": 25902136.0,
+   "ticker": "MSTR"
+  },
+  {
+   "isin": "US6974351057",
+   "name": "PALO ALTO NETWORKS INC",
+   "buy": 22279058.0,
+   "sell": 471204.0,
+   "net": 21807854.0,
+   "ticker": "PANW"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 21066416.0,
+   "sell": 2140834.0,
+   "net": 18925582.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US78463V1070",
+   "name": "SPDR GOLD SHARES ETF",
+   "buy": 17520277.0,
+   "sell": 1016087.0,
+   "net": 16504189.0,
+   "ticker": "GLD"
+  },
+  {
+   "isin": "US8835561023",
+   "name": "THERMO FISHER SCIENTIFIC INC",
+   "buy": 15764635.0,
+   "sell": 21823.0,
+   "net": 15742811.0,
+   "ticker": "TMO"
+  },
+  {
+   "isin": "US18915M1071",
+   "name": "CLOUDFLARE INC",
+   "buy": 13563170.0,
+   "sell": 74242.0,
+   "net": 13488927.0,
+   "ticker": "NET"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 14660565.0,
+   "sell": 3342979.0,
+   "net": 11317586.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US60770K1079",
+   "name": "MODERNA INC",
+   "buy": 16588265.0,
+   "sell": 5432729.0,
+   "net": 11155536.0,
+   "ticker": "MRNA"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US0382221051",
+   "name": "APPLIED MATERIALS INC",
+   "buy": 116743.0,
+   "sell": 46562439.0,
+   "net": -46445696.0,
+   "ticker": "AMAT"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 2337713.0,
+   "sell": 40290547.0,
+   "net": -37952834.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 11496390.0,
+   "sell": 43392388.0,
+   "net": -31895998.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 5142536.0,
+   "sell": 29928895.0,
+   "net": -24786358.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US82706C1080",
+   "name": "SILICON MOTION TECHNOLOGY CORP ADR",
+   "buy": 135733.0,
+   "sell": 15125892.0,
+   "net": -14990159.0,
+   "ticker": "SIMO"
+  },
+  {
+   "isin": "US4581401001",
+   "name": "INTEL CORP",
+   "buy": 2677798.0,
+   "sell": 13161077.0,
+   "net": -10483279.0,
+   "ticker": "INTC"
+  },
+  {
+   "isin": "US77926X3200",
+   "name": "ROUNDHILL MEMORY ETF",
+   "buy": 655499.0,
+   "sell": 9282708.0,
+   "net": -8627208.0,
+   "ticker": "DRAM"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 1457139.0,
+   "sell": 9223267.0,
+   "net": -7766128.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US03823U1025",
+   "name": "APPLIED OPTOELECTRONICS INC",
+   "buy": 150741.0,
+   "sell": 7439822.0,
+   "net": -7289081.0,
+   "ticker": "AAOI"
+  },
+  {
+   "isin": "US88023B1035",
+   "name": "Tempus AI Inc",
+   "buy": 216587.0,
+   "sell": 7293170.0,
+   "net": -7076584.0,
+   "ticker": "TEM"
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "start": "2026-10-23",
+ "end": "2026-10-23",
+ "netBuy": [
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 47216299.0,
+   "sell": 7439307.0,
+   "net": 39776992.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 36410147.0,
+   "sell": 2342064.0,
+   "net": 34068083.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US8740391003",
+   "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR",
+   "buy": 24806766.0,
+   "sell": 1871106.0,
+   "net": 22935660.0,
+   "ticker": null
+  },
+  {
+   "isin": "US30303M1027",
+   "name": "META PLATFORMS INC CL A",
+   "buy": 19992348.0,
+   "sell": 1172971.0,
+   "net": 18819377.0,
+   "ticker": "META"
+  },
+  {
+   "isin": "US0937121079",
+   "name": "BLOOM ENERGY CORP CL A",
+   "buy": 14073476.0,
+   "sell": 347922.0,
+   "net": 13725553.0,
+   "ticker": "BE"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 12544303.0,
+   "sell": 434905.0,
+   "net": 12109398.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 13559182.0,
+   "sell": 3458174.0,
+   "net": 10101007.0,
+   "ticker": "SOXX"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 13222331.0,
+   "sell": 3539840.0,
+   "net": 9682491.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 11272375.0,
+   "sell": 2519501.0,
+   "net": 8752874.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US46090E1038",
+   "name": "INVESCO QQQ TRUST SRS 1 ETF",
+   "buy": 9072428.0,
+   "sell": 475637.0,
+   "net": 8596790.0,
+   "ticker": "QQQ"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 30170946.0,
+   "sell": 224045894.0,
+   "net": -193874949.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 8570433.0,
+   "sell": 29307285.0,
+   "net": -20736852.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US25460G2865",
+   "name": "DIREXION DAILY TSLA BULL 2X SHARES",
+   "buy": 1399926.0,
+   "sell": 15051803.0,
+   "net": -13651877.0,
+   "ticker": "TSLL"
+  },
+  {
+   "isin": "US5324571083",
+   "name": "ELI LILLY & CO",
+   "buy": 282171.0,
+   "sell": 5759777.0,
+   "net": -5477606.0,
+   "ticker": "LLY"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 4885694.0,
+   "sell": 7795229.0,
+   "net": -2909535.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 3866255.0,
+   "sell": 6434006.0,
+   "net": -2567752.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US4642874329",
+   "name": "ISHARES 20+ YEAR TREASURY BOND ETF",
+   "buy": 791378.0,
+   "sell": 3085497.0,
+   "net": -2294119.0,
+   "ticker": "TLT"
+  },
+  {
+   "isin": "US0378331005",
+   "name": "APPLE INC",
+   "buy": 880177.0,
+   "sell": 3072807.0,
+   "net": -2192630.0,
+   "ticker": "AAPL"
+  },
+  {
+   "isin": "US1725731079",
+   "name": "Circle Internet",
+   "buy": 649646.0,
+   "sell": 2431615.0,
+   "net": -1781968.0,
+   "ticker": "CRCL"
+  },
+  {
+   "isin": "US91324P1021",
+   "name": "UNITEDHEALTH GROUP INC",
+   "buy": 38715.0,
+   "sell": 1759159.0,
+   "net": -1720444.0,
+   "ticker": "UNH"
+  }
+ ]
+}

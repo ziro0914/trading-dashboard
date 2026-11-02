@@ -1,0 +1,168 @@
+{
+ "start": "2026-10-14",
+ "end": "2026-10-14",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 866438393.0,
+   "sell": 19696331.0,
+   "net": 846742062.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 49274459.0,
+   "sell": 2947080.0,
+   "net": 46327379.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 52656402.0,
+   "sell": 8247438.0,
+   "net": 44408964.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "AU0000185993",
+   "name": "IRIS ENERGY LTD",
+   "buy": 29041943.0,
+   "sell": 3628331.0,
+   "net": 25413611.0,
+   "ticker": "IREN"
+  },
+  {
+   "isin": "US55024U1097",
+   "name": "LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074",
+   "buy": 29507116.0,
+   "sell": 5741529.0,
+   "net": 23765588.0,
+   "ticker": "LITE"
+  },
+  {
+   "isin": "CA82509L1076",
+   "name": "SHOPIFY INC CL A",
+   "buy": 22739075.0,
+   "sell": 358333.0,
+   "net": 22380743.0,
+   "ticker": "SHOP"
+  },
+  {
+   "isin": "US90184D1000",
+   "name": "TWIST BIOSCIENCE CORP",
+   "buy": 14524934.0,
+   "sell": 427575.0,
+   "net": 14097359.0,
+   "ticker": "TWST"
+  },
+  {
+   "isin": "CA15101Q2071",
+   "name": "CELESTICA INC COM NPV EXOF 959276693 CA15101Q1081",
+   "buy": 13588927.0,
+   "sell": 329046.0,
+   "net": 13259881.0,
+   "ticker": null
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 16991244.0,
+   "sell": 4670831.0,
+   "net": 12320413.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US0494681010",
+   "name": "ATLASSIAN CORP",
+   "buy": 11367735.0,
+   "sell": 60938.0,
+   "net": 11306796.0,
+   "ticker": "TEAM"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 27724257.0,
+   "sell": 86201383.0,
+   "net": -58477125.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 9431672.0,
+   "sell": 53697444.0,
+   "net": -44265773.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 5459360.0,
+   "sell": 43162388.0,
+   "net": -37703028.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 11263731.0,
+   "sell": 40775077.0,
+   "net": -29511346.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 23865387.0,
+   "sell": 49244088.0,
+   "net": -25378700.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 7942769.0,
+   "sell": 29902369.0,
+   "net": -21959601.0,
+   "ticker": "AMD"
+  },
+  {
+   "isin": "US4581401001",
+   "name": "INTEL CORP",
+   "buy": 10129730.0,
+   "sell": 24317544.0,
+   "net": -14187815.0,
+   "ticker": "INTC"
+  },
+  {
+   "isin": "US25461A4452",
+   "name": "DIREXION DAILY PLTR BULL 2X SHARES",
+   "buy": 4065.0,
+   "sell": 13942788.0,
+   "net": -13938723.0,
+   "ticker": "PLTU"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 23322582.0,
+   "sell": 33711965.0,
+   "net": -10389382.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 9394824.0,
+   "sell": 18614849.0,
+   "net": -9220025.0,
+   "ticker": "MRVL"
+  }
+ ]
+}

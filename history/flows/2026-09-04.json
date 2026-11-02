@@ -1,0 +1,168 @@
+{
+ "start": "2026-09-04",
+ "end": "2026-09-04",
+ "netBuy": [
+  {
+   "isin": "US58933Y1055",
+   "name": "MERCK N CO INC",
+   "buy": 36648652.0,
+   "sell": 108074.0,
+   "net": 36540578.0,
+   "ticker": "MRK"
+  },
+  {
+   "isin": "US9311421039",
+   "name": "WALMART INC",
+   "buy": 27716244.0,
+   "sell": 501051.0,
+   "net": 27215194.0,
+   "ticker": "WMT"
+  },
+  {
+   "isin": "US30303M1027",
+   "name": "META PLATFORMS INC CL A",
+   "buy": 29818100.0,
+   "sell": 4209384.0,
+   "net": 25608716.0,
+   "ticker": "META"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 21912857.0,
+   "sell": 1681089.0,
+   "net": 20231768.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US11135F1012",
+   "name": "BROADCOM INC EXOF 005644980 SG9999014823",
+   "buy": 20514320.0,
+   "sell": 3439082.0,
+   "net": 17075238.0,
+   "ticker": "AVGO"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 13842740.0,
+   "sell": 876452.0,
+   "net": 12966288.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "KYG254571055",
+   "name": "CREDO TECHNOLOGY GROUP HOLDING LTD",
+   "buy": 13535635.0,
+   "sell": 2340765.0,
+   "net": 11194870.0,
+   "ticker": "CRDO"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 9607911.0,
+   "sell": 970646.0,
+   "net": 8637265.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 23768806.0,
+   "sell": 15491853.0,
+   "net": 8276953.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US81369Y5069",
+   "name": "ENERGY SELECT SECTOR SPDR ETF",
+   "buy": 7410841.0,
+   "sell": 308799.0,
+   "net": 7102042.0,
+   "ticker": "XLE"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 26020850.0,
+   "sell": 258745827.0,
+   "net": -232724977.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US21873S1087",
+   "name": "CoreWeave Inc",
+   "buy": 267728.0,
+   "sell": 35449190.0,
+   "net": -35181462.0,
+   "ticker": "CRWV"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 1083758.0,
+   "sell": 26907994.0,
+   "net": -25824235.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US19247G1076",
+   "name": "II-VI INCORPORATED Com CHAN 009623241 US9021041085",
+   "buy": 609945.0,
+   "sell": 18957479.0,
+   "net": -18347534.0,
+   "ticker": "COHR"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 9476766.0,
+   "sell": 27401251.0,
+   "net": -17924485.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 4768259.0,
+   "sell": 20084443.0,
+   "net": -15316183.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US67079K1007",
+   "name": "NUSCALE POWER CORP CL A MRGR 009185329 KYG8377A1085",
+   "buy": 7963660.0,
+   "sell": 21005981.0,
+   "net": -13042321.0,
+   "ticker": "SMR"
+  },
+  {
+   "isin": "US4642882579",
+   "name": "ISHARES MSCI ACWI ETF",
+   "buy": 6082.0,
+   "sell": 11768230.0,
+   "net": -11762148.0,
+   "ticker": "ACWI"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 2024301.0,
+   "sell": 13375250.0,
+   "net": -11350949.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 1324193.0,
+   "sell": 10920606.0,
+   "net": -9596413.0,
+   "ticker": "KORU"
+  }
+ ]
+}

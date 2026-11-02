@@ -1,0 +1,168 @@
+{
+ "start": "2026-08-18",
+ "end": "2026-08-18",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 410089494.0,
+   "sell": 11118486.0,
+   "net": 398971008.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "AU0000185993",
+   "name": "IRIS ENERGY LTD",
+   "buy": 50579346.0,
+   "sell": 412264.0,
+   "net": 50167082.0,
+   "ticker": "IREN"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 56174711.0,
+   "sell": 9928644.0,
+   "net": 46246067.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 32232624.0,
+   "sell": 2118663.0,
+   "net": 30113961.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 23233851.0,
+   "sell": 1930494.0,
+   "net": 21303357.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US67079K1007",
+   "name": "NUSCALE POWER CORP CL A MRGR 009185329 KYG8377A1085",
+   "buy": 23660571.0,
+   "sell": 3861058.0,
+   "net": 19799513.0,
+   "ticker": "SMR"
+  },
+  {
+   "isin": "US11135F1012",
+   "name": "BROADCOM INC EXOF 005644980 SG9999014823",
+   "buy": 20861506.0,
+   "sell": 2190241.0,
+   "net": 18671265.0,
+   "ticker": "AVGO"
+  },
+  {
+   "isin": "NL0009805522",
+   "name": "YANDEX NV CL A",
+   "buy": 22879341.0,
+   "sell": 4424733.0,
+   "net": 18454608.0,
+   "ticker": "NBIS"
+  },
+  {
+   "isin": "US50077B2079",
+   "name": "KRATOS DEFENSE AND SECURITY SOLUTIONS INC",
+   "buy": 11420698.0,
+   "sell": 53429.0,
+   "net": 11367269.0,
+   "ticker": "KTOS"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 12208145.0,
+   "sell": 1972830.0,
+   "net": 10235314.0,
+   "ticker": "VOO"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US7731211089",
+   "name": "ROCKET LAB CORPORATION COM USD0.0001 MRGR 978814817 US7731221062",
+   "buy": 1648897.0,
+   "sell": 41694224.0,
+   "net": -40045327.0,
+   "ticker": "RKLB"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 3851221.0,
+   "sell": 20357781.0,
+   "net": -16506560.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US0231351067",
+   "name": "AMAZON.COM INC",
+   "buy": 1069211.0,
+   "sell": 17325632.0,
+   "net": -16256421.0,
+   "ticker": "AMZN"
+  },
+  {
+   "isin": "US21873S1087",
+   "name": "CoreWeave Inc",
+   "buy": 2081972.0,
+   "sell": 16912478.0,
+   "net": -14830506.0,
+   "ticker": "CRWV"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 936755.0,
+   "sell": 14105118.0,
+   "net": -13168364.0,
+   "ticker": "AMD"
+  },
+  {
+   "isin": "US1491231015",
+   "name": "CATERPILLAR INC",
+   "buy": 220417.0,
+   "sell": 10207210.0,
+   "net": -9986794.0,
+   "ticker": "CAT"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 845753.0,
+   "sell": 10772912.0,
+   "net": -9927159.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 3530385.0,
+   "sell": 12147321.0,
+   "net": -8616936.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US00773J2024",
+   "name": "AEGLEA BIOTHERAPEUTICS INC AEGLEA BIOTHERAPEUTICS INC SPLR 946418209 US00773J1034",
+   "buy": 12146.0,
+   "sell": 7252891.0,
+   "net": -7240744.0,
+   "ticker": "SYRE"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 4263056.0,
+   "sell": 10448057.0,
+   "net": -6185001.0,
+   "ticker": "SKHY"
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "start": "2026-08-11",
+ "end": "2026-08-11",
+ "netBuy": [
+  {
+   "isin": "US19247G1076",
+   "name": "II-VI INCORPORATED Com CHAN 009623241 US9021041085",
+   "buy": 22760901.0,
+   "sell": 1327844.0,
+   "net": 21433057.0,
+   "ticker": "COHR"
+  },
+  {
+   "isin": "US00971T1016",
+   "name": "AKAMAI TECHNOLOGIES INC",
+   "buy": 20150896.0,
+   "sell": 14093.0,
+   "net": 20136803.0,
+   "ticker": "AKAM"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 18163068.0,
+   "sell": 3906979.0,
+   "net": 14256088.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 11814144.0,
+   "sell": 353457.0,
+   "net": 11460686.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US46138G6492",
+   "name": "INVESCO NASDAQ 100 ETF",
+   "buy": 10176341.0,
+   "sell": 671767.0,
+   "net": 9504575.0,
+   "ticker": "QQQM"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 8645378.0,
+   "sell": 1157850.0,
+   "net": 7487529.0,
+   "ticker": "SCHD"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 9923513.0,
+   "sell": 3007983.0,
+   "net": 6915530.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US46125A1007",
+   "name": "INFLECTION POINT ACQUISITIO INTUITIVE MACHINES INC MRGR 944502928 KYG478741211",
+   "buy": 6992281.0,
+   "sell": 178368.0,
+   "net": 6813913.0,
+   "ticker": "LUNR"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 14826309.0,
+   "sell": 8071168.0,
+   "net": 6755140.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US7731211089",
+   "name": "ROCKET LAB CORPORATION COM USD0.0001 MRGR 978814817 US7731221062",
+   "buy": 6971947.0,
+   "sell": 508768.0,
+   "net": 6463180.0,
+   "ticker": "RKLB"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 20708469.0,
+   "sell": 516651484.0,
+   "net": -495943015.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 14351904.0,
+   "sell": 42796220.0,
+   "net": -28444316.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US77926X3200",
+   "name": "ROUNDHILL MEMORY ETF",
+   "buy": 771049.0,
+   "sell": 25324922.0,
+   "net": -24553873.0,
+   "ticker": "DRAM"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 7779001.0,
+   "sell": 29658357.0,
+   "net": -21879357.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 1541278.0,
+   "sell": 18581079.0,
+   "net": -17039801.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US25461A4452",
+   "name": "DIREXION DAILY PLTR BULL 2X SHARES",
+   "buy": 50436.0,
+   "sell": 16109691.0,
+   "net": -16059255.0,
+   "ticker": "PLTU"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 1558187.0,
+   "sell": 16830271.0,
+   "net": -15272085.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US4581401001",
+   "name": "INTEL CORP",
+   "buy": 1334908.0,
+   "sell": 14431365.0,
+   "net": -13096457.0,
+   "ticker": "INTC"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 7075646.0,
+   "sell": 14620108.0,
+   "net": -7544462.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US45676K1034",
+   "name": "INFLEQTION INC MRGR 2641200547002 KYG2130T1242",
+   "buy": 134997.0,
+   "sell": 6837239.0,
+   "net": -6702241.0,
+   "ticker": "INFQ"
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "start": "2026-08-21",
+ "end": "2026-08-21",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 540271445.0,
+   "sell": 17535671.0,
+   "net": 522735774.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 65059873.0,
+   "sell": 9333433.0,
+   "net": 55726440.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 59030017.0,
+   "sell": 3828142.0,
+   "net": 55201876.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US26923V4150",
+   "name": "ROUNDHILL T-REX 2X LONG DRAM DAILY TARGET ETF",
+   "buy": 28789113.0,
+   "sell": 2319794.0,
+   "net": 26469320.0,
+   "ticker": "RAM"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 30250176.0,
+   "sell": 8945217.0,
+   "net": 21304959.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US11135F1012",
+   "name": "BROADCOM INC EXOF 005644980 SG9999014823",
+   "buy": 23138167.0,
+   "sell": 2884691.0,
+   "net": 20253476.0,
+   "ticker": "AVGO"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 38353541.0,
+   "sell": 18707658.0,
+   "net": 19645884.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US77926X3200",
+   "name": "ROUNDHILL MEMORY ETF",
+   "buy": 16596839.0,
+   "sell": 1730664.0,
+   "net": 14866175.0,
+   "ticker": "DRAM"
+  },
+  {
+   "isin": "US55024U1097",
+   "name": "LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074",
+   "buy": 17778771.0,
+   "sell": 3000338.0,
+   "net": 14778433.0,
+   "ticker": "LITE"
+  },
+  {
+   "isin": "US0937121079",
+   "name": "BLOOM ENERGY CORP CL A",
+   "buy": 15791762.0,
+   "sell": 2500845.0,
+   "net": 13290918.0,
+   "ticker": "BE"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 2116309.0,
+   "sell": 38510087.0,
+   "net": -36393778.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US88636X2036",
+   "name": "TIDAL TRUST II YIELDMAX MRNA OPT INCOME ST SPLR 988041332 US88634T4691",
+   "buy": 55731.0,
+   "sell": 21843835.0,
+   "net": -21788104.0,
+   "ticker": "MRNY"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 5081767.0,
+   "sell": 25188890.0,
+   "net": -20107124.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US75734B1008",
+   "name": "REDDIT INC",
+   "buy": 700667.0,
+   "sell": 16037776.0,
+   "net": -15337108.0,
+   "ticker": "RDDT"
+  },
+  {
+   "isin": "US0378331005",
+   "name": "APPLE INC",
+   "buy": 1116740.0,
+   "sell": 13000714.0,
+   "net": -11883974.0,
+   "ticker": "AAPL"
+  },
+  {
+   "isin": "US0636795421",
+   "name": "MicroSectors Gold Miners 3X Leveraged ETN",
+   "buy": 726340.0,
+   "sell": 11589197.0,
+   "net": -10862857.0,
+   "ticker": "GDXU"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 5331327.0,
+   "sell": 15678376.0,
+   "net": -10347049.0,
+   "ticker": "AMD"
+  },
+  {
+   "isin": "US0382221051",
+   "name": "APPLIED MATERIALS INC",
+   "buy": 4705521.0,
+   "sell": 14857292.0,
+   "net": -10151770.0,
+   "ticker": "AMAT"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 6392528.0,
+   "sell": 15142859.0,
+   "net": -8750331.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US25460G2865",
+   "name": "DIREXION DAILY TSLA BULL 2X SHARES",
+   "buy": 178456.0,
+   "sell": 7884270.0,
+   "net": -7705814.0,
+   "ticker": "TSLL"
+  }
+ ]
+}

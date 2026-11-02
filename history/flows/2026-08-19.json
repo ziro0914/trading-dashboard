@@ -1,0 +1,168 @@
+{
+ "start": "2026-08-19",
+ "end": "2026-08-19",
+ "netBuy": [
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 51796906.0,
+   "sell": 10058666.0,
+   "net": 41738241.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 29405763.0,
+   "sell": 1885340.0,
+   "net": 27520423.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 30310291.0,
+   "sell": 8217383.0,
+   "net": 22092908.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 19391981.0,
+   "sell": 7525784.0,
+   "net": 11866197.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 26216451.0,
+   "sell": 14655322.0,
+   "net": 11561129.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 10880717.0,
+   "sell": 1185796.0,
+   "net": 9694920.0,
+   "ticker": "SCHD"
+  },
+  {
+   "isin": "US26923V4150",
+   "name": "ROUNDHILL T-REX 2X LONG DRAM DAILY TARGET ETF",
+   "buy": 9526996.0,
+   "sell": 1601131.0,
+   "net": 7925866.0,
+   "ticker": "RAM"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 8380714.0,
+   "sell": 466613.0,
+   "net": 7914102.0,
+   "ticker": "SOXX"
+  },
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 10386164.0,
+   "sell": 3462637.0,
+   "net": 6923527.0,
+   "ticker": "MRVL"
+  },
+  {
+   "isin": "US78433H6751",
+   "name": "NEOS NASDAQ 100 HIGH INCOME ETF",
+   "buy": 7001373.0,
+   "sell": 198756.0,
+   "net": 6802617.0,
+   "ticker": "QQQI"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 48780965.0,
+   "sell": 652528078.0,
+   "net": -603747112.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 392497.0,
+   "sell": 99856095.0,
+   "net": -99463598.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US55024U1097",
+   "name": "LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074",
+   "buy": 14532097.0,
+   "sell": 42291919.0,
+   "net": -27759822.0,
+   "ticker": "LITE"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 992158.0,
+   "sell": 23521538.0,
+   "net": -22529380.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 3095354.0,
+   "sell": 20692310.0,
+   "net": -17596956.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 6270069.0,
+   "sell": 18658139.0,
+   "net": -12388070.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US8334451098",
+   "name": "SNOWFLAKE INC",
+   "buy": 45192.0,
+   "sell": 11984135.0,
+   "net": -11938942.0,
+   "ticker": "SNOW"
+  },
+  {
+   "isin": "US46152A6689",
+   "name": "TRADR 2X LONG SNDK DAILY ETF",
+   "buy": 777680.0,
+   "sell": 9329504.0,
+   "net": -8551824.0,
+   "ticker": "SNXX"
+  },
+  {
+   "isin": "US25461A8669",
+   "name": "DIREXION DAILY MSFT BULL 1 5X ETF",
+   "buy": 27283.0,
+   "sell": 7510062.0,
+   "net": -7482779.0,
+   "ticker": "MSFU"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 4043375.0,
+   "sell": 11233440.0,
+   "net": -7190066.0,
+   "ticker": "KORU"
+  }
+ ]
+}

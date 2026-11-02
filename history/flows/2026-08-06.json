@@ -1,0 +1,168 @@
+{
+ "start": "2026-08-06",
+ "end": "2026-08-06",
+ "netBuy": [
+  {
+   "isin": "US4581401001",
+   "name": "INTEL CORP",
+   "buy": 76790567.0,
+   "sell": 3724088.0,
+   "net": 73066479.0,
+   "ticker": "INTC"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 62840132.0,
+   "sell": 8616935.0,
+   "net": 54223197.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US0231351067",
+   "name": "AMAZON.COM INC",
+   "buy": 61460571.0,
+   "sell": 8755590.0,
+   "net": 52704981.0,
+   "ticker": "AMZN"
+  },
+  {
+   "isin": "US0937121079",
+   "name": "BLOOM ENERGY CORP CL A",
+   "buy": 40858970.0,
+   "sell": 1912334.0,
+   "net": 38946635.0,
+   "ticker": "BE"
+  },
+  {
+   "isin": "US03823U1025",
+   "name": "APPLIED OPTOELECTRONICS INC",
+   "buy": 30838096.0,
+   "sell": 219960.0,
+   "net": 30618136.0,
+   "ticker": "AAOI"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 39013045.0,
+   "sell": 8666279.0,
+   "net": 30346766.0,
+   "ticker": "AMD"
+  },
+  {
+   "isin": "US19247G1076",
+   "name": "II-VI INCORPORATED Com CHAN 009623241 US9021041085",
+   "buy": 25666357.0,
+   "sell": 144374.0,
+   "net": 25521983.0,
+   "ticker": "COHR"
+  },
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 26207311.0,
+   "sell": 740338.0,
+   "net": 25466973.0,
+   "ticker": "MRVL"
+  },
+  {
+   "isin": "US23804L1035",
+   "name": "DATADOG INC CL A",
+   "buy": 24197003.0,
+   "sell": 14274.0,
+   "net": 24182729.0,
+   "ticker": "DDOG"
+  },
+  {
+   "isin": "NL0009805522",
+   "name": "YANDEX NV CL A",
+   "buy": 26456593.0,
+   "sell": 2634552.0,
+   "net": 23822041.0,
+   "ticker": "NBIS"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 22549911.0,
+   "sell": 883499669.0,
+   "net": -860949758.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 8918887.0,
+   "sell": 184155722.0,
+   "net": -175236835.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 10750982.0,
+   "sell": 57226119.0,
+   "net": -46475137.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 7046950.0,
+   "sell": 39135009.0,
+   "net": -32088059.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 5306104.0,
+   "sell": 36554255.0,
+   "net": -31248151.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US25461A4452",
+   "name": "DIREXION DAILY PLTR BULL 2X SHARES",
+   "buy": 442021.0,
+   "sell": 26178715.0,
+   "net": -25736694.0,
+   "ticker": "PLTU"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 11116380.0,
+   "sell": 33168885.0,
+   "net": -22052505.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US90138F1021",
+   "name": "TWILIO INC CL A",
+   "buy": 15022.0,
+   "sell": 13286047.0,
+   "net": -13271025.0,
+   "ticker": "TWLO"
+  },
+  {
+   "isin": "US11135F1012",
+   "name": "BROADCOM INC EXOF 005644980 SG9999014823",
+   "buy": 2262086.0,
+   "sell": 15455685.0,
+   "net": -13193599.0,
+   "ticker": "AVGO"
+  },
+  {
+   "isin": "US25461A8669",
+   "name": "DIREXION DAILY MSFT BULL 1 5X ETF",
+   "buy": 461915.0,
+   "sell": 11691737.0,
+   "net": -11229822.0,
+   "ticker": "MSFU"
+  }
+ ]
+}

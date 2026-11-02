@@ -16,7 +16,8 @@ from data import (
     search_symbols,
     short_name,
 )
-from flows import load_flows
+import etf_flows
+from flows import load_flows, load_saved_days
 from metrics import drawdown, max_drawdown, performance, slice_window
 
 BLUE, ORANGE, AQUA = "#2a78d6", "#eb6834", "#1baf7a"
@@ -141,24 +142,59 @@ def flow_table(rows: list[dict]) -> pd.DataFrame:
     )
 
 
+def etf_table(rows: list[dict]) -> pd.DataFrame:
+    return pd.DataFrame(
+        {
+            "순위": range(1, len(rows) + 1),
+            "ETF": [row["name"] for row in rows],
+            "금액": [f"{abs(row['net']) / 1e8:,.1f}억원" for row in rows],
+        }
+    )
+
+
+def render_etf_flows():
+    st.subheader("연금계좌 ETF 개인 순매수·순매도 TOP 10")
+    days = {day["end"]: day for day in etf_flows.load_saved_days()}
+    if not days:
+        st.warning("저장된 기록이 없습니다. run.sh로 다시 켜면 GitHub에서 기록을 받아옵니다.")
+        return
+    view = days[st.selectbox("날짜", sorted(days, reverse=True))]
+    left, right = st.columns(2)
+    left.markdown("**순매수**")
+    left.dataframe(etf_table(view["netBuy"]), hide_index=True, width="stretch")
+    right.markdown("**순매도**")
+    right.dataframe(etf_table(view["netSell"]), hide_index=True, width="stretch")
+    st.caption(
+        "연금계좌만의 매매 내역은 공개되지 않아, 연금계좌에서 살 수 있는 국내 상장 ETF의 개인 투자자 전체 순매수로 "
+        "대신합니다. 레버리지·인버스는 제외했고, 거래대금 상위 300개를 집계했습니다. 출처: 네이버 증권."
+    )
+
+
 def render_flows():
-    st.subheader("한국 투자자 순매수·순매도 TOP 10")
+    st.subheader("한국 투자자 미국주식 순매수·순매도 TOP 10")
+    days = {day["end"]: day for day in load_saved_days()}
+    weekly = {}
     try:
         flows = cached_flows()
+        days[flows["daily"]["end"]] = flows["daily"]
+        weekly = {f"최근 1주 합계 (~{flows['weekly']['end']})": flows["weekly"]}
     except Exception:
-        st.warning("순위 데이터를 불러오지 못했습니다.")
+        st.warning("최신 순위를 불러오지 못해 저장된 기록만 표시합니다.")
+    dates = sorted(days, reverse=True)
+    if not dates:
         return
-    for tab, key in zip(st.tabs(["하루", "1주"]), ("daily", "weekly")):
-        view = flows[key]
-        left, right = tab.columns(2)
-        left.markdown("**순매수**")
-        left.dataframe(flow_table(view["netBuy"]), hide_index=True, width="stretch")
-        right.markdown("**순매도**")
-        right.dataframe(flow_table(view["netSell"]), hide_index=True, width="stretch")
-        tab.caption(
-            f"결제일 {view['start']} ~ {view['end']} 기준이라 실제 매매일과 1~2일 차이가 납니다. "
-            "예탁결제원을 거친 내역만 집계되며, 순매도는 매도결제 상위 50개 종목에서 계산했습니다. 출처: SEIBro."
-        )
+    views = {dates[0]: days[dates[0]], **weekly, **{date: days[date] for date in dates[1:]}}
+    choice = st.selectbox("날짜", list(views))
+    view = views[choice]
+    left, right = st.columns(2)
+    left.markdown("**순매수**")
+    left.dataframe(flow_table(view["netBuy"]), hide_index=True, width="stretch")
+    right.markdown("**순매도**")
+    right.dataframe(flow_table(view["netSell"]), hide_index=True, width="stretch")
+    st.caption(
+        f"결제일 {view['start']} ~ {view['end']} 기준이라 실제 매매일과 1~2일 차이가 납니다. "
+        "예탁결제원을 거친 내역만 집계되며, 순매도는 매도결제 상위 50개 종목에서 계산했습니다. 출처: SEIBro."
+    )
 
 
 def render_profile(ticker, info, hist):
@@ -294,6 +330,13 @@ def main():
     st.set_page_config(page_title="미국주식 대시보드", page_icon="📈", layout="wide")
     st.markdown(MOBILE_CSS, unsafe_allow_html=True)
     st.title("미국주식 대시보드")
+    menu = st.segmented_control("메뉴", ["종목 검색", "미국주식 순위", "연금계좌 ETF 순위"], default="종목 검색")
+    if menu == "미국주식 순위":
+        render_flows()
+        return
+    if menu == "연금계좌 ETF 순위":
+        render_etf_flows()
+        return
     if "query" not in st.session_state:
         st.session_state.query = st.query_params.get("ticker", "AAPL")
     left, middle, right = st.columns([1, 1, 1])
@@ -301,7 +344,6 @@ def main():
     period = right.segmented_control("기간", list(WINDOWS), default="5년") or "5년"
 
     render_market()
-    render_flows()
     st.divider()
 
     candidates = search_symbols(query) if query else []

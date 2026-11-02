@@ -1,0 +1,168 @@
+{
+ "start": "2026-08-31",
+ "end": "2026-08-31",
+ "netBuy": [
+  {
+   "isin": "US30303M1027",
+   "name": "META PLATFORMS INC CL A",
+   "buy": 36165974.0,
+   "sell": 1363864.0,
+   "net": 34802110.0,
+   "ticker": "META"
+  },
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 30497434.0,
+   "sell": 4947671.0,
+   "net": 25549763.0,
+   "ticker": "MRVL"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 22198393.0,
+   "sell": 3343429.0,
+   "net": 18854964.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "AU0000185993",
+   "name": "IRIS ENERGY LTD",
+   "buy": 20281966.0,
+   "sell": 1902233.0,
+   "net": 18379734.0,
+   "ticker": "IREN"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 31976133.0,
+   "sell": 14907364.0,
+   "net": 17068769.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 18436276.0,
+   "sell": 2529229.0,
+   "net": 15907047.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 17004431.0,
+   "sell": 1775044.0,
+   "net": 15229388.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 17592466.0,
+   "sell": 3406983.0,
+   "net": 14185483.0,
+   "ticker": "SCHD"
+  },
+  {
+   "isin": "US0937121079",
+   "name": "BLOOM ENERGY CORP CL A",
+   "buy": 10538254.0,
+   "sell": 498768.0,
+   "net": 10039486.0,
+   "ticker": "BE"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 9954465.0,
+   "sell": 217765.0,
+   "net": 9736701.0,
+   "ticker": "VOO"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 9749119.0,
+   "sell": 520820057.0,
+   "net": -511070938.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 13755479.0,
+   "sell": 106775729.0,
+   "net": -93020250.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US82706C1080",
+   "name": "SILICON MOTION TECHNOLOGY CORP ADR",
+   "buy": 145296.0,
+   "sell": 24100003.0,
+   "net": -23954707.0,
+   "ticker": "SIMO"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 8662291.0,
+   "sell": 23421880.0,
+   "net": -14759589.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 3199273.0,
+   "sell": 17309514.0,
+   "net": -14110241.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US38747R8271",
+   "name": "GRANITESHARES 2.0X LONG NVDA DAILY ETF",
+   "buy": 15629.0,
+   "sell": 12251147.0,
+   "net": -12235517.0,
+   "ticker": "NVDL"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 453596.0,
+   "sell": 12676408.0,
+   "net": -12222812.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US67079K1007",
+   "name": "NUSCALE POWER CORP CL A MRGR 009185329 KYG8377A1085",
+   "buy": 2971458.0,
+   "sell": 14176427.0,
+   "net": -11204968.0,
+   "ticker": "SMR"
+  },
+  {
+   "isin": "US25461A4452",
+   "name": "DIREXION DAILY PLTR BULL 2X SHARES",
+   "buy": 598.0,
+   "sell": 9800497.0,
+   "net": -9799899.0,
+   "ticker": "PLTU"
+  },
+  {
+   "isin": "US00773J2024",
+   "name": "AEGLEA BIOTHERAPEUTICS INC AEGLEA BIOTHERAPEUTICS INC SPLR 946418209 US00773J1034",
+   "buy": 4133.0,
+   "sell": 8886606.0,
+   "net": -8882472.0,
+   "ticker": "SYRE"
+  }
+ ]
+}

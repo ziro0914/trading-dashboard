@@ -1,0 +1,168 @@
+{
+ "start": "2026-10-07",
+ "end": "2026-10-07",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 229360212.0,
+   "sell": 12489348.0,
+   "net": 216870864.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US8740391003",
+   "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR",
+   "buy": 25809284.0,
+   "sell": 3888545.0,
+   "net": 21920739.0,
+   "ticker": null
+  },
+  {
+   "isin": "US66987P5089",
+   "name": "NOVABAY PHARMACEUTICALS INC",
+   "buy": 10904008.0,
+   "sell": 882555.0,
+   "net": 10021454.0,
+   "ticker": "SDEV"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 10302331.0,
+   "sell": 1149377.0,
+   "net": 9152954.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "AU0000185993",
+   "name": "IRIS ENERGY LTD",
+   "buy": 10439211.0,
+   "sell": 1547231.0,
+   "net": 8891980.0,
+   "ticker": "IREN"
+  },
+  {
+   "isin": "US55024U1097",
+   "name": "LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074",
+   "buy": 8945234.0,
+   "sell": 199022.0,
+   "net": 8746212.0,
+   "ticker": "LITE"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 8936345.0,
+   "sell": 821867.0,
+   "net": 8114478.0,
+   "ticker": "SOXX"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 18671039.0,
+   "sell": 11123054.0,
+   "net": 7547984.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 7845018.0,
+   "sell": 1461774.0,
+   "net": 6383244.0,
+   "ticker": "SCHD"
+  },
+  {
+   "isin": "KYG254571055",
+   "name": "CREDO TECHNOLOGY GROUP HOLDING LTD",
+   "buy": 6043686.0,
+   "sell": 69957.0,
+   "net": 5973729.0,
+   "ticker": "CRDO"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 1854642.0,
+   "sell": 25174809.0,
+   "net": -23320168.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 2055137.0,
+   "sell": 23444496.0,
+   "net": -21389359.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 4064411.0,
+   "sell": 21344167.0,
+   "net": -17279755.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 6201392.0,
+   "sell": 20845913.0,
+   "net": -14644521.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 10283211.0,
+   "sell": 20691821.0,
+   "net": -10408609.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "IE00BKVD2N49",
+   "name": "SEAGATE TECHNOLOGY HOLDINGS PLC",
+   "buy": 167341.0,
+   "sell": 9559430.0,
+   "net": -9392089.0,
+   "ticker": "STX"
+  },
+  {
+   "isin": "US9581021055",
+   "name": "WESTERN DIGITAL CORP",
+   "buy": 202309.0,
+   "sell": 6695505.0,
+   "net": -6493196.0,
+   "ticker": "WDC"
+  },
+  {
+   "isin": "US38747R8271",
+   "name": "GRANITESHARES 2.0X LONG NVDA DAILY ETF",
+   "buy": 183909.0,
+   "sell": 6621749.0,
+   "net": -6437841.0,
+   "ticker": "NVDL"
+  },
+  {
+   "isin": "US25460G2865",
+   "name": "DIREXION DAILY TSLA BULL 2X SHARES",
+   "buy": 222899.0,
+   "sell": 6280795.0,
+   "net": -6057895.0,
+   "ticker": "TSLL"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 492590.0,
+   "sell": 6159676.0,
+   "net": -5667086.0,
+   "ticker": "MSFT"
+  }
+ ]
+}

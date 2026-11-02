@@ -1,0 +1,168 @@
+{
+ "start": "2026-09-22",
+ "end": "2026-09-22",
+ "netBuy": [
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 30990236.0,
+   "sell": 6940989.0,
+   "net": 24049247.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 24979977.0,
+   "sell": 1142505.0,
+   "net": 23837471.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US4581401001",
+   "name": "INTEL CORP",
+   "buy": 17542825.0,
+   "sell": 1570596.0,
+   "net": 15972229.0,
+   "ticker": "INTC"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 13715223.0,
+   "sell": 846819.0,
+   "net": 12868404.0,
+   "ticker": "SCHD"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 12877337.0,
+   "sell": 853113.0,
+   "net": 12024224.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US0937121079",
+   "name": "BLOOM ENERGY CORP CL A",
+   "buy": 14031700.0,
+   "sell": 4512095.0,
+   "net": 9519605.0,
+   "ticker": "BE"
+  },
+  {
+   "isin": "US7731211089",
+   "name": "ROCKET LAB CORPORATION COM USD0.0001 MRGR 978814817 US7731221062",
+   "buy": 7540672.0,
+   "sell": 260271.0,
+   "net": 7280401.0,
+   "ticker": "RKLB"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 13276333.0,
+   "sell": 6154789.0,
+   "net": 7121544.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 7633858.0,
+   "sell": 787229.0,
+   "net": 6846629.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US11135F1012",
+   "name": "BROADCOM INC EXOF 005644980 SG9999014823",
+   "buy": 10763363.0,
+   "sell": 4085783.0,
+   "net": 6677580.0,
+   "ticker": "AVGO"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 13693772.0,
+   "sell": 297478722.0,
+   "net": -283784950.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 2608619.0,
+   "sell": 62300359.0,
+   "net": -59691740.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 1777531.0,
+   "sell": 22528064.0,
+   "net": -20750532.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US46152A6689",
+   "name": "TRADR 2X LONG SNDK DAILY ETF",
+   "buy": 223919.0,
+   "sell": 16284098.0,
+   "net": -16060179.0,
+   "ticker": "SNXX"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 17718836.0,
+   "sell": 29753071.0,
+   "net": -12034235.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 5251819.0,
+   "sell": 16455110.0,
+   "net": -11203292.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US30303M1027",
+   "name": "META PLATFORMS INC CL A",
+   "buy": 1746821.0,
+   "sell": 7414104.0,
+   "net": -5667283.0,
+   "ticker": "META"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 3668774.0,
+   "sell": 8690730.0,
+   "net": -5021956.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US00215W1009",
+   "name": "ASE TECHNOLOGY HOLDING CO LTD ADR MRGR 005002721 US00756M4042",
+   "buy": 23291.0,
+   "sell": 4825778.0,
+   "net": -4802487.0,
+   "ticker": null
+  },
+  {
+   "isin": "AU0000185993",
+   "name": "IRIS ENERGY LTD",
+   "buy": 2252447.0,
+   "sell": 6407509.0,
+   "net": -4155061.0,
+   "ticker": "IREN"
+  }
+ ]
+}

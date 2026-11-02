@@ -1,0 +1,168 @@
+{
+ "start": "2026-08-17",
+ "end": "2026-08-17",
+ "netBuy": [
+  {
+   "isin": "US0382221051",
+   "name": "APPLIED MATERIALS INC",
+   "buy": 24097503.0,
+   "sell": 1124054.0,
+   "net": 22973449.0,
+   "ticker": "AMAT"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 25006251.0,
+   "sell": 2450709.0,
+   "net": 22555543.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 25616725.0,
+   "sell": 4919461.0,
+   "net": 20697264.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US0937121079",
+   "name": "BLOOM ENERGY CORP CL A",
+   "buy": 19878822.0,
+   "sell": 1087194.0,
+   "net": 18791628.0,
+   "ticker": "BE"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 11222570.0,
+   "sell": 971482.0,
+   "net": 10251087.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "US87975E7435",
+   "name": "TEMA PHOTNCS ETF",
+   "buy": 10013844.0,
+   "sell": 23075.0,
+   "net": 9990769.0,
+   "ticker": "LAZR"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 10747306.0,
+   "sell": 2568754.0,
+   "net": 8178552.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US46090E1038",
+   "name": "INVESCO QQQ TRUST SRS 1 ETF",
+   "buy": 11919348.0,
+   "sell": 3978763.0,
+   "net": 7940584.0,
+   "ticker": "QQQ"
+  },
+  {
+   "isin": "AU0000185993",
+   "name": "IRIS ENERGY LTD",
+   "buy": 10430013.0,
+   "sell": 2490573.0,
+   "net": 7939440.0,
+   "ticker": "IREN"
+  },
+  {
+   "isin": "US26923V4150",
+   "name": "ROUNDHILL T-REX 2X LONG DRAM DAILY TARGET ETF",
+   "buy": 9154812.0,
+   "sell": 1260999.0,
+   "net": 7893814.0,
+   "ticker": "RAM"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 22125667.0,
+   "sell": 200360687.0,
+   "net": -178235020.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 2618051.0,
+   "sell": 38256630.0,
+   "net": -35638578.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 6114529.0,
+   "sell": 35032550.0,
+   "net": -28918021.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 4847109.0,
+   "sell": 26301631.0,
+   "net": -21454522.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US67079K1007",
+   "name": "NUSCALE POWER CORP CL A MRGR 009185329 KYG8377A1085",
+   "buy": 3703047.0,
+   "sell": 18393509.0,
+   "net": -14690463.0,
+   "ticker": "SMR"
+  },
+  {
+   "isin": "US23804L1035",
+   "name": "DATADOG INC CL A",
+   "buy": 146645.0,
+   "sell": 10009828.0,
+   "net": -9863183.0,
+   "ticker": "DDOG"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 934805.0,
+   "sell": 10470869.0,
+   "net": -9536064.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US0231351067",
+   "name": "AMAZON.COM INC",
+   "buy": 1697869.0,
+   "sell": 9998609.0,
+   "net": -8300740.0,
+   "ticker": "AMZN"
+  },
+  {
+   "isin": "US46152A6689",
+   "name": "TRADR 2X LONG SNDK DAILY ETF",
+   "buy": 307780.0,
+   "sell": 8492101.0,
+   "net": -8184321.0,
+   "ticker": "SNXX"
+  },
+  {
+   "isin": "US11135F1012",
+   "name": "BROADCOM INC EXOF 005644980 SG9999014823",
+   "buy": 1263341.0,
+   "sell": 9305284.0,
+   "net": -8041942.0,
+   "ticker": "AVGO"
+  }
+ ]
+}

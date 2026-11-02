@@ -1,0 +1,168 @@
+{
+ "start": "2026-10-29",
+ "end": "2026-10-29",
+ "netBuy": [
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 74718563.0,
+   "sell": 5011995.0,
+   "net": 69706568.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US55024U1097",
+   "name": "LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074",
+   "buy": 47353829.0,
+   "sell": 958534.0,
+   "net": 46395294.0,
+   "ticker": "LITE"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 35025865.0,
+   "sell": 1264298.0,
+   "net": 33761567.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US4581401001",
+   "name": "INTEL CORP",
+   "buy": 30638742.0,
+   "sell": 3105745.0,
+   "net": 27532997.0,
+   "ticker": "INTC"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 29615754.0,
+   "sell": 5192214.0,
+   "net": 24423540.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "CA82509L1076",
+   "name": "SHOPIFY INC CL A",
+   "buy": 19607747.0,
+   "sell": 115708.0,
+   "net": 19492040.0,
+   "ticker": "SHOP"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 16870369.0,
+   "sell": 2419514.0,
+   "net": 14450855.0,
+   "ticker": "SOXX"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 19088861.0,
+   "sell": 5477935.0,
+   "net": 13610926.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US7707001027",
+   "name": "ROBINHOOD MARKETS INC",
+   "buy": 13028771.0,
+   "sell": 239566.0,
+   "net": 12789205.0,
+   "ticker": "HOOD"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 11988837.0,
+   "sell": 1627924.0,
+   "net": 10360913.0,
+   "ticker": "SKHY"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 52344755.0,
+   "sell": 293482460.0,
+   "net": -241137705.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 5991113.0,
+   "sell": 40587235.0,
+   "net": -34596122.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US25460G2865",
+   "name": "DIREXION DAILY TSLA BULL 2X SHARES",
+   "buy": 69185.0,
+   "sell": 20767206.0,
+   "net": -20698021.0,
+   "ticker": "TSLL"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 9455233.0,
+   "sell": 23298320.0,
+   "net": -13843087.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US37954Y6730",
+   "name": "GLOBAL X US INFRA DEVELOPMENT ETF",
+   "buy": 3987.0,
+   "sell": 4231428.0,
+   "net": -4227441.0,
+   "ticker": "PAVE"
+  },
+  {
+   "isin": "NL0009805522",
+   "name": "YANDEX NV CL A",
+   "buy": 3032530.0,
+   "sell": 7134871.0,
+   "net": -4102342.0,
+   "ticker": "NBIS"
+  },
+  {
+   "isin": "US98138H1014",
+   "name": "WORKDAY INC CL A",
+   "buy": 2873.0,
+   "sell": 3360256.0,
+   "net": -3357383.0,
+   "ticker": "WDAY"
+  },
+  {
+   "isin": "US0378331005",
+   "name": "APPLE INC",
+   "buy": 1136938.0,
+   "sell": 4368966.0,
+   "net": -3232027.0,
+   "ticker": "AAPL"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 2760580.0,
+   "sell": 5648912.0,
+   "net": -2888332.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US60770K1079",
+   "name": "MODERNA INC",
+   "buy": 620381.0,
+   "sell": 3167285.0,
+   "net": -2546904.0,
+   "ticker": "MRNA"
+  }
+ ]
+}

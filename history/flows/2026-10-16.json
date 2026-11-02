@@ -1,0 +1,168 @@
+{
+ "start": "2026-10-16",
+ "end": "2026-10-16",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 562211953.0,
+   "sell": 19403395.0,
+   "net": 542808558.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 52364299.0,
+   "sell": 2880542.0,
+   "net": 49483757.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 26579865.0,
+   "sell": 3441153.0,
+   "net": 23138712.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 28581773.0,
+   "sell": 7809061.0,
+   "net": 20772712.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 21777065.0,
+   "sell": 3989488.0,
+   "net": 17787578.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US7134481081",
+   "name": "PEPSICO INC",
+   "buy": 16980857.0,
+   "sell": 393966.0,
+   "net": 16586891.0,
+   "ticker": "PEP"
+  },
+  {
+   "isin": "AU0000185993",
+   "name": "IRIS ENERGY LTD",
+   "buy": 15441524.0,
+   "sell": 1775646.0,
+   "net": 13665878.0,
+   "ticker": "IREN"
+  },
+  {
+   "isin": "US46138G6492",
+   "name": "INVESCO NASDAQ 100 ETF",
+   "buy": 11650905.0,
+   "sell": 710051.0,
+   "net": 10940854.0,
+   "ticker": "QQQM"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 10371602.0,
+   "sell": 1914974.0,
+   "net": 8456628.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US0636795421",
+   "name": "MicroSectors Gold Miners 3X Leveraged ETN",
+   "buy": 8497020.0,
+   "sell": 258813.0,
+   "net": 8238207.0,
+   "ticker": "GDXU"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 13255781.0,
+   "sell": 90042951.0,
+   "net": -76787170.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 1883867.0,
+   "sell": 66421765.0,
+   "net": -64537898.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US55024U1097",
+   "name": "LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074",
+   "buy": 1220838.0,
+   "sell": 20719934.0,
+   "net": -19499097.0,
+   "ticker": "LITE"
+  },
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 3213688.0,
+   "sell": 20094235.0,
+   "net": -16880547.0,
+   "ticker": "MRVL"
+  },
+  {
+   "isin": "US30303M1027",
+   "name": "META PLATFORMS INC CL A",
+   "buy": 5628196.0,
+   "sell": 21543679.0,
+   "net": -15915483.0,
+   "ticker": "META"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 5575201.0,
+   "sell": 18066950.0,
+   "net": -12491749.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US09175A2069",
+   "name": "BITMINE IMMERSION TECHNOLOGI",
+   "buy": 476328.0,
+   "sell": 12387255.0,
+   "net": -11910927.0,
+   "ticker": "BMNR"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 2371646.0,
+   "sell": 14068829.0,
+   "net": -11697183.0,
+   "ticker": "AMD"
+  },
+  {
+   "isin": "US0937121079",
+   "name": "BLOOM ENERGY CORP CL A",
+   "buy": 1574755.0,
+   "sell": 12785630.0,
+   "net": -11210875.0,
+   "ticker": "BE"
+  },
+  {
+   "isin": "NL0009805522",
+   "name": "YANDEX NV CL A",
+   "buy": 1595093.0,
+   "sell": 12214385.0,
+   "net": -10619292.0,
+   "ticker": "NBIS"
+  }
+ ]
+}

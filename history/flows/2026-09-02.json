@@ -1,0 +1,168 @@
+{
+ "start": "2026-09-02",
+ "end": "2026-09-02",
+ "netBuy": [
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 24774062.0,
+   "sell": 1354694.0,
+   "net": 23419369.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US0494681010",
+   "name": "ATLASSIAN CORP",
+   "buy": 22585229.0,
+   "sell": 70261.0,
+   "net": 22514968.0,
+   "ticker": "TEAM"
+  },
+  {
+   "isin": "US46654Q2030",
+   "name": "J.P. MORGAN NASDAQ EQUITY PREMIUM INCOME ETF",
+   "buy": 18185864.0,
+   "sell": 170925.0,
+   "net": 18014939.0,
+   "ticker": "JEPQ"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 11567146.0,
+   "sell": 743723.0,
+   "net": 10823423.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 13755380.0,
+   "sell": 3525286.0,
+   "net": 10230094.0,
+   "ticker": "SCHD"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 15844834.0,
+   "sell": 7167337.0,
+   "net": 8677497.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US46138G6492",
+   "name": "INVESCO NASDAQ 100 ETF",
+   "buy": 9795631.0,
+   "sell": 1595782.0,
+   "net": 8199849.0,
+   "ticker": "QQQM"
+  },
+  {
+   "isin": "US11135F1012",
+   "name": "BROADCOM INC EXOF 005644980 SG9999014823",
+   "buy": 6886870.0,
+   "sell": 484018.0,
+   "net": 6402852.0,
+   "ticker": "AVGO"
+  },
+  {
+   "isin": "US5949724083",
+   "name": "MICROSTRATEGY INC CL A",
+   "buy": 6802729.0,
+   "sell": 1474850.0,
+   "net": 5327879.0,
+   "ticker": "MSTR"
+  },
+  {
+   "isin": "US36828A1016",
+   "name": "GE Vernova",
+   "buy": 5238372.0,
+   "sell": 578270.0,
+   "net": 4660102.0,
+   "ticker": "GEV"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 68240337.0,
+   "sell": 302325817.0,
+   "net": -234085479.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 5026494.0,
+   "sell": 39806966.0,
+   "net": -34780472.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 6979893.0,
+   "sell": 41717839.0,
+   "net": -34737947.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 1950402.0,
+   "sell": 16621843.0,
+   "net": -14671441.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 3744988.0,
+   "sell": 18058512.0,
+   "net": -14313524.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US19247G1076",
+   "name": "II-VI INCORPORATED Com CHAN 009623241 US9021041085",
+   "buy": 431522.0,
+   "sell": 13230693.0,
+   "net": -12799171.0,
+   "ticker": "COHR"
+  },
+  {
+   "isin": "US0937121079",
+   "name": "BLOOM ENERGY CORP CL A",
+   "buy": 1271706.0,
+   "sell": 12939258.0,
+   "net": -11667551.0,
+   "ticker": "BE"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 17229823.0,
+   "sell": 28020877.0,
+   "net": -10791054.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US25460G2865",
+   "name": "DIREXION DAILY TSLA BULL 2X SHARES",
+   "buy": 206494.0,
+   "sell": 10833407.0,
+   "net": -10626913.0,
+   "ticker": "TSLL"
+  },
+  {
+   "isin": "NL0009805522",
+   "name": "YANDEX NV CL A",
+   "buy": 859737.0,
+   "sell": 10622407.0,
+   "net": -9762669.0,
+   "ticker": "NBIS"
+  }
+ ]
+}

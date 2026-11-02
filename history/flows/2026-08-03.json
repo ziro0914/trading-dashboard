@@ -1,0 +1,168 @@
+{
+ "start": "2026-08-03",
+ "end": "2026-08-03",
+ "netBuy": [
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 103746019.0,
+   "sell": 22598757.0,
+   "net": 81147262.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 81542822.0,
+   "sell": 6990815.0,
+   "net": 74552007.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 34644685.0,
+   "sell": 3243481.0,
+   "net": 31401203.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US30303M1027",
+   "name": "META PLATFORMS INC CL A",
+   "buy": 29653747.0,
+   "sell": 2040296.0,
+   "net": 27613451.0,
+   "ticker": "META"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 25971598.0,
+   "sell": 786862.0,
+   "net": 25184736.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 31803613.0,
+   "sell": 6716827.0,
+   "net": 25086786.0,
+   "ticker": "SOXX"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 36327519.0,
+   "sell": 11330226.0,
+   "net": 24997292.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US77926X3200",
+   "name": "ROUNDHILL MEMORY ETF",
+   "buy": 27921702.0,
+   "sell": 11168206.0,
+   "net": 16753496.0,
+   "ticker": "DRAM"
+  },
+  {
+   "isin": "US78463V1070",
+   "name": "SPDR GOLD SHARES ETF",
+   "buy": 15681455.0,
+   "sell": 607103.0,
+   "net": 15074351.0,
+   "ticker": "GLD"
+  },
+  {
+   "isin": "US46152A6689",
+   "name": "TRADR 2X LONG SNDK DAILY ETF",
+   "buy": 18560031.0,
+   "sell": 3859932.0,
+   "net": 14700099.0,
+   "ticker": "SNXX"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 34634363.0,
+   "sell": 699034339.0,
+   "net": -664399976.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 3451514.0,
+   "sell": 128528399.0,
+   "net": -125076885.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 8599044.0,
+   "sell": 46675878.0,
+   "net": -38076834.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US25461A8669",
+   "name": "DIREXION DAILY MSFT BULL 1 5X ETF",
+   "buy": 155553.0,
+   "sell": 24902948.0,
+   "net": -24747395.0,
+   "ticker": "MSFU"
+  },
+  {
+   "isin": "US0378331005",
+   "name": "APPLE INC",
+   "buy": 1509901.0,
+   "sell": 20855878.0,
+   "net": -19345977.0,
+   "ticker": "AAPL"
+  },
+  {
+   "isin": "US02072L5654",
+   "name": "ALPHA ARCHITECT 1-3 MONTH BOX ETF",
+   "buy": 1504620.0,
+   "sell": 7241792.0,
+   "net": -5737172.0,
+   "ticker": "BOXX"
+  },
+  {
+   "isin": "US74933W4520",
+   "name": "US TREASRY 3 ETF",
+   "buy": 4989.0,
+   "sell": 5091647.0,
+   "net": -5086658.0,
+   "ticker": "TBIL"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 6612485.0,
+   "sell": 10692368.0,
+   "net": -4079883.0,
+   "ticker": "AMD"
+  },
+  {
+   "isin": "US11135F1012",
+   "name": "BROADCOM INC EXOF 005644980 SG9999014823",
+   "buy": 669621.0,
+   "sell": 4589863.0,
+   "net": -3920242.0,
+   "ticker": "AVGO"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 8206043.0,
+   "sell": 12105192.0,
+   "net": -3899149.0,
+   "ticker": "SGOV"
+  }
+ ]
+}

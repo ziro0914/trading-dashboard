@@ -1,0 +1,168 @@
+{
+ "start": "2026-09-24",
+ "end": "2026-09-24",
+ "netBuy": [
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 36955067.0,
+   "sell": 1511973.0,
+   "net": 35443094.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 23885991.0,
+   "sell": 852519.0,
+   "net": 23033473.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 26271312.0,
+   "sell": 7299174.0,
+   "net": 18972138.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US6974351057",
+   "name": "PALO ALTO NETWORKS INC",
+   "buy": 18812653.0,
+   "sell": 201082.0,
+   "net": 18611571.0,
+   "ticker": "PANW"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 18510307.0,
+   "sell": 396411.0,
+   "net": 18113896.0,
+   "ticker": "SCHD"
+  },
+  {
+   "isin": "US18915M1071",
+   "name": "CLOUDFLARE INC",
+   "buy": 16699672.0,
+   "sell": 50380.0,
+   "net": 16649292.0,
+   "ticker": "NET"
+  },
+  {
+   "isin": "US90184D1000",
+   "name": "TWIST BIOSCIENCE CORP",
+   "buy": 14928937.0,
+   "sell": 3717.0,
+   "net": 14925220.0,
+   "ticker": "TWST"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 19221738.0,
+   "sell": 4986179.0,
+   "net": 14235560.0,
+   "ticker": "AMD"
+  },
+  {
+   "isin": "US46138G6153",
+   "name": "INVESCO PHLX SEMICONDUCTOR ETF",
+   "buy": 13674384.0,
+   "sell": 813188.0,
+   "net": 12861196.0,
+   "ticker": "SOXQ"
+  },
+  {
+   "isin": "US25461A8412",
+   "name": "DIREXION DAILY GOOGL BULL 1.5X SHARES",
+   "buy": 10390996.0,
+   "sell": 278454.0,
+   "net": 10112541.0,
+   "ticker": "GGLL"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 66261282.0,
+   "sell": 153529187.0,
+   "net": -87267905.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 2080170.0,
+   "sell": 86947233.0,
+   "net": -84867063.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 12016717.0,
+   "sell": 53743016.0,
+   "net": -41726299.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 2333226.0,
+   "sell": 43254570.0,
+   "net": -40921344.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 3319476.0,
+   "sell": 33694412.0,
+   "net": -30374936.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 4789334.0,
+   "sell": 34634440.0,
+   "net": -29845106.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 4308429.0,
+   "sell": 26001998.0,
+   "net": -21693569.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US6391931010",
+   "name": "NAVAN INC-CL A",
+   "buy": 2556.0,
+   "sell": 19800365.0,
+   "net": -19797809.0,
+   "ticker": "NAVN"
+  },
+  {
+   "isin": "US60937P1066",
+   "name": "MONGODB INC",
+   "buy": 44882.0,
+   "sell": 14968179.0,
+   "net": -14923298.0,
+   "ticker": "MDB"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 11960704.0,
+   "sell": 26483147.0,
+   "net": -14522443.0,
+   "ticker": "KORU"
+  }
+ ]
+}

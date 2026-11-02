@@ -1,0 +1,168 @@
+{
+ "start": "2026-09-17",
+ "end": "2026-09-17",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 349806345.0,
+   "sell": 10757649.0,
+   "net": 339048696.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 31048612.0,
+   "sell": 2358759.0,
+   "net": 28689852.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 14551642.0,
+   "sell": 1741295.0,
+   "net": 12810346.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 11207278.0,
+   "sell": 316674.0,
+   "net": 10890605.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "US8740391003",
+   "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR",
+   "buy": 11210836.0,
+   "sell": 951403.0,
+   "net": 10259433.0,
+   "ticker": null
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 11405894.0,
+   "sell": 1641319.0,
+   "net": 9764576.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 11521311.0,
+   "sell": 2180181.0,
+   "net": 9341130.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 8980506.0,
+   "sell": 692227.0,
+   "net": 8288279.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US46138G6492",
+   "name": "INVESCO NASDAQ 100 ETF",
+   "buy": 7244999.0,
+   "sell": 252133.0,
+   "net": 6992866.0,
+   "ticker": "QQQM"
+  },
+  {
+   "isin": "US11135F1012",
+   "name": "BROADCOM INC EXOF 005644980 SG9999014823",
+   "buy": 7805827.0,
+   "sell": 1208249.0,
+   "net": 6597578.0,
+   "ticker": "AVGO"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US1725731079",
+   "name": "Circle Internet",
+   "buy": 2828621.0,
+   "sell": 12695491.0,
+   "net": -9866870.0,
+   "ticker": "CRCL"
+  },
+  {
+   "isin": "US5949724083",
+   "name": "MICROSTRATEGY INC CL A",
+   "buy": 890444.0,
+   "sell": 10732455.0,
+   "net": -9842011.0,
+   "ticker": "MSTR"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 4879332.0,
+   "sell": 13662952.0,
+   "net": -8783620.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 1529899.0,
+   "sell": 6730547.0,
+   "net": -5200648.0,
+   "ticker": "SOXX"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 7390451.0,
+   "sell": 12363517.0,
+   "net": -4973066.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US7707001027",
+   "name": "ROBINHOOD MARKETS INC",
+   "buy": 2068202.0,
+   "sell": 6544748.0,
+   "net": -4476547.0,
+   "ticker": "HOOD"
+  },
+  {
+   "isin": "US09175A2069",
+   "name": "BITMINE IMMERSION TECHNOLOGI",
+   "buy": 611580.0,
+   "sell": 4244547.0,
+   "net": -3632967.0,
+   "ticker": "BMNR"
+  },
+  {
+   "isin": "US77926X3200",
+   "name": "ROUNDHILL MEMORY ETF",
+   "buy": 820024.0,
+   "sell": 4150406.0,
+   "net": -3330382.0,
+   "ticker": "DRAM"
+  },
+  {
+   "isin": "US0420682058",
+   "name": "ARM HOLDINGS PLC SPON ADS EACH REP 1 ORD SHS",
+   "buy": 42333.0,
+   "sell": 3234897.0,
+   "net": -3192564.0,
+   "ticker": "ARM"
+  },
+  {
+   "isin": "US03823U1025",
+   "name": "APPLIED OPTOELECTRONICS INC",
+   "buy": 164706.0,
+   "sell": 3288677.0,
+   "net": -3123971.0,
+   "ticker": "AAOI"
+  }
+ ]
+}

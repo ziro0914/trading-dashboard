@@ -1,0 +1,168 @@
+{
+ "start": "2026-10-30",
+ "end": "2026-10-30",
+ "netBuy": [
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 149797223.0,
+   "sell": 4461929.0,
+   "net": 145335295.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 118071117.0,
+   "sell": 14482595.0,
+   "net": 103588521.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 32684841.0,
+   "sell": 3174056.0,
+   "net": 29510785.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US55024U1097",
+   "name": "LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074",
+   "buy": 42215186.0,
+   "sell": 16695188.0,
+   "net": 25519998.0,
+   "ticker": "LITE"
+  },
+  {
+   "isin": "US02079K1079",
+   "name": "ALPHABET INC CL C CHAN 39527405649 US38259P7069",
+   "buy": 22614913.0,
+   "sell": 804351.0,
+   "net": 21810562.0,
+   "ticker": "GOOG"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 26030184.0,
+   "sell": 5110173.0,
+   "net": 20920011.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 34761794.0,
+   "sell": 14572450.0,
+   "net": 20189344.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "CA82509L1076",
+   "name": "SHOPIFY INC CL A",
+   "buy": 12162734.0,
+   "sell": 22154.0,
+   "net": 12140580.0,
+   "ticker": "SHOP"
+  },
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 10336461.0,
+   "sell": 875929.0,
+   "net": 9460532.0,
+   "ticker": "MRVL"
+  },
+  {
+   "isin": "US46138G6492",
+   "name": "INVESCO NASDAQ 100 ETF",
+   "buy": 9651650.0,
+   "sell": 420154.0,
+   "net": 9231497.0,
+   "ticker": "QQQM"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 44140342.0,
+   "sell": 424410509.0,
+   "net": -380270168.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 4227272.0,
+   "sell": 45536121.0,
+   "net": -41308849.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 4093174.0,
+   "sell": 34456174.0,
+   "net": -30363000.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 2911621.0,
+   "sell": 17365663.0,
+   "net": -14454041.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 2283539.0,
+   "sell": 11483784.0,
+   "net": -9200245.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US25460G2865",
+   "name": "DIREXION DAILY TSLA BULL 2X SHARES",
+   "buy": 611197.0,
+   "sell": 8254021.0,
+   "net": -7642823.0,
+   "ticker": "TSLL"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 1276549.0,
+   "sell": 8325188.0,
+   "net": -7048640.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US0378331005",
+   "name": "APPLE INC",
+   "buy": 563107.0,
+   "sell": 6542313.0,
+   "net": -5979206.0,
+   "ticker": "AAPL"
+  },
+  {
+   "isin": "US92537N1081",
+   "name": "VERTIV HOLDINGS CO",
+   "buy": 742653.0,
+   "sell": 4802164.0,
+   "net": -4059511.0,
+   "ticker": "VRT"
+  },
+  {
+   "isin": "US68389X1054",
+   "name": "ORACLE CORP",
+   "buy": 2470126.0,
+   "sell": 6245312.0,
+   "net": -3775185.0,
+   "ticker": "ORCL"
+  }
+ ]
+}

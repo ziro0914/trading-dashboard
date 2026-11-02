@@ -158,7 +158,16 @@ def yahoo_news(ticker: str, name: str | None) -> list[dict]:
 
 
 def google_news(ticker: str, name: str | None) -> list[dict]:
-    query = f'"{name}" {ticker} stock when:7d' if name else f"{ticker} stock when:7d"
+    return google_rss(f'"{name}" {ticker} stock when:7d' if name else f"{ticker} stock when:7d")
+
+
+def market_news() -> list[dict]:
+    items = sorted(google_rss("US stock market Wall Street when:1d"), key=lambda item: item["time"], reverse=True)
+    unique = {re.sub(r"\W+", "", item["title"].lower()): item for item in reversed(items)}
+    return list(reversed(unique.values()))[:NEWS_LIMIT]
+
+
+def google_rss(query: str) -> list[dict]:
     url = f"https://news.google.com/rss/search?q={quote_plus(query)}&hl=en-US&gl=US&ceid=US:en"
     response = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
     response.raise_for_status()

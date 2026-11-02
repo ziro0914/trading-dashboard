@@ -1,0 +1,168 @@
+{
+ "start": "2026-09-28",
+ "end": "2026-09-28",
+ "netBuy": [
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 23709806.0,
+   "sell": 383256.0,
+   "net": 23326550.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US30303M1027",
+   "name": "META PLATFORMS INC CL A",
+   "buy": 24301499.0,
+   "sell": 3561229.0,
+   "net": 20740270.0,
+   "ticker": "META"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 21551774.0,
+   "sell": 1442645.0,
+   "net": 20109129.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US68389X1054",
+   "name": "ORACLE CORP",
+   "buy": 13406742.0,
+   "sell": 358602.0,
+   "net": 13048140.0,
+   "ticker": "ORCL"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 14042974.0,
+   "sell": 1984540.0,
+   "net": 12058434.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US4642874329",
+   "name": "ISHARES 20+ YEAR TREASURY BOND ETF",
+   "buy": 11107415.0,
+   "sell": 451521.0,
+   "net": 10655894.0,
+   "ticker": "TLT"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 11174327.0,
+   "sell": 1091466.0,
+   "net": 10082861.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US0636795421",
+   "name": "MicroSectors Gold Miners 3X Leveraged ETN",
+   "buy": 7782733.0,
+   "sell": 238709.0,
+   "net": 7544024.0,
+   "ticker": "GDXU"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 7826516.0,
+   "sell": 374104.0,
+   "net": 7452412.0,
+   "ticker": "SCHD"
+  },
+  {
+   "isin": "US02079K1079",
+   "name": "ALPHABET INC CL C CHAN 39527405649 US38259P7069",
+   "buy": 6343932.0,
+   "sell": 63417.0,
+   "net": 6280516.0,
+   "ticker": "GOOG"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 64629879.0,
+   "sell": 175503600.0,
+   "net": -110873721.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 2526071.0,
+   "sell": 15274001.0,
+   "net": -12747930.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 3785519.0,
+   "sell": 15824397.0,
+   "net": -12038878.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US25461A4452",
+   "name": "DIREXION DAILY PLTR BULL 2X SHARES",
+   "buy": 0.0,
+   "sell": 11978792.0,
+   "net": -11978792.0,
+   "ticker": "PLTU"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 593906.0,
+   "sell": 11967284.0,
+   "net": -11373378.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US0937121079",
+   "name": "BLOOM ENERGY CORP CL A",
+   "buy": 4837373.0,
+   "sell": 11034747.0,
+   "net": -6197373.0,
+   "ticker": "BE"
+  },
+  {
+   "isin": "US01741R1023",
+   "name": "ALLEGHENY TECHNOLOGIES INC",
+   "buy": 4450.0,
+   "sell": 5866358.0,
+   "net": -5861907.0,
+   "ticker": "ATI"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 4412749.0,
+   "sell": 9071839.0,
+   "net": -4659089.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "NL0009805522",
+   "name": "YANDEX NV CL A",
+   "buy": 832645.0,
+   "sell": 5007559.0,
+   "net": -4174914.0,
+   "ticker": "NBIS"
+  },
+  {
+   "isin": "US25461A8099",
+   "name": "DIREXION DAILY META BULL 2X SHARES",
+   "buy": 29620.0,
+   "sell": 3885768.0,
+   "net": -3856148.0,
+   "ticker": "METU"
+  }
+ ]
+}

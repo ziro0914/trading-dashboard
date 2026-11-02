@@ -1,0 +1,168 @@
+{
+ "start": "2026-10-19",
+ "end": "2026-10-19",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 578097281.0,
+   "sell": 21808491.0,
+   "net": 556288790.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 110553273.0,
+   "sell": 4823242.0,
+   "net": 105730031.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "CA15101Q2071",
+   "name": "CELESTICA INC COM NPV EXOF 959276693 CA15101Q1081",
+   "buy": 70194512.0,
+   "sell": 79477.0,
+   "net": 70115035.0,
+   "ticker": null
+  },
+  {
+   "isin": "US58933Y1055",
+   "name": "MERCK N CO INC",
+   "buy": 56660983.0,
+   "sell": 155433.0,
+   "net": 56505551.0,
+   "ticker": "MRK"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 52176201.0,
+   "sell": 3337694.0,
+   "net": 48838507.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US8835561023",
+   "name": "THERMO FISHER SCIENTIFIC INC",
+   "buy": 40227377.0,
+   "sell": 7542.0,
+   "net": 40219835.0,
+   "ticker": "TMO"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 39096905.0,
+   "sell": 13912168.0,
+   "net": 25184737.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 19937429.0,
+   "sell": 1390442.0,
+   "net": 18546987.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 16914911.0,
+   "sell": 1876952.0,
+   "net": 15037959.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US60770K1079",
+   "name": "MODERNA INC",
+   "buy": 13803381.0,
+   "sell": 2117376.0,
+   "net": 11686005.0,
+   "ticker": "MRNA"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US21873S1087",
+   "name": "CoreWeave Inc",
+   "buy": 3604089.0,
+   "sell": 80858905.0,
+   "net": -77254816.0,
+   "ticker": "CRWV"
+  },
+  {
+   "isin": "NL0009805522",
+   "name": "YANDEX NV CL A",
+   "buy": 4617712.0,
+   "sell": 58967231.0,
+   "net": -54349519.0,
+   "ticker": "NBIS"
+  },
+  {
+   "isin": "US25402D1028",
+   "name": "DIGITALOCEAN HOLDINGS INC",
+   "buy": 5123.0,
+   "sell": 52974854.0,
+   "net": -52969731.0,
+   "ticker": "DOCN"
+  },
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 3719325.0,
+   "sell": 50363720.0,
+   "net": -46644395.0,
+   "ticker": "MRVL"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 1770759.0,
+   "sell": 39956923.0,
+   "net": -38186164.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US4581401001",
+   "name": "INTEL CORP",
+   "buy": 13360872.0,
+   "sell": 51438094.0,
+   "net": -38077222.0,
+   "ticker": "INTC"
+  },
+  {
+   "isin": "AU0000185993",
+   "name": "IRIS ENERGY LTD",
+   "buy": 40416719.0,
+   "sell": 70779071.0,
+   "net": -30362351.0,
+   "ticker": "IREN"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 11088546.0,
+   "sell": 32552031.0,
+   "net": -21463485.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 4510732.0,
+   "sell": 24342016.0,
+   "net": -19831284.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 3220822.0,
+   "sell": 22379535.0,
+   "net": -19158713.0,
+   "ticker": "PLTR"
+  }
+ ]
+}

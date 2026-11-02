@@ -17,10 +17,12 @@ from data import (
     load_market,
     load_news,
     load_next_earnings,
+    market_news,
     search_naver,
     short_name,
 )
-from flows import load_flows
+import etf_flows
+from flows import load_flows, load_saved_days, load_ticker_map, save_day, save_ticker_map
 from metrics import drawdown, max_drawdown, performance, slice_window
 
 ROOT = Path(__file__).parent
@@ -29,6 +31,7 @@ WINDOWS = {"1년": 1, "3년": 3, "5년": 5, "10년": 10, "전체": None}
 MAX_POINTS = 400
 PAUSE_SECONDS = 0.4
 MAX_FAILURE_RATE = 0.3
+SPARK_DAYS = 60
 INFO_FIELDS = [
     "longName", "shortName", "quoteType", "sector", "industry", "category", "exchange",
     "currentPrice", "regularMarketPrice", "previousClose", "marketCap", "totalAssets",
@@ -136,7 +139,13 @@ def build_market() -> dict:
         series = market[symbol].dropna()
         if len(series) >= 2:
             rows.append(
-                {"symbol": symbol, "label": label, "last": float(series.iloc[-1]), "previous": float(series.iloc[-2])}
+                {
+                    "symbol": symbol,
+                    "label": label,
+                    "last": float(series.iloc[-1]),
+                    "previous": float(series.iloc[-2]),
+                    "spark": series.tail(SPARK_DAYS).tolist(),
+                }
             )
     spx, vix = market["^GSPC"].dropna(), market["^VIX"].dropna()
     return {
@@ -168,10 +177,18 @@ def main():
 
     benchmark = load_history(BENCHMARK)["Adj Close"]
     write_json(DIST / "data" / "market.json", build_market())
+    try:
+        news = market_news()
+        write_json(DIST / "data" / "market-news.json", [{**item, "time": item["time"].isoformat()} for item in news])
+    except Exception as error:
+        print("MARKET NEWS FAIL", repr(error)[:200], flush=True)
 
     try:
-        flows = load_flows()
+        known = load_ticker_map()
+        flows = load_flows(tickers=known)
         write_json(DIST / "data" / "flows.json", flows)
+        save_day(flows["daily"])
+        save_ticker_map(known)
     except Exception as error:
         flows = None
         print("FLOWS FAIL", repr(error)[:200], flush=True)
@@ -180,15 +197,27 @@ def main():
         rows = [row for view in flows.values() for side in ("netBuy", "netSell") for row in view[side]]
         tickers += [ticker for ticker in dict.fromkeys(row["ticker"] for row in rows) if ticker and ticker not in universe]
 
+    write_json(DIST / "data" / "flows-history.json", load_saved_days())
+
+    try:
+        write_json(DIST / "data" / "etf-flows.json", etf_flows.load_etf_flows())
+    except Exception as error:
+        print("ETF FLOWS FAIL", repr(error)[:200], flush=True)
+    write_json(DIST / "data" / "etf-flows-history.json", etf_flows.load_saved_days())
+
     index, failed = [], []
     for ticker in tickers:
         try:
             payload = build_ticker(ticker, benchmark)
             write_json(DIST / "data" / f"{ticker}.json", payload)
             info = payload["info"]
+            price = info.get("currentPrice") or info.get("regularMarketPrice") or payload["lastClose"]
+            previous = info.get("previousClose") or payload["prevClose"]
             index.append(
                 {
                     "ticker": ticker,
+                    "type": info.get("quoteType"),
+                    "change": price / previous - 1,
                     "name": info.get("longName") or info.get("shortName") or ticker,
                     "korean": korean_name(ticker),
                     "aliases": universe.get(ticker, []),

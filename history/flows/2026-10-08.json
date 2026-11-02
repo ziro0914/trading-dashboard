@@ -1,0 +1,168 @@
+{
+ "start": "2026-10-08",
+ "end": "2026-10-08",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 195099413.0,
+   "sell": 23278724.0,
+   "net": 171820689.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 43536703.0,
+   "sell": 3142124.0,
+   "net": 40394579.0,
+   "ticker": "SOXX"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 30138838.0,
+   "sell": 2534895.0,
+   "net": 27603943.0,
+   "ticker": "AMD"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 32199153.0,
+   "sell": 11063631.0,
+   "net": 21135522.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 19573889.0,
+   "sell": 988049.0,
+   "net": 18585840.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 19325001.0,
+   "sell": 2404051.0,
+   "net": 16920950.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 18137119.0,
+   "sell": 1513380.0,
+   "net": 16623739.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US46090E1038",
+   "name": "INVESCO QQQ TRUST SRS 1 ETF",
+   "buy": 15213697.0,
+   "sell": 1020041.0,
+   "net": 14193656.0,
+   "ticker": "QQQ"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 14040474.0,
+   "sell": 2052579.0,
+   "net": 11987894.0,
+   "ticker": "SCHD"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 13596988.0,
+   "sell": 1695626.0,
+   "net": 11901362.0,
+   "ticker": "SKHY"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US77926X3200",
+   "name": "ROUNDHILL MEMORY ETF",
+   "buy": 500742.0,
+   "sell": 42089517.0,
+   "net": -41588774.0,
+   "ticker": "DRAM"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 4043310.0,
+   "sell": 34993706.0,
+   "net": -30950396.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 2164145.0,
+   "sell": 27548658.0,
+   "net": -25384513.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 10374965.0,
+   "sell": 33445129.0,
+   "net": -23070165.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US11135F1012",
+   "name": "BROADCOM INC EXOF 005644980 SG9999014823",
+   "buy": 3121334.0,
+   "sell": 14314374.0,
+   "net": -11193040.0,
+   "ticker": "AVGO"
+  },
+  {
+   "isin": "US25461A8669",
+   "name": "DIREXION DAILY MSFT BULL 1 5X ETF",
+   "buy": 292.0,
+   "sell": 10806592.0,
+   "net": -10806301.0,
+   "ticker": "MSFU"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 4239935.0,
+   "sell": 13528108.0,
+   "net": -9288173.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US9229085538",
+   "name": "VANGUARD REAL ESTATE ETF",
+   "buy": 45767.0,
+   "sell": 7189028.0,
+   "net": -7143261.0,
+   "ticker": "VNQ"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 1603268.0,
+   "sell": 8149398.0,
+   "net": -6546130.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 1628609.0,
+   "sell": 7792990.0,
+   "net": -6164381.0,
+   "ticker": "MSFT"
+  }
+ ]
+}

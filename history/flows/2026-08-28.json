@@ -1,0 +1,168 @@
+{
+ "start": "2026-08-28",
+ "end": "2026-08-28",
+ "netBuy": [
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 32931431.0,
+   "sell": 5037547.0,
+   "net": 27893884.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 22827903.0,
+   "sell": 3580484.0,
+   "net": 19247419.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US30303M1027",
+   "name": "META PLATFORMS INC CL A",
+   "buy": 20623414.0,
+   "sell": 2465936.0,
+   "net": 18157479.0,
+   "ticker": "META"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 13270175.0,
+   "sell": 1775030.0,
+   "net": 11495146.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US46138G6492",
+   "name": "INVESCO NASDAQ 100 ETF",
+   "buy": 11053939.0,
+   "sell": 209403.0,
+   "net": 10844536.0,
+   "ticker": "QQQM"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 9353335.0,
+   "sell": 265243.0,
+   "net": 9088092.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 24077749.0,
+   "sell": 15205500.0,
+   "net": 8872250.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US0937121079",
+   "name": "BLOOM ENERGY CORP CL A",
+   "buy": 9372570.0,
+   "sell": 1129827.0,
+   "net": 8242744.0,
+   "ticker": "BE"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 8581540.0,
+   "sell": 652808.0,
+   "net": 7928732.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 8586947.0,
+   "sell": 891736.0,
+   "net": 7695211.0,
+   "ticker": "SCHD"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 11212382.0,
+   "sell": 252582628.0,
+   "net": -241370246.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US0382221051",
+   "name": "APPLIED MATERIALS INC",
+   "buy": 154374.0,
+   "sell": 16100131.0,
+   "net": -15945757.0,
+   "ticker": "AMAT"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 5888789.0,
+   "sell": 17896379.0,
+   "net": -12007589.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 3083358.0,
+   "sell": 14831648.0,
+   "net": -11748290.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US6792951054",
+   "name": "OKTA INC",
+   "buy": 148446.0,
+   "sell": 9349205.0,
+   "net": -9200760.0,
+   "ticker": "OKTA"
+  },
+  {
+   "isin": "US60770K1079",
+   "name": "MODERNA INC",
+   "buy": 2609158.0,
+   "sell": 10219778.0,
+   "net": -7610620.0,
+   "ticker": "MRNA"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 5933296.0,
+   "sell": 13314253.0,
+   "net": -7380957.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 2251218.0,
+   "sell": 8473853.0,
+   "net": -6222635.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US92864M7983",
+   "name": "VOLATILITY SHARES TRUST 2X ETHER ETF NEW SPLR 974476707 US92864M4006",
+   "buy": 1603304.0,
+   "sell": 4740296.0,
+   "net": -3136992.0,
+   "ticker": "ETHU"
+  },
+  {
+   "isin": "US92864M3016",
+   "name": "2X BITCOIN STRATEGY ETF",
+   "buy": 308356.0,
+   "sell": 3310039.0,
+   "net": -3001683.0,
+   "ticker": "BITX"
+  }
+ ]
+}

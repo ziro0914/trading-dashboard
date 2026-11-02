@@ -1,0 +1,15 @@
+{
+ "start": "2026-10-13",
+ "end": "2026-10-13",
+ "netBuy": [],
+ "netSell": [
+  {
+   "isin": "US74312Y5096",
+   "name": "PROFESSIONAL DIVERSITY NETWORK, IN SPLR 2642127338002 US74312Y4008",
+   "buy": 0.0,
+   "sell": 441.0,
+   "net": -441.0,
+   "ticker": "IPDN"
+  }
+ ]
+}

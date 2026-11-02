@@ -1,0 +1,168 @@
+{
+ "start": "2026-08-14",
+ "end": "2026-08-14",
+ "netBuy": [
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 57376289.0,
+   "sell": 7739078.0,
+   "net": 49637211.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 30106553.0,
+   "sell": 2589784.0,
+   "net": 27516769.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US21873S1087",
+   "name": "CoreWeave Inc",
+   "buy": 27036768.0,
+   "sell": 2863583.0,
+   "net": 24173186.0,
+   "ticker": "CRWV"
+  },
+  {
+   "isin": "NL0009805522",
+   "name": "YANDEX NV CL A",
+   "buy": 52900268.0,
+   "sell": 30622186.0,
+   "net": 22278082.0,
+   "ticker": "NBIS"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 20996033.0,
+   "sell": 4582266.0,
+   "net": 16413767.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "AU0000185993",
+   "name": "IRIS ENERGY LTD",
+   "buy": 18061645.0,
+   "sell": 4397397.0,
+   "net": 13664248.0,
+   "ticker": "IREN"
+  },
+  {
+   "isin": "US01741R1023",
+   "name": "ALLEGHENY TECHNOLOGIES INC",
+   "buy": 12398867.0,
+   "sell": 21153.0,
+   "net": 12377714.0,
+   "ticker": "ATI"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 25518522.0,
+   "sell": 13554254.0,
+   "net": 11964268.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US77926X3200",
+   "name": "ROUNDHILL MEMORY ETF",
+   "buy": 11235803.0,
+   "sell": 1002600.0,
+   "net": 10233203.0,
+   "ticker": "DRAM"
+  },
+  {
+   "isin": "US19247G1076",
+   "name": "II-VI INCORPORATED Com CHAN 009623241 US9021041085",
+   "buy": 14651179.0,
+   "sell": 6308116.0,
+   "net": 8343063.0,
+   "ticker": "COHR"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 52503570.0,
+   "sell": 671623545.0,
+   "net": -619119976.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 3080156.0,
+   "sell": 32379665.0,
+   "net": -29299509.0,
+   "ticker": "AMD"
+  },
+  {
+   "isin": "US46138G6153",
+   "name": "INVESCO PHLX SEMICONDUCTOR ETF",
+   "buy": 326400.0,
+   "sell": 26394967.0,
+   "net": -26068568.0,
+   "ticker": "SOXQ"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 3232976.0,
+   "sell": 27726682.0,
+   "net": -24493706.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 5887930.0,
+   "sell": 27606440.0,
+   "net": -21718511.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 7513275.0,
+   "sell": 25456532.0,
+   "net": -17943257.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 30847889.0,
+   "sell": 48249317.0,
+   "net": -17401428.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 6023629.0,
+   "sell": 21023005.0,
+   "net": -14999376.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 4056067.0,
+   "sell": 14756236.0,
+   "net": -10700169.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US23804L1035",
+   "name": "DATADOG INC CL A",
+   "buy": 214469.0,
+   "sell": 10231445.0,
+   "net": -10016976.0,
+   "ticker": "DDOG"
+  }
+ ]
+}

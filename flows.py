@@ -1,7 +1,9 @@
 """한국 투자자의 미국주식 순매수·순매도 순위. 출처는 예탁결제원 SEIBro 종목별내역(주식TOP50)."""
+import json
 import re
 import xml.etree.ElementTree as ET
 from datetime import date, timedelta
+from pathlib import Path
 
 import requests
 import yfinance as yf
@@ -13,6 +15,8 @@ PAGE = "https://seibro.or.kr/websquare/control.jsp?w2xPath=/IPORTAL/user/ovsSec/
 SELL, NET_BUY = "2", "4"
 TOP = 10
 LOOKBACK_DAYS = 10
+HISTORY_DIR = Path(__file__).parent / "history" / "flows"
+TICKER_MAP = Path(__file__).parent / "history" / "tickers.json"
 # 야후 검색이 다른 주식 종류를 먼저 돌려주는 종목
 ISIN_TICKERS = {"US02079K3059": "GOOGL"}
 
@@ -82,14 +86,40 @@ def ticker_for(isin: str, name: str) -> str | None:
     return None
 
 
-def load_flows(today: date | None = None) -> dict:
+def attach_tickers(view: dict, tickers: dict) -> None:
+    """이미 아는 ISIN은 tickers에서 쓰고, 새로 찾은 티커는 tickers에 더한다."""
+    for row in view["netBuy"] + view["netSell"]:
+        isin = row["isin"]
+        if isin not in tickers:
+            tickers[isin] = ticker_for(isin, row["name"])
+        row["ticker"] = tickers[isin]
+
+
+def load_ticker_map() -> dict:
+    return json.loads(TICKER_MAP.read_text()) if TICKER_MAP.exists() else {}
+
+
+def save_ticker_map(tickers: dict) -> None:
+    TICKER_MAP.parent.mkdir(parents=True, exist_ok=True)
+    TICKER_MAP.write_text(json.dumps(tickers, ensure_ascii=False, indent=0, sort_keys=True) + "\n")
+
+
+def save_day(view: dict) -> None:
+    HISTORY_DIR.mkdir(parents=True, exist_ok=True)
+    path = HISTORY_DIR / f"{view['end']}.json"
+    path.write_text(json.dumps(view, ensure_ascii=False, indent=1) + "\n")
+
+
+def load_saved_days() -> list[dict]:
+    """저장된 날짜별 순위. 최신 날짜가 먼저 온다."""
+    paths = sorted(HISTORY_DIR.glob("*.json"), reverse=True)
+    return [json.loads(path.read_text()) for path in paths]
+
+
+def load_flows(today: date | None = None, tickers: dict | None = None) -> dict:
     end = latest_date(today or date.today())
     flows = {"daily": period(end, end), "weekly": period(end - timedelta(days=6), end)}
-    tickers = {}
+    known = load_ticker_map() if tickers is None else tickers
     for view in flows.values():
-        for row in view["netBuy"] + view["netSell"]:
-            isin = row["isin"]
-            if isin not in tickers:
-                tickers[isin] = ticker_for(isin, row["name"])
-            row["ticker"] = tickers[isin]
+        attach_tickers(view, known)
     return flows

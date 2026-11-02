@@ -1,0 +1,168 @@
+{
+ "start": "2026-09-21",
+ "end": "2026-09-21",
+ "netBuy": [
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 46217850.0,
+   "sell": 4953350.0,
+   "net": 41264499.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 27180198.0,
+   "sell": 1175008.0,
+   "net": 26005190.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "NL0009805522",
+   "name": "YANDEX NV CL A",
+   "buy": 18237094.0,
+   "sell": 461852.0,
+   "net": 17775242.0,
+   "ticker": "NBIS"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 17793130.0,
+   "sell": 2024638.0,
+   "net": 15768492.0,
+   "ticker": "SCHD"
+  },
+  {
+   "isin": "US36828A1016",
+   "name": "GE Vernova",
+   "buy": 16488415.0,
+   "sell": 1397681.0,
+   "net": 15090735.0,
+   "ticker": "GEV"
+  },
+  {
+   "isin": "US6974351057",
+   "name": "PALO ALTO NETWORKS INC",
+   "buy": 15118825.0,
+   "sell": 438962.0,
+   "net": 14679862.0,
+   "ticker": "PANW"
+  },
+  {
+   "isin": "VGG752714060",
+   "name": "RETO ECO-SOLUTIONS, INC. SPLR 2641242618002 VGG752711330",
+   "buy": 23019016.0,
+   "sell": 9762132.0,
+   "net": 13256883.0,
+   "ticker": "RETO"
+  },
+  {
+   "isin": "US0937121079",
+   "name": "BLOOM ENERGY CORP CL A",
+   "buy": 14801954.0,
+   "sell": 2049112.0,
+   "net": 12752841.0,
+   "ticker": "BE"
+  },
+  {
+   "isin": "US24703L2025",
+   "name": "DELL TECHNOLOGIES INC CL C MRGR 006138875 US24703L1035",
+   "buy": 11944271.0,
+   "sell": 857928.0,
+   "net": 11086343.0,
+   "ticker": "DELL"
+  },
+  {
+   "isin": "US8334451098",
+   "name": "SNOWFLAKE INC",
+   "buy": 7568132.0,
+   "sell": 128154.0,
+   "net": 7439978.0,
+   "ticker": "SNOW"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 7334486.0,
+   "sell": 442653974.0,
+   "net": -435319488.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 2358667.0,
+   "sell": 29114668.0,
+   "net": -26756000.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 1807168.0,
+   "sell": 21765069.0,
+   "net": -19957902.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 11272445.0,
+   "sell": 24384570.0,
+   "net": -13112125.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 6021220.0,
+   "sell": 18314659.0,
+   "net": -12293439.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US88023B1035",
+   "name": "Tempus AI Inc",
+   "buy": 114440.0,
+   "sell": 10489863.0,
+   "net": -10375423.0,
+   "ticker": "TEM"
+  },
+  {
+   "isin": "US30303M1027",
+   "name": "META PLATFORMS INC CL A",
+   "buy": 1528316.0,
+   "sell": 11165921.0,
+   "net": -9637605.0,
+   "ticker": "META"
+  },
+  {
+   "isin": "US4581401001",
+   "name": "INTEL CORP",
+   "buy": 6975610.0,
+   "sell": 15258188.0,
+   "net": -8282578.0,
+   "ticker": "INTC"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 25923636.0,
+   "sell": 33314628.0,
+   "net": -7390993.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 3523472.0,
+   "sell": 9081821.0,
+   "net": -5558349.0,
+   "ticker": "AMD"
+  }
+ ]
+}

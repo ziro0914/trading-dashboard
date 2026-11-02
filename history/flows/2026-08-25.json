@@ -1,0 +1,168 @@
+{
+ "start": "2026-08-25",
+ "end": "2026-08-25",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 260359960.0,
+   "sell": 33746065.0,
+   "net": 226613895.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US5949724083",
+   "name": "MICROSTRATEGY INC CL A",
+   "buy": 34096961.0,
+   "sell": 3698091.0,
+   "net": 30398869.0,
+   "ticker": "MSTR"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 17470700.0,
+   "sell": 1579215.0,
+   "net": 15891485.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 17255753.0,
+   "sell": 1869497.0,
+   "net": 15386255.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US8629453007",
+   "name": "STRIVE INC SPLR 2640969890002 US8629451027",
+   "buy": 13177385.0,
+   "sell": 448556.0,
+   "net": 12728829.0,
+   "ticker": "ASST"
+  },
+  {
+   "isin": "US92864M7983",
+   "name": "VOLATILITY SHARES TRUST 2X ETHER ETF NEW SPLR 974476707 US92864M4006",
+   "buy": 12675075.0,
+   "sell": 2043602.0,
+   "net": 10631472.0,
+   "ticker": "ETHU"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 10551928.0,
+   "sell": 1108933.0,
+   "net": 9442994.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "US09175A2069",
+   "name": "BITMINE IMMERSION TECHNOLOGI",
+   "buy": 9653611.0,
+   "sell": 811343.0,
+   "net": 8842268.0,
+   "ticker": "BMNR"
+  },
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 10656000.0,
+   "sell": 1929304.0,
+   "net": 8726697.0,
+   "ticker": "MRVL"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 14435526.0,
+   "sell": 5786589.0,
+   "net": 8648937.0,
+   "ticker": "TQQQ"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 2303504.0,
+   "sell": 35416201.0,
+   "net": -33112696.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US78464A3757",
+   "name": "SPDR PORTFOLIO INTERMEDIATE TERM CORPORATE BOND ETF",
+   "buy": 729.0,
+   "sell": 29775169.0,
+   "net": -29774440.0,
+   "ticker": "SPIB"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 3584234.0,
+   "sell": 23291309.0,
+   "net": -19707075.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 1022424.0,
+   "sell": 18789535.0,
+   "net": -17767112.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US25460G2865",
+   "name": "DIREXION DAILY TSLA BULL 2X SHARES",
+   "buy": 2838083.0,
+   "sell": 19521700.0,
+   "net": -16683616.0,
+   "ticker": "TSLL"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 9914511.0,
+   "sell": 25325567.0,
+   "net": -15411056.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 9846585.0,
+   "sell": 23746287.0,
+   "net": -13899702.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US25461A4452",
+   "name": "DIREXION DAILY PLTR BULL 2X SHARES",
+   "buy": 2769.0,
+   "sell": 12863401.0,
+   "net": -12860631.0,
+   "ticker": "PLTU"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 3698677.0,
+   "sell": 14970155.0,
+   "net": -11271477.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US88023B1035",
+   "name": "Tempus AI Inc",
+   "buy": 640394.0,
+   "sell": 8187227.0,
+   "net": -7546833.0,
+   "ticker": "TEM"
+  }
+ ]
+}

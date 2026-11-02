@@ -1,0 +1,168 @@
+{
+ "start": "2026-10-28",
+ "end": "2026-10-28",
+ "netBuy": [
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 56188659.0,
+   "sell": 2921727.0,
+   "net": 53266932.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 24765610.0,
+   "sell": 1098511.0,
+   "net": 23667098.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 23999541.0,
+   "sell": 4332761.0,
+   "net": 19666780.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US55024U1097",
+   "name": "LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074",
+   "buy": 16741979.0,
+   "sell": 456678.0,
+   "net": 16285301.0,
+   "ticker": "LITE"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 16705965.0,
+   "sell": 662398.0,
+   "net": 16043567.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US8740391003",
+   "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR",
+   "buy": 15336825.0,
+   "sell": 2578111.0,
+   "net": 12758715.0,
+   "ticker": null
+  },
+  {
+   "isin": "US46138G6492",
+   "name": "INVESCO NASDAQ 100 ETF",
+   "buy": 11538568.0,
+   "sell": 519047.0,
+   "net": 11019521.0,
+   "ticker": "QQQM"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 10718578.0,
+   "sell": 726165.0,
+   "net": 9992412.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 12463757.0,
+   "sell": 4120711.0,
+   "net": 8343046.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 8900587.0,
+   "sell": 1079778.0,
+   "net": 7820809.0,
+   "ticker": "SOXX"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 20047946.0,
+   "sell": 318253601.0,
+   "net": -298205655.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 11183912.0,
+   "sell": 59868754.0,
+   "net": -48684842.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 4111908.0,
+   "sell": 22911864.0,
+   "net": -18799956.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US25460G2865",
+   "name": "DIREXION DAILY TSLA BULL 2X SHARES",
+   "buy": 1158136.0,
+   "sell": 19621364.0,
+   "net": -18463228.0,
+   "ticker": "TSLL"
+  },
+  {
+   "isin": "US60770K1079",
+   "name": "MODERNA INC",
+   "buy": 614782.0,
+   "sell": 7753613.0,
+   "net": -7138831.0,
+   "ticker": "MRNA"
+  },
+  {
+   "isin": "US46435U7138",
+   "name": "ISHARES US INFRASTRUCTURE ETF",
+   "buy": 511.0,
+   "sell": 6872643.0,
+   "net": -6872132.0,
+   "ticker": "IFRA"
+  },
+  {
+   "isin": "US5324571083",
+   "name": "ELI LILLY & CO",
+   "buy": 622672.0,
+   "sell": 6227059.0,
+   "net": -5604387.0,
+   "ticker": "LLY"
+  },
+  {
+   "isin": "US0378331005",
+   "name": "APPLE INC",
+   "buy": 1218103.0,
+   "sell": 6122399.0,
+   "net": -4904296.0,
+   "ticker": "AAPL"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 1361594.0,
+   "sell": 6214163.0,
+   "net": -4852569.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US57667L1070",
+   "name": "MATCH GROUP INC",
+   "buy": 1627.0,
+   "sell": 4649544.0,
+   "net": -4647916.0,
+   "ticker": "MTCH"
+  }
+ ]
+}

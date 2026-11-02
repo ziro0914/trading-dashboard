@@ -1,0 +1,168 @@
+{
+ "start": "2026-10-12",
+ "end": "2026-10-12",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 667232539.0,
+   "sell": 16065864.0,
+   "net": 651166675.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 69596734.0,
+   "sell": 2574311.0,
+   "net": 67022423.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US34631F1021",
+   "name": "FORGENT POWER SOLUTIONS INC",
+   "buy": 22003766.0,
+   "sell": 257694.0,
+   "net": 21746072.0,
+   "ticker": "FPS"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 18730580.0,
+   "sell": 1044757.0,
+   "net": 17685823.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 15503199.0,
+   "sell": 2876255.0,
+   "net": 12626945.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US8740391003",
+   "name": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR",
+   "buy": 11837557.0,
+   "sell": 2698694.0,
+   "net": 9138863.0,
+   "ticker": null
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 10068115.0,
+   "sell": 1818834.0,
+   "net": 8249282.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US0231351067",
+   "name": "AMAZON.COM INC",
+   "buy": 10302263.0,
+   "sell": 2356317.0,
+   "net": 7945947.0,
+   "ticker": "AMZN"
+  },
+  {
+   "isin": "US26923V4150",
+   "name": "ROUNDHILL T-REX 2X LONG DRAM DAILY TARGET ETF",
+   "buy": 7847186.0,
+   "sell": 1368351.0,
+   "net": 6478836.0,
+   "ticker": "RAM"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 6783310.0,
+   "sell": 343869.0,
+   "net": 6439441.0,
+   "ticker": "SCHD"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 4173692.0,
+   "sell": 30568164.0,
+   "net": -26394472.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 17250652.0,
+   "sell": 34301104.0,
+   "net": -17050452.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 4351761.0,
+   "sell": 19939377.0,
+   "net": -15587616.0,
+   "ticker": "SOXX"
+  },
+  {
+   "isin": "US55024U1097",
+   "name": "LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074",
+   "buy": 3671157.0,
+   "sell": 15894355.0,
+   "net": -12223198.0,
+   "ticker": "LITE"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 2118376.0,
+   "sell": 12689524.0,
+   "net": -10571148.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US30303M1027",
+   "name": "META PLATFORMS INC CL A",
+   "buy": 2302292.0,
+   "sell": 10533801.0,
+   "net": -8231509.0,
+   "ticker": "META"
+  },
+  {
+   "isin": "US25461A4452",
+   "name": "DIREXION DAILY PLTR BULL 2X SHARES",
+   "buy": 6463.0,
+   "sell": 7659055.0,
+   "net": -7652591.0,
+   "ticker": "PLTU"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 5997561.0,
+   "sell": 13083396.0,
+   "net": -7085834.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 5485005.0,
+   "sell": 12168930.0,
+   "net": -6683926.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US8592411016",
+   "name": "STERLING INFRASTRUCTURE ORD",
+   "buy": 34067.0,
+   "sell": 5382449.0,
+   "net": -5348382.0,
+   "ticker": "STRL"
+  }
+ ]
+}

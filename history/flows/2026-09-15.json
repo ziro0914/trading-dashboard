@@ -1,0 +1,168 @@
+{
+ "start": "2026-09-15",
+ "end": "2026-09-15",
+ "netBuy": [
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 40841147.0,
+   "sell": 10335688.0,
+   "net": 30505459.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 27141625.0,
+   "sell": 5445464.0,
+   "net": 21696160.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US68389X1054",
+   "name": "ORACLE CORP",
+   "buy": 22650217.0,
+   "sell": 2054487.0,
+   "net": 20595730.0,
+   "ticker": "ORCL"
+  },
+  {
+   "isin": "US67079K1007",
+   "name": "NUSCALE POWER CORP CL A MRGR 009185329 KYG8377A1085",
+   "buy": 15998327.0,
+   "sell": 2955569.0,
+   "net": 13042758.0,
+   "ticker": "SMR"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 13788966.0,
+   "sell": 1401244.0,
+   "net": 12387721.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 11683289.0,
+   "sell": 1379612.0,
+   "net": 10303677.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 11666783.0,
+   "sell": 2083702.0,
+   "net": 9583081.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 13120364.0,
+   "sell": 4008610.0,
+   "net": 9111755.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US55024U1097",
+   "name": "LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074",
+   "buy": 7276802.0,
+   "sell": 444081.0,
+   "net": 6832722.0,
+   "ticker": "LITE"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 8624857.0,
+   "sell": 1906773.0,
+   "net": 6718084.0,
+   "ticker": "SOXX"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 16400232.0,
+   "sell": 453763936.0,
+   "net": -437363703.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 2996353.0,
+   "sell": 19979848.0,
+   "net": -16983495.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US0378331005",
+   "name": "APPLE INC",
+   "buy": 973029.0,
+   "sell": 8767622.0,
+   "net": -7794593.0,
+   "ticker": "AAPL"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 4525952.0,
+   "sell": 10402359.0,
+   "net": -5876407.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "AU0000185993",
+   "name": "IRIS ENERGY LTD",
+   "buy": 2141341.0,
+   "sell": 7481035.0,
+   "net": -5339695.0,
+   "ticker": "IREN"
+  },
+  {
+   "isin": "US8807701029",
+   "name": "TERADYNE INC",
+   "buy": 353743.0,
+   "sell": 4812332.0,
+   "net": -4458589.0,
+   "ticker": "TER"
+  },
+  {
+   "isin": "US01741R1023",
+   "name": "ALLEGHENY TECHNOLOGIES INC",
+   "buy": 41375.0,
+   "sell": 4415085.0,
+   "net": -4373711.0,
+   "ticker": "ATI"
+  },
+  {
+   "isin": "US30303M1027",
+   "name": "META PLATFORMS INC CL A",
+   "buy": 2280710.0,
+   "sell": 6443606.0,
+   "net": -4162895.0,
+   "ticker": "META"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 599805.0,
+   "sell": 4435367.0,
+   "net": -3835562.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US42238D1072",
+   "name": "Heartflow Inc",
+   "buy": 497.0,
+   "sell": 3397786.0,
+   "net": -3397289.0,
+   "ticker": "HTFL"
+  }
+ ]
+}

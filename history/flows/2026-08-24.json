@@ -1,0 +1,168 @@
+{
+ "start": "2026-08-24",
+ "end": "2026-08-24",
+ "netBuy": [
+  {
+   "isin": "US1725731079",
+   "name": "Circle Internet",
+   "buy": 22020876.0,
+   "sell": 2711457.0,
+   "net": 19309419.0,
+   "ticker": "CRCL"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 25443712.0,
+   "sell": 6723214.0,
+   "net": 18720498.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US91332U1016",
+   "name": "UNITY SOFTWARE INC",
+   "buy": 18518864.0,
+   "sell": 1603431.0,
+   "net": 16915433.0,
+   "ticker": "U"
+  },
+  {
+   "isin": "US5949724083",
+   "name": "MICROSTRATEGY INC CL A",
+   "buy": 18682101.0,
+   "sell": 1772871.0,
+   "net": 16909230.0,
+   "ticker": "MSTR"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 17516629.0,
+   "sell": 1435348.0,
+   "net": 16081281.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 17882506.0,
+   "sell": 2987667.0,
+   "net": 14894839.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 18942475.0,
+   "sell": 4778073.0,
+   "net": 14164402.0,
+   "ticker": "SCHD"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 43977826.0,
+   "sell": 30024143.0,
+   "net": 13953683.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 17153561.0,
+   "sell": 3264065.0,
+   "net": 13889497.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US78463V1070",
+   "name": "SPDR GOLD SHARES ETF",
+   "buy": 13498965.0,
+   "sell": 155325.0,
+   "net": 13343640.0,
+   "ticker": "GLD"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 141917273.0,
+   "sell": 267665443.0,
+   "net": -125748171.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US75734B1008",
+   "name": "REDDIT INC",
+   "buy": 465026.0,
+   "sell": 21479493.0,
+   "net": -21014466.0,
+   "ticker": "RDDT"
+  },
+  {
+   "isin": "US0382221051",
+   "name": "APPLIED MATERIALS INC",
+   "buy": 215628.0,
+   "sell": 16104649.0,
+   "net": -15889021.0,
+   "ticker": "AMAT"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 8565779.0,
+   "sell": 21922976.0,
+   "net": -13357196.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 1089201.0,
+   "sell": 12708842.0,
+   "net": -11619642.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 6590802.0,
+   "sell": 13914682.0,
+   "net": -7323879.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 915326.0,
+   "sell": 7578283.0,
+   "net": -6662957.0,
+   "ticker": "SOXX"
+  },
+  {
+   "isin": "US46125A1007",
+   "name": "INFLECTION POINT ACQUISITIO INTUITIVE MACHINES INC MRGR 944502928 KYG478741211",
+   "buy": 483297.0,
+   "sell": 5872715.0,
+   "net": -5389418.0,
+   "ticker": "LUNR"
+  },
+  {
+   "isin": "US75629V1044",
+   "name": "RECURSION PHARMACEUTICALS INC",
+   "buy": 100016.0,
+   "sell": 5107848.0,
+   "net": -5007832.0,
+   "ticker": "RXRX"
+  },
+  {
+   "isin": "US26923V4150",
+   "name": "ROUNDHILL T-REX 2X LONG DRAM DAILY TARGET ETF",
+   "buy": 2241814.0,
+   "sell": 7028116.0,
+   "net": -4786302.0,
+   "ticker": "RAM"
+  }
+ ]
+}

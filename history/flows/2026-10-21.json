@@ -1,0 +1,168 @@
+{
+ "start": "2026-10-21",
+ "end": "2026-10-21",
+ "netBuy": [
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 47196318.0,
+   "sell": 7788314.0,
+   "net": 39408004.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 25062403.0,
+   "sell": 392579.0,
+   "net": 24669823.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 23472852.0,
+   "sell": 898722.0,
+   "net": 22574131.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 18687980.0,
+   "sell": 1518025.0,
+   "net": 17169955.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US46090E1038",
+   "name": "INVESCO QQQ TRUST SRS 1 ETF",
+   "buy": 17802768.0,
+   "sell": 3260630.0,
+   "net": 14542138.0,
+   "ticker": "QQQ"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 18658746.0,
+   "sell": 4455088.0,
+   "net": 14203657.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 32427754.0,
+   "sell": 18282696.0,
+   "net": 14145058.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 17017109.0,
+   "sell": 2960005.0,
+   "net": 14057104.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "AU0000185993",
+   "name": "IRIS ENERGY LTD",
+   "buy": 14262728.0,
+   "sell": 558202.0,
+   "net": 13704526.0,
+   "ticker": "IREN"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 13057915.0,
+   "sell": 708901.0,
+   "net": 12349014.0,
+   "ticker": "SOXX"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 56306580.0,
+   "sell": 188053430.0,
+   "net": -131746850.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US30303M1027",
+   "name": "META PLATFORMS INC CL A",
+   "buy": 1336354.0,
+   "sell": 21229166.0,
+   "net": -19892812.0,
+   "ticker": "META"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 4358311.0,
+   "sell": 22394805.0,
+   "net": -18036495.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 8547072.0,
+   "sell": 17211829.0,
+   "net": -8664757.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US60770K1079",
+   "name": "MODERNA INC",
+   "buy": 513119.0,
+   "sell": 8276781.0,
+   "net": -7763662.0,
+   "ticker": "MRNA"
+  },
+  {
+   "isin": "US5324571083",
+   "name": "ELI LILLY & CO",
+   "buy": 391750.0,
+   "sell": 6088233.0,
+   "net": -5696483.0,
+   "ticker": "LLY"
+  },
+  {
+   "isin": "US8168501018",
+   "name": "SEMTECH CORP",
+   "buy": 226155.0,
+   "sell": 4627529.0,
+   "net": -4401374.0,
+   "ticker": "SMTC"
+  },
+  {
+   "isin": "US82982T1060",
+   "name": "SITIME CORP",
+   "buy": 284805.0,
+   "sell": 4104331.0,
+   "net": -3819526.0,
+   "ticker": "SITM"
+  },
+  {
+   "isin": "US42824C1099",
+   "name": "HEWLETT PACKARD ENTERPRISE CO",
+   "buy": 320204.0,
+   "sell": 3865594.0,
+   "net": -3545390.0,
+   "ticker": "HPE"
+  },
+  {
+   "isin": "US86800U3023",
+   "name": "SUPER MICRO COMPUTER INC",
+   "buy": 536813.0,
+   "sell": 3827698.0,
+   "net": -3290885.0,
+   "ticker": "SMCI"
+  }
+ ]
+}

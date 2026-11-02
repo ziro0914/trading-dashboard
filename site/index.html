@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>미국주식 대시보드</title>
+<style>
+:root {
+  --bg: #fcfcfb; --panel: #f4f3f0; --line: #e3e2dd; --text: #0b0b0b; --muted: #52514e;
+  --link: #1c5cab; --up: #0a7f0a; --down: #c0322f; --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a19; --panel: #262624; --line: #383835; --text: #f0efec; --muted: #c3c2b7;
+    --link: #86b6ef; --up: #4fc34f; --down: #e66767; --s1: #3987e5; --s2: #d95926; --s3: #199e70;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+main { max-width: 1120px; margin: 0 auto; padding: 16px; }
+h1 { font-size: 24px; margin: 8px 0 12px; }
+h2 { font-size: 19px; margin: 28px 0 10px; }
+h3 { font-size: 21px; margin: 28px 0 2px; }
+.muted { color: var(--muted); font-size: 13px; }
+.search { position: relative; }
+input { width: 100%; padding: 12px; font-size: 16px; color: var(--text); background: var(--panel);
+  border: 1px solid var(--line); border-radius: 8px; }
+.suggest { position: absolute; z-index: 5; left: 0; right: 0; top: 100%; margin: 4px 0 0; padding: 4px;
+  list-style: none; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; }
+.suggest button { width: 100%; padding: 10px; text-align: left; font-size: 15px; color: var(--text);
+  background: none; border: 0; border-radius: 6px; }
+.suggest button:hover { background: var(--panel); }
+.periods { display: flex; gap: 6px; margin: 12px 0 0; flex-wrap: wrap; }
+.periods button { min-height: 40px; padding: 6px 14px; font-size: 14px; color: var(--text);
+  background: none; border: 1px solid var(--line); border-radius: 8px; }
+.periods button[aria-pressed="true"] { background: var(--s1); border-color: var(--s1); color: #fff; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px 16px; }
+.metric .label { color: var(--muted); font-size: 13px; }
+.metric .value { font-size: 22px; font-weight: 500; overflow-wrap: anywhere; }
+.metric .delta { font-size: 13px; color: var(--muted); }
+.metric .delta.up { color: var(--up); }
+.metric .delta.down { color: var(--down); }
+.columns { display: grid; grid-template-columns: 2fr 1fr; gap: 28px; }
+.columns > * { min-width: 0; }
+.chart { position: relative; height: 320px; }
+.chart.small { height: 240px; }
+.scroll { overflow-x: auto; margin-top: 14px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; white-space: nowrap; }
+th, td { padding: 8px; text-align: right; border-bottom: 1px solid var(--line); }
+th { color: var(--muted); font-weight: 500; }
+th:first-child, td:first-child { text-align: left; }
+.news { margin: 0; padding: 0; list-style: none; }
+.news li { margin-bottom: 14px; }
+.news a { color: var(--link); }
+details { margin-top: 16px; }
+.notice { padding: 12px; background: var(--panel); border-radius: 8px; margin-top: 16px; }
+@media (max-width: 760px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+  .columns { grid-template-columns: 1fr; gap: 0; }
+  .metric .value { font-size: 19px; }
+  .chart { height: 260px; }
+}
+</style>
+</head>
+<body>
+<main>
+  <h1>미국주식 대시보드</h1>
+  <div class="search">
+    <input id="query" type="search" autocomplete="off" aria-label="티커 또는 회사명"
+           placeholder="TSLA, tesla, 테슬라">
+    <ul class="suggest" id="suggest" hidden></ul>
+  </div>
+  <div class="periods" id="periods"></div>
+  <p class="muted" id="updated"></p>
+
+  <h2>오늘의 시황</h2>
+  <div class="grid" id="market"></div>
+  <p class="muted" id="marketNote"></p>
+
+  <div id="message"></div>
+  <div id="stock" hidden>
+    <h3 id="name"></h3>
+    <div class="muted" id="tags"></div>
+    <div class="grid" id="profile" style="margin-top:14px"></div>
+    <details id="aboutBox"><summary>회사 소개 (영문)</summary><p id="about"></p></details>
+    <div class="columns">
+      <section>
+        <h2>주가</h2>
+        <div class="chart"><canvas id="priceChart"></canvas></div>
+        <h2>낙폭과 위험</h2>
+        <div class="grid" id="risk"></div>
+        <p class="muted" id="riskNote"></p>
+        <div class="chart small"><canvas id="ddChart"></canvas></div>
+        <div class="scroll"><table id="table"></table></div>
+      </section>
+      <section>
+        <h2>관련 뉴스</h2>
+        <ul class="news" id="news"></ul>
+      </section>
+    </div>
+  </div>
+  <p class="muted">데이터: Yahoo Finance, Google News, 네이버 증권. 실시간 시세가 아니며 투자 판단의 참고 자료입니다.</p>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js"></script>
+<script>
+const PERIODS = ["1년", "3년", "5년", "10년", "전체"];
+const RATINGS = { strong_buy: "강력 매수", buy: "매수", hold: "보유", underperform: "비중 축소", sell: "매도" };
+const $ = (id) => document.getElementById(id);
+const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+const state = { index: [], stock: null, period: "5년", charts: {} };
+
+const percent = (v) => (v == null ? "-" : `${(v * 100).toFixed(1)}%`);
+const signed = (v) => `${v >= 0 ? "+" : ""}${(v * 100).toFixed(2)}%`;
+const number = (v, digits = 2, suffix = "") =>
+  v == null ? "-" : v.toLocaleString("en-US", { minimumFractionDigits: digits, maximumFractionDigits: digits }) + suffix;
+function money(v) {
+  if (v == null) return "-";
+  if (Math.abs(v) >= 1e12) return `$${number(v / 1e12)}조`;
+  if (Math.abs(v) >= 1e9) return `$${number(v / 1e9)}십억`;
+  if (Math.abs(v) >= 1e6) return `$${number(v / 1e6)}백만`;
+  return `$${number(v)}`;
+}
+function ago(iso) {
+  const hours = (Date.now() - new Date(iso).getTime()) / 36e5;
+  if (hours < 1) return "방금 전";
+  return hours < 24 ? `${Math.round(hours)}시간 전` : `${Math.round(hours / 24)}일 전`;
+}
+function metric(label, value, delta) {
+  const box = document.createElement("div");
+  box.className = "metric";
+  const add = (cls, text) => {
+    const el = document.createElement("div");
+    el.className = cls;
+    el.textContent = text;
+    box.append(el);
+  };
+  add("label", label);
+  add("value", value);
+  if (delta) add(`delta ${delta.tone || ""}`, delta.text);
+  return box;
+}
+function fill(id, items) { $(id).replaceChildren(...items); }
+function moveDelta(ratio) {
+  return { text: `${ratio >= 0 ? "▲" : "▼"} ${signed(ratio)}`, tone: ratio >= 0 ? "up" : "down" };
+}
+
+function renderMarket(market) {
+  fill("market", market.rows.map((row) => {
+    if (row.symbol === "^TNX") {
+      const bp = (row.last - row.previous) * 100;
+      return metric(row.label, `${row.last.toFixed(2)}%`, { text: `${bp >= 0 ? "+" : ""}${bp.toFixed(0)}bp` });
+    }
+    return metric(row.label, number(row.last), moveDelta(row.last / row.previous - 1));
+  }));
+  if (market.spxGap != null && market.vix != null) {
+    const mood = market.vix < 15 ? "낮음" : market.vix < 25 ? "보통" : "높음";
+    $("marketNote").textContent =
+      `S&P 500은 200일 평균선보다 ${Math.abs(market.spxGap * 100).toFixed(1)}% ${market.spxGap >= 0 ? "위" : "아래"}에 있고, ` +
+      `시장 불안 지표 VIX는 ${market.vix.toFixed(1)}로 ${mood} 수준입니다. 기준일 ${market.date}.`;
+  }
+}
+
+function normalize(text) { return text.toLowerCase().replace(/[\s.\-&]/g, ""); }
+function search(query) {
+  const q = normalize(query);
+  if (!q) return [];
+  const scored = [];
+  for (const item of state.index) {
+    const ticker = normalize(item.ticker);
+    const names = [item.name, item.korean, ...item.aliases].filter(Boolean).map(normalize);
+    let score = 0;
+    if (ticker === q) score = 5;
+    else if (names.some((name) => name === q)) score = 4;
+    else if (ticker.startsWith(q)) score = 3;
+    else if (names.some((name) => name.startsWith(q))) score = 2;
+    else if (names.some((name) => name.includes(q))) score = 1;
+    if (score) scored.push({ item, score });
+  }
+  return scored.sort((a, b) => b.score - a.score).slice(0, 6).map((entry) => entry.item);
+}
+function hideSuggest() { $("suggest").hidden = true; }
+function showSuggest() {
+  const results = search($("query").value);
+  $("suggest").replaceChildren(...results.map((item) => {
+    const li = document.createElement("li");
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = `${item.ticker} · ${item.korean || item.name}`;
+    button.addEventListener("click", () => openTicker(item.ticker));
+    li.append(button);
+    return li;
+  }));
+  $("suggest").hidden = results.length === 0;
+}
+
+async function openTicker(ticker) {
+  hideSuggest();
+  $("query").value = ticker;
+  $("message").replaceChildren();
+  history.replaceState(null, "", `?t=${encodeURIComponent(ticker)}`);
+  try {
+    const response = await fetch(`data/${encodeURIComponent(ticker)}.json`);
+    if (!response.ok) throw new Error(response.status);
+    state.stock = await response.json();
+  } catch {
+    $("stock").hidden = true;
+    notice(`${ticker} 데이터를 불러오지 못했습니다.`);
+    return;
+  }
+  if (!state.stock.windows[state.period]) state.period = "전체";
+  renderPeriods();
+  renderStock();
+}
+function notice(text) {
+  const box = document.createElement("div");
+  box.className = "notice";
+  box.textContent = text;
+  $("message").replaceChildren(box);
+}
+function submitSearch() {
+  const query = $("query").value.trim();
+  if (!query) return;
+  const [first] = search(query);
+  if (first) { openTicker(first.ticker); return; }
+  hideSuggest();
+  $("stock").hidden = true;
+  notice(`'${query}'은(는) 이 페이지의 목록(${state.index.length}개 종목)에 없습니다. 추가하려면 universe.txt에 넣어야 합니다.`);
+}
+
+function renderPeriods() {
+  const windows = state.stock ? state.stock.windows : null;
+  $("periods").replaceChildren(...PERIODS.filter((p) => !windows || windows[p]).map((period) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = period;
+    button.setAttribute("aria-pressed", String(period === state.period));
+    button.addEventListener("click", () => {
+      state.period = period;
+      renderPeriods();
+      if (state.stock) renderWindow();
+    });
+    return button;
+  }));
+}
+
+function renderStock() {
+  const { ticker, info } = state.stock;
+  $("stock").hidden = false;
+  $("name").textContent = `${info.longName || info.shortName || ticker} (${ticker})`;
+  const isEtf = info.quoteType === "ETF";
+  const tags = isEtf ? ["ETF", info.category] : [info.sector, info.industry, info.exchange];
+  $("tags").textContent = tags.filter(Boolean).join(" · ");
+
+  const price = info.currentPrice || info.regularMarketPrice || state.stock.lastClose;
+  const previous = info.previousClose || state.stock.prevClose;
+  const target = info.targetMeanPrice;
+  const rating = RATINGS[info.recommendationKey] || "-";
+  fill("profile", [
+    metric("현재가", `$${number(price)}`, moveDelta(price / previous - 1)),
+    metric(isEtf ? "운용자산" : "시가총액", money(isEtf ? info.totalAssets : info.marketCap)),
+    metric("PER (최근 / 예상)", `${number(info.trailingPE, 1)} / ${number(info.forwardPE, 1)}`),
+    metric("EPS (최근)", number(info.trailingEps)),
+    metric("52주 고가 / 저가", `${number(info.fiftyTwoWeekHigh)} / ${number(info.fiftyTwoWeekLow)}`),
+    metric("배당수익률", number(info.dividendYield, 2, "%")),
+    metric("베타", number(info.beta)),
+    metric("다음 실적 발표", state.stock.earnings || "-"),
+    metric("애널리스트 목표가 평균", number(target), target ? { text: signed(target / price - 1) } : null),
+    metric("애널리스트 의견", info.numberOfAnalystOpinions ? `${rating} (${info.numberOfAnalystOpinions}명)` : rating),
+  ]);
+  $("aboutBox").hidden = !info.longBusinessSummary;
+  $("about").textContent = info.longBusinessSummary || "";
+
+  $("news").replaceChildren(...state.stock.news.filter((item) => /^https:\/\//.test(item.link)).map((item) => {
+    const li = document.createElement("li");
+    const link = document.createElement("a");
+    link.href = item.link;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = item.title;
+    const meta = document.createElement("div");
+    meta.className = "muted";
+    meta.textContent = `${item.source} · ${ago(item.time)}`;
+    li.append(link, meta);
+    return li;
+  }));
+  if (!state.stock.news.length) $("news").textContent = "최근 뉴스를 찾지 못했습니다.";
+
+  const head = ["기간", `${ticker} MDD`];
+  if (state.stock.benchmark) head.push(`${state.stock.benchmark} MDD`);
+  head.push("연환산 수익률", "변동성", "샤프지수");
+  const row = (cells, tag) => {
+    const tr = document.createElement("tr");
+    for (const cell of cells) {
+      const el = document.createElement(tag);
+      el.textContent = cell;
+      tr.append(el);
+    }
+    return tr;
+  };
+  const rows = PERIODS.filter((p) => state.stock.windows[p]).map((period) => {
+    const w = state.stock.windows[period];
+    const cells = [period, percent(w.mdd)];
+    if (state.stock.benchmark) cells.push(percent(w.benchMdd));
+    cells.push(percent(w.cagr), percent(w.volatility), number(w.sharpe));
+    return row(cells, "td");
+  });
+  $("table").replaceChildren(row(head, "th"), ...rows);
+  renderWindow();
+}
+
+function line(label, data, color) {
+  return { label, data, borderColor: color, backgroundColor: color, borderWidth: 2, pointRadius: 0, pointHitRadius: 12, spanGaps: true };
+}
+function draw(key, canvas, datasets, labels, formatY) {
+  state.charts[key]?.destroy();
+  const muted = css("--muted");
+  state.charts[key] = new Chart(canvas, {
+    type: "line",
+    data: { labels, datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false, animation: false,
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: { labels: { color: muted, boxWidth: 16, boxHeight: 2, filter: (item) => !item.text.startsWith("MDD") } },
+        tooltip: { callbacks: { label: (c) => `${c.dataset.label}: ${formatY(c.parsed.y)}` } },
+      },
+      scales: {
+        x: { grid: { display: false }, ticks: { color: muted, maxTicksLimit: 6, maxRotation: 0, callback(value) { return this.getLabelForValue(value).slice(0, 7); } } },
+        y: { grid: { color: css("--line") }, ticks: { color: muted, callback: formatY } },
+      },
+    },
+  });
+}
+function renderWindow() {
+  const { ticker, benchmark } = state.stock;
+  const w = state.stock.windows[state.period];
+  fill("risk", [
+    metric("MDD", percent(w.mdd)),
+    metric("현재 고점 대비", percent(w.current)),
+    metric("연환산 수익률", percent(w.cagr)),
+    metric("연환산 변동성", percent(w.volatility)),
+  ]);
+  $("riskNote").textContent =
+    `MDD 구간: 고점 ${w.peak} → 저점 ${w.trough} → 회복 ${w.recovery || "아직 회복 전"}. ` +
+    "배당을 재투자했다고 가정한 수익률 기준이며, 선택한 기간 안의 고점으로 계산합니다.";
+
+  const dollars = (v) => `$${Number(v).toLocaleString("en-US", { maximumFractionDigits: 2 })}`;
+  draw("price", $("priceChart"), [
+    line(ticker, w.close, css("--s1")),
+    line("50일 평균", w.ma50, css("--s2")),
+    line("200일 평균", w.ma200, css("--s3")),
+  ], w.dates, dollars);
+
+  const datasets = [line(ticker, w.drawdown, css("--s1"))];
+  if (benchmark) datasets.push(line(`${benchmark} (S&P 500)`, w.benchDrawdown, css("--s2")));
+  const marker = line("MDD 저점", w.dates.map((d, i) => (d === w.trough ? w.drawdown[i] : null)), css("--s1"));
+  marker.pointRadius = 5;
+  marker.spanGaps = false;
+  datasets.push(marker);
+  draw("drawdown", $("ddChart"), datasets, w.dates, (v) => `${(v * 100).toFixed(1)}%`);
+}
+
+async function main() {
+  renderPeriods();
+  const [index, market] = await Promise.all(
+    ["data/index.json", "data/market.json"].map((url) => fetch(url).then((r) => r.json())),
+  );
+  state.index = index.tickers;
+  $("updated").textContent = `데이터 갱신: ${new Date(index.updated).toLocaleString("ko-KR")} · ${index.tickers.length}개 종목`;
+  renderMarket(market);
+
+  $("query").addEventListener("input", showSuggest);
+  $("query").addEventListener("keydown", (event) => {
+    if (event.key === "Enter") { event.preventDefault(); submitSearch(); }
+  });
+  document.addEventListener("click", (event) => {
+    if (!event.target.closest(".search")) hideSuggest();
+  });
+
+  const wanted = new URLSearchParams(location.search).get("t");
+  const start = (wanted && search(wanted)[0]) || search("AAPL")[0] || state.index[0];
+  if (start) openTicker(start.ticker);
+}
+main().catch(() => notice("데이터를 불러오지 못했습니다. 잠시 뒤 다시 열어 주세요."));
+</script>
+</body>
+</html>

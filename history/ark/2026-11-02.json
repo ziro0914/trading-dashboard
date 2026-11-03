@@ -1,0 +1,126 @@
+{
+ "date": "2026-11-02",
+ "buy": [
+  {
+   "ticker": "PACB",
+   "company": "Pacific Biosciences of California, Inc.",
+   "shares": 619888,
+   "funds": [
+    "ARKK",
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "IAM",
+   "company": "Iambic Therapeutics, Inc.",
+   "shares": 64014,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "CRCL",
+   "company": "Circle Internet Group, Inc",
+   "shares": 35657,
+   "funds": [
+    "ARKK",
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "TWST",
+   "company": "Twist Bioscience Corporation",
+   "shares": 26262,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "COIN",
+   "company": "Coinbase Global, Inc.",
+   "shares": 24790,
+   "funds": [
+    "ARKK",
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "WGS",
+   "company": "GeneDx Holdings Corp.",
+   "shares": 17865,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "SCTX",
+   "company": "Scribe Therapeutics Inc",
+   "shares": 10525,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "KYMR",
+   "company": "Kymera Therapeutics, Inc.",
+   "shares": 9448,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "HOOD",
+   "company": "Robinhood Markets, Inc.",
+   "shares": 7703,
+   "funds": [
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "ILMN",
+   "company": "Illumina Inc",
+   "shares": 7219,
+   "funds": [
+    "ARKG"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "PSNL",
+   "company": "Personalis, Inc.",
+   "shares": 341024,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "BLSH",
+   "company": "Bullish",
+   "shares": 104172,
+   "funds": [
+    "ARKK",
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "TEM",
+   "company": "Tempus AI, Inc.",
+   "shares": 30035,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "CDNA",
+   "company": "CareDx, Inc.",
+   "shares": 21929,
+   "funds": [
+    "ARKG"
+   ]
+  }
+ ]
+}

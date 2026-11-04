@@ -1,0 +1,168 @@
+{
+ "start": "2026-11-03",
+ "end": "2026-11-03",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 746444687.0,
+   "sell": 26046835.0,
+   "net": 720397851.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 193811016.0,
+   "sell": 12223196.0,
+   "net": 181587820.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 87030642.0,
+   "sell": 4735183.0,
+   "net": 82295459.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 50597156.0,
+   "sell": 2091370.0,
+   "net": 48505786.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US4581401001",
+   "name": "INTEL CORP",
+   "buy": 55516126.0,
+   "sell": 15334467.0,
+   "net": 40181660.0,
+   "ticker": "INTC"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 32226329.0,
+   "sell": 5354193.0,
+   "net": 26872136.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US46138G6492",
+   "name": "INVESCO NASDAQ 100 ETF",
+   "buy": 19165240.0,
+   "sell": 971531.0,
+   "net": 18193709.0,
+   "ticker": "QQQM"
+  },
+  {
+   "isin": "US46654Q2030",
+   "name": "J.P. MORGAN NASDAQ EQUITY PREMIUM INCOME ETF",
+   "buy": 16696969.0,
+   "sell": 428059.0,
+   "net": 16268910.0,
+   "ticker": "JEPQ"
+  },
+  {
+   "isin": "US46090E1038",
+   "name": "INVESCO QQQ TRUST SRS 1 ETF",
+   "buy": 19162853.0,
+   "sell": 4828322.0,
+   "net": 14334531.0,
+   "ticker": "QQQ"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 14773673.0,
+   "sell": 506244.0,
+   "net": 14267429.0,
+   "ticker": "VOO"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 3541847.0,
+   "sell": 49461375.0,
+   "net": -45919528.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 9519791.0,
+   "sell": 54877271.0,
+   "net": -45357480.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 2313905.0,
+   "sell": 36206590.0,
+   "net": -33892685.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 6269547.0,
+   "sell": 29501194.0,
+   "net": -23231647.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 2088517.0,
+   "sell": 16380750.0,
+   "net": -14292233.0,
+   "ticker": "SCHD"
+  },
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 2524335.0,
+   "sell": 14897929.0,
+   "net": -12373594.0,
+   "ticker": "MRVL"
+  },
+  {
+   "isin": "US0231351067",
+   "name": "AMAZON.COM INC",
+   "buy": 5787592.0,
+   "sell": 15097976.0,
+   "net": -9310385.0,
+   "ticker": "AMZN"
+  },
+  {
+   "isin": "US92537N1081",
+   "name": "VERTIV HOLDINGS CO",
+   "buy": 165563.0,
+   "sell": 8790864.0,
+   "net": -8625301.0,
+   "ticker": "VRT"
+  },
+  {
+   "isin": "US0937121079",
+   "name": "BLOOM ENERGY CORP CL A",
+   "buy": 1274150.0,
+   "sell": 9551535.0,
+   "net": -8277385.0,
+   "ticker": "BE"
+  },
+  {
+   "isin": "US11135F1012",
+   "name": "BROADCOM INC EXOF 005644980 SG9999014823",
+   "buy": 3373445.0,
+   "sell": 10663746.0,
+   "net": -7290301.0,
+   "ticker": "AVGO"
+  }
+ ]
+}

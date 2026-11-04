@@ -1,0 +1,178 @@
+{
+ "date": "2026-11-03",
+ "buy": [
+  {
+   "ticker": "CMPS",
+   "company": "Compass Pathways PLC",
+   "shares": 600709,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "PACB",
+   "company": "Pacific Biosciences of California, Inc.",
+   "shares": 254453,
+   "funds": [
+    "ARKK",
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "SHOP",
+   "company": "Shopify Inc.",
+   "shares": 88013,
+   "funds": [
+    "ARKK",
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "PLTR",
+   "company": "Palantir Technologies Inc.",
+   "shares": 63638,
+   "funds": [
+    "ARKK",
+    "ARKQ",
+    "ARKW",
+    "ARKF",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "CCJ",
+   "company": "Cameco Corporation",
+   "shares": 24117,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "IAM",
+   "company": "Iambic Therapeutics, Inc.",
+   "shares": 22226,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "CRCL",
+   "company": "Circle Internet Group, Inc",
+   "shares": 12835,
+   "funds": [
+    "ARKK",
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "KYMR",
+   "company": "Kymera Therapeutics, Inc.",
+   "shares": 8211,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "SCTX",
+   "company": "Scribe Therapeutics Inc",
+   "shares": 7987,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "ILMN",
+   "company": "Illumina Inc",
+   "shares": 6842,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "TWST",
+   "company": "Twist Bioscience Corporation",
+   "shares": 4852,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "WGS",
+   "company": "GeneDx Holdings Corp.",
+   "shares": 3409,
+   "funds": [
+    "ARKG"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "PSNL",
+   "company": "Personalis, Inc.",
+   "shares": 435977,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "TOST",
+   "company": "Toast, Inc.",
+   "shares": 47311,
+   "funds": [
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "BLSH",
+   "company": "Bullish",
+   "shares": 37754,
+   "funds": [
+    "ARKK",
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "CDNA",
+   "company": "CareDx, Inc.",
+   "shares": 31538,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "TEM",
+   "company": "Tempus AI, Inc.",
+   "shares": 13356,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "GOOG",
+   "company": "Alphabet Inc.",
+   "shares": 12530,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "CRWD",
+   "company": "CrowdStrike Holdings, Inc.",
+   "shares": 6901,
+   "funds": [
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "HONA",
+   "company": "Honeywell Aerospace Inc",
+   "shares": 2178,
+   "funds": [
+    "ARKX"
+   ]
+  }
+ ]
+}

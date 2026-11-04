@@ -1,0 +1,168 @@
+{
+ "start": "2026-11-04",
+ "end": "2026-11-04",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 338708849.0,
+   "sell": 31582525.0,
+   "net": 307126324.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 59022692.0,
+   "sell": 2384216.0,
+   "net": 56638476.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 46579592.0,
+   "sell": 2971422.0,
+   "net": 43608170.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 37640727.0,
+   "sell": 2231765.0,
+   "net": 35408962.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 43723560.0,
+   "sell": 8893051.0,
+   "net": 34830509.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 33232422.0,
+   "sell": 641165.0,
+   "net": 32591257.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 23016060.0,
+   "sell": 2402006.0,
+   "net": 20614054.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US46090E1038",
+   "name": "INVESCO QQQ TRUST SRS 1 ETF",
+   "buy": 19151636.0,
+   "sell": 1006162.0,
+   "net": 18145474.0,
+   "ticker": "QQQ"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 16344470.0,
+   "sell": 305256.0,
+   "net": 16039214.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 14941157.0,
+   "sell": 605239.0,
+   "net": 14335918.0,
+   "ticker": "IONQ"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 5546143.0,
+   "sell": 45428593.0,
+   "net": -39882450.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US55024U1097",
+   "name": "LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074",
+   "buy": 2689541.0,
+   "sell": 18588685.0,
+   "net": -15899144.0,
+   "ticker": "LITE"
+  },
+  {
+   "isin": "US0378331005",
+   "name": "APPLE INC",
+   "buy": 1888447.0,
+   "sell": 16880611.0,
+   "net": -14992164.0,
+   "ticker": "AAPL"
+  },
+  {
+   "isin": "US6792951054",
+   "name": "OKTA INC",
+   "buy": 190341.0,
+   "sell": 15097000.0,
+   "net": -14906659.0,
+   "ticker": "OKTA"
+  },
+  {
+   "isin": "US6974351057",
+   "name": "PALO ALTO NETWORKS INC",
+   "buy": 409346.0,
+   "sell": 14764048.0,
+   "net": -14354701.0,
+   "ticker": "PANW"
+  },
+  {
+   "isin": "US4581401001",
+   "name": "INTEL CORP",
+   "buy": 13234879.0,
+   "sell": 26382712.0,
+   "net": -13147833.0,
+   "ticker": "INTC"
+  },
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 8664740.0,
+   "sell": 20172853.0,
+   "net": -11508113.0,
+   "ticker": "MRVL"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 5662248.0,
+   "sell": 16724369.0,
+   "net": -11062121.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US7710491033",
+   "name": "ROBLOX CORP CL A",
+   "buy": 102301.0,
+   "sell": 10167145.0,
+   "net": -10064844.0,
+   "ticker": "RBLX"
+  },
+  {
+   "isin": "US25460G2865",
+   "name": "DIREXION DAILY TSLA BULL 2X SHARES",
+   "buy": 60457.0,
+   "sell": 9412612.0,
+   "net": -9352155.0,
+   "ticker": "TSLL"
+  }
+ ]
+}

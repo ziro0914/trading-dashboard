@@ -1,0 +1,157 @@
+{
+ "date": "2026-11-04",
+ "buy": [
+  {
+   "ticker": "NRIX",
+   "company": "Nurix Therapeutics, Inc.",
+   "shares": 350410,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "SPCX",
+   "company": "Space Exploration Technologies Corp",
+   "shares": 348406,
+   "funds": [
+    "ARKK",
+    "ARKQ",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "PACB",
+   "company": "Pacific Biosciences of California, Inc.",
+   "shares": 73281,
+   "funds": [
+    "ARKK",
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "IAM",
+   "company": "Iambic Therapeutics, Inc.",
+   "shares": 35248,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "WGS",
+   "company": "GeneDx Holdings Corp.",
+   "shares": 25758,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "TWST",
+   "company": "Twist Bioscience Corporation",
+   "shares": 12943,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "SCTX",
+   "company": "Scribe Therapeutics Inc",
+   "shares": 6175,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "ILMN",
+   "company": "Illumina Inc",
+   "shares": 4524,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "CRCL",
+   "company": "Circle Internet Group, Inc",
+   "shares": 1894,
+   "funds": [
+    "ARKF"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "PSNL",
+   "company": "Personalis, Inc.",
+   "shares": 383022,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "BLSH",
+   "company": "Bullish",
+   "shares": 125402,
+   "funds": [
+    "ARKK",
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "TEM",
+   "company": "Tempus AI, Inc.",
+   "shares": 75243,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "GOOG",
+   "company": "Alphabet Inc.",
+   "shares": 46164,
+   "funds": [
+    "ARKK",
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "company": "Amazon.com Inc",
+   "shares": 15750,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "CDNA",
+   "company": "CareDx, Inc.",
+   "shares": 12996,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "CRWD",
+   "company": "CrowdStrike Holdings, Inc.",
+   "shares": 8809,
+   "funds": [
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "LLY",
+   "company": "Eli Lilly and Company",
+   "shares": 8551,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "NET",
+   "company": "Cloudflare, Inc.",
+   "shares": 7483,
+   "funds": [
+    "ARKW"
+   ]
+  }
+ ]
+}

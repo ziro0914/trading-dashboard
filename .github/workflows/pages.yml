@@ -8,6 +8,8 @@ on:
     # 평일 미국장 개장 전(13:00 UTC)과 마감 뒤(21:30 UTC)
     - cron: "0 13 * * 1-5"
     - cron: "30 21 * * 1-5"
+    # 모의매매 게시물: 한국시간 밤 11시(14:00 UTC)
+    - cron: "0 14 * * 1-5"
 
 permissions:
   contents: write
@@ -31,13 +33,20 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: 모의매매 계획 (밤 11시 실행 또는 수동 실행 때)
+        if: github.event.schedule == '0 14 * * 1-5' || github.event_name == 'workflow_dispatch'
+        continue-on-error: true
+        run: python daytrade.py plan
+      - name: 모의매매 결과 기록 (장 마감 뒤)
+        continue-on-error: true
+        run: python daytrade.py result
       - run: python build_site.py
       - name: 순위 기록 저장
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add history
-          git diff --staged --quiet || git commit -m "순매수·순매도 기록 저장"
+          git diff --staged --quiet || git commit -m "순매수·순매도·모의매매 기록 저장"
           git push
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -36,7 +36,8 @@ a { color: var(--link); }
   color: var(--text); background: var(--card); border: 1px solid var(--line); border-radius: 6px; }
 .suggest button { width: 100%; padding: 10px; text-align: left; border-radius: 4px; }
 .suggest button:hover { background: var(--panel); }
-.tabs { display: flex; gap: 22px; }
+.tabs { display: flex; gap: 22px; overflow-x: auto; scrollbar-width: none; }
+.tabs a { flex: none; }
 .tabs a { padding: 8px 0 9px; font-size: 15px; color: var(--head-muted); text-decoration: none; border-bottom: 3px solid transparent; }
 .tabs a[aria-current="page"] { color: var(--head-text); font-weight: 600; border-color: var(--accent); }
 
@@ -100,6 +101,28 @@ select { max-width: 100%; padding: 8px 10px; font-size: 15px; color: var(--text)
   border: 1px solid var(--line); border-radius: 6px; }
 details summary { cursor: pointer; font-size: 14px; }
 .notice { padding: 12px 16px; margin-bottom: 14px; background: var(--card); border: 1px solid var(--line); border-radius: 8px; }
+.posts { margin: 0; padding: 0; list-style: none; }
+.posts li { border-bottom: 1px solid var(--line); }
+.posts li:last-child { border-bottom: 0; }
+.posts a { display: grid; grid-template-columns: 92px minmax(0, 1fr) auto; gap: 4px 12px; align-items: baseline; padding: 11px 2px; color: var(--text); text-decoration: none; }
+.posts a:hover .post-title { text-decoration: underline; }
+.post-date { color: var(--muted); font-size: 13px; }
+.post-title { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.post-sub { grid-column: 2 / 4; color: var(--muted); font-size: 13px; }
+.badge { display: inline-block; padding: 2px 8px; font-size: 12.5px; font-weight: 600; border-radius: 4px; background: var(--panel); white-space: nowrap; }
+.badge.up { color: var(--up); } .badge.down { color: var(--down); }
+.back { font-size: 14px; text-decoration: none; }
+.post-head h1 { margin: 6px 0 4px; font-size: 21px; }
+.verdict { margin: 10px 0 0; padding: 10px 12px; background: var(--panel); border-left: 3px solid var(--accent); border-radius: 4px; font-size: 14px; }
+.verdict p { margin: 2px 0; }
+.rules { margin: 0; padding-left: 20px; font-size: 14px; }
+.rules li { padding: 4px 0; }
+.odds { display: flex; height: 26px; margin: 4px 0 6px; overflow: hidden; border-radius: 4px; font-size: 12px; color: #fff; }
+.odds div { display: flex; align-items: center; justify-content: center; min-width: 0; overflow: hidden; white-space: nowrap; }
+.odds-legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; }
+.odds-legend i { display: inline-block; width: 10px; height: 10px; margin-right: 5px; border-radius: 2px; }
+.ticket { border: 1px dashed var(--muted); border-radius: 6px; padding: 4px 14px; }
+.ticket-head { display: flex; justify-content: space-between; gap: 8px; padding: 8px 0; font-weight: 600; border-bottom: 1px dashed var(--line); }
 footer { padding-top: 12px; }
 
 @media (max-width: 860px) {
@@ -130,6 +153,7 @@ footer { padding-top: 12px; }
     <a href="#stock" data-view="stock">종목</a>
     <a href="#flows" data-view="flows">순매수·순매도</a>
     <a href="#gurus" data-view="gurus">대가 투자자</a>
+    <a href="#trades" data-view="trades">모의매매</a>
   </nav>
 </header>
 <div class="strip"><div class="strip-inner" id="strip"></div></div>
@@ -235,6 +259,18 @@ footer { padding-top: 12px; }
       <section class="card"><h2>ARK 매수</h2><table class="rank" id="arkBuy"></table></section>
       <section class="card"><h2>ARK 매도</h2><table class="rank" id="arkSell"></table></section>
     </div>
+  </div>
+
+  <div id="viewTrades" hidden>
+    <div class="stack" id="tradeList">
+      <section class="card">
+        <h2>범위 돌파 모의매매</h2>
+        <div class="risk" id="tradeStats"></div>
+        <p class="muted">매일 밤 11시(한국시간)에 20일 범위를 돌파한 미국주식 1종목을 골라 뉴스, 진입·청산 계획, 타임머신 시뮬레이션, 모의 주문서(계좌 $5,000, 1회 최대 손실 $50)를 올립니다. 결과는 장 마감 뒤 자동으로 기록됩니다. 실제 주문은 하지 않습니다.</p>
+      </section>
+      <section class="card"><h2>게시물</h2><ul class="posts" id="posts"></ul></section>
+    </div>
+    <div class="stack" id="tradePost" hidden></div>
   </div>
 
   <footer class="muted">
@@ -732,9 +768,254 @@ function renderWindow() {
   draw("drawdown", $("ddChart"), datasets, w.dates, (v) => `${(v * 100).toFixed(1)}%`);
 }
 
+// ---------------------------------------------------------------- 모의매매 게시판
+const OUTCOMES = { target: "목표가 도달", stop: "손절", close: "마감 전 청산" };
+const usd = (v, digits = 2) => (v == null ? "-" : `${v < 0 ? "-" : ""}$${number(Math.abs(v), digits)}`);
+const signedUsd = (v) => (v == null ? "-" : `${v > 0 ? "+" : v < 0 ? "-" : ""}$${number(Math.abs(v))}`);
+const pct = (v, digits = 1) => (v == null ? "-" : `${(v * 100).toFixed(digits)}%`);
+function etOffset(date) {
+  const hour = Number(new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", hour: "numeric", hourCycle: "h23" })
+    .format(new Date(`${date}T12:00:00Z`)));
+  return hour - 12;
+}
+function kst(date, hhmm) {
+  const [h, m] = hhmm.split(":").map(Number);
+  const total = h * 60 + m + (9 - etOffset(date)) * 60;
+  const hour = Math.floor(total / 60) % 24;
+  return `${hour < 12 ? "오전" : "오후"} ${hour % 12 || 12}:${String(total % 60).padStart(2, "0")}`;
+}
+const both = (date, hhmm) => `${hhmm} ET (한국 ${kst(date, hhmm)})`;
+function dayLabel(date) {
+  return new Date(`${date}T12:00:00Z`).toLocaleDateString("ko-KR", { month: "long", day: "numeric", weekday: "short", timeZone: "UTC" });
+}
+function resultBadge(item) {
+  if (!item.status) return el("span", "badge", "결과 대기");
+  if (item.status === "nodata") return el("span", "badge", "데이터 없음");
+  if (!item.triggered) return el("span", "badge", "미진입");
+  return el("span", `badge ${item.pnl > 0 ? "up" : item.pnl < 0 ? "down" : ""}`, `${OUTCOMES[item.outcome]} ${signedUsd(item.pnl)}`);
+}
+function riskBox(label, value, className = "") {
+  const box = el("div");
+  box.append(el("div", "label", label), el("div", `value ${className}`, value));
+  return box;
+}
+function renderTradeList(posts) {
+  const trades = posts.filter((p) => p.triggered);
+  const pnl = trades.reduce((sum, p) => sum + (p.pnl || 0), 0);
+  const wins = trades.filter((p) => p.pnl > 0).length;
+  const totalR = trades.reduce((sum, p) => sum + (p.r || 0), 0);
+  $("tradeStats").replaceChildren(
+    riskBox("모의 계좌", usd(5000 + pnl), pnl > 0 ? "up" : pnl < 0 ? "down" : ""),
+    riskBox("누적 손익", signedUsd(pnl), pnl > 0 ? "up" : pnl < 0 ? "down" : ""),
+    riskBox("체결 / 게시물", `${trades.length} / ${posts.length}`),
+    riskBox("승률 · 누적 R", trades.length ? `${pct(wins / trades.length, 0)} · ${totalR >= 0 ? "+" : ""}${totalR.toFixed(1)}R` : "-"),
+  );
+  if (!posts.length) {
+    $("posts").replaceChildren(el("li", "muted", "첫 게시물은 다음 평일 밤 11시에 올라옵니다."));
+    return;
+  }
+  $("posts").replaceChildren(...posts.map((p) => {
+    const li = el("li");
+    const a = el("a");
+    a.href = `#trades/${p.date}`;
+    a.append(el("span", "post-date", dayLabel(p.date)), el("span", "post-title", `${p.ticker} · ${p.name}`), resultBadge(p),
+      el("span", "post-sub", `${p.kind === "near" ? "돌파 직전 · " : ""}${p.verdict}`));
+    li.append(a);
+    return li;
+  }));
+}
+function card(title, ...children) {
+  const section = el("section", "card");
+  section.append(el("h2", "", title), ...children);
+  return section;
+}
+function statRows(rows) {
+  const box = el("div");
+  rows.forEach(([label, value, className]) => {
+    const row = el("div", "stat");
+    row.append(el("span", "", label), el("span", className || "", value));
+    box.append(row);
+  });
+  return box;
+}
+function chartBox(id, small = true) {
+  const box = el("div", small ? "chart small" : "chart");
+  const canvas = el("canvas");
+  canvas.id = id;
+  box.append(canvas);
+  return box;
+}
+function flatLine(label, value, count, color) {
+  return { ...line(label, Array(count).fill(value), color), borderWidth: 1.5, borderDash: [5, 4] };
+}
+async function openPost(date) {
+  $("tradeList").hidden = true;
+  const box = $("tradePost");
+  box.hidden = false;
+  box.replaceChildren(el("p", "muted", "불러오는 중…"));
+  const post = await load(`data/daytrade/${date}.json`);
+  if (!post) { box.replaceChildren(el("div", "notice", "게시물을 찾지 못했습니다.")); return; }
+  const { plan, scan, ticket: order, timemachine: tm } = post;
+  const pick = scan.pick;
+  const replay = tm.replay, history = tm.history;
+
+  const head = el("section", "card post-head");
+  const back = el("a", "back", "← 목록");
+  back.href = "#trades";
+  const verdictBox = el("div", "verdict");
+  replay.verdict.forEach((line) => verdictBox.append(el("p", "", line)));
+  head.append(back, el("h1", "", `${dayLabel(post.date)} · ${post.ticker} ${post.name}`),
+    el("div", "muted", `${post.sector ? post.sector + " · " : ""}작성 ${new Date(post.created).toLocaleString("ko-KR")} · 모의매매, 실제 주문 아님`), verdictBox);
+
+  // 1. 후보 선정
+  const why = post.kind === "breakout"
+    ? `유니버스 ${scan.universe}종목 중 전일 종가가 직전 20거래일 종가를 모두 넘은(20일 신고가 돌파) 종목이 ${scan.hits}개였고, 그중 거래대금이 가장 큰 ${post.ticker}를 골랐습니다.`
+    : `유니버스 ${scan.universe}종목 중 20일 신고가를 돌파한 종목이 없어, 20일 고점에 가장 가까운 ${post.ticker}를 '돌파 직전' 후보로 골랐습니다.`;
+  const others = scan.others.length ? el("p", "muted", `다른 후보: ${scan.others.map((o) => `${o.ticker} (${pct(o.breakout, 1)})`).join(", ")}`) : "";
+  const pickCard = card("1. 후보 선정", el("p", "", why), statRows([
+    ["전일 종가", `${usd(pick.close)} (${signed(pick.change)})`, tone(pick.change)],
+    ["직전 20일 최고 종가 대비", signed(pick.breakout), tone(pick.breakout)],
+    ["거래량 (20일 평균 대비)", `${pick.volumeRatio.toFixed(2)}배`],
+    ["거래대금", money(pick.dollarVolume)],
+    ["돌파 기준가 (20일 최고가)", usd(plan.level)],
+  ]), chartBox("tradeDaily"), others);
+
+  // 2. 뉴스
+  const newsBox = el("ul", "news");
+  newsBox.id = "tradeNews";
+  const newsCard = card("2. 뉴스 확인");
+  if (post.earnings) {
+    const soon = (new Date(post.earnings) - new Date(post.date)) / 864e5;
+    newsCard.append(el("p", soon >= 0 && soon <= 7 ? "verdict" : "muted",
+      `다음 실적 발표: ${post.earnings}${soon >= 0 && soon <= 1 ? " · 실적 발표가 임박해 변동성이 클 수 있습니다." : ""}`));
+  }
+  newsCard.append(newsBox);
+
+  // 3. 계획
+  const planCard = card("3. 진입·청산 계획", (() => {
+    const list = el("ol", "rules");
+    [
+      `진입: ${both(post.date, plan.noEntryBefore)} 이후 5분봉 종가가 ${usd(plan.level)} 위에서 마감하면 그 종가에 매수. 첫 15분(시가 범위)은 건너뜁니다.`,
+      `손절: 진입가 − ${usd(plan.risk)} (14일 ATR ${usd(plan.atr)}의 절반). 기준가에 체결되면 ${usd(plan.stop)}.`,
+      `목표: 진입가 + ${usd(plan.risk * plan.targetR)} (${plan.targetR}R). 기준가에 체결되면 ${usd(plan.target)}.`,
+      `시간 청산: ${both(post.date, plan.flatBy)}에 남아 있으면 무조건 정리. ${both(post.date, plan.noEntryAfter)} 이후엔 새로 진입하지 않습니다.`,
+      "한 봉이 손절가와 목표가를 모두 건드리면 손절로 봅니다. 하루 한 번만 진입합니다.",
+    ].forEach((text) => list.append(el("li", "", text)));
+    return list;
+  })());
+
+  // 4. 타임머신
+  const odds = el("div", "odds");
+  const legend = el("div", "odds-legend");
+  [["목표가 먼저", replay.target, css("--up")], ["손절 먼저", replay.stop, css("--down")], ["둘 다 아님", replay.neither, css("--muted")]].forEach(([label, value, color]) => {
+    const part = el("div", "", value >= 0.08 ? pct(value) : "");
+    part.style.width = `${value * 100}%`;
+    part.style.background = color;
+    odds.append(part);
+    const item = el("span");
+    const dot = el("i");
+    dot.style.background = color;
+    item.append(dot, `${label} ${pct(value)}`);
+    legend.append(item);
+  });
+  const historyText = history.fired
+    ? `같은 규칙을 지난 ${history.sessions}개 세션에 그대로 돌리면 ${history.fired}번 진입: 목표 ${history.target}번, 손절 ${history.stop}번, 시간 청산 ${history.neither}번. 평균 ${history.avgR >= 0 ? "+" : ""}${history.avgR.toFixed(2)}R.`
+    : `같은 규칙을 지난 ${history.sessions}개 세션에 돌렸지만 한 번도 진입 신호가 나지 않았습니다.`;
+  const historyTable = el("table");
+  if (history.trades.length) {
+    const headRow = el("tr");
+    ["날짜", "진입", "결과", "R"].forEach((t) => headRow.append(el("th", "", t)));
+    historyTable.append(headRow, ...history.trades.slice().reverse().map((t) => {
+      const row = el("tr");
+      row.append(el("td", "", t.date), el("td", "", t.entryTime), el("td", "", OUTCOMES[t.outcome]), el("td", tone(t.r), `${t.r >= 0 ? "+" : ""}${t.r.toFixed(2)}`));
+      return row;
+    }));
+  }
+  const tmCard = card("4. 타임머신",
+    el("p", "", `${replay.startTime} ET 진입을 가정하고 남은 하루(5분봉 ${replay.bars}개)를 ${replay.replays.toLocaleString()}번 다시 그렸습니다. 각 봉은 지난 60일 같은 시간대 5분봉에서 무작위로 뽑았습니다 (seed ${replay.seed}).`),
+    odds, legend,
+    statRows([
+      ["수익으로 끝남 (목표 도달 또는 진입가 위)", pct(replay.green)],
+      ["평균 R", `${replay.avgR >= 0 ? "+" : ""}${replay.avgR.toFixed(3)}`, tone(replay.avgR)],
+      ["청산 시각 가격 (미도달 경우)", replay.closeMedian == null ? "-" : `중앙값 ${usd(replay.closeMedian)} · 90% 범위 ${usd(replay.closeP5)}~${usd(replay.closeP95)}`],
+    ]),
+    el("p", "", historyText),
+    history.trades.length ? (() => {
+      const d = el("details");
+      const wrap = el("div", "scroll");
+      wrap.append(historyTable);
+      d.append(el("summary", "", `과거 기록 최근 ${history.trades.length}건`), wrap);
+      return d;
+    })() : "",
+    el("p", "muted", "지난 60일의 이 종목 움직임으로 만든 시뮬레이션이지 예측이 아닙니다. 실적·뉴스·거래정지는 그 60일에 없던 일을 만들 수 있습니다."),
+  );
+
+  // 5. 주문서
+  const ticketBox = el("div", "ticket");
+  const ticketHead = el("div", "ticket-head");
+  ticketHead.append(el("span", "", `모의 브래킷 매수 · ${post.ticker}`), el("span", "badge", "PAPER"));
+  ticketBox.append(ticketHead, statRows([
+    ["수량", `${order.shares}주 (${order.limitedBy} 기준)`],
+    ["진입 조건", `5분봉 종가 > ${usd(order.entry)}`],
+    ["손절 (Stop-loss)", usd(order.stop), "down"],
+    ["목표 (Take-profit)", usd(order.target), "up"],
+    ["필요 금액", `${usd(order.cost)} / 계좌 ${usd(order.account, 0)}`],
+    ["손절 시 손실", `-${usd(order.lossAtStop)} (한도 ${usd(order.maxLoss, 0)})`, "down"],
+    ["목표 도달 시 이익", `+${usd(order.gainAtTarget)}`, "up"],
+    ["청산 시각", both(post.date, plan.flatBy)],
+  ]));
+  const ticketCard = card("5. 모의 주문서", ticketBox,
+    el("p", "muted", "수량 = min(최대 손실 $50 ÷ 1주당 위험, 계좌 $5,000 ÷ 기준가), 소수점 버림. 갭이나 급락 때는 손절이 손절가보다 나쁘게 체결될 수 있습니다. 실제로 주문을 보내지 않습니다."));
+
+  // 6. 결과
+  const result = post.result;
+  const resultCard = card("6. 실제 결과");
+  if (!result) {
+    resultCard.append(el("p", "muted", "장이 끝나면(한국시간 다음 날 오전 6:30경) 그날 실제 5분봉으로 이 계획을 돌린 결과가 자동으로 기록됩니다."));
+  } else if (result.status === "nodata") {
+    resultCard.append(el("p", "muted", "그날 5분봉 데이터를 받지 못해 결과를 기록하지 못했습니다."));
+  } else {
+    const summary = result.triggered
+      ? `${both(post.date, result.entryTime)}에 ${usd(result.entry)}로 진입, ${both(post.date, result.exitTime)}에 ${usd(result.exit)}로 ${OUTCOMES[result.outcome]}. ${result.shares}주 기준 ${signedUsd(result.pnl)} (${result.r >= 0 ? "+" : ""}${result.r.toFixed(2)}R).`
+      : `5분봉 종가가 기준가 ${usd(plan.level)}를 넘지 못해 진입하지 않았습니다. 손익 $0.`;
+    resultCard.append(el("p", result.triggered ? `verdict` : "", summary), statRows([
+      ["시가 · 고가 · 저가 · 종가", `${usd(result.open)} · ${usd(result.high)} · ${usd(result.low)} · ${usd(result.close)}`],
+    ]), chartBox("tradeIntraday", false));
+  }
+
+  box.replaceChildren(head, pickCard, newsCard, planCard, tmCard, ticketCard, resultCard);
+  newsList("tradeNews", post.news);
+  const daily = post.daily;
+  draw("tradeDaily", $("tradeDaily"), [
+    line(`${post.ticker} 종가`, daily.close, css("--s1")),
+    flatLine("돌파 기준가", plan.level, daily.close.length, css("--s2")),
+  ], daily.dates.map((d) => d.slice(5)), (v) => usd(v));
+  if (result && result.bars) {
+    const n = result.bars.close.length;
+    const datasets = [line("5분봉 종가", result.bars.close, css("--s1")), flatLine("기준가", plan.level, n, css("--s2"))];
+    if (result.triggered) {
+      datasets.push(flatLine("손절", result.stop, n, css("--down")), flatLine("목표", result.target, n, css("--up")));
+    }
+    draw("tradeIntraday", $("tradeIntraday"), datasets, result.bars.times, (v) => usd(v));
+  }
+  window.scrollTo(0, 0);
+}
+async function routeTrades(hash) {
+  if (!state.trades) {
+    state.trades = (await load("data/daytrade.json")) || [];
+    renderTradeList(state.trades);
+  }
+  const date = hash.split("/")[1];
+  if (date) await openPost(date);
+  else { $("tradePost").hidden = true; $("tradeList").hidden = false; }
+}
+
 function route() {
-  const view = ["#stock", "#flows", "#gurus"].includes(location.hash) ? location.hash.slice(1) : "home";
+  const view = location.hash.startsWith("#trades") ? "trades"
+    : ["#stock", "#flows", "#gurus"].includes(location.hash) ? location.hash.slice(1) : "home";
   $("viewHome").hidden = view !== "home";
+  $("viewTrades").hidden = view !== "trades";
+  if (view === "trades") routeTrades(location.hash).catch(() => notice("모의매매 기록을 불러오지 못했습니다."));
   $("viewStock").hidden = view !== "stock";
   $("viewFlows").hidden = view !== "flows";
   $("viewGurus").hidden = view !== "gurus";

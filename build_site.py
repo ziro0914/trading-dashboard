@@ -23,6 +23,7 @@ from data import (
     short_name,
 )
 import ark_trades
+import daytrade
 import etf_flows
 from flows import load_flows, load_saved_days, load_ticker_map, save_day, save_ticker_map
 from metrics import drawdown, max_drawdown, performance, slice_window, technical_summary
@@ -170,6 +171,36 @@ def write_json(path: Path, payload):
     path.write_text(json.dumps(clean(payload), ensure_ascii=False, allow_nan=False, separators=(",", ":")))
 
 
+def build_daytrade():
+    """모의매매 게시물: 목록용 요약(daytrade.json)과 게시물별 전체 파일."""
+    folder = DIST / "data" / "daytrade"
+    folder.mkdir(parents=True, exist_ok=True)
+    summary = []
+    for path in sorted(daytrade.POSTS.glob("*.json"), reverse=True) if daytrade.POSTS.exists() else []:
+        post = json.loads(path.read_text())
+        shutil.copy(path, folder / path.name)
+        result = post.get("result") or {}
+        replay = post["timemachine"]["replay"]
+        summary.append(
+            {
+                "date": post["date"],
+                "ticker": post["ticker"],
+                "name": post["name"],
+                "kind": post["kind"],
+                "verdict": replay["verdict"][0],
+                "target": replay["target"],
+                "stop": replay["stop"],
+                "shares": post["ticket"]["shares"],
+                "status": result.get("status"),
+                "triggered": result.get("triggered"),
+                "outcome": result.get("outcome"),
+                "r": result.get("r"),
+                "pnl": result.get("pnl"),
+            }
+        )
+    write_json(DIST / "data" / "daytrade.json", summary)
+
+
 def main():
     universe = read_universe()
     tickers = sys.argv[1:] or list(universe)
@@ -217,6 +248,8 @@ def main():
     except Exception as error:
         print("ARK FAIL", repr(error)[:200], flush=True)
     write_json(DIST / "data" / "ark-history.json", ark_trades.load_saved_days())
+
+    build_daytrade()
 
     index, failed = [], []
     for ticker in tickers:

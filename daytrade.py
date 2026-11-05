@@ -22,7 +22,7 @@ ET = ZoneInfo("America/New_York")
 
 ACCOUNT = 5000.0          # 모의 계좌
 MAX_LOSS = 50.0           # 1회 최대 손실(손절가에서)
-TARGET_R = 2.0            # 목표가 = 진입가 + 2 × 1주당 위험
+TARGET_R = 1.0            # 목표가 = 진입가 + 1 × 1주당 위험 (day-trader-skill 기본값 1R)
 STOP_ATR = 0.5            # 1주당 위험 = 14일 ATR의 절반
 RANGE_DAYS = 20           # 돌파 기준: 최근 20거래일 범위
 MIN_PRICE = 5.0

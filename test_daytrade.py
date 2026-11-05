@@ -3,7 +3,14 @@ from datetime import date
 import numpy as np
 import pandas as pd
 
+import pytest
+
 import daytrade as dt
+
+
+@pytest.fixture(autouse=True)
+def two_r(monkeypatch):
+    monkeypatch.setattr(dt, "TARGET_R", 2.0)
 
 DAY = date(2026, 11, 4)
 

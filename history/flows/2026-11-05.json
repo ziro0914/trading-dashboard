@@ -1,0 +1,168 @@
+{
+ "start": "2026-11-05",
+ "end": "2026-11-05",
+ "netBuy": [
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 40434836.0,
+   "sell": 3819755.0,
+   "net": 36615081.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 39270135.0,
+   "sell": 2863637.0,
+   "net": 36406498.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 29508822.0,
+   "sell": 632299.0,
+   "net": 28876523.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US46138G6492",
+   "name": "INVESCO NASDAQ 100 ETF",
+   "buy": 26430796.0,
+   "sell": 705012.0,
+   "net": 25725784.0,
+   "ticker": "QQQM"
+  },
+  {
+   "isin": "US46090E1038",
+   "name": "INVESCO QQQ TRUST SRS 1 ETF",
+   "buy": 18197204.0,
+   "sell": 879133.0,
+   "net": 17318070.0,
+   "ticker": "QQQ"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 14324848.0,
+   "sell": 1817282.0,
+   "net": 12507566.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 12447025.0,
+   "sell": 948820.0,
+   "net": 11498204.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 15448150.0,
+   "sell": 5277088.0,
+   "net": 10171061.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US46654Q2030",
+   "name": "J.P. MORGAN NASDAQ EQUITY PREMIUM INCOME ETF",
+   "buy": 7879716.0,
+   "sell": 557215.0,
+   "net": 7322501.0,
+   "ticker": "JEPQ"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 8132892.0,
+   "sell": 931398.0,
+   "net": 7201494.0,
+   "ticker": "SOXX"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 56180161.0,
+   "sell": 199045871.0,
+   "net": -142865710.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US55024U1097",
+   "name": "LUMENTUM HOLDINGS INC SOFF 39520207144 US46612J5074",
+   "buy": 915228.0,
+   "sell": 81277196.0,
+   "net": -80361968.0,
+   "ticker": "LITE"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 6127639.0,
+   "sell": 31741057.0,
+   "net": -25613417.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 4073061.0,
+   "sell": 27045776.0,
+   "net": -22972715.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US4581401001",
+   "name": "INTEL CORP",
+   "buy": 8264192.0,
+   "sell": 28636144.0,
+   "net": -20371952.0,
+   "ticker": "INTC"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 10085579.0,
+   "sell": 17272769.0,
+   "net": -7187190.0,
+   "ticker": "AMD"
+  },
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 1655226.0,
+   "sell": 7489995.0,
+   "net": -5834769.0,
+   "ticker": "MRVL"
+  },
+  {
+   "isin": "US37954Y2366",
+   "name": "GLOBAL X DATA CENTER REITS N DIGITAL INFRA ETF",
+   "buy": 21878.0,
+   "sell": 4544837.0,
+   "net": -4522959.0,
+   "ticker": "DTCR"
+  },
+  {
+   "isin": "US33738R7044",
+   "name": "FIRST TRUST RBA AMERICAN INDUSTRIAL RENAISSANCE ETF",
+   "buy": 1201.0,
+   "sell": 4442810.0,
+   "net": -4441609.0,
+   "ticker": "AIRR"
+  },
+  {
+   "isin": "US0231351067",
+   "name": "AMAZON.COM INC",
+   "buy": 537357.0,
+   "sell": 4716214.0,
+   "net": -4178857.0,
+   "ticker": "AMZN"
+  }
+ ]
+}

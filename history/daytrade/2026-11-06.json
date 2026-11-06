@@ -1,0 +1,357 @@
+{
+ "date": "2026-11-06",
+ "created": "2026-11-06T20:16:26.738472+00:00",
+ "ticker": "COST",
+ "name": "Costco Wholesale Corporation",
+ "sector": "Consumer Defensive",
+ "kind": "breakout",
+ "scan": {
+  "universe": 96,
+  "hits": 7,
+  "pick": {
+   "ticker": "COST",
+   "close": 1065.59,
+   "change": 0.0183,
+   "priorHigh": 1046.47,
+   "breakout": 0.0183,
+   "volumeRatio": 2.1066,
+   "dollarVolume": 5043224190.2344,
+   "high20": 1081.55
+  },
+  "others": [
+   {
+    "ticker": "ACN",
+    "close": 265.16,
+    "breakout": 0.0034,
+    "volumeRatio": 1.2075
+   },
+   {
+    "ticker": "PEP",
+    "close": 142.71,
+    "breakout": 0.002,
+    "volumeRatio": 1.2682
+   },
+   {
+    "ticker": "PDD",
+    "close": 83.95,
+    "breakout": 0.0186,
+    "volumeRatio": 1.9053
+   },
+   {
+    "ticker": "O",
+    "close": 59.5,
+    "breakout": 0.0047,
+    "volumeRatio": 0.9393
+   },
+   {
+    "ticker": "SONY",
+    "close": 27.54,
+    "breakout": 0.0511,
+    "volumeRatio": 2.6919
+   }
+  ]
+ },
+ "earnings": "2026-12-10",
+ "news": [
+  {
+   "title": "Costco Stock: Earnings Growth Could Shape the Next Big Move",
+   "source": "24/7 Wall St.",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORmhkamZIaVVtam1tbW9kaGxQczdKQ3ZRZ2FtaFFfaURXSzJnQlpkbmlrR1FiRzVOaHlqeXB4OENDODd4V0JCM2xFUU4xdHMxYVV3NkxaSU5LNlNyWllGQ1M3SlRfYmJuU3NtNmtnLVhZb3pZQmhYZWhfdVZBd1FaY3RreTdWV2VNREhxMjQ4VDlJUmxjTVk1MDFwX3Vwc1E4MGxMaA?oc=5",
+   "time": "2026-11-06T13:33:00+00:00"
+  },
+  {
+   "title": "Costco Wholesale stock posts 12.6% October sales growth",
+   "source": "ad-hoc-news.de",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX3VvTk5xdTB1V0dCSkRwNHhpWlZYdy1DNi1iNllzSlNnNEMzMmJLSjJrcWFKWGw4N2lNbkpUbWQtNF9aRi1ua3UzeXl0STlaYkRXVi10MGZkMzhNZHl2YkwtX0Y5bkI0am1TTUdCVjlQM1hvSVpyMFR2ZDhvVTRzSmUzTzdndG5VNUJLY1FkVUJvWjNjeENSOUNoRG1NS0NrNFdTLVI4ZFdzbDh1MG9kRnFJQ3JNZ2Yy?oc=5",
+   "time": "2026-11-06T12:35:32+00:00"
+  },
+  {
+   "title": "9,867 Costco Wholesale Corporation $COST Shares Purchased by Kestra Advisory Services LLC",
+   "source": "MarketBeat",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUXpBY2d4aExkV1JMSWNkQjlSLURhY2FlM3FnRXRTaEg5WFg0dDN1UWFXVHIyVDlvSjFRajdtTVhrTzQxZHpMU0p1WW5paUFjNzVEUDNlM3BtN0NNWDRCQUNiUlNLXzNBaF9rY0dyV3E3NTZJaTJ0dm1ncGpGalNvR0lteFFGbEtxcDRZWmtmNHQ5eGFVaE5QQmdDak1BSU5LZFY5eFhkTzUyZlozcHNBdmxlVFk3a1ZaQmdQT3MwRzRkcGZjbEpPWTVVeDVmNFYtMnZOMjNralQ1OElJbGFwUXJ3?oc=5",
+   "time": "2026-11-06T09:57:04+00:00"
+  },
+  {
+   "title": "Commonwealth Equity Services LLC Sells 15,328 Shares of Costco Wholesale Corporation $COST",
+   "source": "MarketBeat",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYUtsV0JpMW1mazc2U3Q3YzlPM21GMURscHNpWUFTemFTWEFPWHJnc2ZGbWkwVmVNNnBSRThCRVp5ajJBX3lGYkVHUEFqT05mQXF2Z1RHaklMVGdKQzg4RFM4Rzc1ei1UTW81RTk4RTFiLXoxRDdhTE95N3VkU2lIVnU1Z192WVJEUnlIY1gtOV80T0FvMkJwS0R2elMxaFBZTkhadllnRWxIeTlRbms3LVZvTW80RjNKTlJ1OUpDS0NpLTFpMGQ2SzBObmxndzFpZWRDZTd6NWJnSVM0dTZOWDVyVQ?oc=5",
+   "time": "2026-11-06T09:08:28+00:00"
+  },
+  {
+   "title": "Costco Wholesale Corporation $COST Stock: Alta Advisers Ltd Boosts Position",
+   "source": "MarketBeat",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQckczRHRfT2RLNVU3NWZEdnQ2VVdLRFFuc0lzVjNWTE5ScXliamQ0M0lTX2VNLTZQVWE4UjFwYUJQNEtRdXhNYW1YOHpWMWxRQ0g1anBWb3VnMjMtZ0h4WnhmQVAyREdFVWpfTUlUbm1iVDZ3NmktOFNwc0JGRW1pYUtxQmxJLVZsdlQydzUwTGp3dkdwLTV6MGR4NFdzSUs4RkFlUU9yQVI1NS02c2dHWFJ0RUh1OV82eWItX1dMWHhNNUlLbEZCY08xaHhUUk0?oc=5",
+   "time": "2026-11-06T08:08:03+00:00"
+  },
+  {
+   "title": "Costco Wholesale Corporation (COST) Stock Forecasts",
+   "source": "Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT2VqZWRNVkdxMnFaS240TWhER3dLdE5jWVY4Q2d0bjZzWnRGdGhLUy1zakJCbGZaRXJ2MkhTcEZSMEVNZm9YWkt3YkcwY0NmZktkNjNsZ0o5UG8wZ0pTZC1wdXRkSnhnMXNaQXk4Yml2bFM2R2NSQzVzU0hONFZDcEE4NlZoYm04bnlNQQ?oc=5",
+   "time": "2026-11-06T04:28:41+00:00"
+  },
+  {
+   "title": "JPMorgan Chase & Co. Forecasts Strong Price Appreciation for Costco Wholesale (NASDAQ:COST) Stock",
+   "source": "MarketBeat",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMUxwZ19VaDFxUUV6dy1mdk1wckE5NXBkSm9wMmlhNkNjZ2J5aW15N3g3THBCb0RpSjN5S3REMURSeUZUdVdWS0RaTlhxY09Rb1FNaXNoLTREZ01LbWZROFk0U0drWFVpTElhb0pVVlY4WFNhcklXOWdpZ2dmelRMOEMyQy10aGNFelhVUDF1MDllV3V3cEhVX3BmZU0wS2dfOVZwVWpCNnJzanNBemJjMG9KLWVXNjhIWUpaYmpPNnFER1VuVUJIRldac0M1cVVPQl9xaWFEdzdwVVVJWnNKSXh6clVRRXEzTkE?oc=5",
+   "time": "2026-11-06T00:06:07+00:00"
+  },
+  {
+   "title": "Costco Wholesale (COST) Is Named In Multiple Tariff Refund Class Actions",
+   "source": "Simply Wall St",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZzFnaDgzSUlZeWZ0XzFTOV9MaDIzejVyX3JyUWlMZHVoTWJJWUpKNFBkZG5Oc191SEZkQWpBd1RZbENodHpOZVZvNFJHcTVYeVdHV3l0UU1paUU3U1EtOW9QVFZrdkRsUGszMjZvNmk2RzJQaFVMSmhkMEVqZV9LQUpKQUNQRnNEbFhMc2xEaGM1N1lwZUhmWE9DR19FNWJEcmZ1MDBqREtINExzV1pFb0hrWXRaT2dXb0pJRTV2N3VmcFlJanpmWXZwZDdnUGN0ajFMR2JhbTlXRVpXdVHSAeMBQVVfeXFMT0xDY25hOGdTN25SVEtxbnNZTlZnMnp3cmVGS21CZ3FiZWxpNzZ1Vml1Qk5KSC1GQThyRlg3UnFhQ2Vna2tZRV9hUFkwcno4Zm10TFltYlVtajZNM0FfZ0c5SXNCU2dnWV9SdXozbVoySkpnSjNCajZiZlJNaGRPVWU3VjdWcmQ4YlF5eXJnQTk4QWZEcU9hWWFsWDFMZmhSdVpDREVNMWpwUXB6cmd4dGJtQ2VjZWtiX3I1UTVGQ3NtVVM1aHAtTUpuZXZxMWZxNENLNnpWZWh0Y2oyYUItN19wX1U?oc=5",
+   "time": "2026-11-05T21:32:47+00:00"
+  }
+ ],
+ "plan": {
+  "level": 1081.55,
+  "risk": 10.01,
+  "atr": 20.012,
+  "stop": 1071.54,
+  "target": 1091.56,
+  "targetR": 1.0,
+  "noEntryBefore": "09:45",
+  "noEntryAfter": "15:30",
+  "flatBy": "15:55",
+  "prevClose": 1065.59
+ },
+ "daily": {
+  "dates": [
+   "2026-09-25",
+   "2026-09-28",
+   "2026-09-29",
+   "2026-09-30",
+   "2026-10-01",
+   "2026-10-02",
+   "2026-10-05",
+   "2026-10-06",
+   "2026-10-07",
+   "2026-10-08",
+   "2026-10-09",
+   "2026-10-12",
+   "2026-10-13",
+   "2026-10-14",
+   "2026-10-15",
+   "2026-10-16",
+   "2026-10-19",
+   "2026-10-20",
+   "2026-10-21",
+   "2026-10-22",
+   "2026-10-23",
+   "2026-10-26",
+   "2026-10-27",
+   "2026-10-28",
+   "2026-10-29",
+   "2026-10-30",
+   "2026-11-02",
+   "2026-11-03",
+   "2026-11-04",
+   "2026-11-05"
+  ],
+  "close": [
+   922.77,
+   922.92,
+   924.59,
+   910.34,
+   914.94,
+   920.65,
+   923.52,
+   935.68,
+   942.25,
+   947.92,
+   946.92,
+   959.44,
+   954.63,
+   982.0,
+   978.01,
+   989.11,
+   995.53,
+   994.61,
+   998.31,
+   1018.21,
+   1003.32,
+   1005.16,
+   992.13,
+   982.73,
+   996.08,
+   1012.28,
+   1040.55,
+   1019.26,
+   1046.47,
+   1065.59
+  ],
+  "high": [
+   925.14,
+   931.09,
+   925.97,
+   925.56,
+   923.5,
+   921.18,
+   925.34,
+   937.04,
+   948.77,
+   953.25,
+   951.29,
+   960.74,
+   966.0,
+   982.64,
+   1008.37,
+   993.19,
+   997.43,
+   1003.0,
+   1000.25,
+   1018.86,
+   1021.45,
+   1015.14,
+   1002.82,
+   988.81,
+   996.42,
+   1021.31,
+   1042.5699,
+   1034.77,
+   1053.66,
+   1081.55
+  ],
+  "low": [
+   883.1,
+   913.0,
+   912.66,
+   910.3,
+   903.78,
+   909.66,
+   914.75,
+   919.0,
+   937.6,
+   939.6,
+   942.53,
+   946.7,
+   953.78,
+   960.0,
+   977.24,
+   980.67,
+   985.01,
+   991.0,
+   988.47,
+   1001.23,
+   1002.68,
+   999.08,
+   989.04,
+   980.32,
+   984.55,
+   1006.56,
+   1014.34,
+   1019.08,
+   1028.5,
+   1061.0
+  ]
+ },
+ "timemachine": {
+  "replay": {
+   "replays": 10000,
+   "seed": 19,
+   "startTime": "9:55",
+   "bars": 72,
+   "target": 0.2713,
+   "stop": 0.2138,
+   "neither": 0.5149,
+   "green": 0.5226,
+   "avgR": 0.0523,
+   "closeMedian": 1081.3677,
+   "closeP5": 1074.49,
+   "closeP95": 1088.7026,
+   "verdict": [
+    "목표가 쪽으로 기울어짐: 목표가 먼저 56% vs 손익분기 50%.",
+    "리플레이의 51%는 청산 시각까지 어느 쪽에도 닿지 않아, 마감 직전 가격이 결과를 정합니다."
+   ]
+  },
+  "history": {
+   "sessions": 59,
+   "fired": 11,
+   "target": 6,
+   "stop": 1,
+   "neither": 4,
+   "avgR": 0.3919,
+   "trades": [
+    {
+     "date": "2026-10-06",
+     "entryTime": "12:50",
+     "outcome": "close",
+     "r": 0.4506
+    },
+    {
+     "date": "2026-10-07",
+     "entryTime": "9:50",
+     "outcome": "close",
+     "r": -0.1123
+    },
+    {
+     "date": "2026-10-08",
+     "entryTime": "11:40",
+     "outcome": "close",
+     "r": -0.1835
+    },
+    {
+     "date": "2026-10-12",
+     "entryTime": "10:25",
+     "outcome": "target",
+     "r": 1.0
+    },
+    {
+     "date": "2026-10-13",
+     "entryTime": "9:50",
+     "outcome": "close",
+     "r": -0.8442
+    },
+    {
+     "date": "2026-10-14",
+     "entryTime": "9:55",
+     "outcome": "target",
+     "r": 1.0
+    },
+    {
+     "date": "2026-10-15",
+     "entryTime": "9:50",
+     "outcome": "stop",
+     "r": -1.0
+    },
+    {
+     "date": "2026-10-22",
+     "entryTime": "10:30",
+     "outcome": "target",
+     "r": 1.0
+    },
+    {
+     "date": "2026-11-02",
+     "entryTime": "9:50",
+     "outcome": "target",
+     "r": 1.0
+    },
+    {
+     "date": "2026-11-04",
+     "entryTime": "10:45",
+     "outcome": "target",
+     "r": 1.0
+    },
+    {
+     "date": "2026-11-05",
+     "entryTime": "9:50",
+     "outcome": "target",
+     "r": 1.0
+    }
+   ]
+  }
+ },
+ "ticket": {
+  "account": 5000.0,
+  "maxLoss": 50.0,
+  "shares": 4,
+  "limitedBy": "최대 손실",
+  "entry": 1081.55,
+  "stop": 1071.54,
+  "target": 1091.56,
+  "cost": 4326.2002,
+  "lossAtStop": 40.04,
+  "gainAtTarget": 40.04,
+  "paper": true
+ },
+ "result": null
+}

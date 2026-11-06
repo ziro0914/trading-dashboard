@@ -1,0 +1,265 @@
+{
+ "date": "2026-11-05",
+ "buy": [
+  {
+   "ticker": "VCYT",
+   "company": "Veracyte, Inc.",
+   "shares": 515021,
+   "funds": [
+    "ARKK",
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "SPCX",
+   "company": "Space Exploration Technologies Corp",
+   "shares": 393774,
+   "funds": [
+    "ARKK",
+    "ARKQ",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "RKLB",
+   "company": "Rocket Lab Corp",
+   "shares": 276925,
+   "funds": [
+    "ARKK",
+    "ARKQ",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "company": "NVIDIA Corporation",
+   "shares": 252592,
+   "funds": [
+    "ARKK",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "CBRS",
+   "company": "Cerebras Systems Inc",
+   "shares": 196897,
+   "funds": [
+    "ARKK",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "IAM",
+   "company": "Iambic Therapeutics, Inc.",
+   "shares": 187816,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "JOBY",
+   "company": "Joby Aviation, Inc.",
+   "shares": 91273,
+   "funds": [
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "TWST",
+   "company": "Twist Bioscience Corporation",
+   "shares": 84743,
+   "funds": [
+    "ARKK",
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "TXG",
+   "company": "10x Genomics, Inc.",
+   "shares": 80036,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "TEM",
+   "company": "Tempus AI, Inc.",
+   "shares": 63571,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "SCTX",
+   "company": "Scribe Therapeutics Inc",
+   "shares": 61828,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "GOOG",
+   "company": "Alphabet Inc.",
+   "shares": 53457,
+   "funds": [
+    "ARKK",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "AMD",
+   "company": "Advanced Micro Devices, Inc.",
+   "shares": 48984,
+   "funds": [
+    "ARKK",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "KTOS",
+   "company": "Kratos Defense & Security Solutions, Inc.",
+   "shares": 47728,
+   "funds": [
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "LUNR",
+   "company": "Intuitive Machines Inc",
+   "shares": 39299,
+   "funds": [
+    "ARKX"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "CRWV",
+   "company": "CoreWeave, Inc.",
+   "shares": 412666,
+   "funds": [
+    "ARKK",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "AVGO",
+   "company": "Broadcom Inc",
+   "shares": 410559,
+   "funds": [
+    "ARKK",
+    "ARKQ",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "BYDDY",
+   "company": "BYD Company Limited",
+   "shares": 273748,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "TER",
+   "company": "Teradyne, Inc.",
+   "shares": 156944,
+   "funds": [
+    "ARKK",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "BMNR",
+   "company": "BitMine Immersion Technologies, Inc.",
+   "shares": 119841,
+   "funds": [
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "BLSH",
+   "company": "Bullish",
+   "shares": 109522,
+   "funds": [
+    "ARKK",
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "CDNA",
+   "company": "CareDx, Inc.",
+   "shares": 63092,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "PSNL",
+   "company": "Personalis, Inc.",
+   "shares": 13930,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "TEM",
+   "company": "Tempus AI, Inc.",
+   "shares": 12418,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "SPOT",
+   "company": "Spotify Technology S.A.",
+   "shares": 9573,
+   "funds": [
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "GRMN",
+   "company": "Garmin Ltd.",
+   "shares": 8420,
+   "funds": [
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "HEI",
+   "company": "HEICO Corporation",
+   "shares": 7455,
+   "funds": [
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "LLY",
+   "company": "Eli Lilly and Company",
+   "shares": 6632,
+   "funds": [
+    "ARKK",
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "TSM",
+   "company": "Taiwan Semiconductor Manufacturing Company Limited",
+   "shares": 4226,
+   "funds": [
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "HONA",
+   "company": "Honeywell Aerospace Inc",
+   "shares": 2003,
+   "funds": [
+    "ARKX"
+   ]
+  }
+ ]
+}

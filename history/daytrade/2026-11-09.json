@@ -1,0 +1,871 @@
+{
+ "date": "2026-11-09",
+ "created": "2026-11-09T15:44:39.344402+00:00",
+ "universe": 96,
+ "hits": 1,
+ "others": [],
+ "cashPerTrade": 1666.6667,
+ "trades": [
+  {
+   "ticker": "TMUS",
+   "name": "T-Mobile US, Inc.",
+   "sector": "Communication Services",
+   "kind": "breakout",
+   "pick": {
+    "ticker": "TMUS",
+    "close": 162.01,
+    "change": 0.0088,
+    "priorHigh": 160.59,
+    "breakout": 0.0088,
+    "volumeRatio": 0.7365,
+    "dollarVolume": 909734722.1542,
+    "high20": 163.35
+   },
+   "others": [],
+   "earnings": "2026-10-28",
+   "news": [
+    {
+     "title": "T-Mobile US, Inc. (TMUS) Stock Forecasts",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY1NHWnM3aW15QmphaWk5d0dtLWhJTy1maGY0OU1TRmhselV0RjBNaFdSSmdta01LX0lXTzNOTVppcFg0NnpZZ2k4dWtLRHRHYzJrRThEd1hSTnZURXg4VThqVUtlNVAzQ3A0N0VoaXRtRlRNTy1RZDd4UW5WZEFzWDlJVlRJNmFo?oc=5",
+     "time": "2026-11-09T13:46:22+00:00"
+    },
+    {
+     "title": "Argus Research Adjusts T-Mobile US Price Target to $220 From $245",
+     "source": "MT Newswires",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/argus-research-adjusts-t-mobile-132141334.html",
+     "time": "2026-11-09T13:21:41+00:00"
+    },
+    {
+     "title": "45,000 T-Mobile US, Inc. $TMUS Shares Acquired by University of Texas Texas AM Investment Management Co.",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOLUMzRGh6V0NhYURJUEpCbVVaTVlEUXNfb0h1VkpxaVVWOUQ5czlSTlhPREFIeGVIc29jTkEyX2NkdENtMDFWS1JMU0N0djFCejY2MkhGZnAwWExib1lzRGsyUmwzTnZlejU2TU11TVdoNTdJb04xaU9ORGNHclR1VmNKcU1hR0p4OEt5VVhraWg4ZVhhaWZ5UFYwdnZ5WXYtQ09hRUw2aDJlQ2hHeGFnbnc0R2ZnbEtmNTIzMjFKcGlrMGMyUzJvNmFGWl95TEFJYmt5cGNyM1dWckZtbXd0ak55UlhqNkxrR09aXzBEOWE1Zw?oc=5",
+     "time": "2026-11-09T11:52:59+00:00"
+    },
+    {
+     "title": "T-Mobile US, Inc. $TMUS Stake Lifted by Hohimer Wealth Management LLC",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSXd5WHNORl95RTRua1M3VU1ONWdJRzh5WHFXSWNiTkROaEJaZWFxOHZ2a1c2cm9nVTVwZUFabVpVY19IQmhRQzNCMkpzM25vZlRyZWtaSUtjSlJESllJQ19sZnYweFZKVlRRWWZCMW1IeUdfQWlINUxqMnpQdlpRWTI4NGtHRThINkhHOFB0U3A3YU9jeHRMZm9abFN3akwxTDk4dUdyLTl2Qy1UMVE4UEczOEZHQzdTdzNvYlFfdTJ4c3pXbHc?oc=5",
+     "time": "2026-11-09T11:16:10+00:00"
+    },
+    {
+     "title": "T-Mobile Stock Outlook: Is Wall Street Bullish or Bearish?",
+     "source": "Barchart.com",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRTFPQm1ZUHJqMWR4TEpTLVZ4aXRXRzMwajBnSVYtNW5rM0psU09wLXMzXzNCalEyVVJJSWRtZzduYlFGMW1FQ0xjOXI5Y0ViUVR5MDViUmRtUmt6aFZsQWhOYm5OY2dET3dTLTNtUnhHQnYwM19iMm1RMWVwVG9yM1I0WGJzNkFVbUppaWlyaWwyN0UwcVNmM2UzbTJNR3o3N1E?oc=5",
+     "time": "2026-11-09T10:21:05+00:00"
+    },
+    {
+     "title": "T-Mobile US (TMUS) Backed A 10% Dividend Increase At Its Parent",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/t-mobile-us-tmus-backed-080858376.html",
+     "time": "2026-11-09T08:08:58+00:00"
+    },
+    {
+     "title": "Should New Plan Launches Require Action From T Mobile (TMUS) Investors?",
+     "source": "Simply Wall St",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPby0xV1RoUEZXUVIzSUhiUjR6UjhjVGhHMVJRNHhudWVpd3J0RWR4dHhXNkhNR0FXNjZiQ0lycm9lQm5JWGFzZlpVcy0xZ3A2cEc4eW9PWTZhS1p0MEZ5SWF5eG91RHBpUnV5Y0p4eGNZVWFhZ0tsRE56WWRVU1JTNGtLUkIxYTl4Z1VZbW8waXdKRHZsVXhyTk52b2Y3bENEMVRQY3VzLTFzQXdhWXRVVzdnTXVHSkxMT2RJQVlvdk84LTczdGNvOHBQTzV4Z9IBzgFBVV95cUxPby0xV1RoUEZXUVIzSUhiUjR6UjhjVGhHMVJRNHhudWVpd3J0RWR4dHhXNkhNR0FXNjZiQ0lycm9lQm5JWGFzZlpVcy0xZ3A2cEc4eW9PWTZhS1p0MEZ5SWF5eG91RHBpUnV5Y0p4eGNZVWFhZ0tsRE56WWRVU1JTNGtLUkIxYTl4Z1VZbW8waXdKRHZsVXhyTk52b2Y3bENEMVRQY3VzLTFzQXdhWXRVVzdnTXVHSkxMT2RJQVlvdk84LTczdGNvOHBQTzV4Zw?oc=5",
+     "time": "2026-11-08T20:18:48+00:00"
+    },
+    {
+     "title": "Waycross Partners LLC Buys 6,601 Shares of T-Mobile US, Inc. $TMUS",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMlRlNm1pQmJYakhNeHJEZm4xczMzWDNRNXN3N3FLeXBtZlljbW9jSlpGdy1wQkFKWEhJU2VSbkU5Ymo1R0xOOWJwMVhQR0VqaUZxd25raWF0SWRvSzF2SWhkRlY0cGRuOVhVWjFlUm16OFY3VGpWai1LbEtBU0xNWjBnYWtwc3cxeU9WRmwzcmFnOWRvbThGNnhxSTVST2tjWS1QSnpPdDAzQ1BUUm1VTXhSck82ZHVZa1dINkJ4QlM?oc=5",
+     "time": "2026-11-07T17:09:07+00:00"
+    }
+   ],
+   "plan": {
+    "level": 163.35,
+    "risk": 3.06,
+    "atr": 6.1163,
+    "stop": 160.29,
+    "target": 166.41,
+    "targetR": 1.0,
+    "noEntryBefore": "09:45",
+    "noEntryAfter": "15:30",
+    "flatBy": "15:55",
+    "prevClose": 162.01
+   },
+   "daily": {
+    "dates": [
+     "2026-09-28",
+     "2026-09-29",
+     "2026-09-30",
+     "2026-10-01",
+     "2026-10-02",
+     "2026-10-05",
+     "2026-10-06",
+     "2026-10-07",
+     "2026-10-08",
+     "2026-10-09",
+     "2026-10-12",
+     "2026-10-13",
+     "2026-10-14",
+     "2026-10-15",
+     "2026-10-16",
+     "2026-10-19",
+     "2026-10-20",
+     "2026-10-21",
+     "2026-10-22",
+     "2026-10-23",
+     "2026-10-26",
+     "2026-10-27",
+     "2026-10-28",
+     "2026-10-29",
+     "2026-10-30",
+     "2026-11-02",
+     "2026-11-03",
+     "2026-11-04",
+     "2026-11-05",
+     "2026-11-06"
+    ],
+    "close": [
+     166.45,
+     162.98,
+     163.08,
+     161.73,
+     163.64,
+     164.64,
+     165.93,
+     167.65,
+     171.31,
+     148.58,
+     151.87,
+     153.73,
+     157.79,
+     157.03,
+     159.1,
+     156.09,
+     157.75,
+     153.75,
+     158.79,
+     146.54,
+     146.93,
+     146.83,
+     148.08,
+     147.29,
+     156.44,
+     160.15,
+     154.41,
+     159.17,
+     160.59,
+     162.01
+    ],
+    "high": [
+     167.5,
+     165.46,
+     164.62,
+     163.93,
+     164.57,
+     164.76,
+     166.06,
+     169.78,
+     171.8,
+     156.89,
+     153.61,
+     154.75,
+     158.09,
+     163.17,
+     159.65,
+     159.54,
+     161.62,
+     155.67,
+     159.41,
+     154.82,
+     147.97,
+     147.83,
+     148.45,
+     152.72,
+     158.99,
+     160.48,
+     160.0,
+     161.8,
+     163.35,
+     163.3
+    ],
+    "low": [
+     164.52,
+     162.76,
+     162.41,
+     161.3,
+     160.81,
+     162.23,
+     163.02,
+     166.88,
+     167.92,
+     147.9,
+     149.58,
+     151.8,
+     152.05,
+     155.75,
+     156.56,
+     155.87,
+     157.09,
+     151.5,
+     155.44,
+     146.32,
+     143.92,
+     145.78,
+     143.75,
+     146.59,
+     149.71,
+     153.66,
+     154.04,
+     156.06,
+     158.51,
+     155.58
+    ]
+   },
+   "timemachine": {
+    "replay": {
+     "replays": 10000,
+     "seed": 19,
+     "startTime": "10:50",
+     "bars": 61,
+     "target": 0.0565,
+     "stop": 0.1478,
+     "neither": 0.7957,
+     "green": 0.3666,
+     "avgR": -0.1766,
+     "closeMedian": 162.9728,
+     "closeP5": 161.0054,
+     "closeP95": 165.2501,
+     "verdict": [
+      "손절가 쪽으로 강하게 기울어짐: 목표가 먼저 28% vs 손익분기 50%.",
+      "리플레이의 80%는 청산 시각까지 어느 쪽에도 닿지 않아, 마감 직전 가격이 결과를 정합니다."
+     ]
+    },
+    "history": {
+     "sessions": 59,
+     "fired": 2,
+     "target": 0,
+     "stop": 0,
+     "neither": 2,
+     "avgR": -0.0265,
+     "trades": [
+      {
+       "date": "2026-09-02",
+       "entryTime": "11:25",
+       "outcome": "close",
+       "r": 0.0174
+      },
+      {
+       "date": "2026-09-03",
+       "entryTime": "10:15",
+       "outcome": "close",
+       "r": -0.0703
+      }
+     ]
+    }
+   },
+   "ticket": {
+    "account": 5000.0,
+    "cash": 1666.6667,
+    "maxLoss": 50.0,
+    "shares": 10,
+    "limitedBy": "현금",
+    "entry": 163.35,
+    "stop": 160.29,
+    "target": 166.41,
+    "cost": 1633.5001,
+    "lossAtStop": 30.6,
+    "gainAtTarget": 30.6,
+    "paper": true
+   },
+   "result": null
+  },
+  {
+   "ticker": "JNJ",
+   "name": "Johnson & Johnson",
+   "sector": "Healthcare",
+   "kind": "near",
+   "pick": {
+    "ticker": "JNJ",
+    "close": 276.22,
+    "change": 0.0143,
+    "priorHigh": 276.32,
+    "breakout": -0.0004,
+    "volumeRatio": 1.1128,
+    "dollarVolume": 2447309210.8154,
+    "high20": 282.02
+   },
+   "others": [],
+   "earnings": "2027-01-26",
+   "news": [
+    {
+     "title": "Johnson & Johnson Showcases Positive Trial Data For Key Autoimmune Therapies",
+     "source": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUnZ2VVRzS0xWdktuZUVMd3ZDRVY0VVlVcGpYT0ZKNENfbEVFaGZ1d09Ja3BBbHZ0TEhCSFQ1Mnl6RHV4a2M3MHQxcW9ObVN1c1V0Q3MwWDVLaWdNejc3cUNrN2RsdHgyZDd1SWNUVzRMV3lKRWxxMHp1Z0UybUt4VU12NzJuMjkwT3ZlRUJZc25iVEJ2allrSW1NNlV6WTNWUUFVbWNqVnFRTFd4dDhXREJ5Z2M2dlpEeFB2bG9GWV9LMHlnMWRpTUR3?oc=5",
+     "time": "2026-11-09T15:04:15+00:00"
+    },
+    {
+     "title": "Johnson & Johnson’s ICOTYDE Meets Primary Endpoint in Phase 3 Psoriatic Arthritis Trial",
+     "source": "InvestorsHub",
+     "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-icotyde-meets-primary-113357664.html",
+     "time": "2026-11-09T11:33:57+00:00"
+    },
+    {
+     "title": "Johnson & Johnson Says Icotyde in Psoriatic Arthritis Disease Meets Primary Endpoint in Phase 3 Study",
+     "source": "MT Newswires",
+     "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-says-icotyde-psoriatic-111122825.html",
+     "time": "2026-11-09T11:11:22+00:00"
+    },
+    {
+     "title": "ETFs Are Net Sellers of Johnson & Johnson (JNJ) on Nov. 5",
+     "source": "GuruFocus.com",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-johnson-johnson-110343852.html",
+     "time": "2026-11-09T11:03:43+00:00"
+    },
+    {
+     "title": "Johnson & Johnson Advanced Prostate Cancer Combo Treatment Shows 73% PSA Response Rate",
+     "source": "MT Newswires",
+     "link": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-advanced-prostate-cancer-102947260.html",
+     "time": "2026-11-09T10:29:47+00:00"
+    },
+    {
+     "title": "Johnson & Johnson's Experimental Immunotherapy Shows Promise in Prostate Cancer; Ticker JNJ Update",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMnY3RlYzSHpZLTlmcUhBSEVlWUlMTVdOb0VWTF9PZ0ZrNm5RV1VzX05wTzZuMjdoc2RIeXNCbmRpN01KV2Q4cHJvMXVfQUktZHFOTDctWEJWWmFBMUxWNkpQaHRWT3EycUlMaW96dmg4YnlwTHIyRmllcFFZQk5pYjZlWlhHNnhpTXV3amZqYUJJRTE3dUNqbUI2M0Q4Tkd3QXY3X1d0TFNoZnlwS2s1NkRLQlZSNU13N20xQVdUN2dNeWtKRHdNVThaaHRsQQ?oc=5",
+     "time": "2026-11-08T23:38:29+00:00"
+    },
+    {
+     "title": "J&J prostate cancer combination lowers PSA in small early study (JNJ:NYSE)",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObHhOTVJweWZNdmJka3dzcndNSDZrVFNkbm5JaXhBMnJkVmRXR3NpSVh1UWJvS3d5aFk2SFE0TEtOLXRoY0V5R2FqUGo5NGlzTDJIR2ZPZTNHSHZvN1I1WTdiN3VNcWgwUE9iV1RycGd2NWpMaVRWdXJibDUxMVpxd3VBLS1IaEprelFnT0ROeUM5YjEyNVJiVWJHUGZaTzBSMkZTRk5pY2I?oc=5",
+     "time": "2026-11-08T21:56:00+00:00"
+    },
+    {
+     "title": "Johnson & Johnson Reports Positive Phase 3 Trial Results for ICO",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQTZEc2VKOHRwcjdvRnFtS3dKMjN2LWlhRGRFRkpOUGpCUm5vVWp4WlRieUxrcG9LRGpDVGwyQkhXSDlobVYxSEhsWmJjdzBwWDBDNW5SLUR2SWxSbE5UdXR6QjJoczJJdFM0bV9WY0hfeGFPV0tfUVJ3TlZ2Mjk5NW8tbkdzeXRNT1ozR0ZGNkRCZFhTQ3VtMkQzUHM3VTUzTF9ROUdCVnhfOTVnSGZnbUlrTzRkMmdKNTM2U0dIakJ6RTJWelBLeWtoa0o?oc=5",
+     "time": "2026-11-08T21:13:19+00:00"
+    }
+   ],
+   "plan": {
+    "level": 282.02,
+    "risk": 3.71,
+    "atr": 7.4147,
+    "stop": 278.31,
+    "target": 285.73,
+    "targetR": 1.0,
+    "noEntryBefore": "09:45",
+    "noEntryAfter": "15:30",
+    "flatBy": "15:55",
+    "prevClose": 276.22
+   },
+   "daily": {
+    "dates": [
+     "2026-09-28",
+     "2026-09-29",
+     "2026-09-30",
+     "2026-10-01",
+     "2026-10-02",
+     "2026-10-05",
+     "2026-10-06",
+     "2026-10-07",
+     "2026-10-08",
+     "2026-10-09",
+     "2026-10-12",
+     "2026-10-13",
+     "2026-10-14",
+     "2026-10-15",
+     "2026-10-16",
+     "2026-10-19",
+     "2026-10-20",
+     "2026-10-21",
+     "2026-10-22",
+     "2026-10-23",
+     "2026-10-26",
+     "2026-10-27",
+     "2026-10-28",
+     "2026-10-29",
+     "2026-10-30",
+     "2026-11-02",
+     "2026-11-03",
+     "2026-11-04",
+     "2026-11-05",
+     "2026-11-06"
+    ],
+    "close": [
+     271.95,
+     267.57,
+     264.74,
+     258.66,
+     256.03,
+     252.93,
+     254.78,
+     258.45,
+     256.48,
+     261.44,
+     263.73,
+     248.61,
+     253.91,
+     253.28,
+     255.56,
+     253.79,
+     259.36,
+     257.78,
+     267.61,
+     263.81,
+     266.3,
+     268.73,
+     271.04,
+     275.2,
+     273.2,
+     270.56,
+     266.17,
+     276.32,
+     272.32,
+     276.22
+    ],
+    "high": [
+     273.78,
+     271.89,
+     268.48,
+     263.98,
+     259.38,
+     256.24,
+     255.48,
+     260.68,
+     257.8,
+     261.61,
+     264.39,
+     256.18,
+     253.94,
+     262.45,
+     257.55,
+     255.56,
+     260.77,
+     257.8,
+     269.67,
+     266.03,
+     272.36,
+     269.09,
+     272.75,
+     278.05,
+     282.02,
+     273.01,
+     271.07,
+     277.35,
+     281.92,
+     276.41
+    ],
+    "low": [
+     269.27,
+     265.59,
+     264.51,
+     258.33,
+     255.12,
+     252.51,
+     251.17,
+     255.73,
+     251.95,
+     254.99,
+     260.37,
+     245.17,
+     248.5,
+     252.62,
+     254.0,
+     251.5,
+     256.42,
+     254.56,
+     259.04,
+     262.4,
+     264.97,
+     264.83,
+     264.2,
+     273.6,
+     273.13,
+     267.44,
+     265.28,
+     267.67,
+     271.64,
+     265.55
+    ]
+   },
+   "timemachine": {
+    "replay": {
+     "replays": 10000,
+     "seed": 19,
+     "startTime": "9:50",
+     "bars": 73,
+     "target": 0.1819,
+     "stop": 0.2128,
+     "neither": 0.6053,
+     "green": 0.4791,
+     "avgR": -0.0333,
+     "closeMedian": 281.9906,
+     "closeP5": 279.4205,
+     "closeP95": 284.5909,
+     "verdict": [
+      "손익분기 근처: 한쪽에 닿은 경우 중 목표가 먼저 46% (손익분기 50%).",
+      "리플레이의 61%는 청산 시각까지 어느 쪽에도 닿지 않아, 마감 직전 가격이 결과를 정합니다."
+     ]
+    },
+    "history": {
+     "sessions": 59,
+     "fired": 5,
+     "target": 1,
+     "stop": 2,
+     "neither": 2,
+     "avgR": -0.3386,
+     "trades": [
+      {
+       "date": "2026-08-19",
+       "entryTime": "9:55",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-09-02",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-10-28",
+       "entryTime": "11:25",
+       "outcome": "close",
+       "r": -0.3623
+      },
+      {
+       "date": "2026-10-29",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": -0.3305
+      },
+      {
+       "date": "2026-10-30",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      }
+     ]
+    }
+   },
+   "ticket": {
+    "account": 5000.0,
+    "cash": 1666.6667,
+    "maxLoss": 50.0,
+    "shares": 5,
+    "limitedBy": "현금",
+    "entry": 282.02,
+    "stop": 278.31,
+    "target": 285.73,
+    "cost": 1410.0999,
+    "lossAtStop": 18.55,
+    "gainAtTarget": 18.55,
+    "paper": true
+   },
+   "result": null
+  },
+  {
+   "ticker": "KO",
+   "name": "The Coca-Cola Company",
+   "sector": "Consumer Defensive",
+   "kind": "near",
+   "pick": {
+    "ticker": "KO",
+    "close": 95.67,
+    "change": -0.0006,
+    "priorHigh": 95.83,
+    "breakout": -0.0017,
+    "volumeRatio": 1.0119,
+    "dollarVolume": 1762250933.2718,
+    "high20": 97.39
+   },
+   "others": [],
+   "earnings": "2026-10-27",
+   "news": [
+    {
+     "title": "Hindustan Coca-Cola Files DRHP With Sebi For IPO",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS1F3d0FJbXYzV2pIRUJGeFhrV3FWb2pma2c4T1VDRlQzY2V5aV80T00wbHpFa2puUVU4VzljZThvemJYSmJPdjZWM18tUHlmblJvRHJXTlA0VlRPTEU3RUVuazdXdDE1bmVsSG9VaWR6VG43cUpmS2d4cGVfSmlEWHhLLXFwUWxKN3NGcFVxN0JSdFhNN25TVFZMMkJIWVE1RDE2SkRyNjc?oc=5",
+     "time": "2026-11-09T13:32:37+00:00"
+    },
+    {
+     "title": "Coca-Cola stock: Q3 growth supports higher 2026 outlook",
+     "source": "ad-hoc-news.de",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSWVQSzNEdGpXcy03WVVYQ0xadWN3Z1RQa1U3UXVMY2REbWhJRDN4V05pb1RJZlFFMVdSRVdrc1hLQUtDanZsU0w0bEkyY0Z5bk1QR3lxbWtrTFRJRUpEVTRWN1RjMDBKZHJNVm5JVnNISjFieVlHeUdoYzB4T3JwQ0d0YkliU1VYVmFHbnJfeVFPci1sQ3Q5OUlta0FDUjJ4dWtPQWtGY3dNOUw3UVF6SndaVHIzamFs?oc=5",
+     "time": "2026-11-09T12:04:55+00:00"
+    },
+    {
+     "title": "M Holdings Securities Inc. Acquires 48,193 Shares of Coca-Cola Company (The) $KO",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPR1d0c0w0aFhUNHVUNkdoYk1pOXBMT29FTWdobUdwUVp3c2htY0t6a2hVdmdfa1NNZWFQb2xwWE16WHgteDlnZHFYb01OY2RrdnRRNFNOVWNRT2otZ1lCejBRSlhMWENEeU1KTFZmTXlkWTVpem5FRE1tMHZwWTk3ajZjaGszYTdDTk5QTUt1Y0s2NGo1dnNyUnNxaXY2aWE4V3JUTWU5aFBXd3VnTllNclF4dFRjYTZSNGJwTVMwZEx4YWNtZXNrQkpETGhZRnFVS3c?oc=5",
+     "time": "2026-11-09T11:00:35+00:00"
+    },
+    {
+     "title": "Coca-Cola Company (The) $KO Stock Position Raised by StoneX Group Inc.",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPanQ3aWgyNmVOdHNUYXZHeTRmODVKTGczR09KN2FjZWlMV21yd3AzYjNPakRYOWZ3VEZyZ2xtcmZteUswZ1FHUXVNWHp6eVEtTGpqOXhEeWVLMG81Q2dSeHVPNzVXZXRBNnpuOTBSc3BxOHlhYjVtVVpPOFR3NVUwTXk4MzdlN2NWYUhoRjhSV2lPWWREMlNLcUw3RTUzMGVCN2h1MXNxcktpRDZ2Qks2eTg0V0pNNFMxVS12Vk9vTFE0TEp5V2c?oc=5",
+     "time": "2026-11-09T10:48:28+00:00"
+    },
+    {
+     "title": "Coca-Cola Company (The) $KO Stock Holdings Lifted by Elite Wealth Management Inc.",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdDVlUks0TTE1ejZ6TldVNDEyb2lvMjcxRVlDcTFlT1Z0UEtsOHdMM0JNSzB6RWdfZVdaY251NkxTcFh1NlJPdU9HWkF2UHFGVnl4NWhHWFNIbVpId2JZc1NmU1o1LWc0UGMtVkVTUDh4NFJjOXJfdVZ2VnNKOGxZcmFic19OSXpIalBrSzFDYmNaQWdEcVhybi12UFJUakk0ZFd3NkU0MExiWU9aaE9yNWFrV0IwTTI0SThSWW81bXZ1UnVTOVhlOE9KcTFqZi0xN0NuWA?oc=5",
+     "time": "2026-11-09T09:08:29+00:00"
+    },
+    {
+     "title": "Coca-Cola (KO) Makes the Dow’s Low-Upside List While Selling More Drinks, Not Just Charging More",
+     "source": "Insider Monkey",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-makes-dow-173403975.html",
+     "time": "2026-11-08T17:34:03+00:00"
+    },
+    {
+     "title": "165,809 Coca-Cola Company (The) $KO Shares Sold by Pictet Asset Management Holding SA",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNFNsZ25PN041UkdiR3A1UE1kcWNjN1IxYXR6R2ZlTkwxbDRIbU9OaTRpZmdLMFhJbk9KNUl1aE5CTFhuanQzV1M0NUxKLUV2R0VGLXpEWGNkY0tEVEJ1R1FOanVrMzNlbkhKbVptUW5ncHhZbno5b1RjU29kNnpPdHZnaW9FNE1aNF9XdGtjZkpBNzlCUXhsTXAyUFRYczk3eXFHcDNhRl9JTzcwTzVSSFB5d0JIdXJEQzNiNVUxR0JtMFM2YjZpcGxrbVkyNUF5VFUyVzdGRGZtdw?oc=5",
+     "time": "2026-11-08T11:08:53+00:00"
+    },
+    {
+     "title": "38,829 Coca-Cola Company (The) $KO Shares Sold by Cullinan Associates Inc.",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNm9waHBLb1VBa0xGcm4zdEdHQUJKS2I4MXZnelVvdjEyOTJqa0RNaG5vNDFmazA4ZmVOXzlsQXo2SUdkTWUyZGQtT3l0Y3I1NGlYOXMzb25NS3RiSkYydVZsaDBzVGo0TE1iQzlpeWdETzNwOXZZdWpYcUZVT0t5U2Rzd09wS210YTA5YW8zcU8xekJMVVNRaU5ZLW1EN1o4RHludkRSTmVhUG95cnBtaldWQktta2FpTk1JeDE5T1B4dERsb2ctVFdR?oc=5",
+     "time": "2026-11-08T09:47:18+00:00"
+    }
+   ],
+   "plan": {
+    "level": 97.39,
+    "risk": 0.92,
+    "atr": 1.8333,
+    "stop": 96.47,
+    "target": 98.31,
+    "targetR": 1.0,
+    "noEntryBefore": "09:45",
+    "noEntryAfter": "15:30",
+    "flatBy": "15:55",
+    "prevClose": 95.67
+   },
+   "daily": {
+    "dates": [
+     "2026-09-28",
+     "2026-09-29",
+     "2026-09-30",
+     "2026-10-01",
+     "2026-10-02",
+     "2026-10-05",
+     "2026-10-06",
+     "2026-10-07",
+     "2026-10-08",
+     "2026-10-09",
+     "2026-10-12",
+     "2026-10-13",
+     "2026-10-14",
+     "2026-10-15",
+     "2026-10-16",
+     "2026-10-19",
+     "2026-10-20",
+     "2026-10-21",
+     "2026-10-22",
+     "2026-10-23",
+     "2026-10-26",
+     "2026-10-27",
+     "2026-10-28",
+     "2026-10-29",
+     "2026-10-30",
+     "2026-11-02",
+     "2026-11-03",
+     "2026-11-04",
+     "2026-11-05",
+     "2026-11-06"
+    ],
+    "close": [
+     87.18,
+     86.84,
+     86.08,
+     86.1,
+     85.65,
+     86.51,
+     86.17,
+     85.82,
+     87.77,
+     88.05,
+     89.79,
+     90.11,
+     91.78,
+     92.0,
+     93.9,
+     93.42,
+     93.49,
+     92.68,
+     95.34,
+     92.71,
+     92.7,
+     91.18,
+     91.73,
+     92.82,
+     94.08,
+     95.83,
+     94.8,
+     95.8,
+     95.73,
+     95.67
+    ],
+    "high": [
+     87.7,
+     87.28,
+     87.52,
+     86.68,
+     86.45,
+     86.57,
+     87.29,
+     86.96,
+     88.04,
+     88.48,
+     89.8,
+     90.56,
+     91.93,
+     94.1,
+     93.9,
+     93.99,
+     93.96,
+     93.46,
+     95.37,
+     95.05,
+     92.88,
+     92.95,
+     92.36,
+     93.16,
+     95.08,
+     96.26,
+     95.49,
+     96.56,
+     97.39,
+     96.31
+    ],
+    "low": [
+     86.89,
+     86.56,
+     86.07,
+     85.72,
+     85.17,
+     85.13,
+     86.16,
+     85.67,
+     86.08,
+     87.39,
+     88.42,
+     89.67,
+     90.55,
+     91.72,
+     92.81,
+     92.56,
+     92.64,
+     92.55,
+     93.6,
+     92.64,
+     91.94,
+     90.81,
+     90.58,
+     92.03,
+     93.95,
+     94.28,
+     94.18,
+     94.35,
+     95.47,
+     93.0
+    ]
+   },
+   "timemachine": {
+    "replay": {
+     "replays": 10000,
+     "seed": 19,
+     "startTime": "10:00",
+     "bars": 71,
+     "target": 0.2053,
+     "stop": 0.1697,
+     "neither": 0.625,
+     "green": 0.4996,
+     "avgR": 0.0124,
+     "closeMedian": 97.3565,
+     "closeP5": 96.7113,
+     "closeP95": 97.9994,
+     "verdict": [
+      "손익분기 근처: 한쪽에 닿은 경우 중 목표가 먼저 55% (손익분기 50%).",
+      "리플레이의 62%는 청산 시각까지 어느 쪽에도 닿지 않아, 마감 직전 가격이 결과를 정합니다."
+     ]
+    },
+    "history": {
+     "sessions": 59,
+     "fired": 9,
+     "target": 3,
+     "stop": 2,
+     "neither": 4,
+     "avgR": 0.1116,
+     "trades": [
+      {
+       "date": "2026-08-20",
+       "entryTime": "9:55",
+       "outcome": "close",
+       "r": -0.325
+      },
+      {
+       "date": "2026-08-24",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": -0.3848
+      },
+      {
+       "date": "2026-10-13",
+       "entryTime": "10:00",
+       "outcome": "close",
+       "r": 0.4444
+      },
+      {
+       "date": "2026-10-14",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-10-15",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-10-22",
+       "entryTime": "10:15",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-02",
+       "entryTime": "12:30",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-04",
+       "entryTime": "11:40",
+       "outcome": "close",
+       "r": 0.2702
+      },
+      {
+       "date": "2026-11-05",
+       "entryTime": "10:00",
+       "outcome": "stop",
+       "r": -1.0
+      }
+     ]
+    }
+   },
+   "ticket": {
+    "account": 5000.0,
+    "cash": 1666.6667,
+    "maxLoss": 50.0,
+    "shares": 17,
+    "limitedBy": "현금",
+    "entry": 97.39,
+    "stop": 96.47,
+    "target": 98.31,
+    "cost": 1655.63,
+    "lossAtStop": 15.64,
+    "gainAtTarget": 15.64,
+    "paper": true
+   },
+   "result": null
+  }
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "date": "2026-11-06",
+ "buy": [
+  {
+   "ticker": "KTOS",
+   "company": "Kratos Defense & Security Solutions, Inc.",
+   "shares": 139142,
+   "funds": [
+    "ARKK",
+    "ARKQ",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "NTRA",
+   "company": "Natera, Inc.",
+   "shares": 61961,
+   "funds": [
+    "ARKK",
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "SCTX",
+   "company": "Scribe Therapeutics Inc",
+   "shares": 37246,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "JOBY",
+   "company": "Joby Aviation, Inc.",
+   "shares": 16568,
+   "funds": [
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "IAM",
+   "company": "Iambic Therapeutics, Inc.",
+   "shares": 16550,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "TXG",
+   "company": "10x Genomics, Inc.",
+   "shares": 14605,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "CBRS",
+   "company": "Cerebras Systems Inc",
+   "shares": 12522,
+   "funds": [
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "TEM",
+   "company": "Tempus AI, Inc.",
+   "shares": 12500,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "GOOG",
+   "company": "Alphabet Inc.",
+   "shares": 7096,
+   "funds": [
+    "ARKK",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "TWST",
+   "company": "Twist Bioscience Corporation",
+   "shares": 4790,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "LUNR",
+   "company": "Intuitive Machines Inc",
+   "shares": 3339,
+   "funds": [
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "AVAV",
+   "company": "AeroVironment, Inc.",
+   "shares": 2078,
+   "funds": [
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "COIN",
+   "company": "Coinbase Global, Inc.",
+   "shares": 2065,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "RKLB",
+   "company": "Rocket Lab Corp",
+   "shares": 714,
+   "funds": [
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "AMD",
+   "company": "Advanced Micro Devices, Inc.",
+   "shares": 519,
+   "funds": [
+    "ARKW"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "BYDDY",
+   "company": "BYD Company Limited",
+   "shares": 180000,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "BLSH",
+   "company": "Bullish",
+   "shares": 129064,
+   "funds": [
+    "ARKK",
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "CDNA",
+   "company": "CareDx, Inc.",
+   "shares": 113168,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "CRWV",
+   "company": "CoreWeave, Inc.",
+   "shares": 50631,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "AVGO",
+   "company": "Broadcom Inc",
+   "shares": 8662,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "TER",
+   "company": "Teradyne, Inc.",
+   "shares": 5622,
+   "funds": [
+    "ARKK",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "PSNL",
+   "company": "Personalis, Inc.",
+   "shares": 1344,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "LLY",
+   "company": "Eli Lilly and Company",
+   "shares": 398,
+   "funds": [
+    "ARKK"
+   ]
+  }
+ ]
+}

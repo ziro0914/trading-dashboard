@@ -40,6 +40,12 @@ jobs:
       - name: 모의매매 결과 기록 (장 마감 뒤)
         continue-on-error: true
         run: python daytrade.py result
+      - name: 모의매매 기록 먼저 저장 (사이트 빌드가 실패해도 남도록)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add history/daytrade
+          git diff --staged --quiet || (git commit -m "모의매매 기록 저장" && git push)
       - run: python build_site.py
       - name: 순위 기록 저장
         run: |

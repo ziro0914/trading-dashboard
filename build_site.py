@@ -177,27 +177,25 @@ def build_daytrade():
     folder.mkdir(parents=True, exist_ok=True)
     summary = []
     for path in sorted(daytrade.POSTS.glob("*.json"), reverse=True) if daytrade.POSTS.exists() else []:
-        post = json.loads(path.read_text())
-        shutil.copy(path, folder / path.name)
-        result = post.get("result") or {}
-        replay = post["timemachine"]["replay"]
-        summary.append(
-            {
-                "date": post["date"],
-                "ticker": post["ticker"],
-                "name": post["name"],
-                "kind": post["kind"],
-                "verdict": replay["verdict"][0],
-                "target": replay["target"],
-                "stop": replay["stop"],
-                "shares": post["ticket"]["shares"],
-                "status": result.get("status"),
-                "triggered": result.get("triggered"),
-                "outcome": result.get("outcome"),
-                "r": result.get("r"),
-                "pnl": result.get("pnl"),
-            }
-        )
+        post = daytrade.upgrade(json.loads(path.read_text()))
+        write_json(folder / path.name, post)
+        trades = []
+        for trade in post["trades"]:
+            result = trade.get("result") or {}
+            trades.append(
+                {
+                    "ticker": trade["ticker"],
+                    "name": trade["name"],
+                    "kind": trade["kind"],
+                    "verdict": trade["timemachine"]["replay"]["verdict"][0],
+                    "status": result.get("status"),
+                    "triggered": result.get("triggered"),
+                    "outcome": result.get("outcome"),
+                    "r": result.get("r"),
+                    "pnl": result.get("pnl"),
+                }
+            )
+        summary.append({"date": post["date"], "trades": trades})
     write_json(DIST / "data" / "daytrade.json", summary)
 
 

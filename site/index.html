@@ -87,7 +87,8 @@ tr:last-child td { border-bottom: 0; }
 .change { font-size: 15px; font-weight: 500; }
 .periods { display: flex; gap: 4px; margin-bottom: 8px; overflow-x: auto; }
 .periods button { flex: none; padding: 5px 11px; font-size: 13px; border: 1px solid var(--line); border-radius: 4px; }
-.periods button[aria-pressed="true"] { color: #fff; background: var(--accent); border-color: var(--accent); }
+.periods a { flex: none; padding: 5px 11px; font-size: 13px; color: var(--text); text-decoration: none; border: 1px solid var(--line); border-radius: 4px; }
+.periods a[aria-current="true"], .periods button[aria-pressed="true"] { color: #fff; background: var(--accent); border-color: var(--accent); }
 .chart { position: relative; height: 330px; }
 .chart.small { height: 230px; }
 .stat { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0; font-size: 14px; border-bottom: 1px solid var(--line); }
@@ -266,7 +267,7 @@ footer { padding-top: 12px; }
       <section class="card">
         <h2>범위 돌파 모의매매</h2>
         <div class="risk" id="tradeStats"></div>
-        <p class="muted">매일 밤 11시(한국시간)에 20일 범위를 돌파한 미국주식 1종목을 골라 뉴스, 진입·청산 계획, 타임머신 시뮬레이션, 모의 주문서(계좌 $5,000, 1회 최대 손실 $50)를 올립니다. 결과는 장 마감 뒤 자동으로 기록됩니다. 실제 주문은 하지 않습니다.</p>
+        <p class="muted">매일 밤 11시(한국시간)에 20일 범위를 돌파한 미국주식 3종목을 골라 뉴스, 진입·청산 계획, 타임머신 시뮬레이션, 모의 주문서(계좌 $5,000을 종목마다 1/3씩 배정, 1회 최대 손실 $50)를 올립니다. 결과는 장 마감 뒤 자동으로 기록됩니다. 실제 주문은 하지 않습니다.</p>
       </section>
       <section class="card"><h2>게시물</h2><ul class="posts" id="posts"></ul></section>
     </div>
@@ -800,14 +801,15 @@ function riskBox(label, value, className = "") {
   return box;
 }
 function renderTradeList(posts) {
-  const trades = posts.filter((p) => p.triggered);
-  const pnl = trades.reduce((sum, p) => sum + (p.pnl || 0), 0);
-  const wins = trades.filter((p) => p.pnl > 0).length;
-  const totalR = trades.reduce((sum, p) => sum + (p.r || 0), 0);
+  const all = posts.flatMap((p) => p.trades);
+  const trades = all.filter((t) => t.triggered);
+  const pnl = trades.reduce((sum, t) => sum + (t.pnl || 0), 0);
+  const wins = trades.filter((t) => t.pnl > 0).length;
+  const totalR = trades.reduce((sum, t) => sum + (t.r || 0), 0);
   $("tradeStats").replaceChildren(
     riskBox("모의 계좌", usd(5000 + pnl), pnl > 0 ? "up" : pnl < 0 ? "down" : ""),
     riskBox("누적 손익", signedUsd(pnl), pnl > 0 ? "up" : pnl < 0 ? "down" : ""),
-    riskBox("체결 / 게시물", `${trades.length} / ${posts.length}`),
+    riskBox("체결 / 계획", `${trades.length} / ${all.length}`),
     riskBox("승률 · 누적 R", trades.length ? `${pct(wins / trades.length, 0)} · ${totalR >= 0 ? "+" : ""}${totalR.toFixed(1)}R` : "-"),
   );
   if (!posts.length) {
@@ -818,8 +820,15 @@ function renderTradeList(posts) {
     const li = el("li");
     const a = el("a");
     a.href = `#trades/${p.date}`;
-    a.append(el("span", "post-date", dayLabel(p.date)), el("span", "post-title", `${p.ticker} · ${p.name}`), resultBadge(p),
-      el("span", "post-sub", `${p.kind === "near" ? "돌파 직전 · " : ""}${p.verdict}`));
+    const done = p.trades.every((t) => t.status);
+    const dayPnl = p.trades.reduce((sum, t) => sum + (t.pnl || 0), 0);
+    const filled = p.trades.filter((t) => t.triggered).length;
+    const badge = !done ? el("span", "badge", "결과 대기")
+      : !filled ? el("span", "badge", "미진입")
+      : el("span", `badge ${dayPnl > 0 ? "up" : dayPnl < 0 ? "down" : ""}`, `${filled}건 체결 ${signedUsd(dayPnl)}`);
+    const sub = p.trades.map((t) => `${t.ticker} ${!t.status ? "대기" : t.triggered ? `${OUTCOMES[t.outcome]} ${signedUsd(t.pnl)}` : "미진입"}`).join(" · ");
+    a.append(el("span", "post-date", dayLabel(p.date)), el("span", "post-title", p.trades.map((t) => t.ticker).join(", ")), badge,
+      el("span", "post-sub", sub));
     li.append(a);
     return li;
   }));
@@ -848,15 +857,15 @@ function chartBox(id, small = true) {
 function flatLine(label, value, count, color) {
   return { ...line(label, Array(count).fill(value), color), borderWidth: 1.5, borderDash: [5, 4] };
 }
-async function openPost(date) {
+async function openPost(date, ticker) {
   $("tradeList").hidden = true;
   const box = $("tradePost");
   box.hidden = false;
   box.replaceChildren(el("p", "muted", "불러오는 중…"));
   const post = await load(`data/daytrade/${date}.json`);
   if (!post) { box.replaceChildren(el("div", "notice", "게시물을 찾지 못했습니다.")); return; }
-  const { plan, scan, ticket: order, timemachine: tm } = post;
-  const pick = scan.pick;
+  const trade = post.trades.find((t) => t.ticker === ticker) || post.trades[0];
+  const { plan, ticket: order, timemachine: tm, pick } = trade;
   const replay = tm.replay, history = tm.history;
 
   const head = el("section", "card post-head");
@@ -864,14 +873,33 @@ async function openPost(date) {
   back.href = "#trades";
   const verdictBox = el("div", "verdict");
   replay.verdict.forEach((line) => verdictBox.append(el("p", "", line)));
-  head.append(back, el("h1", "", `${dayLabel(post.date)} · ${post.ticker} ${post.name}`),
-    el("div", "muted", `${post.sector ? post.sector + " · " : ""}작성 ${new Date(post.created).toLocaleString("ko-KR")} · 모의매매, 실제 주문 아님`), verdictBox);
+  const switcher = el("div", "periods");
+  post.trades.forEach((t) => {
+    const link = el("a", "", t.ticker);
+    link.href = `#trades/${post.date}/${t.ticker}`;
+    if (t === trade) link.setAttribute("aria-current", "true");
+    switcher.append(link);
+  });
+  const dayTable = el("table");
+  const headRow = el("tr");
+  ["종목", "수량", "기준가", "결과"].forEach((t) => headRow.append(el("th", "", t)));
+  dayTable.append(headRow, ...post.trades.map((t) => {
+    const row = el("tr");
+    const r = t.result || {};
+    row.append(el("td", "", t.ticker), el("td", "", `${t.ticket.shares}주`), el("td", "", usd(t.plan.level)),
+      el("td", "", "").appendChild(resultBadge({ status: r.status, triggered: r.triggered, outcome: r.outcome, pnl: r.pnl })).parentNode);
+    return row;
+  }));
+  head.append(back, el("h1", "", `${dayLabel(post.date)} · 모의매매 ${post.trades.length}종목`),
+    el("div", "muted", `작성 ${new Date(post.created).toLocaleString("ko-KR")} · 종목당 현금 ${usd(post.cashPerTrade, 0)}, 1회 최대 손실 $50 · 실제 주문 아님`),
+    dayTable, switcher, el("h1", "", `${trade.ticker} ${trade.name}`),
+    el("div", "muted", trade.sector || ""), verdictBox);
 
   // 1. 후보 선정
-  const why = post.kind === "breakout"
-    ? `유니버스 ${scan.universe}종목 중 전일 종가가 직전 20거래일 종가를 모두 넘은(20일 신고가 돌파) 종목이 ${scan.hits}개였고, 그중 거래대금이 가장 큰 ${post.ticker}를 골랐습니다.`
-    : `유니버스 ${scan.universe}종목 중 20일 신고가를 돌파한 종목이 없어, 20일 고점에 가장 가까운 ${post.ticker}를 '돌파 직전' 후보로 골랐습니다.`;
-  const others = scan.others.length ? el("p", "muted", `다른 후보: ${scan.others.map((o) => `${o.ticker} (${pct(o.breakout, 1)})`).join(", ")}`) : "";
+  const why = trade.kind === "breakout"
+    ? `유니버스 ${post.universe}종목 중 전일 종가가 직전 20거래일 종가를 모두 넘은(20일 신고가 돌파) 종목이 ${post.hits}개였고, 그중 거래대금 순으로 ${post.trades.length}개를 골랐습니다. ${trade.ticker}는 그중 하나입니다.`
+    : `유니버스 ${post.universe}종목 중 20일 신고가 돌파 종목이 ${post.hits}개뿐이라, 20일 고점에 가까운 ${trade.ticker}를 '돌파 직전' 후보로 채웠습니다.`;
+  const others = post.others.length ? el("p", "muted", `다른 돌파 종목: ${post.others.map((o) => `${o.ticker} (${pct(o.breakout, 1)})`).join(", ")}`) : "";
   const pickCard = card("1. 후보 선정", el("p", "", why), statRows([
     ["전일 종가", `${usd(pick.close)} (${signed(pick.change)})`, tone(pick.change)],
     ["직전 20일 최고 종가 대비", signed(pick.breakout), tone(pick.breakout)],
@@ -884,10 +912,10 @@ async function openPost(date) {
   const newsBox = el("ul", "news");
   newsBox.id = "tradeNews";
   const newsCard = card("2. 뉴스 확인");
-  if (post.earnings) {
-    const soon = (new Date(post.earnings) - new Date(post.date)) / 864e5;
+  if (trade.earnings) {
+    const soon = (new Date(trade.earnings) - new Date(post.date)) / 864e5;
     newsCard.append(el("p", soon >= 0 && soon <= 7 ? "verdict" : "muted",
-      `다음 실적 발표: ${post.earnings}${soon >= 0 && soon <= 1 ? " · 실적 발표가 임박해 변동성이 클 수 있습니다." : ""}`));
+      `다음 실적 발표: ${trade.earnings}${soon >= 0 && soon <= 1 ? " · 실적 발표가 임박해 변동성이 클 수 있습니다." : ""}`));
   }
   newsCard.append(newsBox);
 
@@ -953,22 +981,22 @@ async function openPost(date) {
   // 5. 주문서
   const ticketBox = el("div", "ticket");
   const ticketHead = el("div", "ticket-head");
-  ticketHead.append(el("span", "", `모의 브래킷 매수 · ${post.ticker}`), el("span", "badge", "PAPER"));
+  ticketHead.append(el("span", "", `모의 브래킷 매수 · ${trade.ticker}`), el("span", "badge", "PAPER"));
   ticketBox.append(ticketHead, statRows([
     ["수량", `${order.shares}주 (${order.limitedBy} 기준)`],
     ["진입 조건", `5분봉 종가 > ${usd(order.entry)}`],
     ["손절 (Stop-loss)", usd(order.stop), "down"],
     ["목표 (Take-profit)", usd(order.target), "up"],
-    ["필요 금액", `${usd(order.cost)} / 계좌 ${usd(order.account, 0)}`],
+    ["필요 금액", `${usd(order.cost)} / 배정 현금 ${usd(order.cash || order.account, 0)}`],
     ["손절 시 손실", `-${usd(order.lossAtStop)} (한도 ${usd(order.maxLoss, 0)})`, "down"],
     ["목표 도달 시 이익", `+${usd(order.gainAtTarget)}`, "up"],
     ["청산 시각", both(post.date, plan.flatBy)],
   ]));
   const ticketCard = card("5. 모의 주문서", ticketBox,
-    el("p", "muted", "수량 = min(최대 손실 $50 ÷ 1주당 위험, 계좌 $5,000 ÷ 기준가), 소수점 버림. 갭이나 급락 때는 손절이 손절가보다 나쁘게 체결될 수 있습니다. 실제로 주문을 보내지 않습니다."));
+    el("p", "muted", "수량 = min(최대 손실 $50 ÷ 1주당 위험, 배정 현금 ÷ 기준가), 소수점 버림. 계좌 $5,000을 종목 수만큼 나눠 배정해 동시에 모두 체결돼도 현금을 넘지 않습니다. 갭이나 급락 때는 손절이 손절가보다 나쁘게 체결될 수 있습니다. 실제로 주문을 보내지 않습니다."));
 
   // 6. 결과
-  const result = post.result;
+  const result = trade.result;
   const resultCard = card("6. 실제 결과");
   if (!result) {
     resultCard.append(el("p", "muted", "장이 끝나면(한국시간 다음 날 오전 6:30경) 그날 실제 5분봉으로 이 계획을 돌린 결과가 자동으로 기록됩니다."));
@@ -984,10 +1012,10 @@ async function openPost(date) {
   }
 
   box.replaceChildren(head, pickCard, newsCard, planCard, tmCard, ticketCard, resultCard);
-  newsList("tradeNews", post.news);
-  const daily = post.daily;
+  newsList("tradeNews", trade.news);
+  const daily = trade.daily;
   draw("tradeDaily", $("tradeDaily"), [
-    line(`${post.ticker} 종가`, daily.close, css("--s1")),
+    line(`${trade.ticker} 종가`, daily.close, css("--s1")),
     flatLine("돌파 기준가", plan.level, daily.close.length, css("--s2")),
   ], daily.dates.map((d) => d.slice(5)), (v) => usd(v));
   if (result && result.bars) {
@@ -1005,8 +1033,8 @@ async function routeTrades(hash) {
     state.trades = (await load("data/daytrade.json")) || [];
     renderTradeList(state.trades);
   }
-  const date = hash.split("/")[1];
-  if (date) await openPost(date);
+  const [, date, ticker] = hash.split("/");
+  if (date) await openPost(date, ticker);
   else { $("tradePost").hidden = true; $("tradeList").hidden = false; }
 }
 

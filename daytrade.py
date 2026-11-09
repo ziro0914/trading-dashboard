@@ -27,6 +27,8 @@ STOP_ATR = 0.5            # 1주당 위험 = 14일 ATR의 절반
 RANGE_DAYS = 20           # 돌파 기준: 최근 20거래일 범위
 MIN_PRICE = 5.0
 MIN_VOLUME = 1_000_000
+PICKS = 3                 # 하루 모의매매 종목 수. 현금은 종목마다 계좌의 1/3까지
+SAME_COMPANY = {"GOOG": "GOOGL"}
 REPLAYS = 10_000
 SEED = 19
 BAR = 5                   # 5분봉
@@ -271,14 +273,15 @@ def verdict(target: float, stop: float, neither: float, avg_r: float) -> list[st
     return lines
 
 
-def ticket(level: float, risk: float) -> dict:
-    """계좌 5,000달러, 1회 최대 손실 50달러 기준 수량. 현금보다 많이 사지 않는다."""
+def ticket(level: float, risk: float, cash: float = ACCOUNT) -> dict:
+    """1회 최대 손실 50달러 기준 수량. 종목에 배정된 현금(cash)보다 많이 사지 않는다."""
     by_risk = math.floor(MAX_LOSS / risk) if risk > 0 else 0
-    by_cash = math.floor(ACCOUNT / level) if level > 0 else 0
+    by_cash = math.floor(cash / level) if level > 0 else 0
     shares = max(0, min(by_risk, by_cash))
     stop, target = level - risk, level + TARGET_R * risk
     return {
         "account": ACCOUNT,
+        "cash": cash,
         "maxLoss": MAX_LOSS,
         "shares": shares,
         "limitedBy": "현금" if by_cash < by_risk else "최대 손실",
@@ -366,43 +369,8 @@ def clean(value):
 
 # ------------------------------------------------------------------ 명령
 
-def make_plan(today: date, force: bool = False):
-    path = POSTS / f"{today.isoformat()}.json"
-    if path.exists() and not force:
-        print("이미 오늘 게시물이 있습니다:", path.name)
-        return
-    if not is_trading_day(today):
-        print("오늘은 미국장 휴장일입니다:", today)
-        return
-    stocks = read_stocks()
-    daily = load_daily(stocks)
-    daily = daily[daily.index < pd.Timestamp(today)]  # 장중이면 오늘의 미완성 일봉은 뺀다
-    hits, near = find_breakouts(daily["Close"], daily["High"], daily["Volume"])
-    print(f"스캔 {len(stocks)}종목, 돌파 {len(hits)}개")
-
-    # 5분봉이 충분하고 계획이 성립하는 첫 후보를 고른다.
-    chosen = None
-    for kind, pool in (("breakout", hits), ("near", near[:10])):
-        for candidate in pool[:10]:
-            ticker = candidate["ticker"]
-            frame = single_daily(daily, ticker)
-            levels = daily_levels(frame)
-            bars = load_bars(ticker)
-            if bars.empty or len({d for d in bars.index.date if d < today}) < 20:
-                continue
-            level = float(frame["High"].iloc[-RANGE_DAYS:].max())
-            risk = round(float(atr(frame).iloc[-1]) * STOP_ATR, 2)
-            if risk <= 0:
-                continue
-            chosen = (kind, candidate, frame, levels, bars, level, risk)
-            break
-        if chosen:
-            break
-    if not chosen:
-        print("후보를 찾지 못했습니다")
-        sys.exit(1)
-
-    kind, candidate, frame, levels, bars, level, risk = chosen
+def build_trade(kind, candidate, frame, levels, bars, level, risk, today, others) -> dict:
+    """한 종목의 뉴스, 진입·청산 계획, 타임머신, 모의 주문서."""
     ticker = candidate["ticker"]
     history = history_test(bars, levels, today)
     times = session_times(today)
@@ -411,21 +379,15 @@ def make_plan(today: date, force: bool = False):
     sim = time_machine(bar_pool(bars, today), level, risk, start, flat_slot)
     sim["verdict"] = verdict(sim["target"], sim["stop"], sim["neither"], sim["avgR"])
     context = load_context(ticker)
-    order = ticket(level, risk)
     recent = frame.tail(30)
-    post = {
-        "date": today.isoformat(),
-        "created": datetime.now(timezone.utc).isoformat(),
+    print("후보:", ticker, sim["verdict"][0])
+    return {
         "ticker": ticker,
         "name": context["name"],
         "sector": context["sector"],
         "kind": kind,
-        "scan": {
-            "universe": len(stocks),
-            "hits": len(hits),
-            "pick": candidate,
-            "others": [{k: c[k] for k in ("ticker", "close", "breakout", "volumeRatio")} for c in (hits if kind == "breakout" else near)[:6] if c["ticker"] != ticker][:5],
-        },
+        "pick": candidate,
+        "others": others,
         "earnings": context["earnings"],
         "news": context["news"],
         "plan": {
@@ -447,11 +409,96 @@ def make_plan(today: date, force: bool = False):
             "low": recent["Low"].tolist(),
         },
         "timemachine": {"replay": sim, "history": {k: v for k, v in history.items() if k != "medianSlot"}},
-        "ticket": order,
+        "ticket": ticket(level, risk, ACCOUNT / PICKS),
         "result": None,
     }
+
+
+def company(ticker: str) -> str:
+    """같은 회사의 다른 주식(GOOG/GOOGL)을 한 번만 고르기 위한 키."""
+    return SAME_COMPANY.get(ticker, ticker)
+
+
+def make_plan(today: date, force: bool = False):
+    path = POSTS / f"{today.isoformat()}.json"
+    if path.exists() and not force:
+        print("이미 오늘 게시물이 있습니다:", path.name)
+        return
+    if not is_trading_day(today):
+        print("오늘은 미국장 휴장일입니다:", today)
+        return
+    stocks = read_stocks()
+    daily = load_daily(stocks)
+    daily = daily[daily.index < pd.Timestamp(today)]  # 장중이면 오늘의 미완성 일봉은 뺀다
+    hits, near = find_breakouts(daily["Close"], daily["High"], daily["Volume"])
+    print(f"스캔 {len(stocks)}종목, 돌파 {len(hits)}개")
+
+    # 거래대금 순으로 5분봉이 충분하고 계획이 성립하는 종목을 PICKS개 고른다. 돌파가 모자라면 돌파 직전 종목으로 채운다.
+    trades, seen = [], set()
+    for kind, pool in (("breakout", hits), ("near", near)):
+        for candidate in pool[:15]:
+            if len(trades) == PICKS:
+                break
+            ticker = candidate["ticker"]
+            if company(ticker) in seen:
+                continue
+            frame = single_daily(daily, ticker)
+            bars = load_bars(ticker)
+            if bars.empty or len({d for d in bars.index.date if d < today}) < 20:
+                continue
+            level = float(frame["High"].iloc[-RANGE_DAYS:].max())
+            risk = round(float(atr(frame).iloc[-1]) * STOP_ATR, 2)
+            if risk <= 0 or level > ACCOUNT / PICKS:  # 배정 현금으로 1주도 못 사면 건너뛴다
+                continue
+            seen.add(company(ticker))
+            trades.append(build_trade(kind, candidate, frame, daily_levels(frame), bars, level, risk, today, []))
+    if not trades:
+        print("후보를 찾지 못했습니다")
+        sys.exit(1)
+    picked = {t["ticker"] for t in trades}
+    others = [{k: c[k] for k in ("ticker", "close", "breakout", "volumeRatio")} for c in hits if c["ticker"] not in picked][:6]
+    post = {
+        "date": today.isoformat(),
+        "created": datetime.now(timezone.utc).isoformat(),
+        "universe": len(stocks),
+        "hits": len(hits),
+        "others": others,
+        "cashPerTrade": ACCOUNT / PICKS,
+        "trades": trades,
+    }
     write_post(post)
-    print("게시물 작성:", today, ticker, sim["verdict"][0])
+    print("게시물 작성:", today, ", ".join(t["ticker"] for t in trades))
+
+
+def upgrade(post: dict) -> dict:
+    """한 종목짜리 예전 게시물을 trades 목록 형식으로 바꾼다."""
+    if "trades" in post:
+        return post
+    scan = post.pop("scan")
+    trade = {k: post.pop(k) for k in ("ticker", "name", "sector", "kind", "earnings", "news", "plan", "daily", "timemachine", "ticket", "result")}
+    trade["pick"], trade["others"] = scan["pick"], []
+    return {**post, "universe": scan["universe"], "hits": scan["hits"], "others": scan["others"],
+            "cashPerTrade": ACCOUNT, "trades": [trade]}
+
+
+def trade_result(trade: dict, day: date, session: pd.DataFrame) -> dict:
+    plan, order = trade["plan"], trade["ticket"]
+    outcome = run_rule(session, plan["level"], plan["risk"], day)
+    result = {
+        "status": "done",
+        "open": float(session["Open"].iloc[0]),
+        "high": float(session["High"].max()),
+        "low": float(session["Low"].min()),
+        "close": float(session["Close"].iloc[-1]),
+        "bars": {"times": [slot_label(int(s)) for s in session["slot"]], "close": session["Close"].tolist()},
+        **outcome,
+    }
+    if outcome["triggered"]:
+        result["shares"] = order["shares"]
+        result["pnl"] = order["shares"] * (outcome["exit"] - outcome["entry"])
+    else:
+        result["pnl"] = 0.0
+    return result
 
 
 def fill_results(now: datetime):
@@ -459,39 +506,25 @@ def fill_results(now: datetime):
         return
     today = now.astimezone(ET).date()
     for path in sorted(POSTS.glob("*.json")):
-        post = json.loads(path.read_text())
-        if post.get("result"):
-            continue
+        post = upgrade(json.loads(path.read_text()))
         day = date.fromisoformat(post["date"])
         close_at = datetime.combine(day, session_times(day)["close"], ET) + timedelta(minutes=10)
         if now < close_at:
             continue
-        bars = load_bars(post["ticker"])
-        session = session_bars(bars, day) if not bars.empty else bars
-        if session.empty:
-            if (today - day).days > 4:
-                post["result"] = {"status": "nodata"}
-                write_post(post)
-            continue
-        plan, order = post["plan"], post["ticket"]
-        outcome = run_rule(session, plan["level"], plan["risk"], day)
-        result = {
-            "status": "done",
-            "open": float(session["Open"].iloc[0]),
-            "high": float(session["High"].max()),
-            "low": float(session["Low"].min()),
-            "close": float(session["Close"].iloc[-1]),
-            "bars": {"times": [slot_label(int(s)) for s in session["slot"]], "close": session["Close"].tolist()},
-            **outcome,
-        }
-        if outcome["triggered"]:
-            result["shares"] = order["shares"]
-            result["pnl"] = order["shares"] * (outcome["exit"] - outcome["entry"])
-        else:
-            result["pnl"] = 0.0
-        post["result"] = result
-        write_post(post)
-        print("결과 기록:", post["date"], post["ticker"], outcome.get("outcome", "미진입"))
+        changed = False
+        for trade in post["trades"]:
+            if trade.get("result"):
+                continue
+            bars = load_bars(trade["ticker"])
+            session = session_bars(bars, day) if not bars.empty else bars
+            if session.empty:
+                if (today - day).days > 4:
+                    trade["result"], changed = {"status": "nodata"}, True
+                continue
+            trade["result"], changed = trade_result(trade, day, session), True
+            print("결과 기록:", post["date"], trade["ticker"], trade["result"].get("outcome", "미진입"))
+        if changed:
+            write_post(post)
 
 
 def main():

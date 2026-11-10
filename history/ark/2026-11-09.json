@@ -1,0 +1,126 @@
+{
+ "date": "2026-11-09",
+ "buy": [
+  {
+   "ticker": "SOFI",
+   "company": "SoFi Technologies, Inc.",
+   "shares": 405720,
+   "funds": [
+    "ARKK",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "company": "NVIDIA Corporation",
+   "shares": 90443,
+   "funds": [
+    "ARKK",
+    "ARKQ",
+    "ARKW",
+    "ARKF",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "SCTX",
+   "company": "Scribe Therapeutics Inc",
+   "shares": 5660,
+   "funds": [
+    "ARKG"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "BYDDY",
+   "company": "BYD Company Limited",
+   "shares": 150588,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "TEM",
+   "company": "Tempus AI, Inc.",
+   "shares": 72700,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "XYZ",
+   "company": "Block, Inc.",
+   "shares": 68997,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "ARKB",
+   "company": "ARK 21Shares Bitcoin ETF",
+   "shares": 64295,
+   "funds": [
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "BLSH",
+   "company": "Bullish",
+   "shares": 49767,
+   "funds": [
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "PLTR",
+   "company": "Palantir Technologies Inc.",
+   "shares": 8509,
+   "funds": [
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "HONA",
+   "company": "Honeywell Aerospace Inc",
+   "shares": 4069,
+   "funds": [
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "SNPS",
+   "company": "Synopsys, Inc.",
+   "shares": 3712,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "TER",
+   "company": "Teradyne, Inc.",
+   "shares": 2975,
+   "funds": [
+    "ARKK",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "AVGO",
+   "company": "Broadcom Inc",
+   "shares": 519,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "PSNL",
+   "company": "Personalis, Inc.",
+   "shares": 95,
+   "funds": [
+    "ARKG"
+   ]
+  }
+ ]
+}

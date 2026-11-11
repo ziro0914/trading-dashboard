@@ -1,0 +1,99 @@
+{
+ "date": "2026-11-10",
+ "buy": [
+  {
+   "ticker": "ACHR",
+   "company": "Archer Aviation Inc.",
+   "shares": 1341239,
+   "funds": [
+    "ARKK",
+    "ARKQ",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "RKLB",
+   "company": "Rocket Lab Corp",
+   "shares": 54623,
+   "funds": [
+    "ARKK",
+    "ARKQ",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "ETOR",
+   "company": "eToro Group Ltd.",
+   "shares": 33241,
+   "funds": [
+    "ARKF"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "BYDDY",
+   "company": "BYD Company Limited",
+   "shares": 132535,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "XYZ",
+   "company": "Block, Inc.",
+   "shares": 35000,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "BLSH",
+   "company": "Bullish",
+   "shares": 15609,
+   "funds": [
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "company": "Amazon.com Inc",
+   "shares": 10968,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "HONA",
+   "company": "Honeywell Aerospace Inc",
+   "shares": 6045,
+   "funds": [
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "TER",
+   "company": "Teradyne, Inc.",
+   "shares": 5833,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "PLTR",
+   "company": "Palantir Technologies Inc.",
+   "shares": 2107,
+   "funds": [
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "AIR",
+   "company": "Airbus SE",
+   "shares": 1466,
+   "funds": [
+    "ARKX"
+   ]
+  }
+ ]
+}

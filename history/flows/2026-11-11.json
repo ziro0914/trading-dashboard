@@ -1,0 +1,168 @@
+{
+ "start": "2026-11-11",
+ "end": "2026-11-11",
+ "netBuy": [
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 75437435.0,
+   "sell": 18563554.0,
+   "net": 56873881.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 65221800.0,
+   "sell": 9216041.0,
+   "net": 56005759.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 94354557.0,
+   "sell": 54485516.0,
+   "net": 39869041.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 32547032.0,
+   "sell": 6913125.0,
+   "net": 25633906.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US46090E1038",
+   "name": "INVESCO QQQ TRUST SRS 1 ETF",
+   "buy": 24512508.0,
+   "sell": 1776584.0,
+   "net": 22735924.0,
+   "ticker": "QQQ"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 26787133.0,
+   "sell": 6049118.0,
+   "net": 20738015.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 29733366.0,
+   "sell": 9117277.0,
+   "net": 20616089.0,
+   "ticker": "AMD"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 21682967.0,
+   "sell": 1416818.0,
+   "net": 20266149.0,
+   "ticker": "SOXX"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 26433332.0,
+   "sell": 8810441.0,
+   "net": 17622891.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US74350P6759",
+   "name": "PROSHARES ULTRAPRO SHORT QQ ULTRAPRO SHORT QQQ NEW SPLR 987751298 US74347G1922",
+   "buy": 20721038.0,
+   "sell": 4103503.0,
+   "net": 16617536.0,
+   "ticker": "SQQQ"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 25062833.0,
+   "sell": 231458108.0,
+   "net": -206395275.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "CA15101Q2071",
+   "name": "CELESTICA INC COM NPV EXOF 959276693 CA15101Q1081",
+   "buy": 4946348.0,
+   "sell": 53647502.0,
+   "net": -48701154.0,
+   "ticker": null
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 1843195.0,
+   "sell": 26034396.0,
+   "net": -24191201.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 7916378.0,
+   "sell": 20282432.0,
+   "net": -12366053.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US87975E7435",
+   "name": "TEMA PHOTNCS ETF",
+   "buy": 25575.0,
+   "sell": 7800914.0,
+   "net": -7775339.0,
+   "ticker": "LAZR"
+  },
+  {
+   "isin": "US0636795421",
+   "name": "MicroSectors Gold Miners 3X Leveraged ETN",
+   "buy": 703062.0,
+   "sell": 7157125.0,
+   "net": -6454064.0,
+   "ticker": "GDXU"
+  },
+  {
+   "isin": "US3364331070",
+   "name": "FIRST SOLAR INC",
+   "buy": 890616.0,
+   "sell": 7226038.0,
+   "net": -6335421.0,
+   "ticker": "FSLR"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 1151245.0,
+   "sell": 6728254.0,
+   "net": -5577009.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US0378331005",
+   "name": "APPLE INC",
+   "buy": 1471997.0,
+   "sell": 5950713.0,
+   "net": -4478716.0,
+   "ticker": "AAPL"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 5187879.0,
+   "sell": 9600052.0,
+   "net": -4412173.0,
+   "ticker": "SKHY"
+  }
+ ]
+}

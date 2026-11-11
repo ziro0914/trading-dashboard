@@ -1,0 +1,950 @@
+{
+ "date": "2026-11-11",
+ "created": "2026-11-11T16:20:34.143809+00:00",
+ "universe": 96,
+ "hits": 13,
+ "others": [
+  {
+   "ticker": "KO",
+   "close": 96.91,
+   "breakout": 0.0092,
+   "volumeRatio": 0.9092
+  },
+  {
+   "ticker": "PG",
+   "close": 168.66,
+   "breakout": 0.002,
+   "volumeRatio": 0.7727
+  },
+  {
+   "ticker": "GE",
+   "close": 337.91,
+   "breakout": 0.0071,
+   "volumeRatio": 0.5954
+  },
+  {
+   "ticker": "MCD",
+   "close": 282.17,
+   "breakout": 0.0026,
+   "volumeRatio": 0.6927
+  },
+  {
+   "ticker": "PEP",
+   "close": 143.61,
+   "breakout": 0.0063,
+   "volumeRatio": 0.703
+  },
+  {
+   "ticker": "DIS",
+   "close": 119.21,
+   "breakout": 0.0008,
+   "volumeRatio": 0.9672
+  }
+ ],
+ "cashPerTrade": 1666.6667,
+ "trades": [
+  {
+   "ticker": "AMZN",
+   "name": "Amazon.com, Inc.",
+   "sector": "Consumer Cyclical",
+   "kind": "breakout",
+   "pick": {
+    "ticker": "AMZN",
+    "close": 270.87,
+    "change": 0.0148,
+    "priorHigh": 266.93,
+    "breakout": 0.0148,
+    "volumeRatio": 0.7824,
+    "dollarVolume": 10525195400.2686,
+    "high20": 275.34
+   },
+   "others": [],
+   "earnings": "2026-10-29",
+   "news": [
+    {
+     "title": "Amazon's Rally Is Outpacing Big Tech, But Can AWS Justify the AI Spending?",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPU1FrYTU5Y1lQYjZfcEpscUVJS25ndTNUTTJFQVFvRFdJMk93Y2t5SE4xZWQyYVZrc2p2cGxReU5uaFFTbkU5N1FibXFTVk40SWNsbGZYVWx3OE10TTkxQVhxcG1PaXkzX2RKdndKMzJyamtvZzFwYjVRcVJfWEc0V2NZYXpjNXpyYjFMeHhUUU5NajF0UVRHVEFlVk02SXU1NGFsSXBhbVBlcGJ3?oc=5",
+     "time": "2026-11-11T14:57:59+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock Sold by Sigma Planning Corp",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY1VQb1dGSG9sTVd1OTRXTjlQOEMycmJ0OW5pekNMT01hb25QMVpCWFFzZXNYSEU0TFUzM1dxWFROQUFvOFFaRW1JWnU2bVVMdXBPc2VYcTFBcjNkYXAyWkRBRmYzRTlSV3pvdHNWWVRQRXJjRTZiWXNta1ZScXNSVFpmMW9rcS1KUmpFbENDQXVVTTAtWmw5QU11VVZFSnZ4dTlMM0FTTkZLTE16b3U1cWtGOA?oc=5",
+     "time": "2026-11-11T09:38:48+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock Sold by Leeward Financial Partners LLC",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeWU0b0NmOXhjcmc1ZzdBZV9acl9pcXROVU0tQ0YyNEktYVhKMWJHbjZtQkJJWmdhZGpkNTgtSkI5OVpScUgzTGgyODF5LTJIR1ZyZ1h3ODRCNDdaOGZfSExiU0sxZWhOZEN4Wmp3a3BhZzNPQlJTakVHMDc1dXcydHE3NDFfTWtGLXZiTlBnLTBMOThuWUhpR2sxcHpHUXRrU3EwQnlkRmptazhBbVc4OHZ5alZJWXdHYzRMQWRGMy1JUQ?oc=5",
+     "time": "2026-11-11T09:38:48+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock Holdings Raised by Orange Investment Advisors Inc.",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWURTLXh5YVNpaS1oanBqQldkdHVSeVlOeElBNXZ6UFYzQzZGc3U0ajVKbnVTZWJFLThRelYtelBKaEpBZUdQYmhzdTZ2YnhvTnpfOUs2TUN2RVNMNzNKX3lnQnhaYTdBLTFYRnVvTWRRMERwRlpfdkk0WlptUVg5bVFabEpPMURYbkZ2QzFScTY2aG9mclZQdjI3U09JWUk1a1FtQXFQNGVzUmdnOXMzaFcxeVAyUTNyU3ljTEtlWXphc3ZCOEppd1FuS0FnLUFX?oc=5",
+     "time": "2026-11-11T09:38:48+00:00"
+    },
+    {
+     "title": "14,174 Amazon.com, Inc. $AMZN Shares Sold by Provident Investment Management Inc.",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYzJ5dU5NcHZRYW9kV2d6QlV5TkZ3U3AzNlowVmVHR3VBOHB1OWVrV1N2TEx4YW5YY1dmeFI1VzhjN0o1ck5wRkpFbnNXNE9OcWk1UmRPc0dFTF85NHRjbE5ydklsNHpSZU1kWGlPeUhpV3BycjFNdUFBaURPWjNDZ3BfQXdGTkhmX0VnSkR0d2EwWktNUF9zeHVYZ1AySUZSZjRUajdGSEdIcGV0UjJuOENJdUN1QXlOY0FjVWtTNk5sT1dUcVF6N0VjaFlabVp6ekE?oc=5",
+     "time": "2026-11-11T09:38:48+00:00"
+    },
+    {
+     "title": "Kingswood Wealth Advisors LLC Buys 2,410 Shares of Amazon.com, Inc. $AMZN",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSHBHWjU2U09SQk5NNkExWWtwU082d2RSdkVCUHBHXy1ONDhHbm1hRXFScmRzTHVNSTJTZEFjbkUyMXloWUlnVzh5T0FjQzZLc2RIcWM2OTQxM0dQT3JlUnF4Vjc0Szc3Tm5iOXltTzRsY0pTeEpvMWdPQXBJc1k2SUVlRFFNYjJISUNjd0ZYVDgwWGpQWjVEejBWaXUwcS1VU284bm5uRk9kVGVkcmRvNmNpY0x1TGdES0JXelBGN0h2V2VYa3ZFNA?oc=5",
+     "time": "2026-11-11T09:38:48+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock: First Interstate Bank Reduces Holdings",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUjZFcHBYNk5mbHFoaFhIOU9jSFNlUW5RbWhWa0ZZT3pzUlhoVUc0cHB6bHNIR25wemJXT0ljWU4xTkFHZC1PTk5YNURXV2JfY2s3ZTJHR0ZRMXh4ZzV6RjUyTGR1LUEtLWxRTFBMTnBZOHJJOUJlMHVRUUY2ZkIzbmt3cmRfZi1RRHFvRjd1cWs5VGROM01KYXVtaFltMno0NU9FZ0xZSnJSUXpSSTJWWmQ3bksyTWtKRzdFT1ZXQ1V6Zw?oc=5",
+     "time": "2026-11-11T08:47:12+00:00"
+    },
+    {
+     "title": "Amazon.com, Inc. $AMZN Stock Acquired by Capelight Capital Asset Management LP",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdlowc2Ztbk9nY3FldlR3OVBUTGJCQzNlc3RLM0lvWjlZbHVyZGRZN0F4RDZpdDNoU3pMM0tnSjNkdFNNQ21qRlBxakJmaXB0WkJKc21ELUxGZjZ0VEFZcUFnMFdSempkNkZLNjg0eTRJRjhaVDZHbDNCTzRzQ1o4ay01NVY3VVRBdDNITWhHTFJmVGo4bkJrajF2ckRUb0xqXzdWX1F3cExDTWZmYWRNY1Y3SmZtbG5FT2p2Qm5kV3hma3RUSkVra1BmMDB2QTZJ?oc=5",
+     "time": "2026-11-11T08:47:12+00:00"
+    }
+   ],
+   "plan": {
+    "level": 275.34,
+    "risk": 4.73,
+    "atr": 9.4681,
+    "stop": 270.61,
+    "target": 280.07,
+    "targetR": 1.0,
+    "noEntryBefore": "09:45",
+    "noEntryAfter": "15:30",
+    "flatBy": "15:55",
+    "prevClose": 270.87
+   },
+   "daily": {
+    "dates": [
+     "2026-09-30",
+     "2026-10-01",
+     "2026-10-02",
+     "2026-10-05",
+     "2026-10-06",
+     "2026-10-07",
+     "2026-10-08",
+     "2026-10-09",
+     "2026-10-12",
+     "2026-10-13",
+     "2026-10-14",
+     "2026-10-15",
+     "2026-10-16",
+     "2026-10-19",
+     "2026-10-20",
+     "2026-10-21",
+     "2026-10-22",
+     "2026-10-23",
+     "2026-10-26",
+     "2026-10-27",
+     "2026-10-28",
+     "2026-10-29",
+     "2026-10-30",
+     "2026-11-02",
+     "2026-11-03",
+     "2026-11-04",
+     "2026-11-05",
+     "2026-11-06",
+     "2026-11-09",
+     "2026-11-10"
+    ],
+    "close": [
+     249.15,
+     248.23,
+     251.52,
+     251.4,
+     256.29,
+     259.92,
+     254.06,
+     262.43,
+     259.53,
+     258.58,
+     254.08,
+     254.76,
+     250.0,
+     262.45,
+     262.63,
+     262.37,
+     250.38,
+     248.0,
+     249.09,
+     253.1,
+     254.6,
+     243.79,
+     240.35,
+     245.63,
+     250.69,
+     266.03,
+     260.21,
+     259.3,
+     266.93,
+     270.87
+    ],
+    "high": [
+     252.44,
+     251.83,
+     253.56,
+     254.53,
+     256.68,
+     260.14,
+     259.86,
+     262.8,
+     263.7,
+     262.84,
+     259.65,
+     255.6,
+     255.54,
+     263.72,
+     265.34,
+     264.36,
+     258.41,
+     250.01,
+     250.79,
+     254.68,
+     255.36,
+     249.14,
+     241.55,
+     253.81,
+     252.45,
+     271.49,
+     273.23,
+     264.18,
+     275.34,
+     272.88
+    ],
+    "low": [
+     246.08,
+     246.12,
+     250.02,
+     250.18,
+     251.08,
+     253.17,
+     253.78,
+     256.0,
+     259.27,
+     258.42,
+     252.66,
+     248.65,
+     248.6,
+     255.22,
+     260.42,
+     259.29,
+     248.0,
+     246.45,
+     247.23,
+     248.71,
+     251.98,
+     241.24,
+     229.36,
+     242.28,
+     245.88,
+     263.85,
+     252.27,
+     258.53,
+     266.91,
+     266.14
+    ]
+   },
+   "timemachine": {
+    "replay": {
+     "replays": 10000,
+     "seed": 19,
+     "startTime": "10:40",
+     "bars": 63,
+     "target": 0.107,
+     "stop": 0.0703,
+     "neither": 0.8227,
+     "green": 0.5419,
+     "avgR": 0.0559,
+     "closeMedian": 275.4886,
+     "closeP5": 272.1252,
+     "closeP95": 278.7307,
+     "verdict": [
+      "목표가 쪽으로 기울어짐: 목표가 먼저 60% vs 손익분기 50%.",
+      "리플레이의 82%는 청산 시각까지 어느 쪽에도 닿지 않아, 마감 직전 가격이 결과를 정합니다."
+     ]
+    },
+    "history": {
+     "sessions": 59,
+     "fired": 4,
+     "target": 0,
+     "stop": 0,
+     "neither": 4,
+     "avgR": -0.0282,
+     "trades": [
+      {
+       "date": "2026-10-07",
+       "entryTime": "14:55",
+       "outcome": "close",
+       "r": 0.1082
+      },
+      {
+       "date": "2026-10-09",
+       "entryTime": "10:55",
+       "outcome": "close",
+       "r": 0.813
+      },
+      {
+       "date": "2026-10-20",
+       "entryTime": "10:30",
+       "outcome": "close",
+       "r": -0.5965
+      },
+      {
+       "date": "2026-11-04",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": -0.4374
+      }
+     ]
+    }
+   },
+   "ticket": {
+    "account": 5000.0,
+    "cash": 1666.6667,
+    "maxLoss": 50.0,
+    "shares": 6,
+    "limitedBy": "현금",
+    "entry": 275.34,
+    "stop": 270.61,
+    "target": 280.07,
+    "cost": 1652.04,
+    "lossAtStop": 28.38,
+    "gainAtTarget": 28.38,
+    "paper": true
+   },
+   "result": null
+  },
+  {
+   "ticker": "LLY",
+   "name": "Eli Lilly and Company",
+   "sector": "Healthcare",
+   "kind": "breakout",
+   "pick": {
+    "ticker": "LLY",
+    "close": 1432.29,
+    "change": 0.0144,
+    "priorHigh": 1417.99,
+    "breakout": 0.0101,
+    "volumeRatio": 0.9819,
+    "dollarVolume": 4321219047.8516,
+    "high20": 1453.0
+   },
+   "others": [],
+   "earnings": "2026-10-29",
+   "news": [
+    {
+     "title": "Eli Lilly's TOGETHER-PsA Trial Shows Promising Results for Psori",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOd3J0QmphUC1VWDA1Vk5OcUF5aGJuLVp2WWVDSEd0ajVWSElEQUlYMDVlYnJ4VXNvcnBfQkhTeXp2Rm1kbVpVVW9XMTJhSWdZY3hpYWpPd2c0eUZNRG5fRWxkZjJlT3ZMSzlDOVA5MTdzbDlkMk90dTlmaWJQTHNscUNDTGZaRnhwODFTWmRUM2tsQUw4X3VDTHY4TXp0UjFja2V2Vkt1WlpsN1BXNjVXc0lpTDBzdW5UaVN6bG03VHBGVXZveFNj?oc=5",
+     "time": "2026-11-11T16:08:35+00:00"
+    },
+    {
+     "title": "Former Eli Lilly Sales Rep Sues Over Mounjaro Marketing; LLY Sto",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTFlxQWF6ZUlXNmltUS04S0tfOXJDYUhtSGtGMHFXRGF5SGlhaElsRXF3TkxGWWpQRUsyLTdseVBXMFhZX1o2blpVMGdpdUtpbUppZ2ZXNjRWUUFLQlVhbG1ycHZnTFdJVlMzSl8wbURPeXZUaUlTdUVYb3JZNzZFem04R2tSbnRUQ2R2VmpXSnliTGZsc1pwQlRJSVZicjJTTG4tT21yeEppd3o2NGU3LXd6R1lULVcydi1WaFgtbFQ3YWs?oc=5",
+     "time": "2026-11-11T13:06:18+00:00"
+    },
+    {
+     "title": "Lilly sued over alleged firing of sales rep for complaints about Mounjaro misbranding",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMFdXSXJnbExNczNVWGw5dzNtLWJlbjdWUUMwWExmQVdTTFktMlVzbDZlS2I2bkNEdU9LVV9DZU5SSUtJcHlrNzc3MHZHTDFodFNWM0NqV0xJS1JiWGQ0ejdTckhWSEJmNGVZcUhXNlBjV3NUdDVacnRhSmpKOG12dzIxeWQ?oc=5",
+     "time": "2026-11-11T12:12:55+00:00"
+    },
+    {
+     "title": "State Street Health Care SPDR (XLV) Sells Eli Lilly and J&J on Nov. 9",
+     "source": "GuruFocus.com",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-health-care-spdr-110402787.html",
+     "time": "2026-11-11T11:04:02+00:00"
+    },
+    {
+     "title": "Hims & Hers Celebrated Its Eli Lilly Deal, Then Lost a Quarter of Its Value in a Week",
+     "source": "24/7 Wall St.",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSVpDY0FUOFgzQ1R1RGN1aVpHVEpaSUZjU1FOaTFKam1vMHhJc2RPSnBkbUE5Uy1ORGQxRUtTMDBmUVl2X21YUUtvZTRRZWhrU0lPemd6cXQzNHpWLWFHeWQtNXZJUG42Vm1rdlZvbHZJUURjYUR3R1Rlanh2MWJ3S285dnY4MTl4ejNzb0Y0a21hVnNlemkwMG53ZWV6NlhnN2xNaTByaW56T2FwUHNwb2E0VnpwMl8wdDNCZjdFMFRJbEpwaUJ2ZVNB?oc=5",
+     "time": "2026-11-10T18:03:00+00:00"
+    },
+    {
+     "title": "Eli Lilly and Company (LLY) Grew Revenue 48% as GLP-1 Demand Accelerated: Can Growth Continue?",
+     "source": "Insider Monkey",
+     "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-company-lly-grew-155943243.html",
+     "time": "2026-11-10T15:59:43+00:00"
+    },
+    {
+     "title": "Is It Too Late to Buy Eli Lilly and Co (LLY) After 4.3% Rally? G",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOV0JpQlpkdjdSdFhMeGVMa1hISktQSlVRX3QwcUgyZUEzR21mOEFvNFJzWTY0NVJZY2N0TDY0aE9kUnAxdHZxdTZKemk4bTBIbEJZYnFENjZ2YWVBU1FOeEE2U1l4MnBEX3JncTF4QWVwbkFCbDhnTjBtVldmSUdHQWtESmlMcWNGUFV6dlAzU3ppS1lZbjdpUE5Sc2lfbW1maTFWdFZUcEV3bUpRUW9VT0N6dkQ1MFlwNjh5aW1xQQ?oc=5",
+     "time": "2026-11-09T22:37:07+00:00"
+    },
+    {
+     "title": "FDA Requires Eye Condition Warning on Eli Lilly's Zepbound Amid Safety Review (LLY)",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVnhSaGgwTU1YdTNENUU1MVpzR0pfcTZsV3NGd0tEbmM1N2QwWmhnUVNHUU1KMDZidU11UjNlb0lfYXZlcmJtZU53dkF3SC01VFU3UUllZ0ktNFpCUUpPaWcyWHUtWmFJcHRWbWxwU1Z4NVJYT0Y2UUthcHJvZGtMNXRUYng4R245Mk1icDh4Z0d4TGxFMDJPQnZJUjg1cmxDSjBtak5DLXRfSXZodFEybUhCV0w2M1VkU0Fv?oc=5",
+     "time": "2026-11-09T21:02:53+00:00"
+    }
+   ],
+   "plan": {
+    "level": 1453.0,
+    "risk": 23.98,
+    "atr": 47.9641,
+    "stop": 1429.02,
+    "target": 1476.98,
+    "targetR": 1.0,
+    "noEntryBefore": "09:45",
+    "noEntryAfter": "15:30",
+    "flatBy": "15:55",
+    "prevClose": 1432.29
+   },
+   "daily": {
+    "dates": [
+     "2026-09-30",
+     "2026-10-01",
+     "2026-10-02",
+     "2026-10-05",
+     "2026-10-06",
+     "2026-10-07",
+     "2026-10-08",
+     "2026-10-09",
+     "2026-10-12",
+     "2026-10-13",
+     "2026-10-14",
+     "2026-10-15",
+     "2026-10-16",
+     "2026-10-19",
+     "2026-10-20",
+     "2026-10-21",
+     "2026-10-22",
+     "2026-10-23",
+     "2026-10-26",
+     "2026-10-27",
+     "2026-10-28",
+     "2026-10-29",
+     "2026-10-30",
+     "2026-11-02",
+     "2026-11-03",
+     "2026-11-04",
+     "2026-11-05",
+     "2026-11-06",
+     "2026-11-09",
+     "2026-11-10"
+    ],
+    "close": [
+     1157.08,
+     1149.85,
+     1142.85,
+     1143.12,
+     1157.49,
+     1188.72,
+     1169.6,
+     1179.27,
+     1182.62,
+     1166.51,
+     1208.74,
+     1251.61,
+     1257.03,
+     1240.34,
+     1283.66,
+     1270.75,
+     1306.6899,
+     1273.46,
+     1279.14,
+     1281.91,
+     1288.3,
+     1373.7,
+     1417.54,
+     1410.99,
+     1409.38,
+     1417.99,
+     1364.73,
+     1354.0,
+     1411.95,
+     1432.29
+    ],
+    "high": [
+     1215.0,
+     1158.72,
+     1164.92,
+     1165.73,
+     1177.0699,
+     1206.63,
+     1186.09,
+     1179.8199,
+     1188.7,
+     1193.3,
+     1216.71,
+     1275.88,
+     1274.5601,
+     1259.75,
+     1311.75,
+     1279.28,
+     1321.21,
+     1307.92,
+     1296.9,
+     1297.92,
+     1299.4301,
+     1408.38,
+     1449.6801,
+     1421.99,
+     1437.0,
+     1445.96,
+     1453.0,
+     1377.28,
+     1419.67,
+     1438.88
+    ],
+    "low": [
+     1155.27,
+     1139.85,
+     1136.66,
+     1139.5,
+     1139.98,
+     1166.0,
+     1131.21,
+     1151.67,
+     1172.8101,
+     1158.41,
+     1174.24,
+     1230.66,
+     1251.25,
+     1239.1,
+     1260.17,
+     1261.08,
+     1275.1,
+     1257.62,
+     1273.73,
+     1272.0699,
+     1260.34,
+     1330.0,
+     1408.36,
+     1382.02,
+     1393.47,
+     1401.59,
+     1364.73,
+     1333.22,
+     1364.58,
+     1400.0
+    ]
+   },
+   "timemachine": {
+    "replay": {
+     "replays": 10000,
+     "seed": 19,
+     "startTime": "9:50",
+     "bars": 73,
+     "target": 0.219,
+     "stop": 0.2872,
+     "neither": 0.4938,
+     "green": 0.4353,
+     "avgR": -0.1015,
+     "closeMedian": 1450.9281,
+     "closeP5": 1435.0778,
+     "closeP95": 1469.3154,
+     "verdict": [
+      "손절가 쪽으로 기울어짐: 목표가 먼저 43% vs 손익분기 50%.",
+      "리플레이의 49%는 청산 시각까지 어느 쪽에도 닿지 않아, 마감 직전 가격이 결과를 정합니다."
+     ]
+    },
+    "history": {
+     "sessions": 59,
+     "fired": 8,
+     "target": 1,
+     "stop": 4,
+     "neither": 3,
+     "avgR": -0.4935,
+     "trades": [
+      {
+       "date": "2026-08-19",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-10-14",
+       "entryTime": "11:55",
+       "outcome": "close",
+       "r": -0.221
+      },
+      {
+       "date": "2026-10-15",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-10-20",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-10-22",
+       "entryTime": "11:00",
+       "outcome": "close",
+       "r": -0.3973
+      },
+      {
+       "date": "2026-10-29",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-10-30",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": -0.3299
+      },
+      {
+       "date": "2026-11-05",
+       "entryTime": "10:05",
+       "outcome": "stop",
+       "r": -1.0
+      }
+     ]
+    }
+   },
+   "ticket": {
+    "account": 5000.0,
+    "cash": 1666.6667,
+    "maxLoss": 50.0,
+    "shares": 1,
+    "limitedBy": "현금",
+    "entry": 1453.0,
+    "stop": 1429.02,
+    "target": 1476.98,
+    "cost": 1453.0,
+    "lossAtStop": 23.98,
+    "gainAtTarget": 23.98,
+    "paper": true
+   },
+   "result": null
+  },
+  {
+   "ticker": "BRK-B",
+   "name": "Berkshire Hathaway Inc.",
+   "sector": "Financial Services",
+   "kind": "breakout",
+   "pick": {
+    "ticker": "BRK-B",
+    "close": 583.34,
+    "change": 0.0141,
+    "priorHigh": 579.09,
+    "breakout": 0.0073,
+    "volumeRatio": 0.9039,
+    "dollarVolume": 2718656195.1599,
+    "high20": 586.45
+   },
+   "others": [],
+   "earnings": "2026-11-09",
+   "news": [
+    {
+     "title": "What You Actually Own When You Buy a Share of Berkshire Hathaway",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMVpuMEJ1b0IyTUJPVE1OakZ0NmhqWVNCQTRILXlWaTZPdmkyQzNrb3lXSGVESFZhY0V2eTdMSXdHdFROUW9qT3dlcUN0UkpiMGYtWDhKYVhlOGVmNFpmSDR2WXp6S0VrUWtreEp5ZkxQMlkzWThxMzFZTlZjVkZVMUNCdEQya1ZsOEFWc0czRDBoNHpiX2R0TUhQb3Rrdw?oc=5",
+     "time": "2026-11-11T14:37:02+00:00"
+    },
+    {
+     "title": "How Berkshire Hathaway Performed Vs. Warren Buffett's 3 Main Goals",
+     "source": "Investor's Business Daily",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVkZ4Nl94X2MxX1RwMFA3MGpTb0xGNXRkcnl3WGtCRGlhWDB6aUptQjB0dzBxenRvajh1QXQ3cDdxYmEtbldGVUZMX1ExY0s1V2lTUDBtck45eHNKNWJReWR4alFtWF8zZ0tCbFpUUGUtTnYwWk1PSjlVaFZyNkg1OUhKNkZodzFNTUFSNTF1b2I3V2ExdDRPQWdoaw?oc=5",
+     "time": "2026-11-11T12:12:00+00:00"
+    },
+    {
+     "title": "Greg Abel's Berkshire Hathaway Owns 37% of This Company. Here's Why the Stock Is Also a Buy for Retail Investors.",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPb2JsT0dGTmxRaEJtQndwMzF5emNlbE5lTHBxZTdlVEg5R2c3cy1yR1diYlNWdHFyakk1MEV5QVlaQmVaVGtjQm50VUFfc2VaUl9SM3VJSVFpR2N5WGhhUC1YWTlBbzlhUjgtZ2t2NnJ3YVF4dW5vYWZYM2ZGUVpzdW9acmFEN2FXMkRrakhlX1hZM2k0bkloY19TWFgxOGFu?oc=5",
+     "time": "2026-11-11T12:00:00+00:00"
+    },
+    {
+     "title": "BRK.B vs CB stock comparison - side by side",
+     "source": "Quantisnow",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fZDBzR2lpYXZWOGM3ZWpKWlFDdjN4TGNEMnJfMTRrYk1rYlRtbGNUR0JNSnNuWk5rTmFiWGFoUzBNblhKdG94WEZNNmVkNFd6WjJGc2dfY2pOZw?oc=5",
+     "time": "2026-11-11T11:19:44+00:00"
+    },
+    {
+     "title": "Warren Buffett's Successor, Greg Abel, Just Bought $9.6 Billion of the Oracle of Omaha's Favorite Stock (No, Not Alphabet!)",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPemRfX2I0QTR5M3ViaXh5N3dmR1dJeEt6dWZsRGRaUjliZnpxSHVPOWhTVzlMOEhNTUtWdE1OVEdlSzY4aDFVLUR6QXp1SEVnaTRCSGtmUGNlRDAyTW9WZ09wNWd6UTdoWTFrbHg3R08zc1dyVnMxZ2txdWQ5OEU2Y0laZW9pcGwxLWUzTVVHZHdPODhmbm9JTnFFYU5QVTJraFE?oc=5",
+     "time": "2026-11-11T10:26:02+00:00"
+    },
+    {
+     "title": "Is the Stock Market Going to Crash? Warren Buffett's Warning Is Hard to Ignore.",
+     "source": "The Motley Fool",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVG5FNWE5TzZSSXRDV01wSWdORVZzOENxdVZvR3BqanFWRG5yUDB4M1NscVBBVGZvOFY5NE1ZZFlmQ0UxR0pTWG4yQkJwRGUzS2lIS0VDUUk5Z2NyOVRYcnR4WS1pQjFHRnptNjlRVjlWakhTX3pqaGJ1T2JBMHBZdFozZ3dyZXlqSTg5ZnNpZks0Xy1jMjhJY0JCUnRZLXQySm11UzJMZWdSRlRaLUVFLUhnMUM2eWgzODMtQw?oc=5",
+     "time": "2026-11-11T10:25:00+00:00"
+    },
+    {
+     "title": "Where Does Berkshire Hathaway (BRK.B) Valuation Sit As Q3 2026 Earnings Mixed?",
+     "source": "Simply Wall St",
+     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQOUlwUWxaOHZ3bmctU2ptZjA5ckhnWVVIODFFUlk3b0hSZi1Qa2p1bmRPUHVsR2NOQk5JbVJYdnpORkdJVFI4X05CZWxQaWVQM0h3eEhqLVNpM1RTenhQY2dwWXJ3ZEVPdzU0bFFUSndPWW1JeVdEWkktb25SWWxrT2haTHdJQnlmcW12a1hrMGtmX0tUQUZGNVhidDFoRWZ2UUZvdDN5RE9jT0ltN05uUHVNa1lPVjZnZm1pVDA4SHVQMmlhMGUxTDZhOHRTU0VrcDNGUU1NSVNsZVdrV0RFQUw3VdIB6AFBVV95cUxQelpTZnF5eEM5Wl9lVXFSSWwwblBRMWlmQXBwTmVieVNCTUNob25UaFNoU2IyZkoxRXBVNTZPay1JdS1DNGdGdTh4TDJUeE1hVHhoeVJyRHhpNGlEQXZuSkVDcWxZUUdxMlBaVVc3aUtqczdZandNT04wMDhTVkI4ZkN5YmRGQnRKYjMxR0k3NXhkdEhtbUM2VkU2LVZQWW1RMVJWTmtodGc5UEJYNDdRdGhzdkpISGpVOTY4dzBrdmlMRU43MGNFY2kxREdhUjB6SDhQUkNIN0RSbGV4U0J0RVl3bVN1Rkhv?oc=5",
+     "time": "2026-11-11T10:24:24+00:00"
+    },
+    {
+     "title": "Berkshire Hathaway Class B Reaches a New All-Year High at $583.61",
+     "source": "24/7 Wall St.",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQnZEWlhBVVJYQWlYN1Z0a3pGUDZFWmotZlhKQkEycUxXazRNdGVBOUFWZzJXM0ZRWUpQVGpybkN3a2ltN09pbUZXNTJpTnB3eG5ROTBfYlZnYTl1dWE2aDBKTS1OVjJYU3JwZXlfLVI2YXkya2Z5Q2hkNXFCM0pIdEpRRTYtX1ItQlFfTjZSZEFYbHI3TFpGNGlYWUhiZTdK?oc=5",
+     "time": "2026-11-11T02:39:45+00:00"
+    }
+   ],
+   "plan": {
+    "level": 586.45,
+    "risk": 5.01,
+    "atr": 10.0117,
+    "stop": 581.44,
+    "target": 591.46,
+    "targetR": 1.0,
+    "noEntryBefore": "09:45",
+    "noEntryAfter": "15:30",
+    "flatBy": "15:55",
+    "prevClose": 583.34
+   },
+   "daily": {
+    "dates": [
+     "2026-09-30",
+     "2026-10-01",
+     "2026-10-02",
+     "2026-10-05",
+     "2026-10-06",
+     "2026-10-07",
+     "2026-10-08",
+     "2026-10-09",
+     "2026-10-12",
+     "2026-10-13",
+     "2026-10-14",
+     "2026-10-15",
+     "2026-10-16",
+     "2026-10-19",
+     "2026-10-20",
+     "2026-10-21",
+     "2026-10-22",
+     "2026-10-23",
+     "2026-10-26",
+     "2026-10-27",
+     "2026-10-28",
+     "2026-10-29",
+     "2026-10-30",
+     "2026-11-02",
+     "2026-11-03",
+     "2026-11-04",
+     "2026-11-05",
+     "2026-11-06",
+     "2026-11-09",
+     "2026-11-10"
+    ],
+    "close": [
+     497.95,
+     500.5,
+     502.65,
+     504.26,
+     505.54,
+     506.25,
+     511.05,
+     515.62,
+     517.6,
+     520.59,
+     526.35,
+     525.68,
+     532.02,
+     532.23,
+     539.82,
+     538.99,
+     546.97,
+     542.19,
+     548.56,
+     542.99,
+     540.34,
+     541.96,
+     542.49,
+     556.11,
+     557.07,
+     579.09,
+     572.33,
+     570.89,
+     575.25,
+     583.34
+    ],
+    "high": [
+     502.12,
+     501.53,
+     503.62,
+     505.88,
+     508.52,
+     506.7,
+     513.15,
+     516.57,
+     518.32,
+     524.16,
+     527.19,
+     533.55,
+     532.64,
+     533.19,
+     541.0,
+     543.34,
+     549.96,
+     548.31,
+     549.0,
+     548.6,
+     544.93,
+     548.77,
+     550.47,
+     557.59,
+     559.58,
+     580.65,
+     586.3,
+     575.12,
+     577.69,
+     586.45
+    ],
+    "low": [
+     497.95,
+     495.96,
+     499.01,
+     501.3,
+     503.78,
+     504.3,
+     505.27,
+     509.71,
+     515.0,
+     517.34,
+     518.19,
+     525.53,
+     528.0,
+     528.84,
+     533.5,
+     538.99,
+     542.01,
+     540.97,
+     542.0,
+     542.9,
+     539.23,
+     541.8,
+     542.32,
+     544.44,
+     551.81,
+     562.5,
+     571.1,
+     559.61,
+     562.45,
+     574.0
+    ]
+   },
+   "timemachine": {
+    "replay": {
+     "replays": 10000,
+     "seed": 19,
+     "startTime": "9:50",
+     "bars": 73,
+     "target": 0.2436,
+     "stop": 0.1364,
+     "neither": 0.62,
+     "green": 0.5627,
+     "avgR": 0.1119,
+     "closeMedian": 586.5464,
+     "closeP5": 582.8455,
+     "closeP95": 589.9267,
+     "verdict": [
+      "목표가 쪽으로 기울어짐: 목표가 먼저 64% vs 손익분기 50%.",
+      "리플레이의 62%는 청산 시각까지 어느 쪽에도 닿지 않아, 마감 직전 가격이 결과를 정합니다."
+     ]
+    },
+    "history": {
+     "sessions": 59,
+     "fired": 11,
+     "target": 4,
+     "stop": 2,
+     "neither": 5,
+     "avgR": 0.2812,
+     "trades": [
+      {
+       "date": "2026-09-14",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": 0.2075
+      },
+      {
+       "date": "2026-09-16",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-10-14",
+       "entryTime": "14:10",
+       "outcome": "close",
+       "r": 0.8013
+      },
+      {
+       "date": "2026-10-15",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-10-20",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": 0.5045
+      },
+      {
+       "date": "2026-10-21",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": -0.1876
+      },
+      {
+       "date": "2026-10-22",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-02",
+       "entryTime": "10:40",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-03",
+       "entryTime": "11:00",
+       "outcome": "close",
+       "r": -0.2322
+      },
+      {
+       "date": "2026-11-04",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-05",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      }
+     ]
+    }
+   },
+   "ticket": {
+    "account": 5000.0,
+    "cash": 1666.6667,
+    "maxLoss": 50.0,
+    "shares": 2,
+    "limitedBy": "현금",
+    "entry": 586.45,
+    "stop": 581.44,
+    "target": 591.46,
+    "cost": 1172.9,
+    "lossAtStop": 10.02,
+    "gainAtTarget": 10.02,
+    "paper": true
+   },
+   "result": null
+  }
+ ]
+}

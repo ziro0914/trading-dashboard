@@ -1,0 +1,84 @@
+{
+ "date": "2026-11-11",
+ "buy": [
+  {
+   "ticker": "PRME",
+   "company": "Prime Medicine, Inc.",
+   "shares": 1744714,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "ACHR",
+   "company": "Archer Aviation Inc.",
+   "shares": 348176,
+   "funds": [
+    "ARKK",
+    "ARKQ",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "KTOS",
+   "company": "Kratos Defense & Security Solutions, Inc.",
+   "shares": 85203,
+   "funds": [
+    "ARKK",
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "RKLB",
+   "company": "Rocket Lab Corp",
+   "shares": 18086,
+   "funds": [
+    "ARKK",
+    "ARKQ",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "SCTX",
+   "company": "Scribe Therapeutics Inc",
+   "shares": 7942,
+   "funds": [
+    "ARKG"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "ABSI",
+   "company": "Absci Corp",
+   "shares": 478402,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "BYDDY",
+   "company": "BYD Company Limited",
+   "shares": 220351,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "HONA",
+   "company": "Honeywell Aerospace Inc",
+   "shares": 3335,
+   "funds": [
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "TER",
+   "company": "Teradyne, Inc.",
+   "shares": 415,
+   "funds": [
+    "ARKK"
+   ]
+  }
+ ]
+}

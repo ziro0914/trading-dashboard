@@ -1,0 +1,944 @@
+{
+ "date": "2026-11-13",
+ "created": "2026-11-13T20:47:53.316142+00:00",
+ "universe": 96,
+ "hits": 6,
+ "others": [
+  {
+   "ticker": "JNJ",
+   "close": 283.52,
+   "breakout": 0.005,
+   "volumeRatio": 1.1749
+  },
+  {
+   "ticker": "COST",
+   "close": 1092.21,
+   "breakout": 0.0042,
+   "volumeRatio": 0.9095
+  },
+  {
+   "ticker": "ANET",
+   "close": 206.63,
+   "breakout": 0.0506,
+   "volumeRatio": 1.1414
+  }
+ ],
+ "cashPerTrade": 1666.6667,
+ "trades": [
+  {
+   "ticker": "AMD",
+   "name": "Advanced Micro Devices, Inc.",
+   "sector": "Technology",
+   "kind": "breakout",
+   "pick": {
+    "ticker": "AMD",
+    "close": 585.3,
+    "change": 0.0586,
+    "priorHigh": 578.44,
+    "breakout": 0.0119,
+    "volumeRatio": 1.7303,
+    "dollarVolume": 32432350273.5901,
+    "high20": 594.0
+   },
+   "others": [],
+   "earnings": "2027-02-02",
+   "news": [
+    {
+     "title": "AMDL 2X AMD ETF Tumbles 18% as AMD Sinks Amid Michael Burry’s Bearish Chip Bets",
+     "source": "24/7 Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/amdl-2x-amd-etf-tumbles-200220473.html",
+     "time": "2026-11-13T20:02:20+00:00"
+    },
+    {
+     "title": "AMD or Intel: 1 Chip Stock Is the Clear Winner",
+     "source": "Motley Fool",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/amd-intel-1-chip-stock-185000434.html",
+     "time": "2026-11-13T18:50:00+00:00"
+    },
+    {
+     "title": "AMD Bulls Cash in on 2X ETFs, But Friday's 20% Rout Stings - Advanced Micro Devices (NASDAQ:AMD)",
+     "source": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeTJDNVp2TUVoMnFmWmtCU0NFTkxLalVOWnVwQ05FSTZ0VTVEeTBsbGxIRVFyQVBMT3BhZFRZcUNFM2xKUjItQXhOOHlqRHptWTAxQ0t1Y09ocVRXNkphUGhVMnQ4c1FNSkVMbFFYSEtRNnpLTnYwQWRkdXpfUnczNzlrTFFaNjRBQ1ZfZExpUUdOcGpoQU9NTUVKa3NsWUpRSndwUTA0U0ZOQ3hUMzhIemtjNmxUdkNyRHJwcTNHSG5VUDJPdlhWRTJDXzJ5NTVNN3A4eTJCSnVoUQ?oc=5",
+     "time": "2026-11-13T18:48:28+00:00"
+    },
+    {
+     "title": "Why Advanced Micro Devices Stock Is Down Today",
+     "source": "Motley Fool",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-advanced-micro-devices-stock-184502363.html",
+     "time": "2026-11-13T18:45:02+00:00"
+    },
+    {
+     "title": "AMD Stock Has Outrun Nvidia 5X Since 2024. But There’s a Valuation Catch",
+     "source": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSnVSZTdycW04enBjWlhRLUdTVzNabUswYTg0MlhHX2dhRk1JNVAwU2o3QmdfeHdyOTBFdVROM2xBdndMU1ZYeVgyYmMwVmh2clF5RHczcTlGLUl2R2RIN1o2OEJLTDMwc2o0c0FZb3ZrWDhHS29SX1hDdG02SlZvemRKbVNuZmhoSHA2Z25qZU9Cc3ZpMUU0OExxak1EQQ?oc=5",
+     "time": "2026-11-13T18:42:16+00:00"
+    },
+    {
+     "title": "AMD Sinks 10.5% as Chip Rally Unwinds, Nasdaq 100 Falls 1.7%: Stock Market Today",
+     "source": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVVZ6QXRXZkhnRWRHOU83eWlPeW9ZdThTaGNSR1c0SDNJcEJlQ0JCOEx0OHU5SklVT21saGZGY0JYQ2pHendQYkU2dFlWWXZ2WkVzOEFZRXBYNlU3MmJ5ZnFUSE85SUVBUTlRcU5ETjhVVmFLOWxicTc2Tkw5WlFBeU5zVTcxWmhfd2lUbWJRcGxlWi1RLTVTUWxNbVR2d0pFa3NfSHhVSDduNk1LVHJtV1BFM3BTZ0taU2hnQjl6UXJodw?oc=5",
+     "time": "2026-11-13T18:41:08+00:00"
+    },
+    {
+     "title": "AMD: The AI Trade Just Entered Another Phase (NASDAQ:AMD)",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNa2VtWVFyQnFuVlFEeGpfN0NNUXlkYWNEZVRtM2dvMmpNX2FsREdkcGtoLVFIYThOeUJMbHN5WDVVMGIwR3pRZTJURzlUeTJnLVVLUEV4c2dwOV9BQl82WGEweGZZZnc1cHJ4Tkg2bVQzM09NMjZqNllLb0wtcGh5Q3BmNEt5TEk?oc=5",
+     "time": "2026-11-13T18:14:04+00:00"
+    },
+    {
+     "title": "Advanced Micro Devices (NASDAQ:AMD) Shares Down 8.1% - Here's What Happened",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPY0pyOUwyRkFJeHFaakw3NVpCS1Z6eEktMGxnS19uVnk3Y05oNnkzbk9OYXlnNG9WUGZvd2s4Q0NOX3g4ZE4xTk81bVRhZUUtRUlXVUFsdUU5SklrVjNsdnFrNXloN1NVVmxKdGRudzU3NnBwWFRQcVF6UWNiM1NTQm9Hd3FDTjgwXzVOeWhlRF84cHUyekc2MEVwSnlvSlNjaWZKQmNIX2owaWMzVGRVN0sxZHdqZmxWVS02eU80dGpodzBMTE00?oc=5",
+     "time": "2026-11-13T17:22:48+00:00"
+    }
+   ],
+   "plan": {
+    "level": 594.0,
+    "risk": 20.07,
+    "atr": 40.139,
+    "stop": 573.93,
+    "target": 614.07,
+    "targetR": 1.0,
+    "noEntryBefore": "09:45",
+    "noEntryAfter": "15:30",
+    "flatBy": "15:55",
+    "prevClose": 585.3
+   },
+   "daily": {
+    "dates": [
+     "2026-10-02",
+     "2026-10-05",
+     "2026-10-06",
+     "2026-10-07",
+     "2026-10-08",
+     "2026-10-09",
+     "2026-10-12",
+     "2026-10-13",
+     "2026-10-14",
+     "2026-10-15",
+     "2026-10-16",
+     "2026-10-19",
+     "2026-10-20",
+     "2026-10-21",
+     "2026-10-22",
+     "2026-10-23",
+     "2026-10-26",
+     "2026-10-27",
+     "2026-10-28",
+     "2026-10-29",
+     "2026-10-30",
+     "2026-11-02",
+     "2026-11-03",
+     "2026-11-04",
+     "2026-11-05",
+     "2026-11-06",
+     "2026-11-09",
+     "2026-11-10",
+     "2026-11-11",
+     "2026-11-12"
+    ],
+    "close": [
+     633.91,
+     631.75,
+     649.42,
+     645.86,
+     620.68,
+     608.1,
+     594.24,
+     605.53,
+     570.82,
+     562.23,
+     528.75,
+     538.05,
+     534.74,
+     552.72,
+     507.93,
+     516.79,
+     531.28,
+     560.26,
+     578.44,
+     566.42,
+     504.8,
+     466.84,
+     483.9,
+     488.78,
+     404.4,
+     449.04,
+     508.58,
+     515.21,
+     552.9,
+     585.3
+    ],
+    "high": [
+     645.46,
+     633.5,
+     658.52,
+     648.48,
+     643.85,
+     627.37,
+     601.77,
+     606.2,
+     591.88,
+     568.62,
+     550.96,
+     554.41,
+     548.11,
+     556.79,
+     529.98,
+     523.92,
+     533.5,
+     563.92,
+     579.18,
+     575.1,
+     520.4,
+     512.82,
+     497.4,
+     514.61,
+     456.2,
+     459.8,
+     515.18,
+     539.25,
+     567.65,
+     594.0
+    ],
+    "low": [
+     628.55,
+     619.99,
+     628.0,
+     633.16,
+     613.34,
+     606.0,
+     586.54,
+     570.6,
+     567.0,
+     530.09,
+     526.83,
+     535.67,
+     524.6,
+     537.3,
+     502.6,
+     508.36,
+     514.01,
+     538.5,
+     560.52,
+     560.57,
+     492.21,
+     466.07,
+     473.54,
+     476.5,
+     402.1,
+     433.3,
+     468.21,
+     495.0,
+     522.65,
+     554.9
+    ]
+   },
+   "timemachine": {
+    "replay": {
+     "replays": 10000,
+     "seed": 19,
+     "startTime": "10:00",
+     "bars": 71,
+     "target": 0.1262,
+     "stop": 0.1208,
+     "neither": 0.753,
+     "green": 0.5054,
+     "avgR": 0.0132,
+     "closeMedian": 594.0823,
+     "closeP5": 579.865,
+     "closeP95": 608.4982,
+     "verdict": [
+      "손익분기 근처: 한쪽에 닿은 경우 중 목표가 먼저 51% (손익분기 50%).",
+      "리플레이의 75%는 청산 시각까지 어느 쪽에도 닿지 않아, 마감 직전 가격이 결과를 정합니다."
+     ]
+    },
+    "history": {
+     "sessions": 59,
+     "fired": 10,
+     "target": 3,
+     "stop": 1,
+     "neither": 6,
+     "avgR": 0.2101,
+     "trades": [
+      {
+       "date": "2026-09-09",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": 0.0808
+      },
+      {
+       "date": "2026-09-16",
+       "entryTime": "10:25",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-09-17",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-09-21",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-09-22",
+       "entryTime": "10:00",
+       "outcome": "close",
+       "r": 0.3612
+      },
+      {
+       "date": "2026-09-24",
+       "entryTime": "12:45",
+       "outcome": "close",
+       "r": 0.3662
+      },
+      {
+       "date": "2026-09-25",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": -0.1794
+      },
+      {
+       "date": "2026-10-02",
+       "entryTime": "10:00",
+       "outcome": "close",
+       "r": -0.457
+      },
+      {
+       "date": "2026-10-06",
+       "entryTime": "10:20",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-12",
+       "entryTime": "11:00",
+       "outcome": "close",
+       "r": -0.0711
+      }
+     ]
+    }
+   },
+   "ticket": {
+    "account": 5000.0,
+    "cash": 1666.6667,
+    "maxLoss": 50.0,
+    "shares": 2,
+    "limitedBy": "최대 손실",
+    "entry": 594.0,
+    "stop": 573.93,
+    "target": 614.07,
+    "cost": 1188.0,
+    "lossAtStop": 40.14,
+    "gainAtTarget": 40.14,
+    "paper": true
+   },
+   "result": null
+  },
+  {
+   "ticker": "AVGO",
+   "name": "Broadcom Inc.",
+   "sector": "Technology",
+   "kind": "breakout",
+   "pick": {
+    "ticker": "AVGO",
+    "close": 364.36,
+    "change": 0.0554,
+    "priorHigh": 351.81,
+    "breakout": 0.0357,
+    "volumeRatio": 1.6837,
+    "dollarVolume": 15947344274.8657,
+    "high20": 369.82
+   },
+   "others": [],
+   "earnings": "2026-12-09",
+   "news": [
+    {
+     "title": "Broadcom Beats Nvidia by the Most on Record in a Single Week - Broadcom (NASDAQ:AVGO)",
+     "source": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS3dMMHE4Uk5yOUJOcXBORTItOEdzX0FuS1JBQTcxUHowUHNwR1puaUF0RW9DQm1SQUtJek1mWUVBSExCZlBzckFHLUpnWXdtZXRINE4zMWtQaFlpWTlndlhZSUxkbzRqVW1ZTVpybG5USDdhV1B3cnIwNFh4bzQwN1lucXNmazlKQ1M0UGNLcnV4NE01SkZyU2h0VEg3Z05jUGdNeWQzeU52aTQwT3pLQg?oc=5",
+     "time": "2026-11-13T19:58:07+00:00"
+    },
+    {
+     "title": "Broadcom Shares Fall After Rothschild & Co Redburn Downgrade",
+     "source": "MT Newswires",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-shares-fall-rothschild-co-191613565.html",
+     "time": "2026-11-13T19:16:13+00:00"
+    },
+    {
+     "title": "How Investors May Respond To Broadcom (AVGO) As Nvidia Rivals Gain Attention",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-broadcom-avgo-191037922.html",
+     "time": "2026-11-13T19:10:37+00:00"
+    },
+    {
+     "title": "This Analyst Just Downgraded Broadcom Stock. Here's Why.",
+     "source": "Barchart.com",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeno5SFhRM1N2YjdfZ1NsWTB1dS1JbEhlSFBNLXpRZ2VWcXhRZE5yMXhhcjFKdjdUVWk1ekJ4ajZnREE1VDJLaGE0ZU5RcVFmN25jZ3piME5pSE5pQVBWMUZRZHdmT2U3MFkwM3BUdUlDR21kVmxhZ3piOG9QVkF4VzBXTUpKLWZTOEplbzA0QW9wa2lTN0tpZlQ2RkFDeXc?oc=5",
+     "time": "2026-11-13T18:43:30+00:00"
+    },
+    {
+     "title": "Why Broadcom Stock Dove Today",
+     "source": "Motley Fool",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-broadcom-stock-dove-today-182006511.html",
+     "time": "2026-11-13T18:20:06+00:00"
+    },
+    {
+     "title": "10 Information Technology Stocks Whale Activity In Today’s Session",
+     "source": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUUdKTFdXdjhVVW53Q0M1VEJSRVdtV2UyQmNMaDhOVEN0bXhYVldibEpERnhUUHZScG1CYXBmaUtEeXpNZTBXWVVJamx1b2J5a3BDZXNha3ZaeXkzS1hXRll6Z1ZobmJPTjNSekhld3hNaTFKamdUYURSVG15QUlBdmk5MzVOdjFoU2RRNXJyZUlYNEEzTmZxVVZfMmNKbnNidWd0b2RnOTdvOVdaQ1BOQ2N4cDRiTWR0dTdz?oc=5",
+     "time": "2026-11-13T17:35:08+00:00"
+    },
+    {
+     "title": "Broadcom Stocks Fall 4.59% as 24% Weekly Rally Cools Before Nvidia Results",
+     "source": "GuruFocus.com",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-fall-4-59-172217386.html",
+     "time": "2026-11-13T17:22:17+00:00"
+    },
+    {
+     "title": "Is Rothschild & Co Redburn Wrong to Give Up on Broadcom? Wall Street Still Sees $533",
+     "source": "TIKR",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/rothschild-co-redburn-wrong-broadcom-171032060.html",
+     "time": "2026-11-13T17:10:32+00:00"
+    }
+   ],
+   "plan": {
+    "level": 369.82,
+    "risk": 8.58,
+    "atr": 17.1566,
+    "stop": 361.24,
+    "target": 378.4,
+    "targetR": 1.0,
+    "noEntryBefore": "09:45",
+    "noEntryAfter": "15:30",
+    "flatBy": "15:55",
+    "prevClose": 364.36
+   },
+   "daily": {
+    "dates": [
+     "2026-10-02",
+     "2026-10-05",
+     "2026-10-06",
+     "2026-10-07",
+     "2026-10-08",
+     "2026-10-09",
+     "2026-10-12",
+     "2026-10-13",
+     "2026-10-14",
+     "2026-10-15",
+     "2026-10-16",
+     "2026-10-19",
+     "2026-10-20",
+     "2026-10-21",
+     "2026-10-22",
+     "2026-10-23",
+     "2026-10-26",
+     "2026-10-27",
+     "2026-10-28",
+     "2026-10-29",
+     "2026-10-30",
+     "2026-11-02",
+     "2026-11-03",
+     "2026-11-04",
+     "2026-11-05",
+     "2026-11-06",
+     "2026-11-09",
+     "2026-11-10",
+     "2026-11-11",
+     "2026-11-12"
+    ],
+    "close": [
+     355.14,
+     362.51,
+     375.81,
+     376.51,
+     360.14,
+     361.54,
+     354.73,
+     357.31,
+     346.25,
+     344.33,
+     328.75,
+     334.59,
+     334.37,
+     337.8,
+     323.24,
+     321.68,
+     329.17,
+     342.33,
+     351.81,
+     345.0,
+     326.08,
+     322.23,
+     332.13,
+     325.48,
+     291.53,
+     293.69,
+     319.48,
+     331.98,
+     345.22,
+     364.36
+    ],
+    "high": [
+     357.35,
+     363.87,
+     380.84,
+     376.97,
+     373.35,
+     366.63,
+     360.69,
+     359.25,
+     354.25,
+     344.7,
+     339.59,
+     340.2,
+     341.1,
+     339.24,
+     330.82,
+     327.7,
+     332.12,
+     345.67,
+     352.4,
+     346.15,
+     331.98,
+     333.56,
+     335.74,
+     334.12,
+     314.0,
+     311.52,
+     323.05,
+     334.67,
+     356.85,
+     369.82
+    ],
+    "low": [
+     347.42,
+     356.14,
+     364.01,
+     369.12,
+     357.41,
+     361.1,
+     354.22,
+     348.11,
+     342.82,
+     334.61,
+     328.58,
+     333.82,
+     330.8,
+     332.29,
+     321.02,
+     320.23,
+     323.25,
+     336.87,
+     344.35,
+     338.8,
+     319.3,
+     321.87,
+     326.6,
+     321.74,
+     290.12,
+     289.77,
+     304.29,
+     316.69,
+     344.31,
+     354.72
+    ]
+   },
+   "timemachine": {
+    "replay": {
+     "replays": 10000,
+     "seed": 19,
+     "startTime": "10:05",
+     "bars": 70,
+     "target": 0.096,
+     "stop": 0.1425,
+     "neither": 0.7615,
+     "green": 0.437,
+     "avgR": -0.0883,
+     "closeMedian": 369.2233,
+     "closeP5": 363.5295,
+     "closeP95": 375.5549,
+     "verdict": [
+      "손절가 쪽으로 기울어짐: 목표가 먼저 40% vs 손익분기 50%.",
+      "리플레이의 76%는 청산 시각까지 어느 쪽에도 닿지 않아, 마감 직전 가격이 결과를 정합니다."
+     ]
+    },
+    "history": {
+     "sessions": 59,
+     "fired": 3,
+     "target": 2,
+     "stop": 1,
+     "neither": 0,
+     "avgR": 0.3333,
+     "trades": [
+      {
+       "date": "2026-10-06",
+       "entryTime": "10:05",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-11",
+       "entryTime": "11:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-11-12",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      }
+     ]
+    }
+   },
+   "ticket": {
+    "account": 5000.0,
+    "cash": 1666.6667,
+    "maxLoss": 50.0,
+    "shares": 4,
+    "limitedBy": "현금",
+    "entry": 369.82,
+    "stop": 361.24,
+    "target": 378.4,
+    "cost": 1479.28,
+    "lossAtStop": 34.32,
+    "gainAtTarget": 34.32,
+    "paper": true
+   },
+   "result": null
+  },
+  {
+   "ticker": "BRK-B",
+   "name": "Berkshire Hathaway Inc.",
+   "sector": "Financial Services",
+   "kind": "breakout",
+   "pick": {
+    "ticker": "BRK-B",
+    "close": 589.83,
+    "change": 0.0027,
+    "priorHigh": 588.24,
+    "breakout": 0.0027,
+    "volumeRatio": 1.0764,
+    "dollarVolume": 3265416940.6128,
+    "high20": 596.92
+   },
+   "others": [],
+   "earnings": "2026-11-09",
+   "news": [
+    {
+     "title": "Berkshire vs. Travelers: Which Insurance Stock Has More Upside?",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbk9xT2ZYQ1RnMUdpRzRMUmtQNllrU0N5Y1hZYkpPNWtCQmxYT2p4OGN5SW8xak9yUVpkcWdoc0VVSUhCYnY1dUl3dmI4WXQtUmJ2MTRhSlRPLVpxUzJXWjFTQXd6ZUZtbUZtZmlKQXNwYkhqVEJxSlo3WlJNUEh0cXpHckxQQ0NpSGpaZlVRVDdVRlI1X2FYeWhwcVR2UmdLcy1SZlB1cm02b3pmLTc5eEpvNXpSdjg?oc=5",
+     "time": "2026-11-13T19:58:22+00:00"
+    },
+    {
+     "title": "Berkshire Hathaway (BRK.A) Stock May Trade At A Discount On Record Buybacks",
+     "source": "Simply Wall St",
+     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWWFHZVN1VW9HajM1OTJGdGd3SWszYm9vdXlMbDRfYnVGYk1Mb1ZDWm43LUxBWllNMUpBZmZpYWF5VkhzOGxwNS12TkVJV0pIeWRKb2xZcTdRTlN3VHdrU25ZMXBLTmo1NVlUdDF4X2V4YXNHazBCWm1rdWdKVHdUeksxVHYxdGtPRW1JV0dMS1Z3V19qVkFrU1NKWDgzRnhKT3pLWU5pc0NjYXE1M0pxb1BaeE1ZaFMtX0Y1dGhMRUlSbUU4OWNMelQtZ01IbFNldFNIUmJlbkdfQ2R2MkdPdDFyRTHSAeoBQVVfeXFMUFd5Z3Y4a01aUGFEWGkyUzF4T1U0MV9fNTRNb0JxYmJrYWpXUEhMTnh3cE9TN1ZvR0Z5akRzbG1PQkRjZUdXbnZWTlM5Nnl0R21YMlJfcnpJTkxGdTQ1N0xJWDEtckQyOVFfU2kzcWt1OThiRTRfaS1UOWtGenRjS3JYdWFTUTRhZ3VmV2ZuSUR5Yzc1NDEtRTQyM1VfakpqTEpoZENzSmlPNUV4U3dWbjVsN29iZ3ktZS1sUzdUOEJCc0JRdnJ6TUlqZnNlSVEwdUtNLWFlM1Q2YTFQek5hUzNENWZwT3AxSUdB?oc=5",
+     "time": "2026-11-13T18:21:41+00:00"
+    },
+    {
+     "title": "Berkshire Hathaway (BRK.A) Stock Fair Value Edges Higher After Split Analyst Revisions",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVGJZYUROQlVVN3JGd0N3NVdBaTBZOU9yYUVQakVGa1Nua3pDS1J1N1U2TDJIZmFxUVV6Y1Y1bXNJTS1NcXhZblpGa2Z4RUZob3NWS2x2WDZua1IxNzlJa2trQVpFZkx3MnFCZ2dCZ2hVOFFMeC1rTmJKSWVvRWQ2cHoxcUd0d0MtT0R2NEVOWFREWk1rQlF2Ml9ETVJ1ZTQ?oc=5",
+     "time": "2026-11-13T18:06:26+00:00"
+    },
+    {
+     "title": "BRK.B: Berkshire prices ¥182.3 billion in five-tranche yen notes",
+     "source": "Quantisnow",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVEZtcXoyVzRNZFZEOGoxdlJsMTlQZjQzbXFHbVJJT0U0TDJHUEdSRFVhdmxRMlFvRlFJeUpmMk1kV1ZBeUhyeTA5NWR1SWlqdi1GcXBsRWhiTEs4elZTNmk4MjdibS1HSFJCWklTb0lzc2ppM0RHaEhFSlBBZTFfczlxNy14SWdMRjdPQ0lfaWU?oc=5",
+     "time": "2026-11-13T17:07:26+00:00"
+    },
+    {
+     "title": "Forget the \"Magnificent Seven.\" Berkshire Hathaway Could Be the Better Long-Term Bet.",
+     "source": "The Motley Fool",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRjlrQ3dPVlpsbHI5dXk4d2ZSV1pHUF81dGNKZWJSZ3F6UkhOeGk3c3pRVkk0T1FZUmNGakVKbGVZdDZlTkR1WjF6RWFNb0FJNFNSNG5WeGQzUU80bWYycmVIRy01VExTUTlkdXZjMHNxcW1CTXc4OGZQck92czBBb2xObDFhTXVYMnBkY0ljWEZlcDJSV3FORkZuVFBkVzhhdVRPd2Z5X0JyMVpMMi1xeUx1NThIaFR6NHRsWG1aQmtPdw?oc=5",
+     "time": "2026-11-13T15:23:00+00:00"
+    },
+    {
+     "title": "A $2.4 Billion Fund Is Betting Big on Berkshire Hathaway",
+     "source": "TIKR.com",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZlYwdGxjVXJaZjhEZjJIS0lQVHlfTjIxUWE4bEFWTHBNa0c4ZUNwTEo1NWF1X2FuYlprZG9feWFkWWlDVnR2MmtIaGZHMkUxemVXYldFbGFrbzJJcnRCU1c2SXVMb1FmS1drWXR3SkhxWTl0TW13Mkd5QXE4Vmk2S1gtbXdGdlJIckFV?oc=5",
+     "time": "2026-11-13T14:59:15+00:00"
+    },
+    {
+     "title": "Berkshire Hathaway’s Greg Abel Bought Back a Record $9.6 Billion of Stock Last Quarter. Here’s Why That Pace Might Not Continue.",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZHF3cy1zVVQyOUI5UXA0MnM5SmZ3NEM0RHEtcXlEVnJ2UUhJeGg2dUlNYVJldDRUcE9OSmZjcEtnaFJ3VC0yVEFMTTZfZ296Zl9SQzNBVG84ZWY1VG1mT3BOX2prbEd5cDJKWGZfU3pJTEFkZVdkQmpGYnFQZHhqcElUV0hJVWh0NEcwcnVwTlg0NndTZVRlNHdXdHJDZkxpYUE?oc=5",
+     "time": "2026-11-13T13:50:02+00:00"
+    },
+    {
+     "title": "ETFs Bought $123.0 Million of Berkshire Hathaway (BRK.B) on Wednesday",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbW1UR2tpakZ3ajloUWpud050MUNSS1IxTmVaeHhDUFkyRU1vMU92MXR3bWNOU0VJN054N1ZNdWtFZWcyVzNSd19BeG5zQlJnSmhJdUpCcFJ1OEJyTE1EdVBGN2JraHVhVGpRbHVuWXE0QmtONzlVTks4dUFpSTFZRmI4eWNYV1AxX1A1X3dfMFNfb1ow?oc=5",
+     "time": "2026-11-13T11:01:30+00:00"
+    }
+   ],
+   "plan": {
+    "level": 596.92,
+    "risk": 5.02,
+    "atr": 10.0313,
+    "stop": 591.9,
+    "target": 601.94,
+    "targetR": 1.0,
+    "noEntryBefore": "09:45",
+    "noEntryAfter": "15:30",
+    "flatBy": "15:55",
+    "prevClose": 589.83
+   },
+   "daily": {
+    "dates": [
+     "2026-10-02",
+     "2026-10-05",
+     "2026-10-06",
+     "2026-10-07",
+     "2026-10-08",
+     "2026-10-09",
+     "2026-10-12",
+     "2026-10-13",
+     "2026-10-14",
+     "2026-10-15",
+     "2026-10-16",
+     "2026-10-19",
+     "2026-10-20",
+     "2026-10-21",
+     "2026-10-22",
+     "2026-10-23",
+     "2026-10-26",
+     "2026-10-27",
+     "2026-10-28",
+     "2026-10-29",
+     "2026-10-30",
+     "2026-11-02",
+     "2026-11-03",
+     "2026-11-04",
+     "2026-11-05",
+     "2026-11-06",
+     "2026-11-09",
+     "2026-11-10",
+     "2026-11-11",
+     "2026-11-12"
+    ],
+    "close": [
+     502.65,
+     504.26,
+     505.54,
+     506.25,
+     511.05,
+     515.62,
+     517.6,
+     520.59,
+     526.35,
+     525.68,
+     532.02,
+     532.23,
+     539.82,
+     538.99,
+     546.97,
+     542.19,
+     548.56,
+     542.99,
+     540.34,
+     541.96,
+     542.49,
+     556.11,
+     557.07,
+     579.09,
+     572.33,
+     570.89,
+     575.25,
+     583.34,
+     588.24,
+     589.83
+    ],
+    "high": [
+     503.62,
+     505.88,
+     508.52,
+     506.7,
+     513.15,
+     516.57,
+     518.32,
+     524.16,
+     527.19,
+     533.55,
+     532.64,
+     533.19,
+     541.0,
+     543.34,
+     549.96,
+     548.31,
+     549.0,
+     548.6,
+     544.93,
+     548.77,
+     550.47,
+     557.59,
+     559.58,
+     580.65,
+     586.3,
+     575.12,
+     577.69,
+     586.45,
+     588.54,
+     596.92
+    ],
+    "low": [
+     499.01,
+     501.3,
+     503.78,
+     504.3,
+     505.27,
+     509.71,
+     515.0,
+     517.34,
+     518.19,
+     525.53,
+     528.0,
+     528.84,
+     533.5,
+     538.99,
+     542.01,
+     540.97,
+     542.0,
+     542.9,
+     539.23,
+     541.8,
+     542.32,
+     544.44,
+     551.81,
+     562.5,
+     571.1,
+     559.61,
+     562.45,
+     574.0,
+     576.8,
+     589.02
+    ]
+   },
+   "timemachine": {
+    "replay": {
+     "replays": 10000,
+     "seed": 19,
+     "startTime": "9:50",
+     "bars": 73,
+     "target": 0.2668,
+     "stop": 0.1458,
+     "neither": 0.5874,
+     "green": 0.5766,
+     "avgR": 0.1343,
+     "closeMedian": 597.098,
+     "closeP5": 593.3411,
+     "closeP95": 600.5573,
+     "verdict": [
+      "목표가 쪽으로 기울어짐: 목표가 먼저 65% vs 손익분기 50%.",
+      "리플레이의 59%는 청산 시각까지 어느 쪽에도 닿지 않아, 마감 직전 가격이 결과를 정합니다."
+     ]
+    },
+    "history": {
+     "sessions": 59,
+     "fired": 12,
+     "target": 4,
+     "stop": 3,
+     "neither": 5,
+     "avgR": 0.1744,
+     "trades": [
+      {
+       "date": "2026-09-14",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": 0.2074
+      },
+      {
+       "date": "2026-09-16",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-10-14",
+       "entryTime": "14:10",
+       "outcome": "close",
+       "r": 0.8012
+      },
+      {
+       "date": "2026-10-15",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-10-20",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": 0.5045
+      },
+      {
+       "date": "2026-10-21",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": -0.1876
+      },
+      {
+       "date": "2026-10-22",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-02",
+       "entryTime": "10:40",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-03",
+       "entryTime": "11:00",
+       "outcome": "close",
+       "r": -0.2322
+      },
+      {
+       "date": "2026-11-04",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-05",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-11-12",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      }
+     ]
+    }
+   },
+   "ticket": {
+    "account": 5000.0,
+    "cash": 1666.6667,
+    "maxLoss": 50.0,
+    "shares": 2,
+    "limitedBy": "현금",
+    "entry": 596.92,
+    "stop": 591.9,
+    "target": 601.94,
+    "cost": 1193.84,
+    "lossAtStop": 10.04,
+    "gainAtTarget": 10.04,
+    "paper": true
+   },
+   "result": null
+  }
+ ]
+}

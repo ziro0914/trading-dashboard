@@ -1,0 +1,168 @@
+{
+ "start": "2026-11-13",
+ "end": "2026-11-13",
+ "netBuy": [
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 323583967.0,
+   "sell": 68731677.0,
+   "net": 254852291.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US30303M1027",
+   "name": "META PLATFORMS INC CL A",
+   "buy": 81413708.0,
+   "sell": 2892453.0,
+   "net": 78521255.0,
+   "ticker": "META"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 83235977.0,
+   "sell": 11584564.0,
+   "net": 71651412.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 70623814.0,
+   "sell": 11610317.0,
+   "net": 59013497.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US0231351067",
+   "name": "AMAZON.COM INC",
+   "buy": 50687239.0,
+   "sell": 8993542.0,
+   "net": 41693697.0,
+   "ticker": "AMZN"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 35739049.0,
+   "sell": 3642690.0,
+   "net": 32096359.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "NL0009805522",
+   "name": "YANDEX NV CL A",
+   "buy": 32094586.0,
+   "sell": 1462572.0,
+   "net": 30632014.0,
+   "ticker": "NBIS"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 40859740.0,
+   "sell": 12698658.0,
+   "net": 28161083.0,
+   "ticker": "AMD"
+  },
+  {
+   "isin": "US6974351057",
+   "name": "PALO ALTO NETWORKS INC",
+   "buy": 27288592.0,
+   "sell": 548903.0,
+   "net": 26739689.0,
+   "ticker": "PANW"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 47000018.0,
+   "sell": 21860686.0,
+   "net": 25139332.0,
+   "ticker": "MU"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 81855671.0,
+   "sell": 430090554.0,
+   "net": -348234883.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 3926687.0,
+   "sell": 42718279.0,
+   "net": -38791592.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 10973868.0,
+   "sell": 47066998.0,
+   "net": -36093130.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US60770K1079",
+   "name": "MODERNA INC",
+   "buy": 11462866.0,
+   "sell": 29811158.0,
+   "net": -18348292.0,
+   "ticker": "MRNA"
+  },
+  {
+   "isin": "US74350P6759",
+   "name": "PROSHARES ULTRAPRO SHORT QQ ULTRAPRO SHORT QQQ NEW SPLR 987751298 US74347G1922",
+   "buy": 12488353.0,
+   "sell": 22705512.0,
+   "net": -10217159.0,
+   "ticker": "SQQQ"
+  },
+  {
+   "isin": "US7731211089",
+   "name": "ROCKET LAB CORPORATION COM USD0.0001 MRGR 978814817 US7731221062",
+   "buy": 3093043.0,
+   "sell": 12918556.0,
+   "net": -9825513.0,
+   "ticker": "RKLB"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 3319507.0,
+   "sell": 12387301.0,
+   "net": -9067794.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US0378331005",
+   "name": "APPLE INC",
+   "buy": 2370803.0,
+   "sell": 9654761.0,
+   "net": -7283958.0,
+   "ticker": "AAPL"
+  },
+  {
+   "isin": "US25460G2865",
+   "name": "DIREXION DAILY TSLA BULL 2X SHARES",
+   "buy": 282247.0,
+   "sell": 6823847.0,
+   "net": -6541600.0,
+   "ticker": "TSLL"
+  },
+  {
+   "isin": "US46152A6689",
+   "name": "TRADR 2X LONG SNDK DAILY ETF",
+   "buy": 1236089.0,
+   "sell": 7145644.0,
+   "net": -5909556.0,
+   "ticker": "SNXX"
+  }
+ ]
+}

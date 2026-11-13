@@ -1,0 +1,96 @@
+{
+ "date": "2026-11-12",
+ "buy": [
+  {
+   "ticker": "CRWV",
+   "company": "CoreWeave, Inc.",
+   "shares": 283022,
+   "funds": [
+    "ARKK",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "ACHR",
+   "company": "Archer Aviation Inc.",
+   "shares": 180561,
+   "funds": [
+    "ARKK",
+    "ARKQ",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "TWST",
+   "company": "Twist Bioscience Corporation",
+   "shares": 72834,
+   "funds": [
+    "ARKK",
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "KTOS",
+   "company": "Kratos Defense & Security Solutions, Inc.",
+   "shares": 46521,
+   "funds": [
+    "ARKK",
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "SCTX",
+   "company": "Scribe Therapeutics Inc",
+   "shares": 39090,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "RKLB",
+   "company": "Rocket Lab Corp",
+   "shares": 15114,
+   "funds": [
+    "ARKK",
+    "ARKQ",
+    "ARKX"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "BYDDY",
+   "company": "BYD Company Limited",
+   "shares": 230040,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "TEM",
+   "company": "Tempus AI, Inc.",
+   "shares": 80989,
+   "funds": [
+    "ARKK",
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "PLTR",
+   "company": "Palantir Technologies Inc.",
+   "shares": 58339,
+   "funds": [
+    "ARKK",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "company": "Amazon.com Inc",
+   "shares": 15941,
+   "funds": [
+    "ARKK"
+   ]
+  }
+ ]
+}

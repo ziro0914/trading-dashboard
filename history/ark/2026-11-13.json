@@ -1,0 +1,39 @@
+{
+ "date": "2026-11-13",
+ "buy": [
+  {
+   "ticker": "SCTX",
+   "company": "Scribe Therapeutics Inc",
+   "shares": 28905,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "KTOS",
+   "company": "Kratos Defense & Security Solutions, Inc.",
+   "shares": 24784,
+   "funds": [
+    "ARKQ"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "BYDDY",
+   "company": "BYD Company Limited",
+   "shares": 219468,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "TEM",
+   "company": "Tempus AI, Inc.",
+   "shares": 7996,
+   "funds": [
+    "ARKG"
+   ]
+  }
+ ]
+}

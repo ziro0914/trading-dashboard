@@ -1,0 +1,168 @@
+{
+ "start": "2026-11-17",
+ "end": "2026-11-17",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 123853716.0,
+   "sell": 18221018.0,
+   "net": 105632698.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 91941211.0,
+   "sell": 29434933.0,
+   "net": 62506278.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 43595197.0,
+   "sell": 3832830.0,
+   "net": 39762367.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 32080772.0,
+   "sell": 2240889.0,
+   "net": 29839882.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US15675D1037",
+   "name": "CEREBRAS SYSTEMS INC",
+   "buy": 20683874.0,
+   "sell": 608188.0,
+   "net": 20075686.0,
+   "ticker": "CBRS"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 23372442.0,
+   "sell": 3636148.0,
+   "net": 19736293.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 21226267.0,
+   "sell": 2650352.0,
+   "net": 18575916.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US98956A1051",
+   "name": "ZETA GLOBAL HOLDINGS CORP CL A",
+   "buy": 18476886.0,
+   "sell": 29087.0,
+   "net": 18447799.0,
+   "ticker": "ZETA"
+  },
+  {
+   "isin": "US21873S1087",
+   "name": "CoreWeave Inc",
+   "buy": 15699109.0,
+   "sell": 1241678.0,
+   "net": 14457430.0,
+   "ticker": "CRWV"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 15095429.0,
+   "sell": 679435.0,
+   "net": 14415993.0,
+   "ticker": "QLD"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 16232548.0,
+   "sell": 58515236.0,
+   "net": -42282688.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 18778714.0,
+   "sell": 34385112.0,
+   "net": -15606398.0,
+   "ticker": "AMD"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 4090624.0,
+   "sell": 17140434.0,
+   "net": -13049810.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "NL0009805522",
+   "name": "YANDEX NV CL A",
+   "buy": 9432520.0,
+   "sell": 18318076.0,
+   "net": -8885555.0,
+   "ticker": "NBIS"
+  },
+  {
+   "isin": "US11135F1012",
+   "name": "BROADCOM INC EXOF 005644980 SG9999014823",
+   "buy": 5191274.0,
+   "sell": 11518583.0,
+   "net": -6327309.0,
+   "ticker": "AVGO"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 2253067.0,
+   "sell": 7201415.0,
+   "net": -4948348.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 7706666.0,
+   "sell": 12085050.0,
+   "net": -4378384.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US4581401001",
+   "name": "INTEL CORP",
+   "buy": 4399774.0,
+   "sell": 8424780.0,
+   "net": -4025006.0,
+   "ticker": "INTC"
+  },
+  {
+   "isin": "US0231351067",
+   "name": "AMAZON.COM INC",
+   "buy": 2479341.0,
+   "sell": 5559669.0,
+   "net": -3080328.0,
+   "ticker": "AMZN"
+  },
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 2255857.0,
+   "sell": 4816668.0,
+   "net": -2560811.0,
+   "ticker": "MRVL"
+  }
+ ]
+}

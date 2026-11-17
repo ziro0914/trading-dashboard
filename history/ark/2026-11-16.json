@@ -1,0 +1,215 @@
+{
+ "date": "2026-11-16",
+ "buy": [
+  {
+   "ticker": "ACHR",
+   "company": "Archer Aviation Inc.",
+   "shares": 1122430,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "SPCX",
+   "company": "Space Exploration Technologies Corp",
+   "shares": 378515,
+   "funds": [
+    "ARKK",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "LUNR",
+   "company": "Intuitive Machines Inc",
+   "shares": 331698,
+   "funds": [
+    "ARKQ",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "XYZ",
+   "company": "Block, Inc.",
+   "shares": 277523,
+   "funds": [
+    "ARKK",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "CRCL",
+   "company": "Circle Internet Group, Inc",
+   "shares": 180534,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "SHOP",
+   "company": "Shopify Inc.",
+   "shares": 111510,
+   "funds": [
+    "ARKK",
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "KDK",
+   "company": "Kodiak AI Inc",
+   "shares": 77547,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "COIN",
+   "company": "Coinbase Global, Inc.",
+   "shares": 53760,
+   "funds": [
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "TWST",
+   "company": "Twist Bioscience Corporation",
+   "shares": 35028,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "KTOS",
+   "company": "Kratos Defense & Security Solutions, Inc.",
+   "shares": 27829,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "GOOG",
+   "company": "Alphabet Inc.",
+   "shares": 22809,
+   "funds": [
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "SCTX",
+   "company": "Scribe Therapeutics Inc",
+   "shares": 15659,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "company": "Amazon.com Inc",
+   "shares": 15176,
+   "funds": [
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "TSM",
+   "company": "Taiwan Semiconductor Manufacturing Company Limited",
+   "shares": 4114,
+   "funds": [
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "META",
+   "company": "Meta Platforms, Inc.",
+   "shares": 1444,
+   "funds": [
+    "ARKF"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "NVDA",
+   "company": "NVIDIA Corporation",
+   "shares": 543092,
+   "funds": [
+    "ARKK",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "SOLQ.U",
+   "company": "3iQ Solana Staking ETF",
+   "shares": 350000,
+   "funds": [
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "ETHQ.U",
+   "company": "3iQ Ether Staking ETF",
+   "shares": 300000,
+   "funds": [
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "PLTR",
+   "company": "Palantir Technologies Inc.",
+   "shares": 102378,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "BYDDY",
+   "company": "BYD Company Limited",
+   "shares": 91715,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "TXG",
+   "company": "10x Genomics, Inc.",
+   "shares": 59476,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "BLSH",
+   "company": "Bullish",
+   "shares": 30659,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "HEI",
+   "company": "HEICO Corporation",
+   "shares": 12004,
+   "funds": [
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "KSPI",
+   "company": "Kaspi.kz AO",
+   "shares": 5000,
+   "funds": [
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "HONA",
+   "company": "Honeywell Aerospace Inc",
+   "shares": 344,
+   "funds": [
+    "ARKX"
+   ]
+  }
+ ]
+}

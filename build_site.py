@@ -8,6 +8,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import pandas as pd
+import yfinance as yf
 
 from data import (
     BENCHMARK,
@@ -25,6 +26,7 @@ from data import (
 import ark_trades
 import daytrade
 import etf_flows
+import signals
 from flows import load_flows, load_saved_days, load_ticker_map, save_day, save_ticker_map
 from metrics import drawdown, max_drawdown, performance, slice_window, technical_summary
 
@@ -199,6 +201,23 @@ def build_daytrade():
     write_json(DIST / "data" / "daytrade.json", summary)
 
 
+def daily_bars(ticker) -> pd.DataFrame:
+    """매매 신호용 일봉(분할·배당 반영 시가·고가·저가·종가), 최근 5년."""
+    hist = yf.Ticker(ticker).history(period="5y", auto_adjust=True)
+    hist.index = hist.index.tz_localize(None).normalize()
+    return hist.dropna(subset=["High", "Low", "Close"])
+
+
+def build_signals():
+    def name(ticker):
+        info = load_info(ticker)
+        return info.get("shortName") or info.get("longName")
+
+    payload = signals.build(daily_bars, name)
+    payload["updated"] = datetime.now(timezone.utc).isoformat()
+    write_json(DIST / "data" / "signals.json", payload)
+
+
 def main():
     universe = read_universe()
     tickers = sys.argv[1:] or list(universe)
@@ -248,6 +267,10 @@ def main():
     write_json(DIST / "data" / "ark-history.json", ark_trades.load_saved_days())
 
     build_daytrade()
+    try:
+        build_signals()
+    except Exception as error:
+        print("SIGNALS FAIL", repr(error)[:200], flush=True)
 
     index, failed = [], []
     for ticker in tickers:

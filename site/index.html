@@ -124,6 +124,27 @@ details summary { cursor: pointer; font-size: 14px; }
 .odds-legend i { display: inline-block; width: 10px; height: 10px; margin-right: 5px; border-radius: 2px; }
 .ticket { border: 1px dashed var(--muted); border-radius: 6px; padding: 4px 14px; }
 .ticket-head { display: flex; justify-content: space-between; gap: 8px; padding: 8px 0; font-weight: 600; border-bottom: 1px dashed var(--line); }
+.sig-chips { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; margin-bottom: 2px; }
+.sig-chips a { flex: none; display: flex; flex-direction: column; align-items: center; gap: 1px; min-width: 64px; padding: 6px 8px;
+  font-size: 13px; font-weight: 600; color: var(--text); text-decoration: none; border: 1px solid var(--line); border-radius: 6px; }
+.sig-chips a small { font-size: 11px; font-weight: 500; }
+.sig-chips a[aria-current="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.sig-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+.sig-head h1 { margin: 0; font-size: 21px; }
+.sig-big { display: inline-block; margin: 10px 0 4px; padding: 6px 14px; font-size: 17px; font-weight: 700; border-radius: 6px; background: var(--panel); }
+.sig-big.buy { color: var(--up); } .sig-big.sell { color: var(--down); }
+.badge.buy { color: var(--up); } .badge.sell { color: var(--down); }
+.levels td:nth-child(2) { font-weight: 600; }
+.levels tr.now td { background: var(--panel); font-weight: 600; }
+.levels td:first-child { white-space: normal; }
+.levels small { display: block; color: var(--muted); font-size: 12px; font-weight: 400; }
+.warn { padding: 12px 14px; margin-bottom: 14px; font-size: 13.5px; background: var(--card); border: 1px solid var(--line);
+  border-left: 4px solid var(--up); border-radius: 8px; }
+.warn p { margin: 3px 0; }
+.form { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-bottom: 8px; }
+.form label { display: grid; gap: 3px; font-size: 12.5px; color: var(--muted); }
+.form input { width: 100%; padding: 8px; font-size: 16px; color: var(--text); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; }
+@media (max-width: 480px) { .form { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 footer { padding-top: 12px; }
 
 @media (max-width: 860px) {
@@ -154,6 +175,7 @@ footer { padding-top: 12px; }
     <a href="#stock" data-view="stock">종목</a>
     <a href="#flows" data-view="flows">순매수·순매도</a>
     <a href="#gurus" data-view="gurus">대가 투자자</a>
+    <a href="#signals" data-view="signals">매매 신호</a>
     <a href="#trades" data-view="trades">모의매매</a>
   </nav>
 </header>
@@ -260,6 +282,19 @@ footer { padding-top: 12px; }
       <section class="card"><h2>ARK 매수</h2><table class="rank" id="arkBuy"></table></section>
       <section class="card"><h2>ARK 매도</h2><table class="rank" id="arkSell"></table></section>
     </div>
+  </div>
+
+  <div id="viewSignals" hidden>
+    <div class="warn">
+      <p><b>참고용 신호입니다. 수익을 보장하지 않습니다.</b> 하루 종가로 계산한 기술적 지표일 뿐이고, 실제 주문은 직접 판단해서 하셔야 합니다.</p>
+      <p>레버리지 ETF는 오르내림만 반복해도 값이 깎입니다(변동성 손실). 오래 들고 있을수록 기초 종목보다 불리해지고, 물타기로 평단을 낮춰도 회복이 보장되지 않습니다. 손절 기준을 꼭 함께 정해 두세요.</p>
+    </div>
+    <section class="card">
+      <div class="card-head"><h2>보유 종목 신호</h2></div>
+      <div class="sig-chips" id="sigChips"></div>
+      <p class="muted" id="sigNote"></p>
+    </section>
+    <div class="layout" id="sigDetail" style="margin-top:14px"></div>
   </div>
 
   <div id="viewTrades" hidden>
@@ -1038,11 +1073,189 @@ async function routeTrades(hash) {
   else { $("tradePost").hidden = true; $("tradeList").hidden = false; }
 }
 
+// ---------------------------------------------------------------- 매매 신호
+const SIGNALS = { buy: "매수 우위", hold: "관망", sell: "매도 우위" };
+const POSITION_KEY = "positions";
+function readPositions() {
+  try { return JSON.parse(localStorage.getItem(POSITION_KEY)) || {}; } catch { return {}; }
+}
+function writePositions(positions) {
+  try { localStorage.setItem(POSITION_KEY, JSON.stringify(positions)); } catch { /* 저장 안 돼도 화면은 동작 */ }
+}
+function gapText(price, close) { return `${price >= close ? "+" : ""}${((price / close - 1) * 100).toFixed(1)}%`; }
+function actionText(item) {
+  const [b1] = item.levels.buy, [t1] = item.levels.takeProfit, stop = item.levels.stop.price;
+  if (item.signal === "buy")
+    return `지금 가격대에서 소액 분할 매수를 고려할 만합니다. ${usd(b1.price)}까지 밀리면 한 번 더, 반등해서 ${usd(t1.price)} 근처에 오면 단타분은 매도. 단타분은 ${usd(stop)} 아래로 마감하면 정리.`;
+  if (item.signal === "sell")
+    return `단기적으로 많이 올랐습니다. 단타로 산 물량은 ${usd(t1.price)} 근처까지 나눠서 매도하고, 새로 사는 건 ${usd(b1.price)} 근처로 내려올 때까지 기다리는 쪽이 낫습니다.`;
+  return `뚜렷한 신호가 없습니다. ${usd(b1.price)} 근처로 내려오면 분할 매수, ${usd(t1.price)} 근처로 오르면 일부 매도를 고려하세요.`;
+}
+function levelRows(item) {
+  const { buy, takeProfit, stop } = item.levels;
+  const rows = [
+    ["2차 익절", takeProfit[1], "up"], ["1차 익절", takeProfit[0], "up"],
+    ["현재가", { price: item.close, basis: `${item.date} 종가` }, "now"],
+    ["1차 매수", buy[0], "down"], ["2차 매수", buy[1], "down"], ["단타 손절", stop, "down"],
+  ];
+  const table = el("table", "levels");
+  const head = el("tr");
+  ["구분", "가격", "현재가 대비"].forEach((t) => head.append(el("th", "", t)));
+  table.append(head);
+  rows.forEach(([name, level, kind]) => {
+    const tr = el("tr", kind === "now" ? "now" : "");
+    const first = el("td", "", name);
+    first.append(el("small", "", level.basis));
+    tr.append(first, el("td", kind === "now" ? "" : kind, usd(level.price)),
+      el("td", "", kind === "now" ? "-" : gapText(level.price, item.close)));
+    table.append(tr);
+  });
+  return table;
+}
+function positionCard(item) {
+  const positions = readPositions();
+  const saved = positions[item.ticker] || {};
+  const cash = positions._cash ?? "";
+  const form = el("div", "form");
+  const input = (labelText, key, value, placeholder) => {
+    const label = el("label", "", labelText);
+    const box = el("input");
+    Object.assign(box, { type: "number", inputMode: "decimal", step: "any", min: "0", value: value ?? "", placeholder });
+    box.dataset.key = key;
+    label.append(box);
+    form.append(label);
+    return box;
+  };
+  const avg = input("내 평단 ($)", "avg", saved.avg, "예: 201.06");
+  const shares = input("보유 수량", "shares", saved.shares, "예: 166");
+  const add = input("추가 매수 금액 ($)", "add", saved.add, "예: 500");
+  const cashBox = input("예수금 ($)", "cash", cash, "예: 3000");
+  const out = el("div");
+  function update() {
+    const p = readPositions();
+    p[item.ticker] = { avg: avg.value, shares: shares.value, add: add.value };
+    p._cash = cashBox.value;
+    writePositions(p);
+    const a = Number(avg.value), n = Number(shares.value), extra = Number(add.value), money = Number(cashBox.value);
+    const rows = [];
+    if (a > 0) {
+      rows.push(["평단까지 필요한 상승률", gapText(a, item.close), "up"]);
+      if (n > 0) {
+        const pnl = (item.close - a) * n;
+        rows.push(["평가손익", `${signedUsd(pnl)} (${gapText(item.close, a)})`, pnl >= 0 ? "up" : "down"]);
+      }
+      const buy1 = item.levels.buy[0].price;
+      if (n > 0 && extra > 0) {
+        [["현재가", item.close], ["1차 매수가", buy1]].forEach(([name, price]) => {
+          const bought = Math.floor(extra / price);
+          if (!bought) return;
+          const next = (a * n + price * bought) / (n + bought);
+          rows.push([`${name}에 ${bought}주 추가 시 평단`, `${usd(next)} (회복까지 ${gapText(next, item.close)})`]);
+        });
+      }
+    }
+    if (cashBox.value !== "")
+      rows.push(["예수금 $3,000 조건", money >= 3000 ? "충족: 다음 레버리지 종목 매수 가능" : `미달: ${usd(3000 - money)} 더 필요`, money >= 3000 ? "up" : ""]);
+    out.replaceChildren(rows.length ? statRows(rows) : el("p", "muted", "평단과 수량을 넣으면 손익과 물타기 뒤 평단을 계산합니다."));
+  }
+  form.addEventListener("input", update);
+  update();
+  return card("내 포지션 계산", form, out,
+    el("p", "muted", "입력값은 이 기기 브라우저에만 저장되고 사이트나 서버로 올라가지 않습니다."));
+}
+function backtestCard(item) {
+  const bt = item.backtest;
+  const line_ = (name, s) => [name, s.days ? `${s.days}일 · 오른 비율 ${pct(s.upRate, 0)} · 중간값 ${s.median >= 0 ? "+" : ""}${pct(s.median)}` : "해당 날 없음",
+    s.median == null ? "" : tone(s.median)];
+  return card("같은 규칙의 과거 성적",
+    statRows([line_(`'${SIGNALS.buy}' 뒤 ${bt.forwardDays}거래일`, bt.buy), line_(`'${SIGNALS.sell}' 뒤 ${bt.forwardDays}거래일`, bt.sell),
+      line_(`아무 날이나 ${bt.forwardDays}거래일`, bt.all)]),
+    el("p", "muted", `${bt.from}부터 매일 같은 점수 규칙을 적용해 본 결과입니다. 수수료·세금 제외. 과거 성적이 앞으로도 같다는 보장은 없습니다.`));
+}
+function decayCard(item) {
+  const d = item.decay;
+  const rows = [
+    ["레버리지", d.leverage > 1 ? `${d.leverage}배` : "레버리지 없음 (일반 주식)"],
+    ["최근 1년 변동성 (연환산)", pct(d.volatility, 0)],
+    ["1년 수익률", d.return1y == null ? "-" : signed(d.return1y), d.return1y == null ? "" : tone(d.return1y)],
+    ["1년 최고가 대비", d.fromHigh1y == null ? "-" : signed(d.fromHigh1y), "down"],
+  ];
+  if (d.leverage > 1) rows.push(["횡보 시 연간 깎이는 비율 (추정)", `약 ${pct(d.yearlyDecay, 0)}`, "down"]);
+  return card("레버리지 위험", statRows(rows),
+    el("p", "muted", d.leverage > 1
+      ? "기초 종목이 1년 내내 제자리여도 이 정도가 녹아내릴 수 있다는 추정입니다 ((배수−1)/(2×배수)×변동성²). 변동성이 클수록 커집니다."
+      : "일반 주식이라 레버리지로 인한 깎임은 없습니다."));
+}
+function indicatorCard(item) {
+  const gap = (v) => (v == null ? "-" : `${usd(v)} (${gapText(item.close, v)})`);
+  return card("지표", statRows([
+    ["RSI (14일)", item.rsi.toFixed(0), item.rsi <= 30 ? "up" : item.rsi >= 70 ? "down" : ""],
+    ["20일선 · 현재가 이격", gap(item.sma20)], ["50일선", gap(item.sma50)], ["200일선", gap(item.sma200)],
+    ["ATR (하루 평균 변동폭)", `${usd(item.atr)} (${pct(item.atr / item.close)})`],
+  ]));
+}
+function renderSignal(item) {
+  const main = el("div", "stack"), side = el("div", "stack");
+  const head = el("section", "card");
+  const title = el("div", "sig-head");
+  title.append(el("h1", "", item.ticker), el("span", "muted", item.name !== item.ticker ? item.name : ""));
+  const quote = el("div", "quote");
+  quote.append(el("span", "price", usd(item.close)), el("span", `change ${tone(item.change)}`, arrow(item.change)));
+  const reasons = el("ul", "rules");
+  item.reasons.forEach((r) => reasons.append(el("li", "", r)));
+  head.append(title, quote, el("div", `sig-big ${item.signal}`, `${SIGNALS[item.signal]} (점수 ${item.score >= 0 ? "+" : ""}${item.score})`),
+    el("div", "verdict", actionText(item)), reasons,
+    el("p", "muted", "점수 = RSI + 볼린저밴드 + 20일선 흐름. +2 이상이면 매수 우위, −2 이하면 매도 우위."));
+  const chart = card("가격과 매매 구간 (최근 180일)", chartBox("sigChart", false));
+  const levels = card("가격대", levelRows(item),
+    el("p", "muted", "매수·익절 가격은 가까운 지지·저항(최고·최저가, 이동평균, 볼린저밴드)에서 고르고, 없으면 ATR(하루 평균 변동폭) 배수로 정합니다. 손절은 단타로 산 물량에만 적용하는 기준입니다."));
+  main.append(head, chart, levels);
+  side.append(positionCard(item), backtestCard(item), decayCard(item), indicatorCard(item));
+  $("sigDetail").replaceChildren(main, side);
+
+  const c = item.chart, n = c.dates.length;
+  const band = (label, data) => ({ ...line(label, data, css("--muted")), borderWidth: 1, borderDash: [2, 3] });
+  draw("signal", $("sigChart"), [
+    line(item.ticker, c.close, css("--s1")),
+    line("20일선", c.sma20, css("--s2")),
+    line("50일선", c.sma50, css("--s3")),
+    band("볼린저 상단", c.bbUpper), band("볼린저 하단", c.bbLower),
+    flatLine("1차 익절", item.levels.takeProfit[0].price, n, css("--up")),
+    flatLine("1차 매수", item.levels.buy[0].price, n, css("--down")),
+    flatLine("단타 손절", item.levels.stop.price, n, css("--muted")),
+  ], c.dates, (v) => usd(v));
+}
+async function routeSignals(hash) {
+  if (!state.signals) {
+    state.signals = (await load("data/signals.json")) || { items: [] };
+    const { items, updated, errors } = state.signals;
+    $("sigChips").replaceChildren(...items.map((item) => {
+      const a = el("a");
+      a.href = `#signals/${item.ticker}`;
+      a.dataset.ticker = item.ticker;
+      a.append(document.createTextNode(item.ticker), el("small", item.signal, SIGNALS[item.signal]));
+      return a;
+    }));
+    $("sigNote").textContent = items.length
+      ? `${items[0].date} 종가 기준 · 계산 ${new Date(updated).toLocaleString("ko-KR")}${errors?.length ? ` · 자료 없음: ${errors.join(", ")}` : ""}`
+      : "아직 신호 자료가 없습니다. 다음 자동 갱신 뒤에 나타납니다.";
+  }
+  const items = state.signals.items;
+  if (!items.length) { $("sigDetail").replaceChildren(); return; }
+  const wanted = hash.split("/")[1];
+  const item = items.find((i) => i.ticker === wanted) || items[0];
+  document.querySelectorAll("#sigChips a").forEach((a) => a.setAttribute("aria-current", String(a.dataset.ticker === item.ticker)));
+  renderSignal(item);
+}
+
 function route() {
   const view = location.hash.startsWith("#trades") ? "trades"
+    : location.hash.startsWith("#signals") ? "signals"
     : ["#stock", "#flows", "#gurus"].includes(location.hash) ? location.hash.slice(1) : "home";
   $("viewHome").hidden = view !== "home";
   $("viewTrades").hidden = view !== "trades";
+  $("viewSignals").hidden = view !== "signals";
+  if (view === "signals") routeSignals(location.hash).catch(() => notice("매매 신호를 불러오지 못했습니다."));
   if (view === "trades") routeTrades(location.hash).catch(() => notice("모의매매 기록을 불러오지 못했습니다."));
   $("viewStock").hidden = view !== "stock";
   $("viewFlows").hidden = view !== "flows";

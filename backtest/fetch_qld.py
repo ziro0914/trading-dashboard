@@ -1,7 +1,7 @@
 import yfinance as yf, pandas as pd
 out = {}
 for t in ["QLD", "QQQ", "KRW=X"]:
-    d = yf.Ticker(t).history(start="2025-12-20", auto_adjust=False)
+    d = yf.Ticker(t).history(start="2019-12-20", auto_adjust=False)
     d.index = d.index.tz_localize(None).date
     out[t + "_close"] = d["Close"]; out[t + "_adj"] = d["Adj Close"]
     if t != "KRW=X":

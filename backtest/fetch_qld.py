@@ -11,7 +11,7 @@ print(pd.DataFrame(out).tail())
 
 # 나스닥100 지수와 단기금리 (QLD 상장 전 2배 합성용)
 o = {}
-for t in ["^NDX", "^IRX", "KRW=X"]:
+for t in ["^NDX", "^IRX", "KRW=X", "^GSPC", "^SP500TR"]:
     d = yf.Ticker(t).history(start="1985-01-01", auto_adjust=False)
     d.index = d.index.tz_localize(None).date
     o[t] = d["Close"]

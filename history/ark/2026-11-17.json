@@ -1,0 +1,99 @@
+{
+ "date": "2026-11-17",
+ "buy": [
+  {
+   "ticker": "LUNR",
+   "company": "Intuitive Machines Inc",
+   "shares": 585514,
+   "funds": [
+    "ARKQ",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "KDK",
+   "company": "Kodiak AI Inc",
+   "shares": 510740,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "ACHR",
+   "company": "Archer Aviation Inc.",
+   "shares": 219719,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "XYZ",
+   "company": "Block, Inc.",
+   "shares": 33858,
+   "funds": [
+    "ARKK",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "TWST",
+   "company": "Twist Bioscience Corporation",
+   "shares": 30889,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "SCTX",
+   "company": "Scribe Therapeutics Inc",
+   "shares": 20057,
+   "funds": [
+    "ARKG"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "SOLQ.U",
+   "company": "3iQ Solana Staking ETF",
+   "shares": 350000,
+   "funds": [
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "ETHQ.U",
+   "company": "3iQ Ether Staking ETF",
+   "shares": 300000,
+   "funds": [
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "TXG",
+   "company": "10x Genomics, Inc.",
+   "shares": 107658,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "BYDDY",
+   "company": "BYD Company Limited",
+   "shares": 67977,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "BLSH",
+   "company": "Bullish",
+   "shares": 2500,
+   "funds": [
+    "ARKK"
+   ]
+  }
+ ]
+}

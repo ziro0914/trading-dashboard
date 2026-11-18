@@ -1,0 +1,983 @@
+{
+ "date": "2026-11-18",
+ "created": "2026-11-18T05:37:17.193285+00:00",
+ "universe": 96,
+ "hits": 0,
+ "others": [],
+ "cashPerTrade": 1666.6667,
+ "trades": [
+  {
+   "ticker": "COST",
+   "name": "Costco Wholesale Corporation",
+   "sector": "Consumer Defensive",
+   "kind": "near",
+   "pick": {
+    "ticker": "COST",
+    "close": 1110.08,
+    "change": -0.0033,
+    "priorHigh": 1113.74,
+    "breakout": -0.0033,
+    "volumeRatio": 1.3154,
+    "dollarVolume": 3527834100.3418,
+    "high20": 1123.67
+   },
+   "others": [],
+   "earnings": "2026-12-10",
+   "news": [
+    {
+     "title": "Costco (COST) Stock Fair Value Edges Higher As AI Rollout Expands And Lawsuits Emerge",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/costco-cost-stock-fair-value-001518698.html",
+     "time": "2026-11-18T00:15:18+00:00"
+    },
+    {
+     "title": "Costco is benefiting from ‘apocalyptic concerns’ as customers stock up on goods, analysts say",
+     "source": "MarketWatch",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQem9tZXVZeGpsMVdSQXp5dUFaeFplWG1WR25aaVFjSGxRSnJTMENmTWxaQ3p1OEhZeGpHSng0LW1LaTh3cWp2cjJsTzJKN2UxU3J6enBvRmVES21iaFRzbk9Tam9TMnY0eGphOHpJNl81dDVEYlIzYnEtODBRR1AxUlZDOXJhbjFjaWlJTXVGQjZfWG5CaWEyeFVJMnVFdm5oZTlJS2hXeUozVlE2TzZOejdTS3J3MjlodXV0ZkJJaElSQVJLbDR5N3lIUmc5dw?oc=5",
+     "time": "2026-11-17T22:46:00+00:00"
+    },
+    {
+     "title": "Is Costco Wholesale (NASDAQ:COST) Building A Stronger Dividend Story?",
+     "source": "Kalkine Media",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYUtWMS1GcmF1MnM4Wm1uRFpJbEFaWWJxcFNHaG95Q1lQV2JoMXlsYW1Zc0pSdjM3Rk44X0w3bHZrcWlxanRxbEF5UXo3dlRSWHZ4T2J2UndSVmRKSnB3NVFna3ktX2I1R0g1Y21wLUJjYkVCYjdhaWlSSGMzcTlYX3NET0hWRUlNbTloY0R6bm1sdXdhMkpCUTlMWlJxOHEwME92bWRqQkhKTEk?oc=5",
+     "time": "2026-11-17T22:09:00+00:00"
+    },
+    {
+     "title": "Costco Wholesale (NASDAQ:COST) Price Target Raised to $1,150.00",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZ0RoSlppcU13d3VxMGhONHdFMF9KdkM0VEdvY0wtc2I3VlRQaFlmRnNvb3lkZXR0enRuS09fT1hGWjh4Y2FBd2phdFl1M0VXWVhZWU4zSXpKMFZYQXVWeEpmNGtRM0xxZURoTHEtdng1RHU0YjliV0xWN3Z6Y0lLQ1ZibDVIOEVkZ0J0bFVfa3p3LWZNU0wyOW1KR2NjdFllaHd5SmtUUzFQd25pb1AxZUdlYmExZ0t4a2p0Sg?oc=5",
+     "time": "2026-11-17T15:54:27+00:00"
+    },
+    {
+     "title": "Costco Wholesale Corporation (COST) Stock Forecasts",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdFVta3FnbkJvNlY3MHVjTElRRG83RWpqTDU0dmpyMTZZUUV5eDRsNHotSmNWTVRucm1KUlJGWnBWWS1FcWxQTHZiVi1BQ1B0b0hjQzFIVWN0OXdoZ0htZnNqbzJXX0o5dnhYRGw3WnhVQmZENkw4VDNoSUJXekhlTjE1ZzVuRlpDdURnbEZRTQ?oc=5",
+     "time": "2026-11-17T13:36:40+00:00"
+    },
+    {
+     "title": "Costco Wholesale (NASDAQ:COST) Now Covered by Analysts at Stifel Nicolaus",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcEhpZFc0blh5ajZDVHloUEdtRFpNenZfb2xRaG0ybGRCRDdfLXR3dllvT2J0Y290RjV0QWZ2Q05ZcWhWUWVOOG9TeXNmRC1ocDBTZ1NRMGxLcHFGR2lLTkRRWUtLbG1LMHhnLUJGRHRTa0QxN1A1d3FESlFRaFRrdFB2Wm9sbXFIcTJkc3pRanF5R0tQbEk1VUF1MlVDSkh6cFlNY0hIU0JWVGhiWk1YM0JTdTF5N0w3LW5HQXdpWldKcWotN3dWeUY2a0h4Zw?oc=5",
+     "time": "2026-11-17T13:28:40+00:00"
+    },
+    {
+     "title": "Costco Wholesale Corporation $COST Position Raised by HighTower Advisors LLC",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUTh6UXRFMzFSRlg5VkVsYjR4c2xfZnRPUHpFSzd6aWVBZ1hVMExzZW5qZGlHNjFFZThFLUptS3ZVQVZmdWUzOHRwRk1VOXlxdnFHa0lEcW5BYURoUS13UlVXRHpLaU5kSnlZU2pEaEZBd2lzSTZGRXVsVVU5ZVJ6QWEzcHZnYkl6VDZLVWVnbXQ2anJOMjZXRC1FVUxfQVQwdElXX2JjRGlaVmxLR3NBREw1bU1uVnZQSTRxV1hjN1IwM0pYSnJlaFpTaHZLbjJlMXc?oc=5",
+     "time": "2026-11-17T11:13:51+00:00"
+    },
+    {
+     "title": "Costco Wholesale Corporation $COST Stock Acquired by Banco Santander S.A.",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQW5venI5ODBYNV9lNmJRejYxX2U3eFpDbVUwVUdRc3NEbWJ3eFBYZmtMQmtNZGpyajBJZV91bDNRQWFZbFJGbm1UcUpYYnVrN0dFY3FYVnJJWWlNY2lpcUItU2hldmM3a2dLNERaWjctdFNSTXZTQnZ6LW1VNUx0TE1rWmVSclkxNmt4bWxhdm5MRUZfYzVKZTRDY1BkaGt1OUI5SEh0UHZ5NEVPN0R4VDQ5Uk02UVpramFFaEE1a3gwNkJlWEhheE5BZw?oc=5",
+     "time": "2026-11-17T08:21:08+00:00"
+    }
+   ],
+   "plan": {
+    "level": 1123.67,
+    "risk": 9.38,
+    "atr": 18.7551,
+    "stop": 1114.29,
+    "target": 1133.05,
+    "targetR": 1.0,
+    "noEntryBefore": "09:45",
+    "noEntryAfter": "15:30",
+    "flatBy": "15:55",
+    "prevClose": 1110.08
+   },
+   "daily": {
+    "dates": [
+     "2026-10-07",
+     "2026-10-08",
+     "2026-10-09",
+     "2026-10-12",
+     "2026-10-13",
+     "2026-10-14",
+     "2026-10-15",
+     "2026-10-16",
+     "2026-10-19",
+     "2026-10-20",
+     "2026-10-21",
+     "2026-10-22",
+     "2026-10-23",
+     "2026-10-26",
+     "2026-10-27",
+     "2026-10-28",
+     "2026-10-29",
+     "2026-10-30",
+     "2026-11-02",
+     "2026-11-03",
+     "2026-11-04",
+     "2026-11-05",
+     "2026-11-06",
+     "2026-11-09",
+     "2026-11-10",
+     "2026-11-11",
+     "2026-11-12",
+     "2026-11-13",
+     "2026-11-16",
+     "2026-11-17"
+    ],
+    "close": [
+     942.25,
+     947.92,
+     946.92,
+     959.44,
+     954.63,
+     982.0,
+     978.01,
+     989.11,
+     995.53,
+     994.61,
+     998.31,
+     1018.21,
+     1003.32,
+     1005.16,
+     992.13,
+     982.73,
+     996.08,
+     1012.28,
+     1040.55,
+     1019.26,
+     1046.47,
+     1065.59,
+     1053.5601,
+     1066.1801,
+     1066.14,
+     1087.61,
+     1092.21,
+     1106.21,
+     1113.74,
+     1110.08
+    ],
+    "high": [
+     948.77,
+     953.25,
+     951.29,
+     960.74,
+     966.0,
+     982.64,
+     1008.37,
+     993.19,
+     997.43,
+     1003.0,
+     1000.25,
+     1018.86,
+     1021.45,
+     1015.14,
+     1002.82,
+     988.81,
+     996.42,
+     1021.31,
+     1042.5699,
+     1034.77,
+     1053.66,
+     1081.55,
+     1063.02,
+     1067.49,
+     1068.67,
+     1091.92,
+     1102.84,
+     1109.5,
+     1117.0,
+     1123.67
+    ],
+    "low": [
+     937.6,
+     939.6,
+     942.53,
+     946.7,
+     953.78,
+     960.0,
+     977.24,
+     980.67,
+     985.01,
+     991.0,
+     988.47,
+     1001.23,
+     1002.68,
+     999.08,
+     989.04,
+     980.32,
+     984.55,
+     1006.56,
+     1014.34,
+     1019.08,
+     1028.5,
+     1061.0,
+     1043.0,
+     1045.73,
+     1057.38,
+     1071.34,
+     1088.98,
+     1092.64,
+     1104.89,
+     1108.6801
+    ]
+   },
+   "timemachine": {
+    "replay": {
+     "replays": 10000,
+     "seed": 19,
+     "startTime": "9:50",
+     "bars": 73,
+     "target": 0.3421,
+     "stop": 0.2661,
+     "neither": 0.3918,
+     "green": 0.5366,
+     "avgR": 0.0768,
+     "closeMedian": 1123.6288,
+     "closeP5": 1117.2604,
+     "closeP95": 1130.3419,
+     "verdict": [
+      "목표가 쪽으로 기울어짐: 목표가 먼저 56% vs 손익분기 50%."
+     ]
+    },
+    "history": {
+     "sessions": 60,
+     "fired": 16,
+     "target": 6,
+     "stop": 1,
+     "neither": 9,
+     "avgR": 0.2414,
+     "trades": [
+      {
+       "date": "2026-10-07",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": -0.1123
+      },
+      {
+       "date": "2026-10-08",
+       "entryTime": "11:40",
+       "outcome": "close",
+       "r": -0.1833
+      },
+      {
+       "date": "2026-10-12",
+       "entryTime": "10:25",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-10-13",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": -0.8438
+      },
+      {
+       "date": "2026-10-14",
+       "entryTime": "9:55",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-10-15",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-10-22",
+       "entryTime": "10:30",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-02",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-04",
+       "entryTime": "10:45",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-05",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-11",
+       "entryTime": "14:45",
+       "outcome": "close",
+       "r": 0.4282
+      },
+      {
+       "date": "2026-11-12",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": 0.0015
+      },
+      {
+       "date": "2026-11-13",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": -0.0313
+      },
+      {
+       "date": "2026-11-16",
+       "entryTime": "10:20",
+       "outcome": "close",
+       "r": 0.049
+      },
+      {
+       "date": "2026-11-17",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": -0.8958
+      }
+     ]
+    }
+   },
+   "ticket": {
+    "account": 5000.0,
+    "cash": 1666.6667,
+    "maxLoss": 50.0,
+    "shares": 1,
+    "limitedBy": "현금",
+    "entry": 1123.67,
+    "stop": 1114.29,
+    "target": 1133.05,
+    "cost": 1123.67,
+    "lossAtStop": 9.38,
+    "gainAtTarget": 9.38,
+    "paper": true
+   },
+   "result": null
+  },
+  {
+   "ticker": "KO",
+   "name": "The Coca-Cola Company",
+   "sector": "Consumer Defensive",
+   "kind": "near",
+   "pick": {
+    "ticker": "KO",
+    "close": 98.79,
+    "change": -0.0069,
+    "priorHigh": 99.48,
+    "breakout": -0.0069,
+    "volumeRatio": 1.0341,
+    "dollarVolume": 1879519283.4183,
+    "high20": 100.56
+   },
+   "others": [],
+   "earnings": "2026-10-27",
+   "news": [
+    {
+     "title": "Coca-Cola (KO) Named a 2027 Best Idea by TD Cowen",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-named-2027-232431419.html",
+     "time": "2026-11-17T23:24:31+00:00"
+    },
+    {
+     "title": "Coca-Cola Stock (KO) May Struggle to Repeat Its Strong 2026 Performance",
+     "source": "TipRanks",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-stock-ko-may-213800936.html",
+     "time": "2026-11-17T21:38:00+00:00"
+    },
+    {
+     "title": "Is Coca-Cola (NYSE:KO) Well Placed For Dividend?",
+     "source": "Kalkine Media",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQzMzcHhZZW9kUHFpa092aG5mZFpSd2syTllRbVl5cGptS2JMazV1cmgtRmVXV1dTSnNNaE5pUnhNNkxNOTFtUFhnUUcydC1uT1g1OUR3Qk5scmRyOWU3YVZNTktYSEpPZFpZNGdFazB1WmlSWkt1bkdBaEFsR1NYZEVJT2tiZ2k2WVBldE5DUW9JUQ?oc=5",
+     "time": "2026-11-17T20:49:00+00:00"
+    },
+    {
+     "title": "How Is Coca-Cola's Packaging Strategy Supporting Growth?",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVHA3NDd2bUx6VzdRV3pvc1VHNERHbXhLLVlBNWJVM3lnTFRHRzFBZ0lIUTBXdXZWcmhsd0lFR3pFdk1KTDkxeFlSODVaTDNXdTVPSkJLTFpINjJmTk50QzVHNDFuR0tQcG1oVkxDTlRYTzJSX2dYNzBlY0R1VzNrb0xnMm4wd1RHTGl6SVhWRlp3ZXd5emNqc3RWV0RnRXcyY3RNUE5oRHZkVGQ1UEJheQ?oc=5",
+     "time": "2026-11-17T18:37:31+00:00"
+    },
+    {
+     "title": "Coca-Cola (NYSE:KO) Stock Gets Price Target Bump from TD Cowen",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQXzUxX1o1c1dKbnR1c210LUNBSHJwUWRjRVBqaFBEd3RPSmJQaXk3WnVEcWs2bUhyV3NZNHdEbjRQVmppV1NBZW9fd3hfRWREZG91SFBVazZYVTQ0SW1xVm1xV1IzOC0zMjVNZUV2UFRWN1NvMWJBelkyS1JyMFVGMHdIY2NRWVl1N1FuRFo2MjAxSDlwTjdsdkE1Q2hWSlk5amJZbk4wTG92YU5jQUpqQlhzWDkya3d2YTZyNmNfcw?oc=5",
+     "time": "2026-11-17T15:04:10+00:00"
+    },
+    {
+     "title": "Coca-Cola stock: TD Cowen lifts target to USD 112",
+     "source": "ad-hoc-news.de",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTzdTMjZDTlctWXNOUWQtNWREY1lsdHpPeU44dTlON21VZ3hoZi15S1BZRVo0WThFVGxDeG5YbDdQSGZJUHZFZ0hSMXg2MVdILVppeFJQTE8tNGJRQVc2Q0MycUdEUGh5VDQtRnQ0MFEwRmFsZk9JYmVramJoV0UyY1Q0akRvMkdMYWVVOWRLRnUzbDFfcmhZUkZSRFA1TVozV0xIRmFpSW9rc29LUmNveA?oc=5",
+     "time": "2026-11-17T14:55:44+00:00"
+    },
+    {
+     "title": "Coca-Cola is a top pick at TD Cowen as the organic growth story continues (KO:NYSE)",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa3lodlRUaFNLaXlZZndYVWZldUY3UFNyQ1ppVEtMOVpZeG16ZV9fc2MzbjJpVTZocWtFSEF0TFNVZ3JGNnVQVHI5Sm5tYm0zZVluYkptZi00Um9LemJJUjJuZHlRT2xCcjhERGk1em9rT3pYNEtrekZ1N1RVR2V1V3hlQzRqRWpoNHFib0JCeUxkdThtaW1MZ3J1Z1dMT2RUQUZIOWxMTEh4a2xMYmRfSw?oc=5",
+     "time": "2026-11-17T13:48:45+00:00"
+    },
+    {
+     "title": "Coca-Cola stock: TD Cowen raises price target to USD 112",
+     "source": "ad-hoc-news.de",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUnVnSXljTVJVX3gxdVQ0MFRrT1BhOXlqeGY2WmEzcmh0a1ZWMTBkdXdwajdqUjE1aVY4NUs5OHZ3c2RZeWdxWGZGXzVfUGpaTU9HMTRfRUJzUlVOM2lRWlhkUndmN1R6TEFZSWd0LWt2ZWhkb3VCSFh3bXlGMW8xUlVuT1RZMGxJLWxRUGFrS2pqa3lqcWNBMS1Sak5ZSlQxalg5Ty1OaUNvY1kyR29NR0tuS2h0T2dFMXc?oc=5",
+     "time": "2026-11-17T11:53:01+00:00"
+    }
+   ],
+   "plan": {
+    "level": 100.56,
+    "risk": 0.84,
+    "atr": 1.6712,
+    "stop": 99.72,
+    "target": 101.4,
+    "targetR": 1.0,
+    "noEntryBefore": "09:45",
+    "noEntryAfter": "15:30",
+    "flatBy": "15:55",
+    "prevClose": 98.79
+   },
+   "daily": {
+    "dates": [
+     "2026-10-07",
+     "2026-10-08",
+     "2026-10-09",
+     "2026-10-12",
+     "2026-10-13",
+     "2026-10-14",
+     "2026-10-15",
+     "2026-10-16",
+     "2026-10-19",
+     "2026-10-20",
+     "2026-10-21",
+     "2026-10-22",
+     "2026-10-23",
+     "2026-10-26",
+     "2026-10-27",
+     "2026-10-28",
+     "2026-10-29",
+     "2026-10-30",
+     "2026-11-02",
+     "2026-11-03",
+     "2026-11-04",
+     "2026-11-05",
+     "2026-11-06",
+     "2026-11-09",
+     "2026-11-10",
+     "2026-11-11",
+     "2026-11-12",
+     "2026-11-13",
+     "2026-11-16",
+     "2026-11-17"
+    ],
+    "close": [
+     85.82,
+     87.77,
+     88.05,
+     89.79,
+     90.11,
+     91.78,
+     92.0,
+     93.9,
+     93.42,
+     93.49,
+     92.68,
+     95.34,
+     92.71,
+     92.7,
+     91.18,
+     91.73,
+     92.82,
+     94.08,
+     95.83,
+     94.8,
+     95.8,
+     95.73,
+     95.67,
+     96.03,
+     96.91,
+     97.57,
+     97.44,
+     99.25,
+     99.48,
+     98.79
+    ],
+    "high": [
+     86.96,
+     88.04,
+     88.48,
+     89.8,
+     90.56,
+     91.93,
+     94.1,
+     93.9,
+     93.99,
+     93.96,
+     93.46,
+     95.37,
+     95.05,
+     92.88,
+     92.95,
+     92.36,
+     93.16,
+     95.08,
+     96.26,
+     95.49,
+     96.56,
+     97.39,
+     96.31,
+     96.06,
+     96.99,
+     97.83,
+     98.38,
+     99.3,
+     100.56,
+     99.61
+    ],
+    "low": [
+     85.67,
+     86.08,
+     87.39,
+     88.42,
+     89.67,
+     90.55,
+     91.72,
+     92.81,
+     92.56,
+     92.64,
+     92.55,
+     93.6,
+     92.64,
+     91.94,
+     90.81,
+     90.58,
+     92.03,
+     93.95,
+     94.28,
+     94.18,
+     94.35,
+     95.47,
+     93.0,
+     94.72,
+     95.86,
+     95.65,
+     97.38,
+     97.96,
+     99.08,
+     98.53
+    ]
+   },
+   "timemachine": {
+    "replay": {
+     "replays": 10000,
+     "seed": 19,
+     "startTime": "10:00",
+     "bars": 71,
+     "target": 0.2805,
+     "stop": 0.2037,
+     "neither": 0.5158,
+     "green": 0.5244,
+     "avgR": 0.0616,
+     "closeMedian": 100.5299,
+     "closeP5": 99.9396,
+     "closeP95": 101.139,
+     "verdict": [
+      "목표가 쪽으로 기울어짐: 목표가 먼저 58% vs 손익분기 50%.",
+      "리플레이의 52%는 청산 시각까지 어느 쪽에도 닿지 않아, 마감 직전 가격이 결과를 정합니다."
+     ]
+    },
+    "history": {
+     "sessions": 60,
+     "fired": 11,
+     "target": 3,
+     "stop": 3,
+     "neither": 5,
+     "avgR": 0.0527,
+     "trades": [
+      {
+       "date": "2026-10-13",
+       "entryTime": "10:00",
+       "outcome": "close",
+       "r": 0.4444
+      },
+      {
+       "date": "2026-10-14",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-10-15",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-10-22",
+       "entryTime": "10:15",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-02",
+       "entryTime": "12:30",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-04",
+       "entryTime": "11:40",
+       "outcome": "close",
+       "r": 0.2702
+      },
+      {
+       "date": "2026-11-05",
+       "entryTime": "10:00",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-11-11",
+       "entryTime": "15:10",
+       "outcome": "close",
+       "r": 0.1257
+      },
+      {
+       "date": "2026-11-12",
+       "entryTime": "10:10",
+       "outcome": "close",
+       "r": -0.5559
+      },
+      {
+       "date": "2026-11-13",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": 0.2956
+      },
+      {
+       "date": "2026-11-16",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      }
+     ]
+    }
+   },
+   "ticket": {
+    "account": 5000.0,
+    "cash": 1666.6667,
+    "maxLoss": 50.0,
+    "shares": 16,
+    "limitedBy": "현금",
+    "entry": 100.56,
+    "stop": 99.72,
+    "target": 101.4,
+    "cost": 1608.96,
+    "lossAtStop": 13.44,
+    "gainAtTarget": 13.44,
+    "paper": true
+   },
+   "result": null
+  },
+  {
+   "ticker": "ABBV",
+   "name": "AbbVie Inc.",
+   "sector": "Healthcare",
+   "kind": "near",
+   "pick": {
+    "ticker": "ABBV",
+    "close": 292.82,
+    "change": -0.0059,
+    "priorHigh": 295.03,
+    "breakout": -0.0075,
+    "volumeRatio": 0.7564,
+    "dollarVolume": 1155877696.9116,
+    "high20": 302.93
+   },
+   "others": [],
+   "earnings": "2026-10-30",
+   "news": [
+    {
+     "title": "How Did AbbVie's Neuroscience Franchise Perform in Q3?",
+     "source": "Zacks",
+     "link": "https://finance.yahoo.com/healthcare/articles/did-abbvies-neuroscience-franchise-perform-170300712.html",
+     "time": "2026-11-17T17:03:00+00:00"
+    },
+    {
+     "title": "Drug and Gene Delivery Devices - Global Strategic Business Report 2026: Capitalize on 8.1% CAGR to Secure the $1.2 Billion Market by 2032 as AbbVie, Moderna, Pfizer and Novartis Accelerate",
+     "source": "GlobeNewswire",
+     "link": "https://finance.yahoo.com/healthcare/articles/drug-gene-delivery-devices-global-150200572.html",
+     "time": "2026-11-17T15:02:00+00:00"
+    },
+    {
+     "title": "Here is What to Know Beyond Why AbbVie Inc. (ABBV) is a Trending Stock",
+     "source": "Zacks",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-abbvie-inc-130003076.html",
+     "time": "2026-11-17T13:00:03+00:00"
+    },
+    {
+     "title": "AbbVie Is Up 27% in a Year. Barclays Sees Another 14%",
+     "source": "TIKR",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/abbvie-27-barclays-sees-another-125317581.html",
+     "time": "2026-11-17T12:53:17+00:00"
+    },
+    {
+     "title": "Barclays Reaffirms Their Buy Rating on AbbVie (ABBV)",
+     "source": "The Globe and Mail",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOG1nZHlBZHc4RlJVMmFzTFlxc3dSVlM3N3BZTDJacE9wNlg4MGRGRHZkcmY4QWw5N2REaEZ3ZXJieWlMOWJDN1BxZlhWT2x6OGRFa2xJajhndUIzUDRNTGFDbHRTQXhVTzlaVFpYSXAzT3VXVXVENXg0YUM1VUwyRlJjYXJuTE5zbEowclJEeXNtTjRlSmpqemZES0NGOC1EazNLTm5mRWZzQU5vUFlKUlo0U0I0SWVVR2lXc0FUV1h0OHJyZjF6c3BtaldmRDF0dEI0?oc=5",
+     "time": "2026-11-17T09:52:53+00:00"
+    },
+    {
+     "title": "AbbVie (ABBV) Expands Its Pipeline With New AI Drug Discovery Partnerships",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/healthcare/articles/abbvie-abbv-expands-pipeline-ai-181657639.html",
+     "time": "2026-11-16T18:16:57+00:00"
+    },
+    {
+     "title": "ABBVIE INC. (ABBV.SN) Stock Major Holders - Yahoo Finance",
+     "source": "Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxbnlhQzBNVFFKQTA1eHlYa0RWQVltMDduUVJkTEtaWHFlT1J6bUd4VW1RX1JUR1hSci1XNGRmRUh0NGhzTHBCZmt6T0hIV1BUNHFha2lWamU3SjhqNm5wQg?oc=5",
+     "time": "2026-11-15T20:25:16+00:00"
+    },
+    {
+     "title": "ABBVIE INC. (ABBV.SN) interactive stock chart",
+     "source": "Yahoo Finance UK",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE05aTl4WjdPeEhCVXA0LURNWU45ZlR0UTc1ZXY1dlVzMGJnc1lLSHpUMUNRSWtmZUFoVkZVX3dDeVNWR2hKUUo1QjVBNGpFQUxnZzEzcUxIRkx1SjlwdUE?oc=5",
+     "time": "2026-11-14T15:03:04+00:00"
+    }
+   ],
+   "plan": {
+    "level": 302.93,
+    "risk": 3.33,
+    "atr": 6.6552,
+    "stop": 299.6,
+    "target": 306.26,
+    "targetR": 1.0,
+    "noEntryBefore": "09:45",
+    "noEntryAfter": "15:30",
+    "flatBy": "15:55",
+    "prevClose": 292.82
+   },
+   "daily": {
+    "dates": [
+     "2026-10-07",
+     "2026-10-08",
+     "2026-10-09",
+     "2026-10-12",
+     "2026-10-13",
+     "2026-10-14",
+     "2026-10-15",
+     "2026-10-16",
+     "2026-10-19",
+     "2026-10-20",
+     "2026-10-21",
+     "2026-10-22",
+     "2026-10-23",
+     "2026-10-26",
+     "2026-10-27",
+     "2026-10-28",
+     "2026-10-29",
+     "2026-10-30",
+     "2026-11-02",
+     "2026-11-03",
+     "2026-11-04",
+     "2026-11-05",
+     "2026-11-06",
+     "2026-11-09",
+     "2026-11-10",
+     "2026-11-11",
+     "2026-11-12",
+     "2026-11-13",
+     "2026-11-16",
+     "2026-11-17"
+    ],
+    "close": [
+     271.36,
+     272.42,
+     276.47,
+     281.12,
+     274.36,
+     283.48,
+     283.4,
+     285.42,
+     282.68,
+     289.08,
+     284.8,
+     285.19,
+     285.64,
+     286.74,
+     286.39,
+     285.99,
+     290.79,
+     294.89,
+     288.84,
+     286.0,
+     294.83,
+     288.24,
+     291.31,
+     293.3,
+     293.89,
+     294.98,
+     294.45,
+     295.03,
+     294.55,
+     292.82
+    ],
+    "high": [
+     274.94,
+     272.52,
+     277.6,
+     281.3,
+     283.43,
+     285.4,
+     291.4,
+     286.64,
+     287.93,
+     290.98,
+     289.0,
+     285.76,
+     286.77,
+     289.59,
+     287.32,
+     288.8,
+     292.67,
+     298.74,
+     294.86,
+     291.32,
+     295.4,
+     302.93,
+     291.73,
+     294.57,
+     294.5,
+     295.46,
+     300.42,
+     297.25,
+     301.2,
+     294.06
+    ],
+    "low": [
+     266.89,
+     265.71,
+     270.38,
+     276.01,
+     273.7,
+     275.97,
+     282.81,
+     282.96,
+     282.59,
+     285.0,
+     282.15,
+     278.01,
+     282.3,
+     285.18,
+     283.12,
+     281.23,
+     288.04,
+     291.01,
+     286.14,
+     284.7,
+     283.32,
+     287.71,
+     281.07,
+     289.59,
+     291.04,
+     289.73,
+     294.07,
+     293.56,
+     293.97,
+     291.0
+    ]
+   },
+   "timemachine": {
+    "replay": {
+     "replays": 10000,
+     "seed": 19,
+     "startTime": "9:50",
+     "bars": 73,
+     "target": 0.3072,
+     "stop": 0.3054,
+     "neither": 0.3874,
+     "green": 0.4989,
+     "avgR": 0.0032,
+     "closeMedian": 302.9072,
+     "closeP5": 300.5691,
+     "closeP95": 305.3891,
+     "verdict": [
+      "손익분기 근처: 한쪽에 닿은 경우 중 목표가 먼저 50% (손익분기 50%)."
+     ]
+    },
+    "history": {
+     "sessions": 60,
+     "fired": 9,
+     "target": 2,
+     "stop": 4,
+     "neither": 3,
+     "avgR": -0.1574,
+     "trades": [
+      {
+       "date": "2026-09-23",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-10-07",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-10-09",
+       "entryTime": "10:00",
+       "outcome": "close",
+       "r": 0.2666
+      },
+      {
+       "date": "2026-10-12",
+       "entryTime": "9:55",
+       "outcome": "close",
+       "r": 0.4491
+      },
+      {
+       "date": "2026-10-14",
+       "entryTime": "11:15",
+       "outcome": "close",
+       "r": -0.1325
+      },
+      {
+       "date": "2026-10-15",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-10-29",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-10-30",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-11-05",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      }
+     ]
+    }
+   },
+   "ticket": {
+    "account": 5000.0,
+    "cash": 1666.6667,
+    "maxLoss": 50.0,
+    "shares": 5,
+    "limitedBy": "현금",
+    "entry": 302.93,
+    "stop": 299.6,
+    "target": 306.26,
+    "cost": 1514.65,
+    "lossAtStop": 16.65,
+    "gainAtTarget": 16.65,
+    "paper": true
+   },
+   "result": null
+  }
+ ]
+}

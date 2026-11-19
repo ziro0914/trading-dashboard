@@ -1,0 +1,55 @@
+{
+ "date": "2026-11-18",
+ "buy": [
+  {
+   "ticker": "KDK",
+   "company": "Kodiak AI Inc",
+   "shares": 506083,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "SCTX",
+   "company": "Scribe Therapeutics Inc",
+   "shares": 11539,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "WGS",
+   "company": "GeneDx Holdings Corp.",
+   "shares": 4319,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "TWST",
+   "company": "Twist Bioscience Corporation",
+   "shares": 2835,
+   "funds": [
+    "ARKG"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "BYDDY",
+   "company": "BYD Company Limited",
+   "shares": 59498,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "KSPI",
+   "company": "Kaspi.kz AO",
+   "shares": 4403,
+   "funds": [
+    "ARKF"
+   ]
+  }
+ ]
+}

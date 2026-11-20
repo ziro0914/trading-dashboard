@@ -1,0 +1,168 @@
+{
+ "start": "2026-11-20",
+ "end": "2026-11-20",
+ "netBuy": [
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 97835151.0,
+   "sell": 9415742.0,
+   "net": 88419409.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 74862681.0,
+   "sell": 17946058.0,
+   "net": 56916623.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US22788C1053",
+   "name": "CROWDSTRIKE HOLDINGS CL A ORD",
+   "buy": 19673677.0,
+   "sell": 132099.0,
+   "net": 19541579.0,
+   "ticker": "CRWD"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 19550135.0,
+   "sell": 1128796.0,
+   "net": 18421339.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 20632473.0,
+   "sell": 4036406.0,
+   "net": 16596067.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US46222L1089",
+   "name": "IONQ INC. CL.A   DL- 0001",
+   "buy": 17955093.0,
+   "sell": 1733551.0,
+   "net": 16221542.0,
+   "ticker": "IONQ"
+  },
+  {
+   "isin": "US11135F1012",
+   "name": "BROADCOM INC EXOF 005644980 SG9999014823",
+   "buy": 18388877.0,
+   "sell": 4691189.0,
+   "net": 13697687.0,
+   "ticker": "AVGO"
+  },
+  {
+   "isin": "US46090E1038",
+   "name": "INVESCO QQQ TRUST SRS 1 ETF",
+   "buy": 14270575.0,
+   "sell": 1166927.0,
+   "net": 13103649.0,
+   "ticker": "QQQ"
+  },
+  {
+   "isin": "US03831W1080",
+   "name": "APPLOVIN CL A ORD",
+   "buy": 12800855.0,
+   "sell": 342376.0,
+   "net": 12458479.0,
+   "ticker": "APP"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 11710847.0,
+   "sell": 1705711.0,
+   "net": 10005137.0,
+   "ticker": "GOOGL"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 1386315.0,
+   "sell": 16069525.0,
+   "net": -14683210.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 7569411.0,
+   "sell": 22061679.0,
+   "net": -14492268.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 6633323.0,
+   "sell": 16756010.0,
+   "net": -10122687.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "US78392B2060",
+   "name": "SK HYNIX INC SPON ADS EACH REP 0.1 SHS WI",
+   "buy": 1700926.0,
+   "sell": 7295037.0,
+   "net": -5594112.0,
+   "ticker": "SKHY"
+  },
+  {
+   "isin": "US58933Y1055",
+   "name": "MERCK N CO INC",
+   "buy": 62745.0,
+   "sell": 5552614.0,
+   "net": -5489868.0,
+   "ticker": "MRK"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 1526177.0,
+   "sell": 6960286.0,
+   "net": -5434109.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US60770K1079",
+   "name": "MODERNA INC",
+   "buy": 90212.0,
+   "sell": 5272641.0,
+   "net": -5182429.0,
+   "ticker": "MRNA"
+  },
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 4373529.0,
+   "sell": 9302802.0,
+   "net": -4929274.0,
+   "ticker": "MRVL"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 3023856.0,
+   "sell": 7906540.0,
+   "net": -4882684.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US03823U1025",
+   "name": "APPLIED OPTOELECTRONICS INC",
+   "buy": 100788.0,
+   "sell": 4554558.0,
+   "net": -4453770.0,
+   "ticker": "AAOI"
+  }
+ ]
+}

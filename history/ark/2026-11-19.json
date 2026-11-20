@@ -1,0 +1,110 @@
+{
+ "date": "2026-11-19",
+ "buy": [
+  {
+   "ticker": "ANT",
+   "company": "Anthropic, PBC",
+   "shares": 934968,
+   "funds": [
+    "ARKK",
+    "ARKQ",
+    "ARKW",
+    "ARKG",
+    "ARKF",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "KDK",
+   "company": "Kodiak AI Inc",
+   "shares": 882530,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "WGS",
+   "company": "GeneDx Holdings Corp.",
+   "shares": 38858,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "TWST",
+   "company": "Twist Bioscience Corporation",
+   "shares": 18151,
+   "funds": [
+    "ARKG"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "ETHQ.U",
+   "company": "3iQ Ether Staking ETF",
+   "shares": 425000,
+   "funds": [
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "SOLQ.U",
+   "company": "3iQ Solana Staking ETF",
+   "shares": 200000,
+   "funds": [
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "ADPT",
+   "company": "Adaptive Biotechnologies Corporation",
+   "shares": 93430,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "company": "NVIDIA Corporation",
+   "shares": 33430,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "CDNA",
+   "company": "CareDx, Inc.",
+   "shares": 28095,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "GRMN",
+   "company": "Garmin Ltd.",
+   "shares": 2803,
+   "funds": [
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "HEI",
+   "company": "HEICO Corporation",
+   "shares": 2134,
+   "funds": [
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "LLY",
+   "company": "Eli Lilly and Company",
+   "shares": 2094,
+   "funds": [
+    "ARKG"
+   ]
+  }
+ ]
+}

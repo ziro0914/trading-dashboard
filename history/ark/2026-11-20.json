@@ -1,0 +1,196 @@
+{
+ "date": "2026-11-20",
+ "buy": [
+  {
+   "ticker": "ANT",
+   "company": "Anthropic, PBC",
+   "shares": 705982,
+   "funds": [
+    "ARKK",
+    "ARKQ",
+    "ARKW",
+    "ARKG",
+    "ARKF",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "CRWV",
+   "company": "CoreWeave, Inc.",
+   "shares": 549659,
+   "funds": [
+    "ARKK",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "CBRS",
+   "company": "Cerebras Systems Inc",
+   "shares": 256720,
+   "funds": [
+    "ARKK",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "SPCX",
+   "company": "Space Exploration Technologies Corp",
+   "shares": 174991,
+   "funds": [
+    "ARKK",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "TWST",
+   "company": "Twist Bioscience Corporation",
+   "shares": 97284,
+   "funds": [
+    "ARKK",
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "AMD",
+   "company": "Advanced Micro Devices, Inc.",
+   "shares": 49745,
+   "funds": [
+    "ARKK",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "KDK",
+   "company": "Kodiak AI Inc",
+   "shares": 28151,
+   "funds": [
+    "ARKQ"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "ETHQ.U",
+   "company": "3iQ Ether Staking ETF",
+   "shares": 425000,
+   "funds": [
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "RBLX",
+   "company": "Roblox Corporation",
+   "shares": 161616,
+   "funds": [
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "SOLQ.U",
+   "company": "3iQ Solana Staking ETF",
+   "shares": 150000,
+   "funds": [
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "NVDA",
+   "company": "NVIDIA Corporation",
+   "shares": 135760,
+   "funds": [
+    "ARKK",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "ADPT",
+   "company": "Adaptive Biotechnologies Corporation",
+   "shares": 65089,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "BLSH",
+   "company": "Bullish",
+   "shares": 63361,
+   "funds": [
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "NTRA",
+   "company": "Natera, Inc.",
+   "shares": 44899,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "AMZN",
+   "company": "Amazon.com Inc",
+   "shares": 37002,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "TEM",
+   "company": "Tempus AI, Inc.",
+   "shares": 32142,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "HOOD",
+   "company": "Robinhood Markets, Inc.",
+   "shares": 23877,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "CDNA",
+   "company": "CareDx, Inc.",
+   "shares": 22964,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "GH",
+   "company": "Guardant Health, Inc.",
+   "shares": 21408,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "DDOG",
+   "company": "Datadog Inc",
+   "shares": 19604,
+   "funds": [
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "AVGO",
+   "company": "Broadcom Inc",
+   "shares": 19314,
+   "funds": [
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "BYDDY",
+   "company": "BYD Company Limited",
+   "shares": 17642,
+   "funds": [
+    "ARKQ"
+   ]
+  }
+ ]
+}

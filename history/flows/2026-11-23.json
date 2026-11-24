@@ -1,0 +1,168 @@
+{
+ "start": "2026-11-23",
+ "end": "2026-11-23",
+ "netBuy": [
+  {
+   "isin": "US03703U1079",
+   "name": "ANTHROPIC PBC-CL A",
+   "buy": 208436788.0,
+   "sell": 8749637.0,
+   "net": 199687151.0,
+   "ticker": "ANT"
+  },
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 195638575.0,
+   "sell": 46436324.0,
+   "net": 149202251.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 49538726.0,
+   "sell": 3435930.0,
+   "net": 46102796.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 56109653.0,
+   "sell": 10843492.0,
+   "net": 45266161.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 63014114.0,
+   "sell": 25810317.0,
+   "net": 37203797.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 59988515.0,
+   "sell": 25217034.0,
+   "net": 34771481.0,
+   "ticker": "AMD"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 26322217.0,
+   "sell": 2450216.0,
+   "net": 23872001.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US78433H6751",
+   "name": "NEOS NASDAQ 100 HIGH INCOME ETF",
+   "buy": 22028434.0,
+   "sell": 504696.0,
+   "net": 21523737.0,
+   "ticker": "QQQI"
+  },
+  {
+   "isin": "US03831W1080",
+   "name": "APPLOVIN CL A ORD",
+   "buy": 19308613.0,
+   "sell": 770022.0,
+   "net": 18538590.0,
+   "ticker": "APP"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 22181279.0,
+   "sell": 7261582.0,
+   "net": 14919697.0,
+   "ticker": "MU"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 12316702.0,
+   "sell": 29091600.0,
+   "net": -16774897.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 12156019.0,
+   "sell": 22011530.0,
+   "net": -9855510.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 1148664.0,
+   "sell": 10817565.0,
+   "net": -9668902.0,
+   "ticker": "MSFT"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 6004771.0,
+   "sell": 13961257.0,
+   "net": -7956486.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US11135F1012",
+   "name": "BROADCOM INC EXOF 005644980 SG9999014823",
+   "buy": 3082306.0,
+   "sell": 8679998.0,
+   "net": -5597692.0,
+   "ticker": "AVGO"
+  },
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 3771290.0,
+   "sell": 8766781.0,
+   "net": -4995491.0,
+   "ticker": "MRVL"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 2373796.0,
+   "sell": 7284554.0,
+   "net": -4910758.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US5324571083",
+   "name": "ELI LILLY & CO",
+   "buy": 159861.0,
+   "sell": 4624109.0,
+   "net": -4464247.0,
+   "ticker": "LLY"
+  },
+  {
+   "isin": "US46641Q3323",
+   "name": "JP MORGAN EQUITY PREMIUM INCOME ETF",
+   "buy": 988591.0,
+   "sell": 5340792.0,
+   "net": -4352201.0,
+   "ticker": "JEPI"
+  },
+  {
+   "isin": "US74350P6759",
+   "name": "PROSHARES ULTRAPRO SHORT QQ ULTRAPRO SHORT QQQ NEW SPLR 987751298 US74347G1922",
+   "buy": 8200185.0,
+   "sell": 12336882.0,
+   "net": -4136697.0,
+   "ticker": "SQQQ"
+  }
+ ]
+}

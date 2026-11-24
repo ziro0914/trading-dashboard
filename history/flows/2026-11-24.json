@@ -1,0 +1,168 @@
+{
+ "start": "2026-11-24",
+ "end": "2026-11-24",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 524759889.0,
+   "sell": 37075245.0,
+   "net": 487684644.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 93132998.0,
+   "sell": 5911496.0,
+   "net": 87221502.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 71969010.0,
+   "sell": 5416956.0,
+   "net": 66552054.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US03703U1079",
+   "name": "ANTHROPIC PBC-CL A",
+   "buy": 62111113.0,
+   "sell": 14563419.0,
+   "net": 47547694.0,
+   "ticker": "ANT"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 87219360.0,
+   "sell": 68821451.0,
+   "net": 18397909.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US46138G6492",
+   "name": "INVESCO NASDAQ 100 ETF",
+   "buy": 22835925.0,
+   "sell": 5595664.0,
+   "net": 17240261.0,
+   "ticker": "QQQM"
+  },
+  {
+   "isin": "US6974351057",
+   "name": "PALO ALTO NETWORKS INC",
+   "buy": 14285503.0,
+   "sell": 1077495.0,
+   "net": 13208008.0,
+   "ticker": "PANW"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 23256671.0,
+   "sell": 12397911.0,
+   "net": 10858760.0,
+   "ticker": "SOXX"
+  },
+  {
+   "isin": "US46152A6689",
+   "name": "TRADR 2X LONG SNDK DAILY ETF",
+   "buy": 8903058.0,
+   "sell": 290802.0,
+   "net": 8612256.0,
+   "ticker": "SNXX"
+  },
+  {
+   "isin": "US46090E1038",
+   "name": "INVESCO QQQ TRUST SRS 1 ETF",
+   "buy": 19074923.0,
+   "sell": 12444593.0,
+   "net": 6630329.0,
+   "ticker": "QQQ"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US58933Y1055",
+   "name": "MERCK N CO INC",
+   "buy": 32723.0,
+   "sell": 78503801.0,
+   "net": -78471078.0,
+   "ticker": "MRK"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 9844982.0,
+   "sell": 69874067.0,
+   "net": -60029085.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US0937121079",
+   "name": "BLOOM ENERGY CORP CL A",
+   "buy": 1438396.0,
+   "sell": 49508879.0,
+   "net": -48070483.0,
+   "ticker": "BE"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 7052278.0,
+   "sell": 41580695.0,
+   "net": -34528417.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US0079031078",
+   "name": "ADVANCED MICRO DEVICES INC",
+   "buy": 4081715.0,
+   "sell": 28725405.0,
+   "net": -24643690.0,
+   "ticker": "AMD"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 6926446.0,
+   "sell": 28013327.0,
+   "net": -21086881.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US02079K3059",
+   "name": "ALPHABET INC CL A",
+   "buy": 5823450.0,
+   "sell": 26826202.0,
+   "net": -21002752.0,
+   "ticker": "GOOGL"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 8356337.0,
+   "sell": 25777012.0,
+   "net": -17420675.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US8085247976",
+   "name": "SCHWAB US DIVIDEND EQUITY ETF",
+   "buy": 2348873.0,
+   "sell": 19321625.0,
+   "net": -16972751.0,
+   "ticker": "SCHD"
+  },
+  {
+   "isin": "US21873S1087",
+   "name": "CoreWeave Inc",
+   "buy": 269485.0,
+   "sell": 14681037.0,
+   "net": -14411552.0,
+   "ticker": "CRWV"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "date": "2026-11-23",
+ "buy": [
+  {
+   "ticker": "RXRX",
+   "company": "Recursion Pharmaceuticals, Inc.",
+   "shares": 1586642,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "KDK",
+   "company": "Kodiak AI Inc",
+   "shares": 345891,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "BEAM",
+   "company": "Beam Therapeutics Inc.",
+   "shares": 127648,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "CRSP",
+   "company": "CRISPR Therapeutics AG",
+   "shares": 102828,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "WGS",
+   "company": "GeneDx Holdings Corp.",
+   "shares": 50006,
+   "funds": [
+    "ARKK"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "ETHQ.U",
+   "company": "3iQ Ether Staking ETF",
+   "shares": 150000,
+   "funds": [
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "SOLQ.U",
+   "company": "3iQ Solana Staking ETF",
+   "shares": 75000,
+   "funds": [
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "BYDDY",
+   "company": "BYD Company Limited",
+   "shares": 6055,
+   "funds": [
+    "ARKQ"
+   ]
+  }
+ ]
+}

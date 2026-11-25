@@ -1,0 +1,203 @@
+{
+ "date": "2026-11-24",
+ "buy": [
+  {
+   "ticker": "ANT",
+   "company": "Anthropic, PBC",
+   "shares": 751710,
+   "funds": [
+    "ARKK",
+    "ARKQ",
+    "ARKW",
+    "ARKG",
+    "ARKF",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "CRSP",
+   "company": "CRISPR Therapeutics AG",
+   "shares": 132475,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "BEAM",
+   "company": "Beam Therapeutics Inc.",
+   "shares": 132193,
+   "funds": [
+    "ARKK",
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "WGS",
+   "company": "GeneDx Holdings Corp.",
+   "shares": 77238,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "GOOG",
+   "company": "Alphabet Inc.",
+   "shares": 62681,
+   "funds": [
+    "ARKK",
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "TWST",
+   "company": "Twist Bioscience Corporation",
+   "shares": 60076,
+   "funds": [
+    "ARKK",
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "KDK",
+   "company": "Kodiak AI Inc",
+   "shares": 42852,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "ARCT",
+   "company": "Arcturus Therapeutics Holdings Inc",
+   "shares": 5071,
+   "funds": [
+    "ARKG"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "ARKB",
+   "company": "ARK 21Shares Bitcoin ETF",
+   "shares": 344132,
+   "funds": [
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "ABSI",
+   "company": "Absci Corp",
+   "shares": 110911,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "BLSH",
+   "company": "Bullish",
+   "shares": 94423,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "ETHQ.U",
+   "company": "3iQ Ether Staking ETF",
+   "shares": 50000,
+   "funds": [
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "RBLX",
+   "company": "Roblox Corporation",
+   "shares": 47704,
+   "funds": [
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "PLTR",
+   "company": "Palantir Technologies Inc.",
+   "shares": 44682,
+   "funds": [
+    "ARKQ",
+    "ARKW",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "ADPT",
+   "company": "Adaptive Biotechnologies Corporation",
+   "shares": 33817,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "SOLQ.U",
+   "company": "3iQ Solana Staking ET",
+   "shares": 25010,
+   "funds": [
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "META",
+   "company": "Meta Platforms, Inc.",
+   "shares": 23390,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "CDNA",
+   "company": "CareDx, Inc.",
+   "shares": 19781,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "GH",
+   "company": "Guardant Health, Inc.",
+   "shares": 15063,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "NFLX",
+   "company": "Netflix, Inc.",
+   "shares": 14493,
+   "funds": [
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "SNPS",
+   "company": "Synopsys, Inc.",
+   "shares": 7797,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "BYDDY",
+   "company": "BYD Company Limited",
+   "shares": 5400,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "DE",
+   "company": "Deere & Co",
+   "shares": 2607,
+   "funds": [
+    "ARKQ"
+   ]
+  }
+ ]
+}

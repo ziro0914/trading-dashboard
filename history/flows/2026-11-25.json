@@ -1,0 +1,168 @@
+{
+ "start": "2026-11-25",
+ "end": "2026-11-25",
+ "netBuy": [
+  {
+   "isin": "US4642872000",
+   "name": "ISHARES CORE SP 500 ETF",
+   "buy": 78204079.0,
+   "sell": 357399.0,
+   "net": 77846681.0,
+   "ticker": "IVV"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 100779560.0,
+   "sell": 25995226.0,
+   "net": 74784335.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 57953459.0,
+   "sell": 16125267.0,
+   "net": 41828193.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 42217488.0,
+   "sell": 4088997.0,
+   "net": 38128491.0,
+   "ticker": "SOXX"
+  },
+  {
+   "isin": "US67066G1040",
+   "name": "NVIDIA CORP",
+   "buy": 110580338.0,
+   "sell": 77460826.0,
+   "net": 33119512.0,
+   "ticker": "NVDA"
+  },
+  {
+   "isin": "US46090E1038",
+   "name": "INVESCO QQQ TRUST SRS 1 ETF",
+   "buy": 26796350.0,
+   "sell": 6049360.0,
+   "net": 20746990.0,
+   "ticker": "QQQ"
+  },
+  {
+   "isin": "US46138G6492",
+   "name": "INVESCO NASDAQ 100 ETF",
+   "buy": 19398582.0,
+   "sell": 1407403.0,
+   "net": 17991179.0,
+   "ticker": "QQQM"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 24229799.0,
+   "sell": 6961141.0,
+   "net": 17268658.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 31818229.0,
+   "sell": 14662573.0,
+   "net": 17155655.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "AU0000185993",
+   "name": "IRIS ENERGY LTD",
+   "buy": 17598817.0,
+   "sell": 824602.0,
+   "net": 16774215.0,
+   "ticker": "IREN"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 151442926.0,
+   "sell": 302773505.0,
+   "net": -151330579.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US58933Y1055",
+   "name": "MERCK N CO INC",
+   "buy": 22943.0,
+   "sell": 34290746.0,
+   "net": -34267803.0,
+   "ticker": "MRK"
+  },
+  {
+   "isin": "US46436E7186",
+   "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+   "buy": 5321928.0,
+   "sell": 23374536.0,
+   "net": -18052608.0,
+   "ticker": "SGOV"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 15528842.0,
+   "sell": 24989807.0,
+   "net": -9460965.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "US88160R1014",
+   "name": "TESLA INC",
+   "buy": 25956331.0,
+   "sell": 34715562.0,
+   "net": -8759231.0,
+   "ticker": "TSLA"
+  },
+  {
+   "isin": "US0937121079",
+   "name": "BLOOM ENERGY CORP CL A",
+   "buy": 2341498.0,
+   "sell": 11044556.0,
+   "net": -8703058.0,
+   "ticker": "BE"
+  },
+  {
+   "isin": "US38747R8271",
+   "name": "GRANITESHARES 2.0X LONG NVDA DAILY ETF",
+   "buy": 6370230.0,
+   "sell": 13364622.0,
+   "net": -6994392.0,
+   "ticker": "NVDL"
+  },
+  {
+   "isin": "US4642882579",
+   "name": "ISHARES MSCI ACWI ETF",
+   "buy": 12237.0,
+   "sell": 6040404.0,
+   "net": -6028168.0,
+   "ticker": "ACWI"
+  },
+  {
+   "isin": "US91913Y1001",
+   "name": "VALERO ENERGY CORP",
+   "buy": 73030.0,
+   "sell": 5901857.0,
+   "net": -5828827.0,
+   "ticker": "VLO"
+  },
+  {
+   "isin": "US5949181045",
+   "name": "MICROSOFT CORP",
+   "buy": 882714.0,
+   "sell": 6493808.0,
+   "net": -5611094.0,
+   "ticker": "MSFT"
+  }
+ ]
+}

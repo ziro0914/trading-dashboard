@@ -26,7 +26,7 @@ jobs:
     timeout-minutes: 30
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry1.outputs.page_url || steps.deployment_retry2.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -57,5 +57,30 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
-      - id: deployment
+      # 업로드 직후 아티팩트 목록이 비어 와서 배포가 실패하는 일이 잦다.
+      # deploy-pages 는 그 경우 재시도 없이 바로 끝나므로 여기서 몇 번 다시 부른다.
+      - name: 배포
+        id: deployment
         uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: 배포 실패 시 대기 (1차)
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 20
+      - name: 배포 재시도 (1차)
+        id: deployment_retry1
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: 배포 실패 시 대기 (2차)
+        if: steps.deployment.outcome == 'failure' && steps.deployment_retry1.outcome == 'failure'
+        run: sleep 60
+      - name: 배포 재시도 (2차)
+        id: deployment_retry2
+        if: steps.deployment.outcome == 'failure' && steps.deployment_retry1.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: 배포가 모두 실패하면 실행을 실패로 남긴다
+        if: steps.deployment.outcome == 'failure' && steps.deployment_retry1.outcome == 'failure' && steps.deployment_retry2.outcome == 'failure'
+        run: |
+          echo "::error::Pages 배포가 세 번 모두 실패했습니다. 아티팩트 목록이 비어 오는 쪽(GitHub 쪽) 문제일 수 있으니 다시 실행해 보세요."
+          exit 1

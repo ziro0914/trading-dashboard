@@ -1,0 +1,176 @@
+{
+ "date": "2026-11-25",
+ "buy": [
+  {
+   "ticker": "RXRX",
+   "company": "Recursion Pharmaceuticals, Inc.",
+   "shares": 452648,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "ANT",
+   "company": "Anthropic, PBC",
+   "shares": 317053,
+   "funds": [
+    "ARKK",
+    "ARKQ",
+    "ARKW",
+    "ARKG",
+    "ARKF",
+    "ARKX"
+   ]
+  },
+  {
+   "ticker": "BEAM",
+   "company": "Beam Therapeutics Inc.",
+   "shares": 151674,
+   "funds": [
+    "ARKK",
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "CRSP",
+   "company": "CRISPR Therapeutics AG",
+   "shares": 68813,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "KDK",
+   "company": "Kodiak AI Inc",
+   "shares": 42069,
+   "funds": [
+    "ARKQ"
+   ]
+  },
+  {
+   "ticker": "TEM",
+   "company": "Tempus AI, Inc.",
+   "shares": 38663,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "SPCX",
+   "company": "Space Exploration Technologies Corp",
+   "shares": 37788,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "ARCT",
+   "company": "Arcturus Therapeutics Holdings Inc",
+   "shares": 33673,
+   "funds": [
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "TWST",
+   "company": "Twist Bioscience Corporation",
+   "shares": 30833,
+   "funds": [
+    "ARKK",
+    "ARKG"
+   ]
+  },
+  {
+   "ticker": "WGS",
+   "company": "Genedx Holdings Corp",
+   "shares": 16910,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "NTRA",
+   "company": "Natera, Inc.",
+   "shares": 6895,
+   "funds": [
+    "ARKK"
+   ]
+  }
+ ],
+ "sell": [
+  {
+   "ticker": "ILMN",
+   "company": "Illumina Inc",
+   "shares": 151391,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "BLSH",
+   "company": "Bullish",
+   "shares": 57491,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "RBLX",
+   "company": "Roblox Corporation",
+   "shares": 41785,
+   "funds": [
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "NFLX",
+   "company": "Netflix, Inc.",
+   "shares": 25874,
+   "funds": [
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "ETHQ.U",
+   "company": "3iQ Ether Staking ETF",
+   "shares": 25000,
+   "funds": [
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "SOLQ.U",
+   "company": "3iQ Solana Staking ETF",
+   "shares": 25000,
+   "funds": [
+    "ARKW",
+    "ARKF"
+   ]
+  },
+  {
+   "ticker": "HOOD",
+   "company": "Robinhood Markets, Inc.",
+   "shares": 3526,
+   "funds": [
+    "ARKK"
+   ]
+  },
+  {
+   "ticker": "SPOT",
+   "company": "Spotify Technology S.A.",
+   "shares": 1237,
+   "funds": [
+    "ARKW"
+   ]
+  },
+  {
+   "ticker": "BYDDY",
+   "company": "BYD Company Limited",
+   "shares": 1119,
+   "funds": [
+    "ARKQ"
+   ]
+  }
+ ]
+}

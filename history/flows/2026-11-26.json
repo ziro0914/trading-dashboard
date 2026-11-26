@@ -1,0 +1,168 @@
+{
+ "start": "2026-11-26",
+ "end": "2026-11-26",
+ "netBuy": [
+  {
+   "isin": "US25459W4583",
+   "name": "DIREXION DAILY SEMICONDUCTORS BULL 3X SHS ETF",
+   "buy": 261807741.0,
+   "sell": 54000261.0,
+   "net": 207807480.0,
+   "ticker": "SOXL"
+  },
+  {
+   "isin": "US84615Q1031",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "buy": 35328534.0,
+   "sell": 2839366.0,
+   "net": 32489168.0,
+   "ticker": "SPCX"
+  },
+  {
+   "isin": "US03703U1079",
+   "name": "ANTHROPIC PBC-CL A",
+   "buy": 35791324.0,
+   "sell": 7823959.0,
+   "net": 27967365.0,
+   "ticker": "ANT"
+  },
+  {
+   "isin": "US69608A1088",
+   "name": "PALANTIR TECHNOLOGIES INC CL A",
+   "buy": 25933891.0,
+   "sell": 5138934.0,
+   "net": 20794957.0,
+   "ticker": "PLTR"
+  },
+  {
+   "isin": "US5951121038",
+   "name": "MICRON TECHNOLOGY INC",
+   "buy": 23623152.0,
+   "sell": 7446833.0,
+   "net": 16176318.0,
+   "ticker": "MU"
+  },
+  {
+   "isin": "US9229083632",
+   "name": "VANGUARD SP 500 ETF SPLR 39326002188 US9229084135",
+   "buy": 11180020.0,
+   "sell": 1814465.0,
+   "net": 9365555.0,
+   "ticker": "VOO"
+  },
+  {
+   "isin": "US74347X8314",
+   "name": "PROSHARES ULTRAPRO QQQ ETF",
+   "buy": 12555744.0,
+   "sell": 3934737.0,
+   "net": 8621007.0,
+   "ticker": "TQQQ"
+  },
+  {
+   "isin": "US8334451098",
+   "name": "SNOWFLAKE INC",
+   "buy": 8730732.0,
+   "sell": 135044.0,
+   "net": 8595688.0,
+   "ticker": "SNOW"
+  },
+  {
+   "isin": "US74347R2067",
+   "name": "PROSHARES ULTRA QQQ ETF",
+   "buy": 10690147.0,
+   "sell": 2648790.0,
+   "net": 8041357.0,
+   "ticker": "QLD"
+  },
+  {
+   "isin": "US46138G6492",
+   "name": "INVESCO NASDAQ 100 ETF",
+   "buy": 8894476.0,
+   "sell": 2027269.0,
+   "net": 6867207.0,
+   "ticker": "QQQM"
+  }
+ ],
+ "netSell": [
+  {
+   "isin": "US58933Y1055",
+   "name": "MERCK N CO INC",
+   "buy": 60780.0,
+   "sell": 40475751.0,
+   "net": -40414971.0,
+   "ticker": "MRK"
+  },
+  {
+   "isin": "US25461H2913",
+   "name": "DIREX DAI SEMI BE 3X ETF-USD SPLR 2642142633002 US25461H5726",
+   "buy": 24264681.0,
+   "sell": 39316614.0,
+   "net": -15051933.0,
+   "ticker": "SOXS"
+  },
+  {
+   "isin": "NL0009805522",
+   "name": "YANDEX NV CL A",
+   "buy": 762218.0,
+   "sell": 13208348.0,
+   "net": -12446130.0,
+   "ticker": "NBIS"
+  },
+  {
+   "isin": "US25461A3876",
+   "name": "DIREXION SHARES ETF TRUST DAILY MSCI SOUTH KOREA BULL SPLR 970211833 US25459Y5208",
+   "buy": 3432565.0,
+   "sell": 12711405.0,
+   "net": -9278840.0,
+   "ticker": "KORU"
+  },
+  {
+   "isin": "US4642875235",
+   "name": "ISHARES SEMICONDUCTOR ETF",
+   "buy": 2484106.0,
+   "sell": 10478672.0,
+   "net": -7994566.0,
+   "ticker": "SOXX"
+  },
+  {
+   "isin": "US80004C2008",
+   "name": "SNDSK CRP ORD WI",
+   "buy": 4536371.0,
+   "sell": 10439134.0,
+   "net": -5902762.0,
+   "ticker": "SNDK"
+  },
+  {
+   "isin": "US47103U8457",
+   "name": "JANUS HENDERSON AAA CLO ETF",
+   "buy": 76231.0,
+   "sell": 5092011.0,
+   "net": -5015781.0,
+   "ticker": "JAAA"
+  },
+  {
+   "isin": "US25460G2865",
+   "name": "DIREXION DAILY TSLA BULL 2X SHARES",
+   "buy": 7276.0,
+   "sell": 4604248.0,
+   "net": -4596972.0,
+   "ticker": "TSLL"
+  },
+  {
+   "isin": "US4581401001",
+   "name": "INTEL CORP",
+   "buy": 3541105.0,
+   "sell": 7694278.0,
+   "net": -4153173.0,
+   "ticker": "INTC"
+  },
+  {
+   "isin": "US5738741041",
+   "name": "MARVELL TECHNOLOGY INC",
+   "buy": 1759839.0,
+   "sell": 5304505.0,
+   "net": -3544666.0,
+   "ticker": "MRVL"
+  }
+ ]
+}

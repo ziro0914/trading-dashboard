@@ -1,0 +1,1010 @@
+{
+ "date": "2026-11-27",
+ "created": "2026-11-27T06:42:08.012224+00:00",
+ "universe": 96,
+ "hits": 11,
+ "others": [
+  {
+   "ticker": "MCD",
+   "close": 283.5,
+   "breakout": 0.0047,
+   "volumeRatio": 1.0501
+  },
+  {
+   "ticker": "T",
+   "close": 22.97,
+   "breakout": 0.0039,
+   "volumeRatio": 0.8972
+  },
+  {
+   "ticker": "PDD",
+   "close": 87.42,
+   "breakout": 0.0023,
+   "volumeRatio": 1.3036
+  },
+  {
+   "ticker": "VZ",
+   "close": 47.28,
+   "breakout": 0.0025,
+   "volumeRatio": 0.8802
+  },
+  {
+   "ticker": "LOW",
+   "close": 235.65,
+   "breakout": 0.0153,
+   "volumeRatio": 0.8385
+  },
+  {
+   "ticker": "RBLX",
+   "close": 55.63,
+   "breakout": 0.04,
+   "volumeRatio": 0.886
+  }
+ ],
+ "cashPerTrade": 1666.6667,
+ "trades": [
+  {
+   "ticker": "HD",
+   "name": "The Home Depot, Inc.",
+   "sector": "Consumer Cyclical",
+   "kind": "breakout",
+   "pick": {
+    "ticker": "HD",
+    "close": 361.26,
+    "change": 0.0214,
+    "priorHigh": 355.44,
+    "breakout": 0.0164,
+    "volumeRatio": 1.4013,
+    "dollarVolume": 2611440232.5928,
+    "high20": 363.65
+   },
+   "others": [],
+   "earnings": "2027-02-23",
+   "news": [
+    {
+     "title": "Home Depot shoppers can now dodge a classic cart disaster",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeEdnX0VtUkpUeVlha1YzcTI4V2xDRTgzbktTSmExSGd2ZUYxZkNFemJTTjMzemZiN1RRVV8wV05TWVZVNGQ3ZHg0N0FrSDNQZ1lUWk92VTRubEFfZkZCUWRjVzYtWUZmRGJQNTEwa1hVbkhsMEg2MXRTdWY1MWg3cWFtMlpfeXduZHczZ2tpdFRQT1NtdGIwYw?oc=5",
+     "time": "2026-11-27T00:00:00+00:00"
+    },
+    {
+     "title": "Home Depot stock gains 1.64% above November 25 Xetra close",
+     "source": "ad-hoc-news.de",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZzhwa1JMY1pydEttc2FKQWFqa1pmRDhZTnJNaXNqR09OQlpRWkNleTByMjBBWHh5cVlCZldYdHRTRlRkOWs0UDIyM2ZtbVN4QlVUdjh3cXJWUUdWMXRtYXVXQlFZd0FnSHRKNEs1cDdlb0RxOHZBa0QwVFJzTkRkRjlBY1oydlgwRjVYdHFkRWVfMGVJZHZBbHJhY1cxVVM4c3BnY1lVQWpoQjdXWXJ2dE1RYk55bFc1bUlHWA?oc=5",
+     "time": "2026-11-26T15:13:52+00:00"
+    },
+    {
+     "title": "Home Depot stock weekly forecast: Rally runs into overbought conditions as key resistance nears",
+     "source": "Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRVJKSU9EVnlSSGNtNEY1SlNmS2Q1eFg1eXdxNzhEaG4yLWJZZUNxejRuc2pobktEYjVrQnA1a3VGNm5tRHR1Tk1idXNQV3JWeWJHSWlWNmU5UktYV2kzNTU1YlB4LUhnMjVUS1JFS0NiZUEwMWZwckFQTVgyMlRCdkg4MzBDYjlTSkVOZg?oc=5",
+     "time": "2026-11-26T14:49:31+00:00"
+    },
+    {
+     "title": "Can Home Depot (NYSE:HD) Keep Growing Sales as Margins Tighten in a Slow Housing Market?",
+     "source": "Kalkine Media",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ2FGSjktN0tPM3VHM3R2a0QyODczekxCVEMyYzlITmpNUlVVUk1NM3dvbDZ0UGJDanhXRXFyQ3ZSOVkyaC1vbFJVSmNudGM1S1M5ZW0xUXEzSWgtZHM1ZnNiU0pUM3Ytb1pYWk13b1RlLWhQV2s3N0Q1aEVOU1Y3b2RhTllwNjlvSDBzYTNVdUUzNldfM2JPZElQS1BobkI5R2Q5a0ZTTVdDRVdDMGthaUlXNl9YQ0pMNlRmdHBiX2drU0Qwa3o4?oc=5",
+     "time": "2026-11-26T13:47:00+00:00"
+    },
+    {
+     "title": "How Is The Home Depot (NYSE:HD) Setting Up Its Next Earnings Call?",
+     "source": "Kalkine Media",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeHRxR2tfcUVJWjRKV1JySlk5dERURzJrWDF2Rml0eHZzMmY1cmNpQjVCTVRKa2VOTGROUzk4MGhoaGc4WHg1bS00MXpURXR3VEh1bGJqT1dvNi0xbUd5a3lhMWFIVV9EdnVUc0hLQS1wT3lhMVF5UkZIZUtsdG8wQjEzM01WWXk2bDJuUmVlWGY2UXFjSzBrQ0lQTzdjOHYtcDZBY3NhSQ?oc=5",
+     "time": "2026-11-26T13:05:00+00:00"
+    },
+    {
+     "title": "Jump Financial LLC Makes New $20.37 Million Investment in The Home Depot, Inc. $HD",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOM3ZSSURvX25yZ01qeDdrX1FLZHdDQ1pkU2FKUHh2SEpsQ3JrdWo3RXh3aktON1NNeHZ0LU40S0tMdHFvdVJaem5iNlBBUDdXbHJSdFd5U0pObmN1ZkhFbWZDRnZ6b1c0TGRjZXBSY2RDbmZBLUdxbkZ4TVBoaFFuM0pTSE8tU1ZrcWJFUnhrVHJydTItVjZZUHdlVUdsZThXRmdXbE83eThCXzlfS3BPYW9BWEtib2liN1BiUDRFR2k1UGJVdVB2Q0FFTjdTRDFrLWFqRg?oc=5",
+     "time": "2026-11-26T12:04:14+00:00"
+    },
+    {
+     "title": "Home Depot, Inc. (The) (HD) Stock Forecasts",
+     "source": "Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSlYwMFVyaGd4dmVOOVRIYkNLQzRwOHpXWXlRVkRYRy1MVVJkaVFUOTZiNVZ6b2EzZ2d5VWZVOWc4eHFDRjgyaHNrU0diZEZUY2Jqekxnc0QxUlUxWFFad1ZqZV90ZHlqcHFLQjRMR2FGck16ZW1wUjhLaEdNODlFN2dndDN6MXlWYzUxZ2ozVnM?oc=5",
+     "time": "2026-11-26T07:30:59+00:00"
+    },
+    {
+     "title": "Home Depot (HD) Stock Looks Fully Valued On Future Cash Flow",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-hd-stock-looks-051458550.html",
+     "time": "2026-11-26T05:14:58+00:00"
+    }
+   ],
+   "plan": {
+    "level": 363.65,
+    "risk": 4.76,
+    "atr": 9.5178,
+    "stop": 358.89,
+    "target": 368.41,
+    "targetR": 1.0,
+    "noEntryBefore": "09:45",
+    "noEntryAfter": "12:30",
+    "flatBy": "12:55",
+    "prevClose": 361.26
+   },
+   "daily": {
+    "dates": [
+     "2026-10-15",
+     "2026-10-16",
+     "2026-10-19",
+     "2026-10-20",
+     "2026-10-21",
+     "2026-10-22",
+     "2026-10-23",
+     "2026-10-26",
+     "2026-10-27",
+     "2026-10-28",
+     "2026-10-29",
+     "2026-10-30",
+     "2026-11-02",
+     "2026-11-03",
+     "2026-11-04",
+     "2026-11-05",
+     "2026-11-06",
+     "2026-11-09",
+     "2026-11-10",
+     "2026-11-11",
+     "2026-11-12",
+     "2026-11-13",
+     "2026-11-16",
+     "2026-11-17",
+     "2026-11-18",
+     "2026-11-19",
+     "2026-11-20",
+     "2026-11-23",
+     "2026-11-24",
+     "2026-11-25"
+    ],
+    "close": [
+     308.24,
+     309.63,
+     309.88,
+     315.11,
+     314.14,
+     327.73,
+     319.83,
+     319.38,
+     318.5,
+     317.56,
+     328.98,
+     329.2,
+     341.15,
+     333.66,
+     355.44,
+     349.94,
+     343.47,
+     353.42,
+     351.0,
+     351.31,
+     348.26,
+     348.69,
+     347.51,
+     339.01,
+     337.64,
+     336.68,
+     339.04,
+     346.06,
+     353.69,
+     361.26
+    ],
+    "high": [
+     309.1,
+     314.66,
+     311.58,
+     317.71,
+     316.46,
+     327.92,
+     325.91,
+     321.79,
+     319.89,
+     321.6,
+     329.01,
+     334.8,
+     341.54,
+     338.78,
+     356.02,
+     362.44,
+     346.82,
+     356.9,
+     352.65,
+     351.53,
+     356.46,
+     349.43,
+     349.73,
+     346.9,
+     340.62,
+     340.0,
+     347.7,
+     348.12,
+     354.81,
+     363.65
+    ],
+    "low": [
+     301.42,
+     308.32,
+     306.0,
+     310.64,
+     311.15,
+     313.56,
+     317.55,
+     316.35,
+     316.46,
+     316.15,
+     322.68,
+     328.54,
+     333.0,
+     330.71,
+     342.7,
+     347.96,
+     338.12,
+     346.78,
+     347.92,
+     344.31,
+     347.6,
+     343.26,
+     346.13,
+     334.44,
+     330.31,
+     332.34,
+     338.11,
+     339.25,
+     343.2,
+     350.7
+    ]
+   },
+   "timemachine": {
+    "replay": {
+     "replays": 10000,
+     "seed": 19,
+     "startTime": "9:50",
+     "bars": 37,
+     "target": 0.2089,
+     "stop": 0.1251,
+     "neither": 0.666,
+     "green": 0.5838,
+     "avgR": 0.1282,
+     "closeMedian": 364.0292,
+     "closeP5": 360.4603,
+     "closeP95": 367.2395,
+     "verdict": [
+      "목표가 쪽으로 기울어짐: 목표가 먼저 63% vs 손익분기 50%.",
+      "리플레이의 67%는 청산 시각까지 어느 쪽에도 닿지 않아, 마감 직전 가격이 결과를 정합니다."
+     ]
+    },
+    "history": {
+     "sessions": 60,
+     "fired": 8,
+     "target": 3,
+     "stop": 2,
+     "neither": 3,
+     "avgR": 0.0362,
+     "trades": [
+      {
+       "date": "2026-10-16",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-10-20",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": -0.4285
+      },
+      {
+       "date": "2026-10-22",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-10-30",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": -0.2275
+      },
+      {
+       "date": "2026-11-02",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-04",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-05",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-11-25",
+       "entryTime": "13:45",
+       "outcome": "close",
+       "r": -0.054
+      }
+     ]
+    }
+   },
+   "ticket": {
+    "account": 5000.0,
+    "cash": 1666.6667,
+    "maxLoss": 50.0,
+    "shares": 4,
+    "limitedBy": "현금",
+    "entry": 363.65,
+    "stop": 358.89,
+    "target": 368.41,
+    "cost": 1454.6,
+    "lossAtStop": 19.04,
+    "gainAtTarget": 19.04,
+    "paper": true
+   },
+   "result": null
+  },
+  {
+   "ticker": "DIS",
+   "name": "The Walt Disney Company",
+   "sector": "Communication Services",
+   "kind": "breakout",
+   "pick": {
+    "ticker": "DIS",
+    "close": 125.6,
+    "change": 0.0252,
+    "priorHigh": 122.51,
+    "breakout": 0.0252,
+    "volumeRatio": 1.5952,
+    "dollarVolume": 2054213095.0439,
+    "high20": 126.28
+   },
+   "others": [],
+   "earnings": "2027-02-01",
+   "news": [
+    {
+     "title": "Walt Disney (DIS) Could Be 4% Undervalued On Its FCC Court Win",
+     "source": "Simply Wall St",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUnBJazEtcUQxVm10Y3VncXFpUks3SmNyTUJ0a09rRG9pRG1fVVlfMU5NYlJkc29FTjNVV3hxWG5laUlzbmhLV0FIRjI1SG11cWxpd0JqNDJ6NlZZdWlkY2VGTk44YU5uRDducTdWRWhZazhLcUF4UTZLQThfN1ZqY3pjX2xrZ2M3WGlpOHRkMnJpOEp6eWU4bUtVTkM1NXlZU2Q5RU0tSjNJRk1VSjRfaHFQbVVXWUFwX1pjNWpELTbSAcYBQVVfeXFMUHNSYjREMGFHOFhqZHZ4T0s4bkZKazJBWlh5SDc1ZUh1ZXdXc0I3amkwa3FyT2dzVTRubXZOc2lfVVpqRmp3NUNqaVowS1hoUmxXaDRFN0dyWGt0eGNEU3BJYVV4UUpJNHM0TTl4cS0xRFdMTDd4SlRpdFpBdmxTLWd5eE1zRDhmZjN4X3o4b1pMWm9iRWl5S3gzSGc1dE9YOVVwUDVUX0x0Rmt4cE82VW5Rc1pLUThLbjIxWW1mVjdRbDduYkd3?oc=5",
+     "time": "2026-11-27T01:23:53+00:00"
+    },
+    {
+     "title": "Walt Disney (DIS) Lifts Dividend On Strong Earnings, Is The Stock Still Cheap?",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/walt-disney-dis-lifts-dividend-200909244.html",
+     "time": "2026-11-26T20:09:09+00:00"
+    },
+    {
+     "title": "Can Walt Disney (NYSE:DIS) Build On Its Latest Update?",
+     "source": "Kalkine Media",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRzlOTy13NHpPR0pEc2FnaU84by1OaWtSVXZtZDRsRXhIOVl2V3djbDZHV2JZNlZRS2pCZ3hoYXpzV2dzdjZpVzZYYVBkV3VJVEhnWElpMDQwUzRHS3l3ZmwzMmFDemZHcVdlX3hra3hrSXZlUEtJWWF3T184Vkk5ajB4T1VXd3BGRXlVekFwb3FqQVIxc0ExOXJB?oc=5",
+     "time": "2026-11-26T16:11:00+00:00"
+    },
+    {
+     "title": "Disney: Still Waiting For Action In The Price (Long-Term Buy) (NYSE:DIS)",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYVVTaUFycUNlV2Jqalc0ZVRuUElTV3l0SWdYV3Izc2VBN2dvWXMxd0hHV1VXSnlGVnhPbFhENFNYbHhpNkxfaTRkX2JMc2tFdnZDZVRRRk5DT3hZTWo1MC1DUjk3SFRmbzlqLVBlU3VwQVNDQl9GaXI2S2RkUjFsaHF2NllTUHdSbVZFYm45dmJTMzE5WkcyU0Jqa3pzZjBw?oc=5",
+     "time": "2026-11-26T11:46:26+00:00"
+    },
+    {
+     "title": "Rep. Robert Onder Unloads Shares of The Walt Disney Company (NYSE:DIS)",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbkRoenZVNFBmSldrTFVEZmZFRTBUX09haUdudElvSkN3anQ0NDNoY3R5OF9mdU9ERURjUG1NZXI2dmVhZlFkOXA5VXBWenFndzNwOG1QTVB5RzNtblM2Nzk2Vks5MUhrMXlXNDdTcEpTcFpyMEdKTXpERFJKSkdhQjc0WlE2U1hFaHBGMDgxTFUzNkdKQXFkanJ4STFlamIySThxRW5mM3lVejR2Z0dCOFNHYUE0LUY1eUM1TklEOExkQUxLUUo3b0Zn?oc=5",
+     "time": "2026-11-26T10:02:23+00:00"
+    },
+    {
+     "title": "The Walt Disney Company $DIS Stake Boosted by DRH Investments Inc.",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSXRxa3ZyRDdSZWR3dHhDdnJnSXdxVGJndTI0LXJCcWltTlI3Vm9GcFluNjY4X19XR0Y3YVFNVEQ2QzJZMDdBbktibzdQV2xweklteTBWY3ppVmRhM0xVLUlhM1ZFSk1EdTByakh3dldMeUhzY21hZUlrWHJiY1hQTnNYZVZSNjd3RHcyYkRZT2lCaW1OOHhkYlFhRHRMbVRSYi1wVGhSclZoLWZpYWk0WWVKaEttam1WVWdBMG1pbjBkeXM?oc=5",
+     "time": "2026-11-26T10:02:23+00:00"
+    },
+    {
+     "title": "DIS Stock Breaks Above $125 For First Time Since 2022: Disney Retail Bulls Are Talking About A ‘Santa Claus Rally’",
+     "source": "Stocktwits",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/dis-stock-breaks-above-125-033524430.html",
+     "time": "2026-11-26T03:35:24+00:00"
+    },
+    {
+     "title": "Dow, S&P 500, Nasdaq Futures Edge Higher As Tech Rebounds After Selloff: DIS, VRTX, DE, CHTR In Focus",
+     "source": "Stocktwits",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-031436542.html",
+     "time": "2026-11-26T03:14:36+00:00"
+    }
+   ],
+   "plan": {
+    "level": 126.28,
+    "risk": 1.6,
+    "atr": 3.2073,
+    "stop": 124.68,
+    "target": 127.88,
+    "targetR": 1.0,
+    "noEntryBefore": "09:45",
+    "noEntryAfter": "12:30",
+    "flatBy": "12:55",
+    "prevClose": 125.6
+   },
+   "daily": {
+    "dates": [
+     "2026-10-15",
+     "2026-10-16",
+     "2026-10-19",
+     "2026-10-20",
+     "2026-10-21",
+     "2026-10-22",
+     "2026-10-23",
+     "2026-10-26",
+     "2026-10-27",
+     "2026-10-28",
+     "2026-10-29",
+     "2026-10-30",
+     "2026-11-02",
+     "2026-11-03",
+     "2026-11-04",
+     "2026-11-05",
+     "2026-11-06",
+     "2026-11-09",
+     "2026-11-10",
+     "2026-11-11",
+     "2026-11-12",
+     "2026-11-13",
+     "2026-11-16",
+     "2026-11-17",
+     "2026-11-18",
+     "2026-11-19",
+     "2026-11-20",
+     "2026-11-23",
+     "2026-11-24",
+     "2026-11-25"
+    ],
+    "close": [
+     110.68,
+     110.59,
+     109.59,
+     111.67,
+     111.83,
+     113.13,
+     112.52,
+     110.4,
+     110.23,
+     109.04,
+     110.91,
+     110.94,
+     113.11,
+     114.18,
+     118.95,
+     117.22,
+     116.75,
+     119.12,
+     119.21,
+     119.65,
+     118.23,
+     118.97,
+     118.7,
+     116.94,
+     122.36,
+     120.25,
+     117.98,
+     120.27,
+     122.51,
+     125.6
+    ],
+    "high": [
+     111.59,
+     112.69,
+     110.11,
+     111.87,
+     111.88,
+     113.38,
+     112.99,
+     112.4,
+     110.44,
+     110.15,
+     111.05,
+     112.47,
+     113.79,
+     114.46,
+     119.96,
+     120.8,
+     117.81,
+     119.38,
+     119.5,
+     119.79,
+     120.44,
+     119.47,
+     119.6,
+     122.72,
+     123.37,
+     122.3,
+     122.0,
+     120.48,
+     122.87,
+     126.28
+    ],
+    "low": [
+     109.87,
+     110.01,
+     108.99,
+     110.18,
+     110.13,
+     111.52,
+     111.64,
+     110.0,
+     109.43,
+     108.75,
+     109.55,
+     110.76,
+     111.77,
+     111.94,
+     116.3,
+     116.85,
+     113.79,
+     117.23,
+     117.42,
+     118.25,
+     118.01,
+     118.0,
+     117.78,
+     116.13,
+     116.65,
+     119.98,
+     117.56,
+     117.46,
+     119.21,
+     120.97
+    ]
+   },
+   "timemachine": {
+    "replay": {
+     "replays": 10000,
+     "seed": 19,
+     "startTime": "9:55",
+     "bars": 36,
+     "target": 0.1298,
+     "stop": 0.0872,
+     "neither": 0.783,
+     "green": 0.5541,
+     "avgR": 0.0745,
+     "closeMedian": 126.354,
+     "closeP5": 125.1939,
+     "closeP95": 127.4605,
+     "verdict": [
+      "목표가 쪽으로 기울어짐: 목표가 먼저 60% vs 손익분기 50%.",
+      "리플레이의 78%는 청산 시각까지 어느 쪽에도 닿지 않아, 마감 직전 가격이 결과를 정합니다."
+     ]
+    },
+    "history": {
+     "sessions": 60,
+     "fired": 10,
+     "target": 3,
+     "stop": 4,
+     "neither": 3,
+     "avgR": -0.0514,
+     "trades": [
+      {
+       "date": "2026-10-13",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-10-15",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-10-16",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-10-22",
+       "entryTime": "11:00",
+       "outcome": "close",
+       "r": -0.1354
+      },
+      {
+       "date": "2026-11-02",
+       "entryTime": "9:55",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-11-03",
+       "entryTime": "12:55",
+       "outcome": "close",
+       "r": 0.5568
+      },
+      {
+       "date": "2026-11-04",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-17",
+       "entryTime": "9:55",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-11-18",
+       "entryTime": "13:00",
+       "outcome": "close",
+       "r": 0.0646
+      },
+      {
+       "date": "2026-11-25",
+       "entryTime": "12:05",
+       "outcome": "target",
+       "r": 1.0
+      }
+     ]
+    }
+   },
+   "ticket": {
+    "account": 5000.0,
+    "cash": 1666.6667,
+    "maxLoss": 50.0,
+    "shares": 13,
+    "limitedBy": "현금",
+    "entry": 126.28,
+    "stop": 124.68,
+    "target": 127.88,
+    "cost": 1641.64,
+    "lossAtStop": 20.8,
+    "gainAtTarget": 20.8,
+    "paper": true
+   },
+   "result": null
+  },
+  {
+   "ticker": "PG",
+   "name": "The Procter & Gamble Company",
+   "sector": "Consumer Defensive",
+   "kind": "breakout",
+   "pick": {
+    "ticker": "PG",
+    "close": 173.23,
+    "change": 0.0044,
+    "priorHigh": 173.02,
+    "breakout": 0.0012,
+    "volumeRatio": 1.0129,
+    "dollarVolume": 1713677732.7347,
+    "high20": 174.56
+   },
+   "others": [],
+   "earnings": "2027-01-22",
+   "news": [
+    {
+     "title": "Procter & Gamble (PG) Stock Looks Undervalued After A 35% Run",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-pg-stock-looks-131006185.html",
+     "time": "2026-11-26T13:10:06+00:00"
+    },
+    {
+     "title": "Procter & Gamble Hits 52-Week High: Should You Buy Now or Wait?",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUXIzdEZGSE5zSVA4LVV6ZzZ6LUNYeG1ENTQyWHkyZ1FNN29pZjcyZ0dVYnB6Y3ppakNVenRPVDQ5em5vUnY2a0ZJUlZKdXJxcE1vX2oyMjBOSzN4a2NSRVBuRHdBLTVuSnNkTWZQem9telBBakhQczZXMkNEakhfS0VXaWw2aUFnTmRHYWdVNEtGRmxTSDdv?oc=5",
+     "time": "2026-11-26T12:23:00+00:00"
+    },
+    {
+     "title": "Jump Financial LLC Buys 265,422 Shares of Procter & Gamble Company (The) $PG",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZ2NnS0lLVWJoOWhVOXZPakFqRHJwYjRUM2phbk1kNFBYRjhabE5JcnhodWtnR0ZDVHRxOTgxZ1hfMDFCNmE4SDJCTE9fLTNlNGpmTzI3OE9UZ0dpSUxMV3RJdmJFV1JYMDRaYmljUV9sb2FVMktuOUJ1d3V2TDA2azB2TXJzLTRpOUxtazNWR1I2TjNOTVkwZkhOZHRuRzZtR25XckhRcEZTeHRfblNEeGtKTG05Z21xMlduTGhVRENuOXVvQlprc2N5MA?oc=5",
+     "time": "2026-11-26T12:04:12+00:00"
+    },
+    {
+     "title": "Rep. Robert Onder Sells Shares of Procter & Gamble Company (The) (NYSE:PG)",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQXzd6MnplYjM3REc4ZV9Xajd3VFFONWNyTHlnajcyV2I4cnEzblRJRUNwRGhLM1ZyWFJvQUNacjc2WjJWLUlVZ3VadTNkLVFDQmozZWtWb0JrNFV5MElCczNqLUZMMW5CMWlJaWl6RENDWXhVVTNva0NaY2dhMkM0OXliQWhQSGtOV2JYejBfS3hSXzBiQ2k2aDRxZFBXdUlWLVFnWWduN3FnVzBnWWRmbDlGUnpPODhrNFpIWVNpOEZUYnl4UFBfYm53?oc=5",
+     "time": "2026-11-26T10:02:23+00:00"
+    },
+    {
+     "title": "Procter & Gamble stock: BNP Paribas raises target to USD 197",
+     "source": "ad-hoc-news.de",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMEt3NlJ2Z1pGZnRtRHZfZUhfZ2gwWVFQU2tZaFY4czdxX1dCUlY0Z3lnSUtkelZEWHBNdHBIVC1oYTdhM1pTRW82ZWpNR3lrOEJERHBqRmc2RmJ1TS16RVJ2QU0tczV2QjB1bzZwdC1NRmJFb1U0RjJ3MVctMUZUZ2dTc1QtQUd0S25KVFZVQ3UyTnZ1WTNobXJoVWY3RlBIWUdacnZjbjNzWmdvQ3oxWG5QNlZKS096U1E3TQ?oc=5",
+     "time": "2026-11-25T16:16:29+00:00"
+    },
+    {
+     "title": "Procter & Gamble (NYSE:PG) Hits New 12-Month High - Here's Why",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZE5lbXZCOVBodkRCZ3pJd3MtMW9rYzlQVFoySkpvLUpSdkJkU01CLV93VGxZYnRINHhMVmt4OWhBejJDdmhjanFRbEFxUDhsaG8xSURuSFJPSnFTdW9ycXdsZDlldGsySDgzNVM1MzVtS0x2MjdOdG5aeVd4YV9ZeDlTR3gwemd4czNYbFotOHcySGcwbWZ4QlFxRm1Wd0RxX0xxV2JkUzZyNEdGd056Y05iYURHdw?oc=5",
+     "time": "2026-11-25T15:10:27+00:00"
+    },
+    {
+     "title": "Will Procter & Gamble's Restructuring Plan Sharpen Its Cost Base?",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOGRiUHhJV3hHclNGbW9HX21Ra3lsWGs5WUVKVGFYeWVNZVRBNDlaZVM3YUY5T0NkaVVDZTFEQTFXUGZRRVJ4Q20zeHFpWXNIclhqczIzSGdfMzdiNW9MWElyTXpJVGtXaUk4LWRSazFSZXBneTRiSjhNcXltTks4dUpkX2k5Qk9UWFFrOExNcndIMDlQUWFzYW9TeTVfaDc4eTU0NkhlWHRvMTg?oc=5",
+     "time": "2026-11-25T11:57:00+00:00"
+    },
+    {
+     "title": "Procter & Gamble Company (The) $PG Stock: Marshall Wace LLP Increases Stake",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWlJBWnJ1a1dZZlJBaWtyN1QyRjZhVXpXcG03dlpHcmpQRGVhVHZqX21TeFhUQTMtNFE0Q3drMkR6ZXc0ZTczYlJud3JHYUdWdnRUNVpaUGNxM2xHYUR6N3RiNm1uN0xfMlRORE5CSFFDbGhiQm93NUtkN3ZuYnZwU1EyQjJET0kteGhVS2xaQnZXbGo2QkZHSmQ5VWowN2l3TWloR1FxQTFabzRvY0E0b0hLaUtLT0JSdElSTnRaY3VRdHdUSXJDN1F3?oc=5",
+     "time": "2026-11-25T11:39:01+00:00"
+    }
+   ],
+   "plan": {
+    "level": 174.56,
+    "risk": 1.58,
+    "atr": 3.1671,
+    "stop": 172.98,
+    "target": 176.14,
+    "targetR": 1.0,
+    "noEntryBefore": "09:45",
+    "noEntryAfter": "12:30",
+    "flatBy": "12:55",
+    "prevClose": 173.23
+   },
+   "daily": {
+    "dates": [
+     "2026-10-15",
+     "2026-10-16",
+     "2026-10-19",
+     "2026-10-20",
+     "2026-10-21",
+     "2026-10-22",
+     "2026-10-23",
+     "2026-10-26",
+     "2026-10-27",
+     "2026-10-28",
+     "2026-10-29",
+     "2026-10-30",
+     "2026-11-02",
+     "2026-11-03",
+     "2026-11-04",
+     "2026-11-05",
+     "2026-11-06",
+     "2026-11-09",
+     "2026-11-10",
+     "2026-11-11",
+     "2026-11-12",
+     "2026-11-13",
+     "2026-11-16",
+     "2026-11-17",
+     "2026-11-18",
+     "2026-11-19",
+     "2026-11-20",
+     "2026-11-23",
+     "2026-11-24",
+     "2026-11-25"
+    ],
+    "close": [
+     157.08,
+     159.35,
+     157.69,
+     159.32,
+     156.84,
+     165.59,
+     161.02,
+     159.92,
+     159.23,
+     158.26,
+     160.59,
+     161.57,
+     163.56,
+     162.06,
+     167.32,
+     167.1,
+     165.4,
+     168.32,
+     168.66,
+     167.67,
+     168.03,
+     169.8,
+     173.02,
+     171.72,
+     170.29,
+     167.85,
+     169.37,
+     169.6,
+     172.47,
+     173.23
+    ],
+    "high": [
+     159.95,
+     159.98,
+     158.49,
+     159.47,
+     158.67,
+     166.85,
+     164.5,
+     161.6,
+     159.53,
+     159.57,
+     160.95,
+     165.36,
+     164.36,
+     163.3,
+     168.17,
+     170.52,
+     166.83,
+     168.74,
+     169.79,
+     168.0,
+     169.95,
+     170.73,
+     173.57,
+     173.59,
+     171.65,
+     169.13,
+     171.61,
+     170.64,
+     173.27,
+     174.56
+    ],
+    "low": [
+     156.79,
+     157.56,
+     157.01,
+     158.06,
+     156.8,
+     161.36,
+     160.64,
+     158.85,
+     158.42,
+     157.4,
+     158.66,
+     161.03,
+     162.24,
+     161.47,
+     164.65,
+     166.32,
+     162.13,
+     165.23,
+     167.19,
+     165.88,
+     167.96,
+     167.2,
+     171.93,
+     171.24,
+     169.42,
+     166.89,
+     169.05,
+     167.49,
+     169.83,
+     172.54
+    ]
+   },
+   "timemachine": {
+    "replay": {
+     "replays": 10000,
+     "seed": 19,
+     "startTime": "10:10",
+     "bars": 33,
+     "target": 0.1267,
+     "stop": 0.102,
+     "neither": 0.7713,
+     "green": 0.5564,
+     "avgR": 0.0763,
+     "closeMedian": 174.6678,
+     "closeP5": 173.5362,
+     "closeP95": 175.7481,
+     "verdict": [
+      "목표가 쪽으로 기울어짐: 목표가 먼저 55% vs 손익분기 50%.",
+      "리플레이의 77%는 청산 시각까지 어느 쪽에도 닿지 않아, 마감 직전 가격이 결과를 정합니다."
+     ]
+    },
+    "history": {
+     "sessions": 60,
+     "fired": 16,
+     "target": 3,
+     "stop": 6,
+     "neither": 7,
+     "avgR": -0.1357,
+     "trades": [
+      {
+       "date": "2026-09-24",
+       "entryTime": "10:00",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-09-28",
+       "entryTime": "13:15",
+       "outcome": "close",
+       "r": -0.2956
+      },
+      {
+       "date": "2026-10-06",
+       "entryTime": "12:10",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-10-08",
+       "entryTime": "12:55",
+       "outcome": "close",
+       "r": 0.6961
+      },
+      {
+       "date": "2026-10-09",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": 0.1775
+      },
+      {
+       "date": "2026-10-12",
+       "entryTime": "9:55",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-10-13",
+       "entryTime": "14:10",
+       "outcome": "close",
+       "r": -0.2569
+      },
+      {
+       "date": "2026-10-14",
+       "entryTime": "10:00",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-10-15",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-10-22",
+       "entryTime": "9:50",
+       "outcome": "target",
+       "r": 1.0
+      },
+      {
+       "date": "2026-11-04",
+       "entryTime": "10:45",
+       "outcome": "close",
+       "r": 0.227
+      },
+      {
+       "date": "2026-11-05",
+       "entryTime": "9:50",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-11-13",
+       "entryTime": "10:40",
+       "outcome": "stop",
+       "r": -1.0
+      },
+      {
+       "date": "2026-11-16",
+       "entryTime": "9:50",
+       "outcome": "close",
+       "r": 0.4046
+      },
+      {
+       "date": "2026-11-25",
+       "entryTime": "10:35",
+       "outcome": "close",
+       "r": -0.1231
+      }
+     ]
+    }
+   },
+   "ticket": {
+    "account": 5000.0,
+    "cash": 1666.6667,
+    "maxLoss": 50.0,
+    "shares": 9,
+    "limitedBy": "현금",
+    "entry": 174.56,
+    "stop": 172.98,
+    "target": 176.14,
+    "cost": 1571.04,
+    "lossAtStop": 14.22,
+    "gainAtTarget": 14.22,
+    "paper": true
+   },
+   "result": null
+  }
+ ]
+}
